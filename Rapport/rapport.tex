@@ -1,0 +1,84 @@
+\immediate\write18{makeindex -s nomencl.ist -o Management.nls Management.nlo}
+
+%Layout packages
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[letterpaper, margin=1.5in,margin=1.2in]{geometry}
+\usepackage[colorinlistoftodos]{todonotes}
+
+%Math
+\usepackage{amsmath}
+
+%Drawing
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\epstopdfsetup{outdir=./}
+\usepackage{tikz}
+\usetikzlibrary{shadows,arrows}
+\input{includes/diagramsHeader}
+
+\input{includes/functions}
+
+\usepackage[refpage]{nomencl}
+\makenomenclature
+
+\begin{document}
+
+\input{includes/titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+	
+\newpage
+\section{Subdivision of the project}
+
+	
+
+	\begin{center}
+	\input{Graphics/system_overview}
+	\end{center}
+	
+	\nomenclature{SCL}{Serial Clock} \cite{EEPROM}
+
+	\illu{Schematic.png}{Basic input/output schematic}{0.45}
+
+	
+
+\newpage
+\section{Conclusion}
+	
+
+
+\newpage
+\section{Nomenclature}
+	\printnomenclature
+
+\newpage
+\section{Bibliography}
+
+	\begin{thebibliography}{9}
+	\bibitem{sanchez} 
+	Julio Sanchez and Maria P. Canton.
+	\textit{Microcontroller Programming: The Microchip PIC}. 
+	CRC Press, 2006.
+	\end{thebibliography}
+
+\newpage
+\section{Appendix}
+
+	\subsection{The GitHub Repository}
+
+		On the GitHub repository of this project (https://github.com/GBhack/UofAmechatronics.git) you will find:
+		\begin{itemize}
+			\item The Eagle schematics.
+			\item The assembly and Matlab codes.
+			\item The schematic and code for Arduino testing.
+			\item This very document and other team's documentation (which you should probably have a look).
+		\end{itemize}
+
+\end{document}
