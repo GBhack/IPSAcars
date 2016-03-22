@@ -1,4 +1,5 @@
 \begin{titlepage}
+\newgeometry{top=2cm,bottom=2cm}
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
 
@@ -8,36 +9,34 @@
 %   HEADING SECTIONS
 %----------------------------------------------------------------------------------------
 
-\textsc{\LARGE IPSA 2016}\\[1.5cm] % Name of your university/college
+\includegraphics[scale=0.6]{Graphics/logo.png}\\[1.5cm]
+
 \textsc{\Large Projet Electif (technique)}\\[0.5cm] % Major heading such as course name
-\textsc{\large Evolution de véhicules autonomes dans un environnement urbain intelligent}\\[0.5cm] % Minor heading such as course title
+\textsc{\large Projet technique}\\[0.5cm] % Minor heading such as course title
+
+{\normalsize \today}\\[1.5cm]
 
 %----------------------------------------------------------------------------------------
 %   TITLE SECTION
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries Rapport de projet}\\[0.4cm] % Title of your document
-\HRule \\[4cm]
+{ \Large \bfseries Evolution de véhicules autonomes dans un environnement urbain intelligent}\\[0.4cm] % Title of your document
+\HRule \\[2.5cm]
 
 
 %----------------------------------------------------------------------------------------
 %   LOGO SECTION
 %----------------------------------------------------------------------------------------
 
-\includegraphics{Graphics/logo.png}\\[2.5cm] % Include a department/university logo - this will require the graphicx package
- 
- %----------------------------------------------------------------------------------------
-%   DATE SECTION
-%----------------------------------------------------------------------------------------
-
-{\large \today}\\[1cm] % Date, change the \today to a set date if you want to be precise
+ \includegraphics[scale=0.45]{Graphics/illustration.jpg}\\[2.5cm]
 
 %----------------------------------------------------------------------------------------
 %   AUTHOR SECTION
 %----------------------------------------------------------------------------------------
-\large\emph{Authors:}\\
-\textsc{Biton} Guillaume \small(guillaume.biton@ipsa.fr)\\
+{\normalsize Auteurs:}\\
+\small
+\textsc{Biton} Guillaume (guillaume.biton@ipsa.fr)\\
 \textsc{Guichard} Marc-Antoine \small(marc-antoine.guichard@ipsa.fr)\\
 \textsc{Lhermite} Camille \small(camille.lhermite@ipsa.fr)\\
 \textsc{Monnot} Maxime \small(marc-antoine.guichard@ipsa.fr)\\[1cm]
@@ -46,5 +45,7 @@
 %----------------------------------------------------------------------------------------
 
 \vfill % Fill the rest of the page with whitespace
+
+\restoregeometry
 
 \end{titlepage}

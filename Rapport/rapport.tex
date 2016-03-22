@@ -27,9 +27,21 @@
 
 \input{includes/titlepage}
 
-\newpage
+\emptyPage
+
+\pagenumbering{gobble}
+\section*{Remerciements}
+
+Merci
+
+\emptyPage
+
+\pagenumbering{gobble}
 \tableofcontents
+
+
 \newpage
+\pagenumbering{arabic}
 
 \section{Introduction}
 
@@ -80,5 +92,9 @@
 			\item The schematic and code for Arduino testing.
 			\item This very document and other team's documentation (which you should probably have a look).
 		\end{itemize}
+
+
+\newpage
+\section{Résumé}
 
 \end{document}

@@ -1,4 +1,4 @@
-PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/IPSAcars/Rapport
+PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -191,25 +191,23 @@ INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT includes/titlepage.tex
 INPUT includes/titlepage.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT Graphics/logo.png
 INPUT ./Graphics/logo.png
 OUTPUT rapport.pdf
 INPUT ./Graphics/logo.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+INPUT Graphics/illustration.jpg
+INPUT ./Graphics/illustration.jpg
+INPUT ./Graphics/illustration.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT rapport.toc
 INPUT rapport.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -232,6 +230,7 @@ INPUT Graphics/Schematic.png
 INPUT ./Graphics/Schematic.png
 INPUT ./Graphics/Schematic.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
