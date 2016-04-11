@@ -6,4 +6,19 @@
 			  \smallskip
 	\end{figure}}
 
-\newcommand*\emptyPage{\newpage\null\thispagestyle{empty}\newpage}
+\newcommand{\fname}[1]{\textbf{\textit{#1}}}
+
+
+\newcommand{\bashCode}[1]{\colorbox{grisPerso}{\textbf{\lstinline{#1}}}}
+
+\newcommand{\sectionWoNum}[1]{\setcounter{secnumdepth}{0}\section{#1}\setcounter{secnumdepth}{4}\setcounter{subsection}{0}}
+
+\xpatchcmd{\thenomenclature}{%
+  \section*{\nomname}% Look for `\section*... etc.
+}{% Replace it by 'nothing'
+}{\typeout{Success}}{\typeout{Failure}}
+
+\xpatchcmd{\bibliography}{%
+  \section*{\nomname}% Look for `\section*... etc.
+}{% Replace it by 'nothing'
+}{\typeout{Success}}{\typeout{Failure}}

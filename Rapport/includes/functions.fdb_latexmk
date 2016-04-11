@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1460395165 "functions.tex" "functions.pdf" "functions" 1460395165
+  "/etc/texmf/web2c/texmf.cnf" 1457772191 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1457772243 3822874 99c1d2c224c8c5a6318a4bed233842fa ""
+  "functions.aux" 1460395165 8 a94a2480d3289e625eea47cd1b285758 ""
+  "functions.tex" 1460395015 387 c085cf7d1e26c37387cd0482d03a8446 ""
+  (generated)
+  "functions.pdf"
+  "functions.log"

@@ -1,9 +1,15 @@
-\select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {2}Subdivision of the project}{2}
-\contentsline {section}{\numberline {3}Conclusion}{3}
-\contentsline {section}{\numberline {4}Nomenclature}{4}
-\contentsline {section}{\numberline {5}Bibliography}{5}
-\contentsline {section}{\numberline {6}Appendix}{6}
-\contentsline {subsection}{\numberline {6.1}The GitHub Repository}{6}
-\contentsline {section}{\numberline {7}R\IeC {\'e}sum\IeC {\'e}}{7}
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}D\IeC {\'e}finition du besoin}{2}{section.2}
+\contentsline {section}{\numberline {3}Ebauche de solution}{3}{section.3}
+\contentsline {section}{\numberline {4}Subdivision du probl\IeC {\`e}me}{4}{section.4}
+\contentsline {section}{\numberline {5}Retour \IeC {\`a} une vue d'ensemble}{5}{section.5}
+\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t}{6}{section.6}
+\contentsline {section}{\numberline {7}Conclusion}{7}{section.7}
+\contentsline {section}{Annexes}{8}{section*.2}
+\contentsline {subsection}{\numberline {A}Annexe 1}{8}{subsection.7.1}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{9}{section*.3}
+\contentsline {subsection}{Nomenclature}{9}{section*.4}
+\contentsline {subsection}{Bibliographie}{10}{section*.5}
+\contentsline {subsection}{Table des illustrations}{11}{section*.6}
+\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{12}{section*.7}

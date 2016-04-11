@@ -1,100 +1,88 @@
-\immediate\write18{makeindex -s nomencl.ist -o Management.nls Management.nlo}
+\immediate\write18{makeindex -s nomencl.ist -o rapport.nls rapport.nlo}
 
-%Layout packages
-\documentclass[12pt]{article}
-\usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
-\usepackage[letterpaper, margin=1.5in,margin=1.2in]{geometry}
-\usepackage[colorinlistoftodos]{todonotes}
+\documentclass[11pt]{article}
 
-%Math
-\usepackage{amsmath}
-
-%Drawing
-\usepackage{graphicx}
-\usepackage{epstopdf}
-\epstopdfsetup{outdir=./}
-\usepackage{tikz}
-\usetikzlibrary{shadows,arrows}
-\input{includes/diagramsHeader}
-
+\input{includes/packages}
 \input{includes/functions}
-
-\usepackage[refpage]{nomencl}
-\makenomenclature
 
 \begin{document}
 
 \input{includes/titlepage}
 
-\emptyPage
-
-\pagenumbering{gobble}
-\section*{Remerciements}
-
-Merci
-
-\emptyPage
-
-\pagenumbering{gobble}
+\newpage
 \tableofcontents
-
-
 \newpage
 \pagenumbering{arabic}
 
 \section{Introduction}
 
-	
+	\input{chapitres/0_introduction}
+
 \newpage
-\section{Subdivision of the project}
+\section{Définition du besoin}
 
+	\input{chapitres/1_definitionBesoin}
 	
-
-	\begin{center}
-	\input{Graphics/system_overview}
-	\end{center}
-	
-	\nomenclature{SCL}{Serial Clock} \cite{EEPROM}
+	\nomenclature{SCL}{Serial Clock}
 
 	\illu{Schematic.png}{Basic input/output schematic}{0.45}
 
-	
+\newpage
+\section{Ebauche de solution}
+
+	\input{chapitres/2_ebaucheSolution}
+
+
+\newpage
+\section{Subdivision du problème}
+
+	\input{chapitres/3_subdivisionProbleme}
+
+\newpage
+\section{Retour à une vue d'ensemble}
+
+	\input{chapitres/4_vueEnsemble}
+
+\newpage
+\section{Estimation du coût}
+
+	\input{chapitres/5_estimationCout}
 
 \newpage
 \section{Conclusion}
 	
+	\input{chapitres/6_conclusion}
 
-
-\newpage
-\section{Nomenclature}
-	\printnomenclature
-
-\newpage
-\section{Bibliography}
-
-	\begin{thebibliography}{9}
-	\bibitem{sanchez} 
-	Julio Sanchez and Maria P. Canton.
-	\textit{Microcontroller Programming: The Microchip PIC}. 
-	CRC Press, 2006.
-	\end{thebibliography}
+\setcounter{secnumdepth}{0}
+\renewcommand{\thesubsection}{\Alph{subsection}}
 
 \newpage
-\section{Appendix}
+\sectionWoNum{Annexes}
 
-	\subsection{The GitHub Repository}
+	\subsection{Annexe 1}
 
-		On the GitHub repository of this project (https://github.com/GBhack/UofAmechatronics.git) you will find:
-		\begin{itemize}
-			\item The Eagle schematics.
-			\item The assembly and Matlab codes.
-			\item The schematic and code for Arduino testing.
-			\item This very document and other team's documentation (which you should probably have a look).
-		\end{itemize}
+\setcounter{secnumdepth}{0}
+\newpage
+\section{Références}
 
+	\subsection{Nomenclature}
+		\printnomenclature
+
+	\newpage
+	\subsection{Bibliographie}
+		\begingroup
+		\renewcommand{\section}[2]{}%
+		\bibliography{bibliography}{}
+		\bibliographystyle{plain}
+		\endgroup
+
+	\newpage
+	\subsection{Table des illustrations}
+		\begingroup
+		\renewcommand{\section}[2]{}%
+		\listoffigures
+		\endgroup
 
 \newpage
 \section{Résumé}
-
 \end{document}
