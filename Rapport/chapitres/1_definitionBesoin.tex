@@ -1,0 +1,27 @@
+Une définition pertinente du besoin est une condition absolument nécéssaire pour la bonne réalisation de tout projet. Nous nous emploierons donc à définir aussi précisément et pertinement que possible le besoin motivant ce projet, et à régulièrement revenir sur ce dernier afin de prendre en compte d'éventuelles évolutions et à prévenir toute dérive du projet.
+
+\subsection{Besoin}
+Bénéficier d'une plate-forme de développement modulaire et évolutive permettant d'implémenter des algorithmes d'automatismes dans le cadre de recherches liées aux voitures dites "intelligentes" et d’optimisation de la gestion du trafic.
+
+\subsection{Exigences}
+\begin{itemize}
+	\item La plate forme devra fournir des véhicules autonomes (et sans fils), chaque véhicule devant être équipé:
+	\begin{itemize}
+		\item D'une caméra.
+		\item De capteurs optiques permettant un "suivi de ligne" au sol.
+		\item D'un ordinateur embarqué, de puissance de calcul suffisante pour assurer le traitement d'image en "quasi-temps réel" (~10 images/seconde) et le contrôle du robot.
+		\item De deux roues de propulsion commandées par un moteur CC.
+		\item D'une roue directrice commandée par un servo-moteur.
+		\item De "clignotants" à LED sur la face avant ET les flancs du robot ainsi que d'un "feu stop" à l'arrière.
+		\item D'un capteur de distance à l'avant du robot.
+		\item D'une autonomie d'au moins 15 minutes.
+		\item D'un bouton de démarrage de séquence facilement accessible.
+	\end{itemize}
+	\item La plate-forme sera également constituée d'un "circuit" répondant lui même aux exigences suivantes :
+	\begin{itemize}
+		\item Présence d'au moins un carrefour à feux bicolores (commandés par une carte FPGA)
+		\item Présence de capteurs de présence de véhicules aux abords des feux.
+		\item Présence de lignes blanches (sur fond noir) au sol permettant le guidage des robots.
+		\item Présence de "parois" au bord des "routes" permettant une isolation visuelle du circuit.
+	\end{itemize}
+\end{itemize}
