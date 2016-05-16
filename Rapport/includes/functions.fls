@@ -1,7 +1,0 @@
-PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/functions.tex
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/functions.log

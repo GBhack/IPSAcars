@@ -1,15 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  12 MAY 2016 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  14 MAY 2016 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **rapport.tex
-
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-tex
+(./rapport.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-runsystem(makeindex -s nomencl.ist -o rapport.nls rapport.nlo)...executed safel
-y (allowed).
+runsystem(makeindex -s nomencl.ist -o Outputs/rapport.nls Outputs/rapport.nlo).
+..executed safely (allowed).
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -28,8 +26,8 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes
-/packages.tex (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(./includes/packages.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -1788,9 +1786,7 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes
-/tikz-uml.sty
+))) (./includes/tikz-uml.sty
 
 LaTeX Warning: You have requested package `includes/tikz-uml',
                but the package provides `tikz-uml'.
@@ -2063,51 +2059,49 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 \@input{includes/functions.aux}
 \openout2 = `includes/functions.aux'.
 
-
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes
-/functions.tex
+(./includes/functions.tex
 Success
 Failure
 )
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-aux)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 9.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 7.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+fav on input line 9.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for T1+fav on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/arev/t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 )
-LaTeX Info: Redefining \degres on input line 9.
-LaTeX Info: Redefining \dots on input line 9.
-LaTeX Info: Redefining \up on input line 9.
+LaTeX Info: Redefining \degres on input line 7.
+LaTeX Info: Redefining \dots on input line 7.
+LaTeX Info: Redefining \up on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2162,7 +2156,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks41
 )
 \AtBeginShipoutBox=\box118
-Package hyperref Info: Link coloring OFF on input line 9.
+Package hyperref Info: Link coloring OFF on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2171,21 +2165,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-out)
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-out)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.out)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.out)
 \@outlinefile=\write6
 \openout6 = `rapport.out'.
 
 \c@lstlisting=\count294
  ABD: EveryShipout initializing macros
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes
-/titlepage.tex
+(./includes/titlepage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: letterpaper
@@ -2218,36 +2211,35 @@ out)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <Graphics/LOGO-IPSA.pdf, id=107, 192.72pt x 115.3911pt>
+
+<Graphics/LOGO-IPSA.pdf, id=107, 192.72pt x 115.3911pt>
 File: Graphics/LOGO-IPSA.pdf Graphic file (type pdf)
 
 <use Graphics/LOGO-IPSA.pdf>
-Package pdftex.def Info: Graphics/LOGO-IPSA.pdf used on input line 12.
+Package pdftex.def Info: Graphics/LOGO-IPSA.pdf used on input line 14.
 (pdftex.def)             Requested size: 115.63287pt x 69.23518pt.
 
 
 LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
-(Font)              using `T1/fav/m/n' instead on input line 14.
+(Font)              using `T1/fav/m/n' instead on input line 16.
 
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 26.
 <Graphics/illustration.jpg, id=108, 401.5pt x 307.1475pt>
 File: Graphics/illustration.jpg Graphic file (type jpg)
 
 <use Graphics/illustration.jpg>
-Package pdftex.def Info: Graphics/illustration.jpg used on input line 32.
+Package pdftex.def Info: Graphics/illustration.jpg used on input line 34.
 (pdftex.def)             Requested size: 180.67332pt x 138.21509pt.
  [1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/Windows/Users/gbito
-/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/LOGO-IPSA.pdf> </media/Win
-dows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/illustrati
-on.jpg>])
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Graphics/LOGO-IPSA.pdf> 
+<./Graphics/illustration.jpg>])
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.toc
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+zavm on input line 4.
@@ -2310,12 +2302,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \newpage
+l.13 \newpage
               [1
 
-]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/0_introduction.tex
+] (./chapitres/0_introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -2344,22 +2334,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \newpage
-              [1]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/1_definitionBesoin.tex
+l.20 \newpage
+              [1] (./chapitres/1_definitionBesoin.tex
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 3.
 ) [2]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/2_ebaucheSolution.tex [3]
+(./chapitres/2_ebaucheSolution.tex [3]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-) [4]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/3_subdivisionProbleme.tex
+) [4] (./chapitres/3_subdivisionProbleme.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2404,52 +2389,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[5 </media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graph
-ics/capteurOptiqueFondNoir.pdf> </media/Windows/Users/gbito/ownCloud/IPSA/Proje
-t Technique/git/Rapport/Graphics/capteurOptiqueFondBlanc.pdf
+[5 <./Graphics/capteurOptiqueFondNoir.pdf> <./Graphics/capteurOptiqueFondBlanc.
+pdf
 
-pdfTeX warning: pdflatex (file /media/Windows/Users/gbito/ownCloud/IPSA/Projet 
-Technique/git/Rapport/Graphics/capteurOptiqueFondBlanc.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
->]) [6]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/4_vueEnsemble.tex) [7]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/5_estimationCout.tex) [8]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitre
-s/6_conclusion.tex) [9] [10]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-nls) [11]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-bbl
+pdfTeX warning: pdflatex (file ./Graphics/capteurOptiqueFondBlanc.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]) [6] (./chapitres/4_vueEnsemble.tex) [7] (./chapitres/5_estimationCout.tex)
+[8] (./chapitres/6_conclusion.tex) [9] [10]
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.nls) [11]
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [12]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-lof)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.lof)
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
  [13] [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.
-aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 682D6F8578589DB3E668586828CE9411;1095.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 33642 strings out of 493029
- 661324 string characters out of 6136234
+ 33640 strings out of 493029
+ 659771 string characters out of 6136234
  772858 words of memory out of 5000000
  36545 multiletter control sequences out of 15000+600000
  40545 words of font info for 59 fonts, out of 8000000 for 9000
@@ -2460,7 +2438,7 @@ e/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/impallari/cabin/Cabin-Bold.pfb>
 Output written on "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/gi
-t/Rapport/rapport.pdf" (16 pages, 132851 bytes).
+t/Rapport/LaTeX/Outputs/rapport.pdf" (16 pages, 132636 bytes).
 PDF statistics:
  273 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams

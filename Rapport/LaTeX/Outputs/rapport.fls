@@ -1,18 +1,18 @@
-PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport
+PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.tex
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.log
+INPUT rapport.tex
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/packages.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/packages.tex
+INPUT includes/packages.tex
+INPUT includes/packages.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -147,7 +147,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.nlo
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nlo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -251,8 +251,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothand
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/tikz-uml.sty
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/tikz-uml.sty
+INPUT includes/tikz-uml.sty
+INPUT includes/tikz-uml.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
@@ -300,7 +300,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.pdf
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex
@@ -314,12 +314,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/functions.aux
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/functions.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/functions.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.aux
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.aux
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.aux
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/includes/functions.aux
+INPUT includes/functions.tex
+INPUT includes/functions.tex
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
@@ -333,24 +333,24 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/titlepage.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/includes/titlepage.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/LOGO-IPSA.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/LOGO-IPSA.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/LOGO-IPSA.pdf
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT includes/titlepage.tex
+INPUT includes/titlepage.tex
+INPUT Graphics/LOGO-IPSA.pdf
+INPUT ./Graphics/LOGO-IPSA.pdf
+INPUT ./Graphics/LOGO-IPSA.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/illustration.jpg
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/illustration.jpg
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/illustration.jpg
+INPUT Graphics/illustration.jpg
+INPUT ./Graphics/illustration.jpg
+INPUT ./Graphics/illustration.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8r.tfm
@@ -363,8 +363,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8r.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.toc
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.toc
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
@@ -409,45 +409,45 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmr7y.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.toc
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/0_introduction.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/0_introduction.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/1_definitionBesoin.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/1_definitionBesoin.tex
+INPUT chapitres/0_introduction.tex
+INPUT chapitres/0_introduction.tex
+INPUT chapitres/1_definitionBesoin.tex
+INPUT chapitres/1_definitionBesoin.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/2_ebaucheSolution.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/2_ebaucheSolution.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/3_subdivisionProbleme.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/3_subdivisionProbleme.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondNoir.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondNoir.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondNoir.pdf
+INPUT chapitres/2_ebaucheSolution.tex
+INPUT chapitres/2_ebaucheSolution.tex
+INPUT chapitres/3_subdivisionProbleme.tex
+INPUT chapitres/3_subdivisionProbleme.tex
+INPUT Graphics/capteurOptiqueFondNoir.pdf
+INPUT ./Graphics/capteurOptiqueFondNoir.pdf
+INPUT ./Graphics/capteurOptiqueFondNoir.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondBlanc.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondBlanc.pdf
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/Graphics/capteurOptiqueFondBlanc.pdf
+INPUT Graphics/capteurOptiqueFondBlanc.pdf
+INPUT ./Graphics/capteurOptiqueFondBlanc.pdf
+INPUT ./Graphics/capteurOptiqueFondBlanc.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8r.tfm
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/4_vueEnsemble.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/4_vueEnsemble.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/5_estimationCout.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/5_estimationCout.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/6_conclusion.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/6_conclusion.tex
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.nls
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.nls
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.bbl
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.bbl
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.lof
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.lof
-OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.lof
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.aux
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
-INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.out
+INPUT chapitres/4_vueEnsemble.tex
+INPUT chapitres/4_vueEnsemble.tex
+INPUT chapitres/5_estimationCout.tex
+INPUT chapitres/5_estimationCout.tex
+INPUT chapitres/6_conclusion.tex
+INPUT chapitres/6_conclusion.tex
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nls
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nls
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.bbl
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.bbl
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb

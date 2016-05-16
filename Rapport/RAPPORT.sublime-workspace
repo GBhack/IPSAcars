@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"except"
+			],
+			[
+				"ec",
+				"except"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"Fr",
+				"friendsName"
+			],
+			[
+				"e",
+				"encode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LaTeX/rapport.tex",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LaTeX/chapitres/3_subdivisionProbleme.tex",
+			"settings":
+			{
+				"buffer_size": 2576,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "proje",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project Manager"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"df",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes"
+	],
+	"file_history":
+	[
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes/titlepage.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/RAPPORT.sublime-project",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/packages.tex",
+		"/home/guillaume/.config/sublime-text-3/Packages/LaTeXTools/makePDF.py",
+		"/home/guillaume/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/guillaume/.config/sublime-text-3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/home/guillaume/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
+		"/home/guillaume/.config/sublime-text-3/Packages/LaTeXTools/latexCommand.py",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/4_vueEnsemble.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/5_estimationCout.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/6_conclusion.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/3_subdivisionProbleme.aux",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/2_ebaucheSolution.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/1_definitionBesoin.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/0_introduction.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/includes/titlepage.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/includes/functions.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/chapitres/3_subdivisionProbleme.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/includes/packages.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/1-1_contexte.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/rapport.tex",
+		"/home/guillaume/IPSA/Réseaux Embarqués/TP/TP2/chatServer.py",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/3_SWOT.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/includes/functions.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/includes/packages.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/includes/titlepage.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/1-2_faits.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/0_introduction.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/2_PORTER.tex",
+		"/home/guillaume/IPSA/Veille Economique/Rapport/chapitres/6_conclusion.tex",
+		"/home/guillaume/Documents/Cours/TD/TD1.tex",
+		"/home/guillaume/Documents/Microwave/rapport.tex",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/rapport.tex",
+		"/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/chapitres/0_introduction.tex",
+		"/media/guillaume/360C84D20C848F15/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/rapport.tex",
+		"/home/guillaume/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"allow",
+			"make_pdfCommand",
+			"CmdThread",
+			"self.caller.builde",
+			"cmd_iterator",
+			"TraditionalBuilder",
+			"\"command\"",
+			"NEVE",
+			"comma",
+			"SOCKETS[thisClientRow]",
+			"Host name",
+			"zip",
+			"12",
+			"6",
+			"\\node[circle] {Circle};",
+			"}\n",
+			"\\sectionWoNum",
+			"sect"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"11",
+			"5.5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LaTeX/rapport.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LaTeX/chapitres/3_subdivisionProbleme.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "RAPPORT.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

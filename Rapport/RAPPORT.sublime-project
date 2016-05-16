@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"path": "LaTeX"
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "LaTeX/rapport.tex",
+		"builder": "traditional",
+		"builder_settings":
+		{
+			"command":
+			[
+				"latexmk",
+				"-cd",
+				"-e",
+				"-f",
+				"-pdf",
+				"-interaction=nonstopmode",
+				"-synctex=1",
+				"-bibtex",
+				"-auxdir=Outputs",
+				"-outdir=Outputs"
+			]
+		}
+	}
+}

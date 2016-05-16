@@ -1,11 +1,9 @@
-\immediate\write18{makeindex -s nomencl.ist -o rapport.nls rapport.nlo}
+\immediate\write18{makeindex -s nomencl.ist -o Outputs/rapport.nls Outputs/rapport.nlo}
 
 \documentclass[11pt]{article}
 
 \input{includes/packages}
 \include{includes/functions}
-
-
 \begin{document}
 
 \input{includes/titlepage}
@@ -69,7 +67,7 @@
 	\subsection{Bibliographie}
 		\begingroup
 		\renewcommand{\section}[2]{}%
-		\bibliography{bibliography}{}
+		\bibliography{includes/bibliography}{}
 		\bibliographystyle{plain}
 		\endgroup
 
@@ -79,7 +77,7 @@
 		\renewcommand{\section}[2]{}%
 		\listoffigures
 		\endgroup
-
+		
 \newpage
 \section{Résumé}
 \end{document}
