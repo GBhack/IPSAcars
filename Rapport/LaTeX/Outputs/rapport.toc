@@ -1,20 +1,50 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}D\IeC {\'e}finition du besoin}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Besoin}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Exigences}{2}{subsection.2.2}
-\contentsline {section}{\numberline {3}Ebauche de solution}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Pour le robot :}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Pour le circuit :}{4}{subsection.3.2}
-\contentsline {section}{\numberline {4}Subdivision du probl\IeC {\`e}me}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Suivi de trajectoire}{5}{subsection.4.1}
-\contentsline {section}{\numberline {5}Retour \IeC {\`a} une vue d'ensemble}{7}{section.5}
-\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t}{8}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{9}{section.7}
-\contentsline {section}{Annexes}{10}{section*.3}
-\contentsline {subsection}{\numberline {A}Annexe 1}{10}{subsection.7.1}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{11}{section*.4}
-\contentsline {subsection}{Nomenclature}{11}{section*.5}
-\contentsline {subsection}{Bibliographie}{12}{section*.6}
-\contentsline {subsection}{Table des illustrations}{13}{section*.7}
-\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{14}{section*.8}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}D\IeC {\'e}finition du besoin}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Besoin}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Pr\IeC {\'e}cision du besoin}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}\IeC {\'E}tude du besoin}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Analyse du besoin}{5}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Pour le circuit}{5}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Pour le robot}{5}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Diagrammes des cas d'utilisation}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Pour le circuit :}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Pour le robot :}{7}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}\IeC {\'E}laboration d'une solution}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Circuit}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Robot}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Suivi de trajectoire}{9}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}D\IeC {\'e}tection d'obstacles et de de signalisation}{17}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Impl\IeC {\'e}mentation mat\IeC {\'e}rielle}{17}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.1}Propulsion et direction}{17}{paragraph.4.2.3.1}
+\contentsline {paragraph}{\numberline {4.2.3.2}Controleur}{17}{paragraph.4.2.3.2}
+\contentsline {paragraph}{\numberline {4.2.3.3}Suivi de ligne}{19}{paragraph.4.2.3.3}
+\contentsline {paragraph}{\numberline {4.2.3.4}Acquisition d'images}{20}{paragraph.4.2.3.4}
+\contentsline {paragraph}{\numberline {4.2.3.5}Evaluation des distances}{21}{paragraph.4.2.3.5}
+\contentsline {paragraph}{\numberline {4.2.3.6}Signalisation de ses intentions}{21}{paragraph.4.2.3.6}
+\contentsline {paragraph}{\numberline {4.2.3.7}Interraction avec l'utilisateur}{21}{paragraph.4.2.3.7}
+\contentsline {paragraph}{\numberline {4.2.3.8}Batterie}{21}{paragraph.4.2.3.8}
+\contentsline {subsubsection}{\numberline {4.2.4}Impl\IeC {\'e}mentation logicielle}{21}{subsubsection.4.2.4}
+\contentsline {paragraph}{\numberline {4.2.4.1}Suivi de ligne}{21}{paragraph.4.2.4.1}
+\contentsline {paragraph}{\numberline {4.2.4.2}Reconnaissance d'image}{21}{paragraph.4.2.4.2}
+\contentsline {section}{\numberline {5}Int\IeC {\'e}gration}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Circuit}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Robot}{22}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Int\IeC {\'e}gration Mat\IeC {\'e}rielle}{22}{subsubsection.5.2.1}
+\contentsline {paragraph}{\numberline {5.2.1.1}Ensembles propulsifs}{22}{paragraph.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.2}Carte R\IeC {\'e}flecteurs Optiques}{22}{paragraph.5.2.1.2}
+\contentsline {paragraph}{\numberline {5.2.1.3}Carte-M\IeC {\`e}re}{22}{paragraph.5.2.1.3}
+\contentsline {paragraph}{\numberline {5.2.1.4}Structure du robot}{22}{paragraph.5.2.1.4}
+\contentsline {paragraph}{\numberline {5.2.1.5}Int\IeC {\'e}gration globale, maquette num\IeC {\'e}rique}{22}{paragraph.5.2.1.5}
+\contentsline {subsubsection}{\numberline {5.2.2}Int\IeC {\'e}gration Logicielle}{22}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t de mise en place et faisabilit\IeC {\'e}}{23}{section.6}
+\contentsline {section}{\numberline {7}Conclusion et aper\IeC {\c c}u des \IeC {\'e}volutions possibles}{24}{section.7}
+\contentsline {section}{Annexes}{25}{section*.23}
+\contentsline {subsection}{\numberline {A}Carte R\IeC {\'e}flecteurs Optiques}{25}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {A.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{25}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {A.2}Gerbers}{26}{subsubsection.7.1.2}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{27}{section*.26}
+\contentsline {subsection}{Nomenclature}{27}{section*.27}
+\contentsline {subsection}{Bibliographie}{28}{section*.28}
+\contentsline {subsection}{Table des illustrations}{29}{section*.29}
+\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{30}{section*.30}

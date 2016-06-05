@@ -1,27 +1,31 @@
 Une définition pertinente du besoin est une condition absolument nécéssaire pour la bonne réalisation de tout projet. Nous nous emploierons donc à définir aussi précisément et pertinement que possible le besoin motivant ce projet, et à régulièrement revenir sur ce dernier afin de prendre en compte d'éventuelles évolutions et à prévenir toute dérive du projet.
 
 \subsection{Besoin}
-Bénéficier d'une plate-forme de développement modulaire et évolutive permettant d'implémenter des algorithmes d'automatismes dans le cadre de recherches liées aux voitures dites "intelligentes" et d’optimisation de la gestion du trafic.
+Le besoin à l'origine de ce projet fut exprimé par mesdames A. Belbachir et S. Benabid en tant qu'enseignants chercheurs au laboratoire Mécatronique, Signal et Systèmes à l'IPSA. Leur souhait était de bénéficier d'une plateforme articulée autour de robots autonomes évoluants dans une simulation d'environement urbain, capables de détecter des feux de signalisation "intélligents" et d'adapter leur comportement en conséquence. Cette plateforme pourrait servir de support de \nomenclature{TP}{Travaux Pratiques} dans l'ensemble des matières enseignées par le département, mais également servir de "vitrine" voir même de plateforme de recherche.\\
 
-\subsection{Exigences}
+Les principales fonctionnalités évoquées étant :
 \begin{itemize}
-	\item La plate forme devra fournir des véhicules autonomes (et sans fils), chaque véhicule devant être équipé:
+	\item \textbf{La reconnaissance d'image} pour la détection des feux de signailisation.
+	\item \textbf{La présence de feux bicolores commandés par FPGA.} Ces feux seraient "intélligents" dans le sens où il s'adapteraient à la circulation. La présence de capteurs de présence est donc induite.
+\end{itemize}
+
+\subsection{Précision du besoin}
+
+Ayant suivi nombre de matières ensignées par le département et participé à de nombreuses séances de travaux pratiques, nous bénéficiions d'une image relativement claire des implications de ce projet ainsi que des contraintes relevant pour la plupart du simple bon sens.
+Dans un soucis de clareté et d'application de "bonnes pratiques" nous prîmes cependant soin de valider l'ensemble de ces éléments au cours de réunions avec nos "clients" du laboratoire.\\
+
+Ainsi, nous ajoutâmes les points suivants à la liste des exigences :
+\begin{itemize}
+	\item "Côté circuit" :
 	\begin{itemize}
-		\item D'une caméra.
-		\item De capteurs optiques permettant un "suivi de ligne" au sol.
-		\item D'un ordinateur embarqué, de puissance de calcul suffisante pour assurer le traitement d'image en "quasi-temps réel" (~10 images/seconde) et le contrôle du robot.
-		\item De deux roues de propulsion commandées par un moteur CC.
-		\item D'une roue directrice commandée par un servo-moteur.
-		\item De "clignotants" à LED sur la face avant ET les flancs du robot ainsi que d'un "feu stop" à l'arrière.
-		\item D'un capteur de distance à l'avant du robot.
-		\item D'une autonomie d'au moins 15 minutes.
-		\item D'un bouton de démarrage de séquence facilement accessible.
+		\item \textbf{Le circuit devront bénéficier d'un encombrement raisonnable}.
+		\item \textbf{Les feux de circulation devront pouvoir être commandés via une carte FPGA}.
 	\end{itemize}
-	\item La plate-forme sera également constituée d'un "circuit" répondant lui même aux exigences suivantes :
+	\item "Côté robots" :
 	\begin{itemize}
-		\item Présence d'au moins un carrefour à feux bicolores (commandés par une carte FPGA)
-		\item Présence de capteurs de présence de véhicules aux abords des feux.
-		\item Présence de lignes blanches (sur fond noir) au sol permettant le guidage des robots.
-		\item Présence de "parois" au bord des "routes" permettant une isolation visuelle du circuit.
+		\item \textbf{Les robots devront pouvoir être utilisés en classe sans que les préoccupations matérielles ne soient accaparantes}.
+		\item \textbf{Les robots devront pouvoir être programmés en utilisant les langages ensignés à l'IPSA} à savoir C et C++ et ses variantes (Arduino...), Python, voir même Matlab...
+		\item \textbf{Les robots devront bénéficier de possibilités d'application flexibles :} les enseignements étant ciblés, il est important que les utilisateurs des robots puissent se concentrer sur un aspect de leur utilisation sans avoir à se soucier des autres. De même, les robots devront embarquer suffisamment de capteurs ou tout du moins de capacité d'extensions pour que cela ne soit pas un facteur limitant lors de l'élaboration de sujets de TP.
+		\item \textbf{Les robots devront ne pas pouvoir représenter un danger pour ses utilisateurs}.
 	\end{itemize}
 \end{itemize}

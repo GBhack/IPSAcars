@@ -1,3 +1,35 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{bib3}
+Line tracking sensors and algorithms.
+\newblock
+  {\url{https://www.ikalogic.com/line-tracking-sensors-and-algorithms/}}, 2008.
+
+\bibitem{bib6}
+Beaglebone green wireless wiki.
+\newblock {\url{http://www.seeedstudio.com/wiki/Beaglebone_green_wireless}},
+  2016.
+
+\bibitem{bib4}
+M.~BENKIRANE N.~EL~JAYIDI.
+\newblock {\em $\mu$Robot : Le robot suiveur de ligne}.
+\newblock PhD thesis.
+
+\bibitem{bib5}
+Eric Nunès.
+\newblock Bientôt, des voitures "intelligentes".
+\newblock {\em Le Monde}, 2003.
+\newblock
+  {\url{http://www.lemonde.fr/societe/article/2003/10/28/bientot-des-voitures-intelligentes_339891_3224.html}}.
+
+\bibitem{bib11}
+S.~MONK P.~SCHERZ.
+\newblock {\em Practical Electronics for Inventors}.
+\newblock McGraw-Hill Education TAB, 2016.
+
+\bibitem{bib7}
+Vishay Semiconductors.
+\newblock {\em TCRT5000}, 2009.
+\newblock \url{http://www.vishay.com/docs/83760/tcrt5000.pdf}.
 
 \end{thebibliography}

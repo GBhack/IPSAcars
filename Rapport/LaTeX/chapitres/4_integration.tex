@@ -1,0 +1,49 @@
+ \subsection{Circuit}
+
+
+\subsection{Robot}
+
+	\subsubsection{Intégration Matérielle}
+
+		\paragraph{Ensembles propulsifs}
+
+			\textit{[Motoréducteur + roue + encodeur]}
+
+		\paragraph{Carte Réflecteurs Optiques}\label{integrationReflecteurs}
+
+
+
+			\textit{[Espacement des capteurs + hauteur sur piste]}
+
+
+
+
+			Nous connecterons la carte au moyen d'une nappe HE10 à 10 connecteurs.\\
+
+			Le schéma électronique et les gerbers du circuit imprimés sont disponibles en annexe \ref{schemasCarteReflecteurs} (page \pageref{schemasCarteReflecteurs})
+
+		\paragraph{Carte-Mère}\label{carteMere}
+
+
+		\paragraph{Structure du robot}
+
+
+			\textit{[Profilés alu standards, vis idem...]}
+
+
+		\paragraph{Intégration globale, maquette numérique}
+
+			\textit{[Vues Catia et breve explication]}
+
+	\subsubsection{Intégration Logicielle}
+
+\begin{itshape}
+Modules indépendants à 4 niveaux (acquisition, traitement, décision, action), les sorties des uns servant d'entrées aux autres (mux) communicant via socket UDP => possibilité de faire interagir des programmes en C, en Python, en Java... 
+
++ un programme "lanceur et ordonnanceur" avec son fichier de config. Interface web pour programmation et paramétrage.
+
+Modules "de base" livrés sous forme de classes avec nombreuses méthodes fournies.
+
+IMPORTANCE DE LA DOCUMENTATION
+
+\end{itshape}

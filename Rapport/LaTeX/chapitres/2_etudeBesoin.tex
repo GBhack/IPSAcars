@@ -1,0 +1,137 @@
+\subsection{Analyse du besoin}
+
+Le besoin exprimé précédemment comporte un certain nombre d'implications logiques.
+Leur prise en compte relève déjà du domaine de la solution, mais reste d'ordre suffisemment général pour être évoquée ici. Surtout, ces points seront à prendre en compte lors de l'élaboration d'une solution "détaillée".\\
+
+Reprenons les points évoqués ci-avant:
+
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{$\Rightarrow$}
+\renewcommand{\labelitemiii}{-}
+\renewcommand{\labelitemiv}{\textbullet}
+
+	\subsubsection{Pour le circuit}
+		\begin{itemize}
+			\item \textbf{Le circuit devront bénéficier d'un encombrement raisonnable}.
+			\begin{itemize}
+				\item Les dimensions du circuit devront être raisonnables.
+				\item Nous songerons également à une structure démontable (qui devra rester simple à assembler).
+			\end{itemize}
+			\item \textbf{Les feux de circulation devront pouvoir être commandés via une carte FPGA}.
+			\begin{itemize}
+				\item Une carte adaptant les tensions et courants et disposant de connecteurs adaptés aux caractéristiques des cartes possédées par l'IPSA devra être proposée.
+			\end{itemize}
+		\end{itemize}
+	\subsubsection{Pour le robot}
+		\begin{itemize}
+			\item \textbf{Les robots devront pouvoir être utilisés en classe sans que les préoccupations matérielles ne soient accaparantes.}
+			\begin{itemize}
+				\item Cela implique plusieur points :
+				\begin{itemize}
+					\item Bénéficier d'une autonomie suffisante pour que l'ensemble des groupes puissent effectuer leurs manipulations au cours d'une séance entière sans que cela ne nécéssite de charger/remplacer la batterie. D'expérience, nous estimons l'autonomie minimum à une heure pour répondre à ce critère.
+					\item Présenter des connecteurs et des interfaces permettant une intéraction "technique" avec le robot ne nécéssitant pas de matériel complexe. Ceci passe par une possibilité de changer ou recharger la batterie sans outils particuliers, de pouvoir programmer le robot via USB ou réseau plutot que via un port parallèle par exemple, ou encore proposer au minimum un bouton accessible permettant le lancement d'un séquence de code prédéfinie.
+					\item Etre d'une conception suffisemment robuste pour pouvoir être manipulé quotidiennement sans en "souffir" et suffisemment simple pour pouvoir être aisément entretenu.
+				\end{itemize} 
+			\end{itemize}
+			\item \textbf{Les robots devront pouvoir être programmés en utilisant les langages ensignés à l'IPSA.}
+			\begin{itemize}
+				\item Cette problématique sera étudiée plus en détail en \ref{Solution-controleur} (page \pageref{Solution-controleur})
+			\end{itemize}
+			\item \textbf{Les robots devront bénéficier de possibilités d'application flexibles.}
+			\begin{itemize}
+				\item Ceci passe par une \textbf{modularité totale} des différents éléments qui composent le robot, aussi bien sur le plan matériel que logiciel. Cette modularité devra rester une préoccupation de premier plan tout au long du développement de ce projet.
+			\end{itemize}
+			\item \textbf{Les robots devront ne pas représenter de danger pour ses utilisateurs}.
+			\begin{itemize}
+				\item La structure du robot ne devra pas présenter d'éléments tranchants.
+				\item La partie élecctrique et électronique devra employer des puissances raisonnables, et être protégée contre les forts courants.
+			\end{itemize}
+		\end{itemize}
+
+
+\subsection{Diagrammes des cas d'utilisation}
+
+Toujours dans un soucis de clareté et de bonne pratiques, nous avons ébauché les diagrammes des cas d'utilisation de haut niveau suivants :
+
+	\subsubsection{Pour le circuit :}
+
+		\begin{tikzpicture} 
+			\setcounter{tikzumlUseCaseNum}{0}
+			\begin{umlsystem}[x=10, fill=blue!10]{Circuit} 
+				\umlusecase[fill=white]{Brancher la carte FPGA} 
+				\umlusecase[y=-2,fill=white]{Evoluer en autonomie} 
+				\umlusecase[y=-4,fill=white]{Mettre en place le circuit}
+				\umlusecase[y=-6,fill=white]{Ranger le circuit}  
+			\end{umlsystem} 
+			 
+			\umlactor[y=0.5]{Développeur}  
+			\umlactor[y=-2.5]{Utilisateur} 
+			   
+			\umlinherit{Développeur}{Utilisateur} 
+			\umlassoc{Développeur}{usecase-1} 
+			\umlassoc{Utilisateur}{usecase-2} 
+			\umlassoc{Utilisateur}{usecase-3}  
+			\umlassoc{Utilisateur}{usecase-4}  
+		\end{tikzpicture}
+
+	\subsubsection{Pour le robot :}
+
+		\begin{tikzpicture} 
+			\begin{umlsystem}[x=10, fill=blue!10]{Robot} 
+			\umlusecase[fill=white]{Charger un programme} 
+			\umlusecase[y=-2,fill=white]{Evoluer en autonomie} 
+			\umlusecase[y=-4,fill=white]{Changer la batterie} 
+			\end{umlsystem} 
+			 
+			\umlactor{Développeur}  
+			\umlactor[y=-3]{Utilisateur} 
+			   
+			\umlinherit{Développeur}{Utilisateur} 
+			\umlassoc{Développeur}{usecase-1} 
+			\umlassoc{Utilisateur}{usecase-2} 
+			\umlassoc{Utilisateur}{usecase-3}	 
+		\end{tikzpicture} 
+
+		\textbf{Reprogrammation :}
+		\begin{itemize}
+			\item \textbf{Précondition :} Nous disposons d'un programme fonctionnel.
+			\item \textbf{Déclencheur :} Un développeur souhaite implémenter un programme.
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item On connecte le robot à une source de tension.
+				\item On établit une liaison entre le robot et un ordinateur.
+				\item Le développeur lance le téléversement du programme.
+				\item Le robot acquitte.
+				\item On ferme la connexion.
+			\end{enumerate}
+		\end{itemize}
+
+		\textbf{Evolution en autonomie:}
+		\begin{itemize}
+			\item \textbf{Précondition :} Le robot a été programmé et dispose d'une batterie chargée.
+			\item \textbf{Déclencheur :} Un membre du laboratoire souhaite observer le comportement du robot.
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item On met le robot sous tension.
+				\item On place le robot sur une ligne blanche du circuit.
+				\item On appuie sur le bouton de démarrage de séquence
+				\item Le robot déclenche les programmes en mémoire.
+			\end{enumerate}
+		\end{itemize}
+
+		\textbf{Changement de batterie:}
+		\begin{itemize}
+			\item \textbf{Déclencheur :} On souhaite changer la batterie du robot
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item On met le robot hors tension.
+				\item On accède à la batterie en place le cas échéant, et on la retire.
+				\item On met en place la nouvelle batterie
+				\item On remet en place les éléments éventuellement retirés pour accéder à la batterie.
+			\end{enumerate}
+		\end{itemize}
+
+
+		Le mode d'utilisation primaire est bien évidemment celui de l'évolution en autonomie. Le robot étant destiné à servir de plateforme de recherche, et devant donc être entièrement reprogrammable, il est délicat de décrire ce mode d'utilisation qui dépendra intégralement du programme chargé par l'utilisateur.\\
+
+		Nous nous appliquerons cependant à décrire le mode d'utilisation correspondant à l'application la plus basique du robot (et de fait au programme que nous livrerons avec ce dernier).

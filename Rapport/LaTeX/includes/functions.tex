@@ -1,9 +1,9 @@
 \newcommand{\illu}[3]{%
-	\begin{figure}[ht!]
+	\begin{figure}[H]
 			  \centering
 			  \includegraphics[scale=#3]{Graphics/#1}
 			  \caption{#2}
-			  \smallskip
+			  \vspace{-5pt}
 	\end{figure}}
 
 \newcommand{\fname}[1]{\textbf{\textit{#1}}}
@@ -22,3 +22,5 @@
   \section*{\nomname}% Look for `\section*... etc.
 }{% Replace it by 'nothing'
 }{\typeout{Success}}{\typeout{Failure}}
+
+

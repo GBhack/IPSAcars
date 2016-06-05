@@ -8,10 +8,34 @@
 
 \input{includes/titlepage}
 
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
 \newpage
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
+
+\section*{Remerciements}
+
+	Nous remercions Mesdames Assia Belbachir et Sorore Benabid, ensignants chercheurs au sein du laboratoire Mécatronique, Signal et Systèmes de l'IPSA pour nous avoir soumis cette idée de projet, pour nous avoir accordé leur confiance quant à sa réalisation potentielle et pour leur soutien dans le cadre de ce projet.
+
+	\vspace{80pt}
+
+\section*{Notes préliminaires}
+	L'ensemble des illustrations présentes dans ce dossier, sauf indication contraire dans leurs légendes, sont des réalisations personnelles et ne sont donc soumises à aucun droit particulier.\\
+
+	Le travail de recherche ici présenté est sous la responsabilité des auteurs cités en première de couverture et sous la propriété de l'IPSA. Merci de nous contacter au moyen des adresses fournies pour nous signaler tout problème, ou pour toute demande liée à l'utilisation du contenu.\\
+
+	L'ensemble des aréviations utilisées dans ces pages sont explicitées en page \pageref{nomenclature} (nomenclature).\\
+
+	Les numéros entre crochets pouvant apparaitre au sein de paragraphes sont des références bibliographiques et vous renvoient à la page \pageref{bibliographie} (bibliographie).\\
+
+	Ce dossier comprend de nombreuses références dynamiques, et pour un confort de lecture optimal, nous vous conseillons d'en lire la version numérique afin de pouvoir bénéficier des liens cliquables.\\
+
+	Exception faite des modèles mécaniques en CAO 3D effectués sous Catia\textregistered l'ensemble des réalisations ici présentées utilisent des outils Open-Source. Le présent dossier est rédigé en \href{https://www.latex-project.org/}{\LaTeX}, les illustrations ont été réalisées en dessin-vectoriel sous \href{https://inkscape.org/fr/}{Inkscape} ou en matriciel sous \href{https://www.gimp.org/}{GIMP} et les schémas et circuits électroniques sous \href{http://kicad-pcb.org/}{KiCad}.
+
+\newpage
 
 \section{Introduction}
 
@@ -21,30 +45,28 @@
 \section{Définition du besoin}
 
 	\input{chapitres/1_definitionBesoin}
+\newpage
+\section{Étude du besoin}
+
+	\input{chapitres/2_etudeBesoin}
 
 \newpage
-\section{Ebauche de solution}
+\section{Élaboration d'une solution}
 
-	\input{chapitres/2_ebaucheSolution}
-
-
-\newpage
-\section{Subdivision du problème}
-
-	\input{chapitres/3_subdivisionProbleme}
+	\input{chapitres/3_elaborationSolution}
 
 \newpage
-\section{Retour à une vue d'ensemble}
+\section{Intégration}
 
-	\input{chapitres/4_vueEnsemble}
-
-\newpage
-\section{Estimation du coût}
-
-	\input{chapitres/5_estimationCout}
+	\input{chapitres/4_integration}
 
 \newpage
-\section{Conclusion}
+\section{Estimation du coût de mise en place et faisabilité}
+
+	\input{chapitres/5_coutFaisabilite}
+
+\newpage
+\section{Conclusion et aperçu des évolutions possibles}
 	
 	\input{chapitres/6_conclusion}
 
@@ -54,17 +76,18 @@
 \newpage
 \sectionWoNum{Annexes}
 
-	\subsection{Annexe 1}
+	\input{chapitres/Annexes/carteReflecteurs}
 
 \setcounter{secnumdepth}{0}
 \newpage
 \section{Références}
 
-	\subsection{Nomenclature}
+	\subsection{Nomenclature} \label{nomenclature}
 		\printnomenclature
 
 	\newpage
-	\subsection{Bibliographie}
+	\nocite{bib11}
+	\subsection{Bibliographie} \label{bibliographie}
 		\begingroup
 		\renewcommand{\section}[2]{}%
 		\bibliography{includes/bibliography}{}
