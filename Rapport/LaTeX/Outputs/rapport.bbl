@@ -55,6 +55,11 @@ S.~MONK P.~SCHERZ.
 \newblock {\em Practical Electronics for Inventors}.
 \newblock McGraw-Hill Education TAB, 2016.
 
+\bibitem{bib9}
+Pololu.
+\newblock {\em Encoder 1217}, 2016.
+\newblock \url{https://www.pololu.com/product/1217}.
+
 \bibitem{bib8}
 Pololu.
 \newblock {\em HP 294}, 2016.
@@ -64,6 +69,11 @@ Pololu.
 Texas Instrument.
 \newblock {\em eQEP}, 2006.
 \newblock \url{http://www.ti.com/lit/an/spraah1/spraah1.pdf}.
+
+\bibitem{bib17}
+Texas Instrument.
+\newblock {\em L293D}, 2016.
+\newblock \url{http://www.ti.com/lit/ds/symlink/l293.pdf}.
 
 \bibitem{bib7}
 Vishay Semiconductors.

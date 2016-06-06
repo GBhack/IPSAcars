@@ -213,7 +213,7 @@
 
 				Le constructeur de nos motoréducteurs, Pololu, propose dans son catalogue un ensemble compatible avec notre motoréducteur comprenant un encodeur à deux capteurs optiques en quadrature et des roues intégrant une mire optique adaptée.
 
-				\illu{encoder.jpg}{Ensemble motoréducteur, roue et encodeur \textbf{\textit{(source : Pololu)}}}{0.35}
+				\illu{encoder.jpg}{Ensemble motoréducteur, roue et encodeur \textbf{\textit{(source : Pololu)}}}{0.25}
 
 				Cette solution nous garantie une compatibilité directe, et nous évite surtout d'avoir à adapter un encodeur (souvent coûteux) sur l'axe entre la roue et le réducteur. L'utilisation des deux capteurs en double fronts nous offre une résolution de 48 impulsions par tour de roue. La roue ayant un diamètre de 42mm, cela nous donne une précision de lecture de :
 				\[\frac{\pi \times 42}{48}=2.75mm\]
@@ -223,7 +223,7 @@
 				Il s'agira ensuite de compter le nombre de fronts montants et descendants sur le signal généré par le capteur.
 				Ceci peut se faire simplement en connectant le capteur à une entrée numérique du contrôleur et en observant les changements d'état de cette entrée, mais cette méthode consomme énormément de ressources pour une tâche aussi simple. Une autre solution, quand le processeur le permet, consiste à demander au processeur de détecter les fronts électroniquement et de déclencher un script (compteur) le cas échéant. Cette solution est évidemment préférable lorsqu'elle est disponible.\\
 
-				Par chance, notre processeur ARM-A8 possède cette fonctionnalité et intègre même un module eQEP\cite{bib12} \nomenclature{eQEP}{Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée} justement dédié au traitement des signaux d'encodeurs en quadrature et qui fera tout le travail à notre place (pour peu que l'on utilise un noyau Linux compatible avec le driver de ce module).
+				Par chance, notre processeur ARM-A8 possède cette fonctionnalité et intègre même un module eQEP\cite{bib12} \label{eQEP}\nomenclature{eQEP}{Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée} justement dédié au traitement des signaux d'encodeurs en quadrature et qui fera tout le travail à notre place (pour peu que l'on utilise un noyau Linux compatible avec le driver de ce module).
 
 			\subparagraph*{Distance des obstacles}
 

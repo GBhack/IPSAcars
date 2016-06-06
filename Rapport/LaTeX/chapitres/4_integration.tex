@@ -7,7 +7,14 @@
 
 		\paragraph{Ensembles propulsifs}
 
-			\textit{[Motoréducteur + roue + encodeur (parler conversion tensions)]}
+			Comme évoqué précédemment, le motoréducteur choisi est associable avec une roue et un encodeur du même constructeur qui forment un ensemble fonctionnel et simple à implémenter. Nous y associerons un support PVC adapté pour la fixation.\\
+			Notons qu'un seul des deux moteurs sera équipé d'un encodeur, deux étant superflus et évidemment plus chers.
+
+			Le motoréducteur est équipé de deux fils d'alimentation. Nous les connecterons à la carte-mère au travers d'un bornier. Un double pont en H intégré L293D (comprenant les diodes de roue libre \cite{bib17}) permettra de faire le lien entre le signal PWM généré par le BBG (3.3V limité à une vingtaine de milliampères) et le moteur (que l'on alimentera directement sur la batterie, le signal PWM étant donc adapté sur une base 7.2V). Trois sorties seront donc utilisées sur le BBG pour chacun des deux moteurs : une PWM pour gérer la puissance transmise au moteur, et deux digitales pour le sens de rotation. Ces signaux (de 3.3V) pourront-être directement transmis au double pont en H (le L293D ayant une tension "niveau haut" de 2,3V \cite{bib17}). Nous compterons deux sources d'alimentation pour le pont en H : une alimentation de 5V pour le circuit logique et une alimentation directe sur la batterie (on pensera à intégrer deux condensateurs pour filtrer le bruit dû aux moteurs). Les signaux logiques viendront directement du BBG.\\
+
+			Pour plus de détail, voir \ref{carteMere} (page \pageref{carteMere}).\\
+
+			L'encodeur peut, d'après sa fiche technique \cite{bib9} fonctionner en 3.3V. Cependant, la diode émettrice IR perdra alors de son intensité. Nous procéderons donc à une expérience pour définir si ce fonctionnement en "sous régime" de la diode est satisfaisant. Dans le cas contraire, nous alimenterons l'encodeur en 5V et procéderons à une division de tension sur le signal de sortie avant de le transmettre au BBG, pour ne pas endommager ce dernier. Notons qu'un seul des deux "canaux" de l'encodeur nécessitera d'être connecté au BBG étant donné notre besoin de précision. Ainsi, la carte- mère devra comprendre un connecteur trois contacts dédié à l'encodeur : deux contacts serviront simplement à l'alimentation, et le troisième (le signal) sera connecté à l'une des entrées du BBG permettant l'utilisation du module eQEP (voir \ref{eQEP}).
 
 		\paragraph{Carte Réflecteurs Optiques}\label{integrationReflecteurs}
 

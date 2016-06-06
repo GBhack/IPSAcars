@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ug",
+				"\\huge	latex-document"
+			],
+			[
 				"sub",
 				"\\subparagraph*{title}	latex-document"
 			],
@@ -63,7 +67,7 @@
 			"file": "LaTeX/rapport.tex",
 			"settings":
 			{
-				"buffer_size": 3451,
+				"buffer_size": 3442,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +75,7 @@
 			"file": "LaTeX/chapitres/2_etudeBesoin.tex",
 			"settings":
 			{
-				"buffer_size": 6859,
+				"buffer_size": 6860,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +83,7 @@
 			"file": "LaTeX/chapitres/3_elaborationSolution.tex",
 			"settings":
 			{
-				"buffer_size": 27490,
+				"buffer_size": 29900,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +91,7 @@
 			"file": "LaTeX/chapitres/4_integration.tex",
 			"settings":
 			{
-				"buffer_size": 1346,
+				"buffer_size": 3665,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +99,7 @@
 			"file": "LaTeX/chapitres/5_coutFaisabilite.tex",
 			"settings":
 			{
-				"buffer_size": 2,
+				"buffer_size": 1,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +107,7 @@
 			"file": "LaTeX/includes/bibliography.bib",
 			"settings":
 			{
-				"buffer_size": 2511,
+				"buffer_size": 3548,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,13 +163,12 @@
 	"expanded_folders":
 	[
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX",
-		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/Graphics",
-		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/Graphics/ANNEXES",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes"
 	],
 	"file_history":
 	[
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/3_elaborationSolution.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/1_definitionBesoin.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes/titlepage.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/0_introduction.tex",
@@ -231,6 +234,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"eQ",
 			"IR",
 			"controll",
 			"sollution",
@@ -276,7 +280,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -285,7 +289,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3451,
+						"buffer_size": 3442,
 						"regions":
 						{
 						},
@@ -314,15 +318,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6859,
+						"buffer_size": 6860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2292,
-								2292
+								6860,
+								6860
 							]
 						],
 						"settings":
@@ -331,10 +335,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 307.0,
+						"translation.y": 2251.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -343,15 +347,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27490,
+						"buffer_size": 29900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26503,
-								26503
+								24035,
+								24035
 							]
 						],
 						"settings":
@@ -360,10 +364,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7111.0,
+						"translation.y": 5868.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -372,15 +376,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1346,
+						"buffer_size": 3665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								2439,
+								2439
 							]
 						],
 						"settings":
@@ -391,7 +395,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -400,15 +404,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2,
-								2
+								1,
+								1
 							]
 						],
 						"settings":
@@ -428,15 +432,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2511,
+						"buffer_size": 3548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1444,
-								1444
+								3548,
+								3548
 							]
 						],
 						"settings":
@@ -446,7 +450,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 850.0,
+						"translation.y": 1372.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
