@@ -30,7 +30,7 @@
 
 		La question qui se pose est celle du nombre de capteurs, et de leur disposition.\\
 
-		Il est tout à fait possible de n'utiliser qu'un capteur : chaque fois qu'il quitte la ligne blanche, on entammera un virage à droite (puis à gauche si on ne retrouve pas la ligne blanche dans les quelques millisecondes suivantes) jusqu'à retrouver la ligne. Il est évident que cette méthode ne permettra pas une très grande fluidité de déplacement pour notre robot.
+		Il est tout à fait possible de n'utiliser qu'un capteur : chaque fois qu'il quitte la ligne blanche, on entamera un virage à droite (puis à gauche si on ne retrouve pas la ligne blanche dans les quelques millisecondes suivantes) jusqu'à retrouver la ligne. Il est évident que cette méthode ne permettra pas une très grande fluidité de déplacement pour notre robot.
 
 		\illu{capteurSimpleGauche.pdf}{Dépassement de la ligne sur la gauche}{1}
 		\illu{capteurSimpleDroite.pdf}{Dépassement de la ligne sur la droite}{1}
@@ -47,7 +47,7 @@
 
 		Nous pourrons éventuellement introduire un amortissement progressif de la correction via un régulateur PID\nomenclature{PID}{Proportionnel, Intégrateur, Dérivateur}, mais cela peut introduire de nombreuses problématiques dans des cas d'utilisation plus complexes.\\
 
-		Nous retiendrons donc à ce stade la solution consistant en deux capteurs placés de part et d'autre de la ligne. Nous veillerons à ce que le placement des capteurs permette une détection de très faibles écarts de trajectoire, sans pour autant induire des ambiguités de mesure.\\
+		Nous retiendrons donc à ce stade la solution consistant en deux capteurs placés de part et d'autre de la ligne. Nous veillerons à ce que le placement des capteurs permette une détection de très faibles écarts de trajectoire, sans pour autant induire des ambiguïtés de mesure.\\
 
 		Intéressons nous maintenant au cas d'une trajectoire courbe. Le fait d'avoir privilégié l'application de faibles corrections peut alors s'avérer problématique si ces dernières ne sont pas suffisantes pour adapter la trajectoire.
 
@@ -57,19 +57,19 @@
 
 		\illu{trajectoireVirage.pdf}{Maîtrise de la trajectoire en virage grâce à l'utilisation de 4 capteurs}{1.5}
 
-		Cette solution consistant en l'utilisation de quatres reflecteurs optiques alignés de manière à encadre de près la ligne à suivre est sans doute l'une des plus simples imaginables en terme de réalisation mais également d'utilisation et de maintenance.
+		Cette solution consistant en l'utilisation de quatre réflecteurs optiques alignés de manière à encadrer de près la ligne à suivre est sans doute l'une des plus simples imaginables en terme de réalisation mais également d'utilisation et de maintenance.
 		Elle n'est malheureusement pas suffisante pour répondre à notre besoin. En effet, cette solution trouvera ses limites dès lors que notre Robot rencontrera sa première intersection, élément capital de ce projet.\\
 
 		\illu{intersection4Capteurs.pdf}{Robot incapable de répondre à la présence d'une intersection}{1.5}
 
 		Si on trouve dans la littérature de très nombreux exemples de réalisations de robots suiveurs de lignes, ces dernières se limitent toujours à des circuits sous forme de boucle. Notre défi est donc de mettre au point une solution permettant l'évolution du robot sur un circuit comprenant des intersections. Notre robot devra ne pas être "perturbé" au passage d'une intersection, mais surtout être capable d'emprunter toutes les directions qui lui sont offertes.\\
 
-		La solution que nous avons mis au point consiste en l'introduction d'un capteur central et l'adoption d'un comportement "monolatéralement centré" du robot lors de la traversée d'intersections : lorsqu'il arrivera sur une intersection, le robot ne se souciera plus que de garder son capteur central sur la ligne, et ses capteurs latéraux \textbf{du côté de la direction choisie} à l'écart de cette dernière.
+		La solution que nous avons mis au point consiste en l'introduction d'un capteur central et l'adoption d'un comportement "mono-latéralement centré" du robot lors de la traversée d'intersections : lorsqu'il arrivera sur une intersection, le robot ne se souciera plus que de garder son capteur central sur la ligne, et ses capteurs latéraux \textbf{du côté de la direction choisie} à l'écart de cette dernière.
 
 		\illu{intersection5CapteursTD.pdf}{Suivi de trajectoire sur une intersection (en choisissant d'aller tout droit)}{1.5}
 		\illu{intersection5CapteursDroite.pdf}{Suivi de trajectoire sur une intersection (en choisissant d'aller à droite)}{1.5}
 
-		Notons que la forme de la ligne devra être intélligemment faite, en présentant des rayons de courbures réalistes (un véhicule ne peut pas tourner à angle droit) et des intersections réalisables (notemment via l'utilisation de deux lignes séparées pour la circulation en sens contraires).\\
+		Notons que la forme de la ligne devra être intelligemment faite, en présentant des rayons de courbures réalistes (un véhicule ne peut pas tourner à angle droit) et des intersections réalisables (notamment via l'utilisation de deux lignes séparées pour la circulation en sens contraires).\\
 
 		Voici donc à quoi ressemblerait un carrefour:
 		\illu{carrefour.pdf}{Carrefour en représentation "lignes"}{1.4}
@@ -82,12 +82,12 @@
 			\item Le premier croisement ne nous intéresse pas. Nous allons continuer tout droit et éteignons donc la moitié droite de nos capteurs.
 			\item Au passage du croisement, nous éteignons temporairement l'ensemble de nos capteurs.
 			\item Le croisement passé, nous éteignons cette fois la moitié gauche de nos capteurs pour ne pas être perturbés par "la voie d'insertion".
-			\item Peu de temps après, nous rallumons la moitié gauche et éteignons la moitié droite des capteurs pour suivre la voie bifurcant à gauche.
+			\item Peu de temps après, nous rallumons la moitié gauche et éteignons la moitié droite des capteurs pour suivre la voie bifurquant à gauche.
 		\end{enumerate}
 
-		Cette solution semble robuste tout en conservant une certaine simplicité d'implémantation. Elle sous-entend en revanche que le robot "sache" quand il arrive sur une intersection, mais également qu'il puisse évaluer à quelques millimètres près la distance qui le sépare des différentes "parties" de cette intersection (pour activer et désactiver ses capteurs en conséquence).\\
+		Cette solution semble robuste tout en conservant une certaine simplicité d’implémentation. Elle sous-entend en revanche que le robot "sache" quand il arrive sur une intersection, mais également qu'il puisse évaluer à quelques millimètres près la distance qui le sépare des différentes "parties" de cette intersection (pour activer et désactiver ses capteurs en conséquence).\\
 
-		La solution à cette problematique nous a été inspirée par le souvenir d'un brevet déposé en 2003 par le groupe PSA \cite{bib5}, qui proposait l'utilisation de code-barres tracés sur la route et que des capteurs placés sous le pare-choc des voiures pourraient "lire" pour prévenir le conducteur des sources de danger à venir (intersections, feux...).
+		La solution à cette problématique nous a été inspirée par le souvenir d'un brevet déposé en 2003 par le groupe PSA \cite{bib5}, qui proposait l'utilisation de code-barres tracés sur la route et que des capteurs placés sous le pare-choc des voitures pourraient "lire" pour prévenir le conducteur des sources de danger à venir (intersections, feux...).
 		Il fut donc décidé que deux capteurs supplémentaires seraient ajoutés sur les extérieurs. Il augmenteraient ainsi la précision de placement sur la ligne, mais permettraient surtout de lire des "codes-barres" placés sur la piste. Ces code-barres devraient permettre au robot d'être averti de l'approche d'un carrefour (trois choix de direction possibles) ou d'une simple intersection (deux choix possibles). Nous avons simplement basé notre code sur une ligne simple ou doublée :\\
 		\begin{figure}[H]
 			\begin{tabu}to \textwidth {@{} | l | *3{X[c]|}@{}}
@@ -118,7 +118,7 @@
 			\item Le premier croisement ne nous intéresse pas. Nous allons continuer tout droit et éteignons donc la moitié droite de nos capteurs.
 			\item Au passage du croisement, nous éteignons temporairement l'ensemble de nos capteurs.
 			\item Le croisement passé, nous éteignons cette fois la moitié gauche de nos capteurs pour ne pas être perturbés par "la voie d'insertion".
-			\item Peu de temps après, nous rallumons la moitié gauche et éteignons la moitié droite des capteurs pour suivre la voie bifurcant à gauche.
+			\item Peu de temps après, nous rallumons la moitié gauche et éteignons la moitié droite des capteurs pour suivre la voie bifurquant à gauche.
 		\end{enumerate}
 
 		Le robot doit donc être conscient des distances parcourues avec une précision supérieure à deux centimètres. Le moyen le plus simple d'implémenter cette fonctionnalité est sans aucun doute au travers d'un encodeur incrémental placé sur l'axe de propulsion du robot.\\
@@ -138,9 +138,9 @@
 
 		\paragraph{Propulsion et direction}
 
-			La solution la plus répendue en "petite robotique" consiste en l'utilisation de deux moteurs à courant continu pilotés indépendemment assurants à la fois la propulsion et la direction : on réduira les gaz à droite pour tourner de ce côté et réciproquement. Ces moteurs sont généralement pilotés en "PWM" \nomenclature{PWM}{Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions}, mais d'autres solutions sont possibles et dépenderont de notre controleur. Beaucoup d'applications utilisent des chenilles ou des couroies en caoutchouc pour assurer la propulsion, mais nous privilégierons l'utilisations de roues à pneus, par soucis de simplification de la conception (l'emploi de chenilles ou de couroies induit  une grande précision d'usinage et de montage pour assurer le parallélisme des poulies et la tension de la courroie) et de réduction des coûts.\\
+			La solution la plus répandue en "petite robotique" consiste en l'utilisation de deux moteurs à courant continu pilotés indépendamment assurant à la fois la propulsion et la direction : on réduira les gaz à droite pour tourner de ce côté et réciproquement. Ces moteurs sont généralement pilotés en "PWM" \nomenclature{PWM}{Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions}, mais d'autres solutions sont possibles et dépendront de notre contrôleur. Beaucoup d'applications utilisent des chenilles ou des courroies en caoutchouc pour assurer la propulsion, mais nous privilégierons l’utilisation de roues à pneus, par soucis de simplification de la conception (l'emploi de chenilles ou de courroies induit  une grande précision d'usinage et de montage pour assurer le parallélisme des poulies et la tension de la courroie) et de réduction des coûts.\\
 
-			L'utilisation d'un seul moteur de propulsion et d'une roue directionnelle pilotée par un servomoteur a longtemps été considérée, mais cette solution s'est révélée bien plus complexe à mettre en place et sans réel intéret particulier.\\
+			L'utilisation d'un seul moteur de propulsion et d'une roue directionnelle pilotée par un servomoteur a longtemps été considérée, mais cette solution s'est révélée bien plus complexe à mettre en place et sans réel intérêt particulier.\\
 
 			\illu{virageDeuxMoteurs.pdf}{Virage à l'aide de deux moteurs indépendants}{1.5}
 
@@ -150,48 +150,48 @@
 			Il s'agit là d'une simple relation de Thales et on définit ainsi :
 			\[\omega_{int} = \omega_{ext}\frac{R-E}{R}\]
 
-			On peut donc obtenir n'importe quel rayon de virage en diminant simplement la vitesse de la roue à l'intérieur du virage.
+			On peut donc obtenir n'importe quel rayon de virage en diminuant simplement la vitesse de la roue à l'intérieur du virage.
 			L'approximation selon laquelle la tension appliquée à un moteur et sa vitesse de rotation sont linéairement liés sera amplement suffisante dans le cadre de ce projet.\\
 
 		\paragraph{Controleur}\label{Solution-controleur}
 
-			Nous cherchons un controleur capable d'embarquer des applications en C (ou ses dérivés) et si possible en Python et/ou Matlab.
-			Ce controleur devra être capable d'acquérir les données de différents capteurs et de commander deux moteurs au minimum (sans compter d'éventuelles sorties type LEDs).
-			Le controleur devra également bénéficier d'une puissance de calcul suffisante les opérations de reconnaissance d'image.\\
+			Nous cherchons un contrôleur capable d'embarquer des applications en C (ou ses dérivés) et si possible en Python et/ou Matlab.
+			Ce contrôleur devra être capable d'acquérir les données de différents capteurs et de commander deux moteurs au minimum (sans compter d'éventuelles sorties type LEDs).
+			Le contrôleur devra également bénéficier d'une puissance de calcul suffisante les opérations de reconnaissance d'image.\\
 
-			Ce dernier critère élimine d'office les microcontrolleurs 8 et 16 bits et donc les cartes de type "Arduino" dont la puissance de calcul et la capacité de traitement de flux est bien trop faible pour permettre une reconnaissance d'image supérieure à quelques pixels carrés.\\
+			Ce dernier critère élimine d'office les microcontrôleurs 8 et 16 bits et donc les cartes de type "Arduino" dont la puissance de calcul et la capacité de traitement de flux est bien trop faible pour permettre une reconnaissance d'image supérieure à quelques pixels carrés.\\
 
-			Nous nous sommes naturellement tournés vers la famille des micro-ordinateurs monocartes. Cette récente catégorie d'ordinateurs propose sur une carte de quelques centimètres de côté et pour moins d'une centaine d'euros un véritable ordinateur avec une connectivité réseau et USB, bien souvent vidéo, une puissance de calcul extremement confortable et la capacité de faire tourner des systèmes Linux et dérivés. Démocratisés en 2011 avec le Raspberry-Pi, ces ordinateurs se sont multipliés et l'offre est aujourd'hui très large. Nous avons ciblé notre selection sur les plus répendus (qui sont, de par leur succès, bien plus abordables et faciles à se procurer, et bénéficient d'une plus large et solide base documentaire) : les Raspberry-Pis, Beaglebones et UDOOs (pour ne citer qu'eux).\\
+			Nous nous sommes naturellement tournés vers la famille des micro-ordinateurs mono cartes. Cette récente catégorie d'ordinateurs propose sur une carte de quelques centimètres de côté et pour moins d'une centaine d'euros un véritable ordinateur avec une connectivité réseau et USB, bien souvent vidéo, une puissance de calcul extrêmement confortable et la capacité de faire tourner des systèmes Linux et dérivés (et donc d’exécuter tous types de codes). Démocratisés en 2011 avec le Raspberry-Pi, ces ordinateurs se sont multipliés et l'offre est aujourd'hui très large. Nous avons ciblé notre sélection sur les plus rependus (qui sont, de par leur succès, bien plus abordables et faciles à se procurer, et bénéficient d'une plus large et solide base documentaire) : les Raspberry-Pis, Beaglebones et UDOOs (pour ne citer qu'eux).\\
 
 			Les UDOOs furent vite écartés en raison de leur prix.
-			Le Raspberry-Pi 2 et BeagleBone Green se situent dans la même gamme de prix (autour de 40\$). Nous avons arrêté notre choix sur le BeagleBone Green (BBG\nomenclature{BBG}{BeagleBone Green}): ce dernier, contrairement au Raspberry-Pi 2, ne dispose pas de sortie vidéo (dont nous n'avons pas utilité au sein de ce projet) et possède une puissance de calcul légèrement inférieur à ce dernier (tout en restant extremement respectable) mais possède une mémoire intégrée (ce qui dispense de l'achat d'une carte séparée) et surtout de capacités d'entrées/sorties numériques et analogiques bien supérieures. Ce point nous est extremement important: en effet, le Raspberry-Pi n'est capable de générer qu'un signal PWM et ne possède aucune entrée analogique ce qui aurait nécéssité l'utilisation de "périphériques" supplémentaires pour la gestion des moteurs et des capteur et donc alourdi les coûts et la complexité de conception, augmenté le nombre de sources potentielles de pannes...\\
+			Le Raspberry-Pi 2 et BeagleBone Green se situent dans la même gamme de prix (autour de 40\$). Nous avons arrêté notre choix sur le BeagleBone Green (BBG\nomenclature{BBG}{BeagleBone Green}): ce dernier, contrairement au Raspberry-Pi 2, ne dispose pas de sortie vidéo (dont nous n'avons pas utilité au sein de ce projet) et possède une puissance de calcul légèrement inférieur à ce dernier (tout en restant parfaitement respectable) mais possède une mémoire intégrée (ce qui dispense de l'achat d'une carte séparée) et surtout de capacités d'entrées/sorties numériques et analogiques bien supérieures. Ce point nous est extrêmement important: en effet, le Raspberry-Pi n'est capable de générer qu'un signal PWM et ne possède aucune entrée analogique ce qui aurait nécessité l'utilisation de "périphériques" supplémentaires pour la gestion des moteurs et des capteur et donc alourdi les coûts et la complexité de conception, augmenté le nombre de sources potentielles de pannes...\\
 
 			Nous utiliserons donc un BeagleBone-Green Wireless :
 			\illu{BBG.jpg}{Le BeagleBone Green \textit{\textbf{(source : seeedstudio.com)}}}{0.45}
 
-			Ce dernier est équipé d'un processeur ARM 32bits à 1Ghz, de 512Mo de RAM de 4Go de mémoire embarquée et d'un impressionante capacité de communication : 7 entrées analogiques (la carte comprend un convertisseur analogique-numérique 12bits), 65 entrees/sorties numériques (0 ou 3.3V) et bénéficie même de fonctionnalités telles qu'un compteur d'impulsion intégré au processeur (particulièrement utile pour l'interfaçage de notre encodeur). La carte consomme moins de 1,5W et coûte 45\$ \cite{bib6}.
+			Ce dernier est équipé d'un processeur ARM 32bits à 1Ghz, de 512Mo de RAM de 4Go de mémoire embarquée et d'un impressionnante capacité de communication : 7 entrées analogiques (la carte comprend un convertisseur analogique-numérique 12bits), 65 entrées/sorties numériques (0 ou 3.3V) et bénéficie même de fonctionnalités telles qu'un compteur d'impulsion intégré au processeur (particulièrement utile pour l'interfaçage de notre encodeur). La connectivité wifi et bluetooth offre de belles possibilités quant aux interfaces utilisateur et la capacité de communiquer entre robots. La carte consomme moins de 1,5W et coûte 45\$ \cite{bib6}.
 			Nous la "chapeauterons" d'une carte d'extension que nous réaliserons nous même pour faire l'interface entre les ports d'extension et nos différents capteurs et actionneurs (voir \ref{carteMere}, page \pageref{carteMere}).\\
 
-			Notons que le BBG doit être alimenté en 5V, et travaille avec un niveau logic "CMOS" de 3.3V. Les entrées et sorties numériques devront donc être compatibles (niveau haut supérieur à 2.5V et inférieur ou égal à 3.3V et niveau bas inférieur à 1.3V).
+			Notons que le BBG doit être alimenté en 5V, et travaille avec un niveau logique "CMOS" de 3.3V. Les entrées et sorties numériques devront donc être compatibles (niveau haut supérieur à 2.5V et inférieur ou égal à 3.3V et niveau bas inférieur à 1.3V).
 
 		\paragraph{Suivi de ligne}
 
 			Comme dit précédemment, nous utiliserons sept réflecteurs optiques infrarouges pour effectuer le suivi de ligne.
 			Un réflecteur optique est composé d'une LED \nomenclature{LED}{Light-Emitting Diode, ou Diode Electro-Luminescente} (ici infrarouge) et d'un phototransistor. Le phototransistor est comparable à un transistor classique, dont le courant de base serait remplacé par une intensité lumineuse, ou plus simplement encore comme une résistance variable en fonction de l'intensité lumineuse reçue.\\
 
-			Nous utiliserons des TCRT5000, très répendus.\\
+			Nous utiliserons des TCRT5000, très répandus.\\
 
-			Les capteurs nous fournissent donc une tension variable qu'il faudra pouvoir exploiter : au dessus d'une certaine valeur de cette tension, nous pourrons conclure en la présence d'une ligne blanche (forte réflectivité).\\
+			Les capteurs nous fournissent donc une tension variable qu'il faudra pouvoir exploiter : en dessous d'une certaine valeur de cette tension, nous pourrons conclure en la présence d'une ligne blanche (forte réflectivité).\\
 
-			Deux solution s'offrent à nous : ou bien concevoir un montage basé sur un comparateur et une résistance variable (pour régler la valeur seuil) afin d'obtenir une sortie booléenne (par exemple : 5V en présence d'une ligne blanche et 0V sinon) qui pourra très simplement être lue sur n'importe quelle entrée numérique du controleur, ou bien tirer partie de l'encodeur analogique-numérique intégré au controleur pour lire la valeur directement. Nous privilégierons cette méthode qui permet de limiter le nombre de composants, et donc le coût et les sources de pannes.\\
+			Deux solution s'offrent à nous : ou bien concevoir un montage basé sur un comparateur et une résistance variable (pour régler la valeur seuil) afin d'obtenir une sortie booléenne (par exemple : 5V en présence d'une ligne blanche et 0V sinon) qui pourra très simplement être lue sur n'importe quelle entrée numérique du contrôleur, ou bien tirer partie de l'encodeur analogique-numérique intégré au contrôleur pour lire la valeur directement. Nous privilégierons cette méthode qui permet de limiter le nombre de composants, et donc le coût et les sources de pannes.\\
 
 			Le BeagleBone Green possède sept entrées analogiques (nous avons justement sept capteurs) capables de discerner $2^{12} = 4096$ niveaux différents linéairement répartis entre 0 et 1,8V\cite{bib6}.
-			Ainsi, l'application d'une tension de 0V à l'une de ce entrées nous permettra de lire la valeur "0" logiciellement, 2048 pour 0,9V, 4096 pour 1,8V etc... Nous prendrons garde à ne jamais dépasser cette valeur sous peine d'endomager le controleur. Le BBG fournit une tension de 1.8 spécifiquement pour cette application\cite{bib6}.\\
+			Ainsi, l'application d'une tension de 0V à l'une de ce entrées nous permettra de lire la valeur "0" logiciellement, 2048 pour 0,9V, 4096 pour 1,8V etc... Nous prendrons garde à ne jamais dépasser cette valeur sous peine d’endommager le controleur. Le BBG fournit une tension de 1.8V spécifiquement pour cette application\cite{bib6}.\\
 
-			La datasheet du TCRT5000 \cite{bib7} nous apprend que la LED émitrice possède une tension directe de 1.25V et n'accepte que jusqu'à 60mA.
-			Afin de ne pas surcharger la sortie à 1.8V fournie par le BBG (qui ne fournit pas plus de 50mA), nous alimenterons les LEDs en 5V via une résistance de 120$\Omega$, faisant ainsi traverser la LED par $\frac{5-1.25}{120}=31mA$, ce qui est idéal (intensité IR suffisement élevée sans risquer "d'éblouir" les autres capteurs ou de griller la LED).\\
+			La datasheet du TCRT5000 \cite{bib7} nous apprend que la LED émettrice possède une tension directe de 1.25V et n'accepte que jusqu'à 60mA.
+			Afin de ne pas surcharger la sortie à 1.8V fournie par le BBG (qui ne fournit pas plus de 50mA), nous alimenterons les LEDs en 5V via une résistance de 120$\Omega$, faisant ainsi traverser la LED par $\frac{5-1.25}{120}=31mA$, ce qui est idéal (intensité IR\nomenclature{IR}{Infra-Rouge} suffisamment élevée sans risquer "d'éblouir" les autres capteurs ou de griller la LED).\\
 
-			On connectera le collecteur du phototransitor à la ligne 1.8V au travers d'une résistance de pull-up de 2.7k$\Omega$, la valeur la plus élevée de résistance nous permettant d'assurer un courant de collecteur de 5mA (comme recommandé dans la datasheet). Nous choisissons la valeur la plus élevée afin de limiter la consommation en courant, mais surtout d'augmenter la sensibilité du capteur (il sera ainsi plus facile au phototransistor de "tirer" la tension vers le bas).\\
+			On connectera le collecteur du phototransistor à la ligne 1.8V au travers d'une résistance de pull-up de 2.7k$\Omega$, la valeur la plus élevée de résistance nous permettant d'assurer un courant de collecteur de 5mA (comme recommandé dans la datasheet). Nous choisissons la valeur la plus élevée afin de limiter la consommation en courant, mais surtout d'augmenter la sensibilité du capteur (il sera ainsi plus facile au phototransistor de "tirer" la tension vers le bas).\\
 
 			Nous avons donc le schéma de principe suivant :
 			\illu{reflecteur.pdf}{Schéma de principe d'un réflecteur optique}{2}
@@ -202,21 +202,59 @@
 
 
 
-		\paragraph{Evaluation des distances}
+		\paragraph{Évaluation des distances}
 
-			$\Rightarrow$Distance parcourues\\
-			$\Rightarrow$Distance des obstacles\\
+			\subparagraph*{Distances parcourues}
+
+				L'évaluation des distances parcourues se fera simplement au travers d'un encodeur incrémental placé sur l'un des deux axes de propulsion du robot. Un encodeur incrémental produit au moyen de capteurs optiques ou magnétiques un signal carré dont chaque période correspond au passage d'un élément de référence devant son capteur.
+				Ainsi, si on place une roue comprenant quatre éléments de référence (4 aimants, ou 4 obturateurs) régulièrement espacés sur l'axe d'un moteur et le capteur judicieusement, nous pourrons observer un front montant chaque fois que le moteur effectue un quart de tour. En comptant à la fois les fronts montants et descendants, nous connaîtrons les variations angulaires du moteur avec une précision d'un huitième de tour. Et en plaçant un second capteur en quadrature (en déphasage de 90 degrés), notre précision sera doublée.\\
+
+				Le constructeur de nos motoréducteurs, Pololu, propose dans son catalogue un ensemble compatible avec notre motoréducteur comprenant un encodeur à deux capteurs optiques en quadrature et des roues intégrant une mire optique adaptée.
+
+				\illu{encoder.jpg}{Ensemble motoréducteur, roue et encodeur \textbf{\textit{(source : Pololu)}}}{0.35}
+
+				Cette solution nous garantie une compatibilité directe, et nous évite surtout d'avoir à adapter un encodeur (souvent coûteux) sur l'axe entre la roue et le réducteur. L'utilisation des deux capteurs en double fronts nous offre une résolution de 48 impulsions par tour de roue. La roue ayant un diamètre de 42mm, cela nous donne une précision de lecture de :
+				\[\frac{\pi \times 42}{48}=2.75mm\]
+
+				Nous pourrons même nous permettre de n'utiliser qu'un capteur et bénéficier ainsi d'une résolution de 5.5mm, répondant largement à nos critères.\\
+
+				Il s'agira ensuite de compter le nombre de fronts montants et descendants sur le signal généré par le capteur.
+				Ceci peut se faire simplement en connectant le capteur à une entrée numérique du contrôleur et en observant les changements d'état de cette entrée, mais cette méthode consomme énormément de ressources pour une tâche aussi simple. Une autre solution, quand le processeur le permet, consiste à demander au processeur de détecter les fronts électroniquement et de déclencher un script (compteur) le cas échéant. Cette solution est évidemment préférable lorsqu'elle est disponible.\\
+
+				Par chance, notre processeur ARM-A8 possède cette fonctionnalité et intègre même un module eQEP\cite{bib12} \nomenclature{eQEP}{Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée} justement dédié au traitement des signaux d'encodeurs en quadrature et qui fera tout le travail à notre place (pour peu que l'on utilise un noyau Linux compatible avec le driver de ce module).
+
+			\subparagraph*{Distance des obstacles}
 
 		\paragraph{Signalisation de ses intentions}
 
+			Nos robots seraient considérés, en théorie de l'intelligence artificielle, comme des "agents". Ils en possèdent en effet toutes les caractéristiques et notamment celle de l'autonomie. Chaque robot est autonome dans le sens où il prend ses propres décisions sans recevoir de commande extérieure. Il est donc primordial que chaque robot puisse avertir les autres de ses intentions, et lui même décrypter les intentions des autres agents.\\
 
+			Nous pourrions atteindre cet objectif en faisant communiquer les robots via un réseau quelconque, mais cela sous-entendrait que ces derniers ne soient capables d'évoluer qu'au milieu de leurs "congénères", ce qui serait parfaitement irréaliste dans la vraie vie. Nous avons donc décidé d'implémenter de simples clignotants et feux stops à LED, simples à mettre en œuvre et universels.
 
-		\paragraph{Interraction avec l'utilisateur}
+		\paragraph{Interaction avec l'utilisateur}
 
-
+			Ayant constaté au cours de travaux pratiques qu'il est souvent peu aisé de gérer le déclenchement des séquences de programmes (obligation de passer par des temporisateurs et de brancher/débrancher l'alimentation de la carte), nous avons décidé d'implanter un simple bouton poussoir (qui pourra servir pour démarrer, mettre en pause ou arrêter un programme, par exemple) ainsi qu'un interrupteur commandant l'alimentation de la carte mère (et donc de l'ensemble du système).
 
 		\paragraph{Batterie}
 
+			Pour rappel, voici la liste des composants qu'il nous faudra alimenter :
+			\begin{itemize}
+				\item Deux moteurs à courant continu\\
+				D'après leur fiche technique\cite{bib8}, ces derniers fonctionnent entre 3 et 9V avec un rendement optimal autour de 6V. Leur consommation "axe bloqué" (en couple maximum) est de 1,6A. Une estimation pessimiste de leur consommation en fonctionnement normal consistant à prendre le quart de ce courrant, nous pouvons considérer que chaque moteur consommera en moyenne moins de 400mA.
+				\item Un BeagleBone Green\\
+				Le BBG doit être alimenté en 5V et a une consommation moyenne de 400mA \cite{bib13}.
+				\item Sept capteurs IR\\
+				Chaque capteur consommant, en tout, environ 35mA.
+				\item Une moyenne (généreuse) de 2 LEDs allumées\\
+				Avec une consommation d'environ 20mA par LED.
+				\item Divers petits composants\\
+				Pour lesquels on fera un devis global pessimiste à 100mA.
+			\end{itemize}
+
+			Soit une consommation moyenne extremement pessimiste de 1600mA.
+			La plus haute tension nécéssaire (demandée par les moteurs) est d'environ 6V.\\
+
+			Etant donné qu'il est plus difficile de réduire une tension que de l'augmenter, et un moteur à courant continu étant beaucoupl plus souple que le reste des circuits électroniques (le moteur ne souffrira pas de tourner à une tension légèrement inférieure) nous privilégierons l'usage d'une batterie de 6V ou plus et d'une capacité supérieure à 1600mAh.
 
 
 	\subsubsection{Implémentation logicielle}
@@ -226,4 +264,3 @@
 		\paragraph{Suivi de ligne}
 
 		\paragraph{Reconnaissance d'image}
-

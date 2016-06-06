@@ -420,8 +420,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8r.tfm
 INPUT chapitres/0_introduction.tex
@@ -433,6 +433,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT chapitres/2_etudeBesoin.tex
 INPUT chapitres/2_etudeBesoin.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7y.tfm
 INPUT chapitres/3_elaborationSolution.tex
@@ -515,6 +516,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7y.tfm
+INPUT Graphics/encoder.jpg
+INPUT ./Graphics/encoder.jpg
+INPUT ./Graphics/encoder.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favri8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favri8r.tfm
@@ -562,4 +567,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/cabin/Cabin-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb

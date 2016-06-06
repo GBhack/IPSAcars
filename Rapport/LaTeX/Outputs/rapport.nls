@@ -3,6 +3,9 @@
  \nomgroup{A}
 
   \item [{BBG}]\begingroup BeagleBone Green\nomeqref {0}\nompageref{18}
+  \item [{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}
+		\nompageref{22}
+  \item [{IR}]\begingroup Infra-Rouge\nomeqref {0}\nompageref{20}
   \item [{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}
 		\nompageref{19}
   \item [{PID}]\begingroup Proportionnel, Intégrateur, Dérivateur\nomeqref {0}
