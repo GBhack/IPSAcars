@@ -14,6 +14,8 @@
 		Une loi linéaire lie la tension lue en sortie de capteur à l'intensité reçue.\\
 		Une simple lecture de cette tension permet, après comparaison avec des valeurs "seuil" définies expérimentalement, de savoir si le capteur se trouve au dessus d'une ligne blanche ou non.\\
 
+		Sur les schémas suivants, pour des raisons d'imprimabilité et de lisibilité, les lignes seront noires et le revêtement du circuit sera blanc.\\
+
 		\begin{figure}[ht!]
 			\centering
 			\begin{minipage}{0.48\textwidth}
@@ -69,7 +71,7 @@
 		\illu{intersection5CapteursTD.pdf}{Suivi de trajectoire sur une intersection (en choisissant d'aller tout droit)}{1.5}
 		\illu{intersection5CapteursDroite.pdf}{Suivi de trajectoire sur une intersection (en choisissant d'aller à droite)}{1.5}
 
-		Notons que la forme de la ligne devra être intelligemment faite, en présentant des rayons de courbures réalistes (un véhicule ne peut pas tourner à angle droit) et des intersections réalisables (notamment via l'utilisation de deux lignes séparées pour la circulation en sens contraires).\\
+		Notons que la forme de la ligne devra être intelligemment faite, en présentant des rayons de courbure réalistes (un véhicule ne peut pas tourner à angle droit) et des intersections réalisables (notamment via l'utilisation de deux lignes séparées pour la circulation en sens contraires).\\
 
 		Voici donc à quoi ressemblerait un carrefour:
 		\illu{carrefour.pdf}{Carrefour en représentation "lignes"}{1.4}
@@ -88,7 +90,7 @@
 		Cette solution semble robuste tout en conservant une certaine simplicité d’implémentation. Elle sous-entend en revanche que le robot "sache" quand il arrive sur une intersection, mais également qu'il puisse évaluer à quelques millimètres près la distance qui le sépare des différentes "parties" de cette intersection (pour activer et désactiver ses capteurs en conséquence).\\
 
 		La solution à cette problématique nous a été inspirée par le souvenir d'un brevet déposé en 2003 par le groupe PSA \cite{bib5}, qui proposait l'utilisation de code-barres tracés sur la route et que des capteurs placés sous le pare-choc des voitures pourraient "lire" pour prévenir le conducteur des sources de danger à venir (intersections, feux...).
-		Il fut donc décidé que deux capteurs supplémentaires seraient ajoutés sur les extérieurs. Il augmenteraient ainsi la précision de placement sur la ligne, mais permettraient surtout de lire des "codes-barres" placés sur la piste. Ces code-barres devraient permettre au robot d'être averti de l'approche d'un carrefour (trois choix de direction possibles) ou d'une simple intersection (deux choix possibles). Nous avons simplement basé notre code sur une ligne simple ou doublée :\\
+		Il fut donc décidé que deux capteurs supplémentaires seraient ajoutés sur les extérieurs. Ils augmenteraient ainsi la précision de placement sur la ligne, mais permettraient surtout de lire des "codes-barres" placés sur la piste. Ces code-barres devraient permettre au robot d'être averti de l'approche d'un carrefour (trois choix de direction possibles) ou d'une simple intersection (deux choix possibles). Nous avons simplement basé notre code sur une ligne simple ou doublée :\\
 		\begin{figure}[H]
 			\begin{tabu}to \textwidth {@{} | l | *3{X[c]|}@{}}
 			  \hline
@@ -102,7 +104,7 @@
 			\caption{Formalisme employé pour les code-barres}
 		\end{figure}
 
-		Une code "doublé" serait composé de deux lignes elles mêmes séparées d'une épaisseur de ligne.
+		Un code "doublé" serait composé de deux lignes elles mêmes séparées d'une épaisseur de ligne.
 		Les codes seraient placés à 30cm du premier croisement.\\
 
 		Dès la lecture d'un code au sol, le robot sera donc "attentif" à l'éventuelle apparition d'un doublon pendant environ deux centimètres. Si rien n'est lu passé cette distance, il en déduira qu'il s'agit d'un code simple. Il prendra alors une décision de direction (et pourra au passage en avertir les autres robots) et commencera un décompte de distance afin de gérer les activations et désactivations de ses capteurs jusqu'au franchissement de l'intersection.\\
@@ -157,7 +159,7 @@
 
 			Nous cherchons un contrôleur capable d'embarquer des applications en C (ou ses dérivés) et si possible en Python et/ou Matlab.
 			Ce contrôleur devra être capable d'acquérir les données de différents capteurs et de commander deux moteurs au minimum (sans compter d'éventuelles sorties type LEDs).
-			Le contrôleur devra également bénéficier d'une puissance de calcul suffisante les opérations de reconnaissance d'image.\\
+			Le contrôleur devra également bénéficier d'une puissance de calcul suffisante pour les opérations de reconnaissance d'image.\\
 
 			Ce dernier critère élimine d'office les microcontrôleurs 8 et 16 bits et donc les cartes de type "Arduino" dont la puissance de calcul et la capacité de traitement de flux est bien trop faible pour permettre une reconnaissance d'image supérieure à quelques pixels carrés.\\
 
