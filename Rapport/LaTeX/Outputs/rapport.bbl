@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bib3}
 Line tracking sensors and algorithms.
@@ -10,11 +10,32 @@ Beaglebone green wireless wiki.
 \newblock {\url{http://www.seeedstudio.com/wiki/Beaglebone_green_wireless}},
   2016.
 
+\bibitem{bib14}
+J.~COOPER.
+\newblock Setting up io python library on beaglebone black.
+\newblock
+  {\url{https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/gpio}},
+  2015.
+
+\bibitem{bib15}
+J.~COOPER.
+\newblock Adafruit beaglebone io python - readme.
+\newblock \url{https://github.com/adafruit/adafruit-beaglebone-io-python},
+  2016.
+
 \bibitem{bib13}
 T.~DICOLA.
 \newblock Embedded linux board comparison - power usage.
 \newblock
   {\url{https://learn.adafruit.com/embedded-linux-board-comparison/power-usage}},
+  2015.
+
+\bibitem{bib16}
+D.~MOLLOY.
+\newblock Chapter 6: Interfacing to the beaglebone input/outputs chapter 6:
+  Interfacing to the beaglebone input/outputs.
+\newblock
+  {\url{http://exploringbeaglebone.com/chapter6/#The_BealeBone_GPIOs_8211_Using_Device_Tree_Overlays}},
   2015.
 
 \bibitem{bib4}

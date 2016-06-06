@@ -202,7 +202,7 @@
 
 		\paragraph{Acquisition d'images}
 
-
+				\textbf{\huge{\textcolor{red}{[MAXIME]}}}
 
 		\paragraph{Évaluation des distances}
 
@@ -227,6 +227,8 @@
 
 			\subparagraph*{Distance des obstacles}
 
+				\textbf{\huge{\textcolor{red}{[MAXIME]}}}
+
 		\paragraph{Signalisation de ses intentions}
 
 			Nos robots seraient considérés, en théorie de l'intelligence artificielle, comme des "agents". Ils en possèdent en effet toutes les caractéristiques et notamment celle de l'autonomie. Chaque robot est autonome dans le sens où il prend ses propres décisions sans recevoir de commande extérieure. Il est donc primordial que chaque robot puisse avertir les autres de ses intentions, et lui même décrypter les intentions des autres agents.\\
@@ -242,7 +244,7 @@
 			Pour rappel, voici la liste des composants qu'il nous faudra alimenter :
 			\begin{itemize}
 				\item Deux moteurs à courant continu\\
-				D'après leur fiche technique\cite{bib8}, ces derniers fonctionnent entre 3 et 9V avec un rendement optimal autour de 6V. Leur consommation "axe bloqué" (en couple maximum) est de 1,6A. Une estimation pessimiste de leur consommation en fonctionnement normal consistant à prendre le quart de ce courrant, nous pouvons considérer que chaque moteur consommera en moyenne moins de 400mA.
+				D'après leur fiche technique\cite{bib8}, ces derniers fonctionnent entre 3 et 9V avec un rendement optimal autour de 6V. Leur consommation "axe bloqué" (en couple maximum) est de 1,6A. Une estimation pessimiste de leur consommation en fonctionnement normal consistant à prendre le quart de ce courant, nous pouvons considérer que chaque moteur consommera en moyenne moins de 400mA.
 				\item Un BeagleBone Green\\
 				Le BBG doit être alimenté en 5V et a une consommation moyenne de 400mA \cite{bib13}.
 				\item Sept capteurs IR\\
@@ -253,16 +255,38 @@
 				Pour lesquels on fera un devis global pessimiste à 100mA.
 			\end{itemize}
 
-			Soit une consommation moyenne extremement pessimiste de 1600mA.
-			La plus haute tension nécéssaire (demandée par les moteurs) est d'environ 6V.\\
+			Soit une consommation moyenne extrêmement pessimiste de 1600mA.
+			La plus haute tension nécessaire (demandée par les moteurs) est d'environ 6V.\\
 
-			Etant donné qu'il est plus difficile de réduire une tension que de l'augmenter, et un moteur à courant continu étant beaucoupl plus souple que le reste des circuits électroniques (le moteur ne souffrira pas de tourner à une tension légèrement inférieure) nous privilégierons l'usage d'une batterie de 6V ou plus et d'une capacité supérieure à 1600mAh.
+			Étant donné qu'il est plus difficile de réduire une tension que de l'augmenter, et un moteur à courant continu étant beaucoup plus souple que le reste des circuits électroniques (le moteur ne souffrira pas de tourner à une tension légèrement inférieure) nous privilégierons l'usage d'une batterie de 6V ou plus et d'une capacité supérieure à 1600mAh.
 
 
 	\subsubsection{Implémentation logicielle}
 
-	\textit{Difficile de rentrer beaucoup dans les détails puisqu'il s'agit de la partie la plus variable des robots (destinés à être programmés par les élèves, les chercheurs). Nous allons cependant expliciter rapidement comment nous réaliserons les codes livrés avec le robot (le but n'étant pas de réaliser les programmes dans ce dossier).}
+		Nous ne rentrerons ici pas dans les détails, d'une part car le but n'est pas de procéder à la partie développement dans ce dossier et d'autre part car la partie logicielle représente la part la plus fluctuante de nos robots, destinés à être reprogrammés tout au long de leur cycle de vie. Cependant, nous allons tenter de détailler rapidement l'approche que nous recommandons au sujet du développement logiciel dans le cadre de ce projet.
 
 		\paragraph{Suivi de ligne}
 
+			Le suivi de ligne, en terme de programmation, est une simple problématique de régulation. Nous recueillerons les données issues des différents capteurs, les traiterons, et produirons une réponse au travers des actionneurs.\\
+
+			La question, au delà de celle des logiques et algorithmes utilisés pour produire cette régulation, ici hors sujet, est celle de l’interaction avec les capteurs et actionneurs.\\
+
+			Nos programmes devront faire l'acquisition des données suivantes :
+			\begin{itemize}
+				\item Données issues des réflecteurs, sous la forme de la valeur de sept tensions.
+				\item Données issues de l'encodeur, sous la forme d'un comptage des pulsations.
+			\end{itemize}
+
+			Ils devront communiquer leurs ordres en faisant varier la tension aux bornes des moteurs. Ceci se fera au travers de la création d'un signal "PWM".\\
+
+			Il s'agira donc d'établir le lien entre les interfaces d'entrées/sorties du contrôleur et le code à proprement parler.\\
+
+			Sur le BBG, l'un des moyens les plus simples d'effectuer cela est de passer par la bibliothèque Python crée à cet effet par Justin Cooper \cite{bib14} \cite{bib15}. Cette bibliothèque simplifie grandement ce genre d'opérations, et lire la valeur (numérique ou analogique) d'un port, ou changer cette valeur ne prend que deux lignes de code (se référer à la documentation).\\
+
+			Une utilisation des entrées/sorties reste néanmoins possible et accessible en C et C++, par exemple \cite{bib16}, mais nous favoriserons l'utilisation de Python pour des raisons "d'affinité", mais également car ce langage simplifie l'utilisation de nombreux outils nécessaires à ce projet, notamment la communication réseau et le traitement d'images, et ne nécessite aucune compilation.\\
+
+			Nous veillerons cependant, toujours dans un soucis de modularité, à ce que nos "modules" python, soient compatibles avec d'éventuelles réalisations en C, java ou autre (voir \ref{integrationLogicielle} : Intégration Logicielle, page \pageref{integrationLogicielle}).
+
 		\paragraph{Reconnaissance d'image}
+
+				\textbf{\huge{\textcolor{red}{[MAXIME]}}}
