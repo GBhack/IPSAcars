@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  7 JUN 2016 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  7 JUN 2016 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2940,26 +2940,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<Graphics/ROBOT1.png, id=711, 1768.6075pt x 1487.5575pt>
+<Graphics/ROBOT1.png, id=711, 803.0pt x 675.52374pt>
 File: Graphics/ROBOT1.png Graphic file (type png)
-
-<use Graphics/ROBOT1.png>
+ <use Graphics/ROBOT1.png>
 Package pdftex.def Info: Graphics/ROBOT1.png used on input line 66.
-(pdftex.def)             Requested size: 300.6593pt x 252.88142pt.
+(pdftex.def)             Requested size: 321.1943pt x 270.20471pt.
 
-<Graphics/ROBOT2.png, id=712, 1593.955pt x 1586.92876pt>
+<Graphics/ROBOT2.png, id=712, 803.0pt x 798.985pt>
 File: Graphics/ROBOT2.png Graphic file (type png)
-
-<use Graphics/ROBOT2.png>
+ <use Graphics/ROBOT2.png>
 Package pdftex.def Info: Graphics/ROBOT2.png used on input line 68.
-(pdftex.def)             Requested size: 270.96877pt x 269.77432pt.
- [26]
-<Graphics/ROBOT3.png, id=717, 1753.55125pt x 1659.19875pt>
+(pdftex.def)             Requested size: 321.1943pt x 319.58833pt.
+
+[26] <Graphics/ROBOT3.png, id=717, 803.0pt x 759.83875pt>
 File: Graphics/ROBOT3.png Graphic file (type png)
 
 <use Graphics/ROBOT3.png>
 Package pdftex.def Info: Graphics/ROBOT3.png used on input line 70.
-(pdftex.def)             Requested size: 298.09976pt x 282.06006pt.
+(pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
  [27 <./Graphics/ROBOT1.png> <./Graphics/ROBOT2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
@@ -3097,7 +3095,7 @@ e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb>
 Output written on "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/gi
-t/Rapport/LaTeX/Outputs/rapport.pdf" (39 pages, 5737000 bytes).
+t/Rapport/LaTeX/Outputs/rapport.pdf" (39 pages, 2337398 bytes).
 PDF statistics:
  904 PDF objects out of 1000 (max. 8388607)
  747 compressed objects within 8 object streams
