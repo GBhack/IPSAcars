@@ -20,31 +20,31 @@
 \contentsline {paragraph}{\numberline {4.2.3.2}Controleur}{17}{paragraph.4.2.3.2}
 \contentsline {paragraph}{\numberline {4.2.3.3}Suivi de ligne}{19}{paragraph.4.2.3.3}
 \contentsline {paragraph}{\numberline {4.2.3.4}Acquisition d'images}{20}{paragraph.4.2.3.4}
-\contentsline {paragraph}{\numberline {4.2.3.5}\IeC {\'E}valuation des distances}{21}{paragraph.4.2.3.5}
-\contentsline {paragraph}{\numberline {4.2.3.6}Signalisation de ses intentions}{22}{paragraph.4.2.3.6}
+\contentsline {paragraph}{\numberline {4.2.3.5}\IeC {\'E}valuation des distances}{20}{paragraph.4.2.3.5}
+\contentsline {paragraph}{\numberline {4.2.3.6}Signalisation de ses intentions}{21}{paragraph.4.2.3.6}
 \contentsline {paragraph}{\numberline {4.2.3.7}Interaction avec l'utilisateur}{22}{paragraph.4.2.3.7}
 \contentsline {paragraph}{\numberline {4.2.3.8}Batterie}{22}{paragraph.4.2.3.8}
 \contentsline {subsubsection}{\numberline {4.2.4}Impl\IeC {\'e}mentation logicielle}{23}{subsubsection.4.2.4}
 \contentsline {paragraph}{\numberline {4.2.4.1}Suivi de ligne}{23}{paragraph.4.2.4.1}
-\contentsline {paragraph}{\numberline {4.2.4.2}Reconnaissance d'image}{24}{paragraph.4.2.4.2}
-\contentsline {section}{\numberline {5}Int\IeC {\'e}gration}{25}{section.5}
-\contentsline {subsection}{\numberline {5.1}Circuit}{25}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Robot}{25}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Int\IeC {\'e}gration Mat\IeC {\'e}rielle}{25}{subsubsection.5.2.1}
-\contentsline {paragraph}{\numberline {5.2.1.1}Ensembles propulsifs}{25}{paragraph.5.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.2}Carte R\IeC {\'e}flecteurs Optiques}{25}{paragraph.5.2.1.2}
+\contentsline {paragraph}{\numberline {4.2.4.2}Reconnaissance d'image}{23}{paragraph.4.2.4.2}
+\contentsline {section}{\numberline {5}Int\IeC {\'e}gration}{24}{section.5}
+\contentsline {subsection}{\numberline {5.1}Circuit}{24}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Robot}{24}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Int\IeC {\'e}gration Mat\IeC {\'e}rielle}{24}{subsubsection.5.2.1}
+\contentsline {paragraph}{\numberline {5.2.1.1}Ensembles propulsifs}{24}{paragraph.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.2}Carte R\IeC {\'e}flecteurs Optiques}{24}{paragraph.5.2.1.2}
 \contentsline {paragraph}{\numberline {5.2.1.3}Carte-M\IeC {\`e}re}{26}{paragraph.5.2.1.3}
 \contentsline {paragraph}{\numberline {5.2.1.4}Structure du robot}{26}{paragraph.5.2.1.4}
 \contentsline {paragraph}{\numberline {5.2.1.5}Int\IeC {\'e}gration globale, maquette num\IeC {\'e}rique}{26}{paragraph.5.2.1.5}
-\contentsline {subsubsection}{\numberline {5.2.2}Int\IeC {\'e}gration Logicielle}{26}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t de mise en place et faisabilit\IeC {\'e}}{27}{section.6}
-\contentsline {section}{\numberline {7}Conclusion et aper\IeC {\c c}u des \IeC {\'e}volutions possibles}{28}{section.7}
-\contentsline {section}{Annexes}{29}{section*.26}
-\contentsline {subsection}{\numberline {A}Carte R\IeC {\'e}flecteurs Optiques}{29}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {A.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{29}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {A.2}Gerbers}{30}{subsubsection.7.1.2}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{31}{section*.29}
-\contentsline {subsection}{Nomenclature}{31}{section*.30}
-\contentsline {subsection}{Bibliographie}{32}{section*.31}
-\contentsline {subsection}{Table des illustrations}{33}{section*.32}
-\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{34}{section*.33}
+\contentsline {subsubsection}{\numberline {5.2.2}Int\IeC {\'e}gration Logicielle}{28}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t de mise en place et faisabilit\IeC {\'e}}{29}{section.6}
+\contentsline {section}{\numberline {7}Conclusion et aper\IeC {\c c}u des \IeC {\'e}volutions possibles}{30}{section.7}
+\contentsline {section}{Annexes}{31}{section*.30}
+\contentsline {subsection}{\numberline {A}Carte R\IeC {\'e}flecteurs Optiques}{31}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {A.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{31}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {A.2}Gerbers}{32}{subsubsection.7.1.2}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{33}{section*.33}
+\contentsline {subsection}{Nomenclature}{33}{section*.34}
+\contentsline {subsection}{Bibliographie}{34}{section*.35}
+\contentsline {subsection}{Table des illustrations}{35}{section*.36}
+\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{36}{section*.37}

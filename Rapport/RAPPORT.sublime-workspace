@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"itemize",
+				"\\begin{itemize}\\item	latex-document"
+			],
+			[
 				"ug",
 				"\\huge	latex-document"
 			],
@@ -83,7 +87,7 @@
 			"file": "LaTeX/chapitres/3_elaborationSolution.tex",
 			"settings":
 			{
-				"buffer_size": 29900,
+				"buffer_size": 28782,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +95,7 @@
 			"file": "LaTeX/chapitres/4_integration.tex",
 			"settings":
 			{
-				"buffer_size": 3665,
+				"buffer_size": 8689,
 				"line_ending": "Unix"
 			}
 		},
@@ -347,15 +351,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29900,
+						"buffer_size": 28782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24035,
-								24035
+								18232,
+								18232
 							]
 						],
 						"settings":
@@ -364,7 +368,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5868.0,
+						"translation.y": 4266.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -376,15 +380,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3665,
+						"buffer_size": 8689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2439,
-								2439
+								2684,
+								2684
 							]
 						],
 						"settings":
@@ -392,7 +396,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1876.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -176,7 +176,7 @@
 
 			Notons que le BBG doit être alimenté en 5V, et travaille avec un niveau logique "CMOS" de 3.3V. Les entrées et sorties numériques devront donc être compatibles (niveau haut supérieur à 2.5V et inférieur ou égal à 3.3V et niveau bas inférieur à 1.3V).
 
-		\paragraph{Suivi de ligne}
+		\paragraph{Suivi de ligne}\label{solutionSuiviLigne}
 
 			Comme dit précédemment, nous utiliserons sept réflecteurs optiques infrarouges pour effectuer le suivi de ligne.
 			Un réflecteur optique est composé d'une LED \nomenclature{LED}{Light-Emitting Diode, ou Diode Electro-Luminescente} (ici infrarouge) et d'un phototransistor. Le phototransistor est comparable à un transistor classique, dont le courant de base serait remplacé par une intensité lumineuse, ou plus simplement encore comme une résistance variable en fonction de l'intensité lumineuse reçue.\\
@@ -190,15 +190,7 @@
 			Le BeagleBone Green possède sept entrées analogiques (nous avons justement sept capteurs) capables de discerner $2^{12} = 4096$ niveaux différents linéairement répartis entre 0 et 1,8V\cite{bib6}.
 			Ainsi, l'application d'une tension de 0V à l'une de ce entrées nous permettra de lire la valeur "0" logiciellement, 2048 pour 0,9V, 4096 pour 1,8V etc... Nous prendrons garde à ne jamais dépasser cette valeur sous peine d’endommager le controleur. Le BBG fournit une tension de 1.8V spécifiquement pour cette application\cite{bib6}.\\
 
-			La datasheet du TCRT5000 \cite{bib7} nous apprend que la LED émettrice possède une tension directe de 1.25V et n'accepte que jusqu'à 60mA.
-			Afin de ne pas surcharger la sortie à 1.8V fournie par le BBG (qui ne fournit pas plus de 50mA), nous alimenterons les LEDs en 5V via une résistance de 120$\Omega$, faisant ainsi traverser la LED par $\frac{5-1.25}{120}=31mA$, ce qui est idéal (intensité IR\nomenclature{IR}{Infra-Rouge} suffisamment élevée sans risquer "d'éblouir" les autres capteurs ou de griller la LED).\\
-
-			On connectera le collecteur du phototransistor à la ligne 1.8V au travers d'une résistance de pull-up de 2.7k$\Omega$, la valeur la plus élevée de résistance nous permettant d'assurer un courant de collecteur de 5mA (comme recommandé dans la datasheet). Nous choisissons la valeur la plus élevée afin de limiter la consommation en courant, mais surtout d'augmenter la sensibilité du capteur (il sera ainsi plus facile au phototransistor de "tirer" la tension vers le bas).\\
-
-			Nous avons donc le schéma de principe suivant :
-			\illu{reflecteur.pdf}{Schéma de principe d'un réflecteur optique}{2}
-
-			L'intégration et l'agencement des capteurs sont discutés en \ref{integrationReflecteurs} (page \pageref{integrationReflecteurs}).
+			L'intégration des capteurs est discutée en \ref{integrationReflecteurs} (page \pageref{integrationReflecteurs}).
 
 		\paragraph{Acquisition d'images}
 

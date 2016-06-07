@@ -18,7 +18,11 @@
 \contentsline {figure}{\numberline {17}{\ignorespaces Cas du virage \IeC {\`a} gauche sur un carrefour avec sept capteurs\relax }}{16}{figure.caption.19}
 \contentsline {figure}{\numberline {18}{\ignorespaces Virage \IeC {\`a} l'aide de deux moteurs ind\IeC {\'e}pendants\relax }}{17}{figure.caption.20}
 \contentsline {figure}{\numberline {19}{\ignorespaces Le BeagleBone Green \textit {\textbf {(source : seeedstudio.com)}}\relax }}{19}{figure.caption.21}
-\contentsline {figure}{\numberline {20}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{20}{figure.caption.22}
-\contentsline {figure}{\numberline {21}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{21}{figure.caption.24}
-\contentsline {figure}{\numberline {22}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{29}{figure.caption.27}
-\contentsline {figure}{\numberline {23}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {20}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {21}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {22}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {23}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {24}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {26}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {27}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{32}{figure.caption.32}
