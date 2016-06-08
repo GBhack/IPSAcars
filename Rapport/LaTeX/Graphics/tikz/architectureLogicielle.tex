@@ -1,0 +1,32 @@
+\begin{tikzpicture}[scale=0.7,transform shape]
+ 
+  % Draw diagram elements
+  \path \module {1}{Capteur 1};
+  \path (p1.east)+(4.0,0.0)\module {2}{Capteur 2};
+  \path (p2.east)+(4.0,0.0)\module {3}{Capteur 3};
+
+  \path (p1.south)+(3,-2.0)\module {4}{Synthétiseur 1};
+  \path (p2.south)+(3,-2.0)\module {5}{Synthétiseur 2};
+
+  \path (p4.south)+(2.9,-2.0)\module {6}{Ordonnanceur};
+
+  \path (p1.south)+(0.0,-7.0) \module {8}{Actionneur 1};
+  \path (p2.south)+(0.0,-7.0) \module {9}{Actionneur 2};
+  \path (p3.south)+(0.0,-7.0) \module {10}{Actionneur 3};
+
+  \path [myArrow] (p1.south) -- + (0.0,-0.9) -- + (3.0,-0.9) -- node [above] {} (p4);
+  \path [line] (p2.south) -- + (0.0,-0.9) -- + (-3.0,-0.9);
+
+  \path [myArrow] (p2.south) -- + (0.0,-0.9) -- + (3.0,-0.9) -- node [above] {} (p5);
+  \path [line] (p3.south) -- + (0.0,-0.9) -- + (-3.0,-0.9);
+
+  \path [myArrow] (p4.south) -- + (0.0,-1.0) -- + (+2.9,-1.0) -- node [above] {} (p6);
+  \path [line] (p5.south) -- + (0.0,-1.0) -- + (-3.2,-1.0);
+
+  \path [myArrow] (p6.east) -- + (4.5,0) -- + (4.5,2.55) -- node [right] {} (p5);
+
+  \path [myArrow] (p6.south) -- + (0.0,-0.5) -- + (-5.95,-0.5) -- node [above] {} (p8);
+  \path [myArrow] (p6.south) -- node [above] {} (p9);
+  \path [myArrow] (p6.south) -- + (0.0,-0.5) -- + (5.95,-0.5) -- node [above] {} (p10);
+
+\end{tikzpicture}

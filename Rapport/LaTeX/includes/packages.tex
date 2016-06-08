@@ -33,8 +33,28 @@ frame=single}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \epstopdfsetup{outdir=./}
+\usepackage{subcaption}
 \usepackage{tikz}
 \usepackage{includes/tikz-uml}
-\usetikzlibrary{positioning,chains,fit,shapes,calc}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols,fit}
 
-\usepackage{subcaption}
+
+% Define block styles  
+\tikzstyle{materia}=[draw, fill=blue!20, text width=6.0em, text centered,
+  minimum height=1.5em,drop shadow]
+\tikzstyle{module} = [materia, text width=8em, minimum width=10em,
+  minimum height=3em, rounded corners, drop shadow]
+\tikzstyle{linepart} = [draw, thick, color=black!50, -latex', dashed]
+\tikzstyle{line} = [draw, thick, color=black!50]
+
+\tikzstyle{myArrow} = [line, -latex']
+\tikzstyle{ur}=[draw, text centered, minimum height=0.01em]
+
+% Define distances for bordering
+\newcommand{\blockdist}{1.3}
+\newcommand{\edgedist}{1.5}
+
+\newcommand{\module}[2]{node (p#1) [module]
+  {#2}}

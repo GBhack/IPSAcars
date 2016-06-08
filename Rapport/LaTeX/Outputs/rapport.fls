@@ -1,10 +1,10 @@
-PWD /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX
+PWD /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT rapport.tex
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.log
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -155,7 +155,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nlo
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nlo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -172,6 +172,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -308,7 +310,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.pdf
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex
@@ -316,20 +318,30 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/includes/functions.aux
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/includes/functions.aux
 INPUT includes/functions.tex
 INPUT includes/functions.tex
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
@@ -343,13 +355,13 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
 INPUT includes/titlepage.tex
 INPUT includes/titlepage.tex
 INPUT Graphics/LOGO-IPSA.pdf
@@ -373,8 +385,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8r.tfm
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
@@ -421,7 +433,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favr8t.vf
@@ -510,26 +522,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favri8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favbi8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favbi8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favbi8r.tfm
-<<<<<<< HEAD
-INPUT Graphics/reflecteur.pdf
-INPUT ./Graphics/reflecteur.pdf
-INPUT ./Graphics/reflecteur.pdf
 INPUT Graphics/Logitechc170.png
 INPUT ./Graphics/Logitechc170.png
 INPUT ./Graphics/Logitechc170.png
-=======
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
-INPUT Graphics/encoder.jpg
-INPUT ./Graphics/encoder.jpg
-INPUT ./Graphics/encoder.jpg
->>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7t.tfm
-<<<<<<< HEAD
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7y.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7y.tfm
 INPUT Graphics/encoder.jpg
 INPUT ./Graphics/encoder.jpg
 INPUT ./Graphics/encoder.jpg
@@ -539,6 +538,8 @@ INPUT ./Graphics/sonar.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmri7m.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7m.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favmri7m.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7y.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7y.tfm
 INPUT Graphics/opencvEtalon.jpg
 INPUT ./Graphics/opencvEtalon.jpg
 INPUT ./Graphics/opencvEtalon.jpg
@@ -554,10 +555,6 @@ INPUT ./Graphics/opencvB.jpg
 INPUT Graphics/distEval.pdf
 INPUT ./Graphics/distEval.pdf
 INPUT ./Graphics/distEval.pdf
-=======
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
->>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 INPUT chapitres/4_integration.tex
 INPUT chapitres/4_integration.tex
 INPUT Graphics/reflecteur.pdf
@@ -566,23 +563,23 @@ INPUT ./Graphics/reflecteur.pdf
 INPUT Graphics/espacementReflecteurs.pdf
 INPUT ./Graphics/espacementReflecteurs.pdf
 INPUT ./Graphics/espacementReflecteurs.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/zavmr7y.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb7y.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
 INPUT Graphics/ROBOT1.png
 INPUT ./Graphics/ROBOT1.png
 INPUT ./Graphics/ROBOT1.png
 INPUT Graphics/ROBOT2.png
 INPUT ./Graphics/ROBOT2.png
 INPUT ./Graphics/ROBOT2.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT Graphics/ROBOT3.png
 INPUT ./Graphics/ROBOT3.png
 INPUT ./Graphics/ROBOT3.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favri8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
+INPUT Graphics/tikz/architectureLogicielle.tex
+INPUT Graphics/tikz/architectureLogicielle.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favri8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT chapitres/5_coutFaisabilite.tex
 INPUT chapitres/5_coutFaisabilite.tex
 INPUT chapitres/6_conclusion.tex
@@ -595,24 +592,24 @@ INPUT ./Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf
 INPUT Graphics/ANNEXES/CARTE-REFLECTEURS.pdf
 INPUT ./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf
 INPUT ./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nls
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.nls
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.bbl
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favbi8t.tfm
-OUTPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
+OUTPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.lof
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favbi8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favbi8r.tfm
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
-INPUT /home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
+INPUT /media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevoml.enc

@@ -86,13 +86,42 @@
 
 	\subsubsection{Intégration Logicielle}\label{integrationLogicielle}
 
-\begin{itshape}
-Modules indépendants à 4 niveaux (acquisition, traitement, décision, action), les sorties des uns servant d'entrées aux autres (mux) communicant via socket UDP => possibilité de faire interagir des programmes en C, en Python, en Java... 
+		L'intégration logicielle est sans aucun doute la partie la plus complexe de ce projet. Nous disposons d'un certain nombre d'entrées dont l'analyse simultanée permettra, au travers d'algorithmes relativement complexe, devra donner un ensemble de sorties cohérentes. Mais surtout, nous voulons que notre système soit modulaire, et que certaines parties de nos codes puissent être remplacés par d'autres, tout en assurant le fonctionnement des autres.\\
 
-+ un programme "lanceur et ordonnanceur" avec son fichier de config. Interface web pour programmation et paramétrage.
+		Tout ceci ne pourra être effectué qu'au travers d'une architecture rigoureuse et largement pensée en amont (hors de question de se lancer dans le code comme on peut souvent le faire dans le cadre d'autres projets). Notons également que la construction d'une documentation et de codes clairement structurés et commentés sera également primordiale.\\
 
-Modules "de base" livrés sous forme de classes avec nombreuses méthodes fournies.
+		Nous avons imaginé une structure en modules à quatre étages, au travers desquels l'information irait en descendant :
 
-IMPORTANCE DE LA DOCUMENTATION
+		\begin{itemize}
+			\item \textbf{Les modules "Capteurs"} représenteraient le premier étage.\\
+			Ces modules liraient directement la valeur des capteurs au travers des ports d'entrée physiques du contrôleur et produiraient une sortie adaptée.\\
+			\textit{Par exemple, le module capteur" associé aux réflecteurs renverrait un vecteur de 7 bits correspondant à la présence ou non d'une ligne blanche sous chacun des capteurs : [1001001] correspondrait ainsi sans doute au passage d'un code barre. Plus compliqué, le module "capteur" associé à la caméra renverrait quatre matrices binaires 100x100 (une pour le vert, une pour le rouge, et une pour le jaune) dans lesquelles la présence d'un "1" indiquerait la détection d'une LED allumée aux cordonnées arrondies correspondantes.}
+			\item \textbf{Les modules "Synthétiseur"} ne seraient pas liés à un capteur mais à une problématique. Ils pourront pour y répondre, analyser et synthétiser les données issues de plusieurs multiples modules capteurs.\\
+			\textit{Ainsi, le synthétiseur lié à la problématique "lecture de codes barres" se renseignera auprès des modules capteurs "Réflecteurs optiques" et "Encodeur" afin de détecter la présence d'un code-barre et, le cas échéant, sa signification.}
+			\item \textbf{Le module "Ordonnanceur"} serait a-priori unique. Il joue le rôle de chef d'orchestre et serait le seul module à intégrer la notion de temporalité (capacité de planification, et "mémoire" des événements récents). Ce serait également le seul module capable de faire "remonter de l'information" pour paramétrer le comportement des synthétiseurs.\\
+			\textit{Par exemple, 25cm après la lecture d'un code-barre, l'ordonnanceur demanderait au synthétiseur dédié au suivi de ligne de ne plus se concentrer que sur une partie des réflecteurs optiques.}\\
+			L'ordonnanceur fonctionnera forcément selon une logique séquentielle mais devra, pour être robuste et "clair", être décomposé en sous-modules (organe de décision, organe de planification, module dédié au gaz et module dédié à la direction, par exemple).
+			\item \textbf{Les modules "Actionneurs"} recevraient des ordres (absolus ou relatifs) de la part de l'ordonnanceur et auraient pour rôle de les mettre en action au travers des sorties physiques du contrôleur.\\
+			\textit{Concrètement, deux actionneurs géreront les sorties LEDs et les deux motoréducteurs. Un exemple "d'ordre absolu" pourrait-être "Vitesse = 0" tandis qu'un exemple d'ordre "relatif" serait "+5\% de rayon de virage".}
+		\end{itemize}
 
-\end{itshape}
+		\vspace{15pt}
+
+		Voici une simple illustration de la structure ici évoquée :
+		\begin{figure}[H]
+			\centering
+			\input{Graphics/tikz/architectureLogicielle}
+			\vspace{10pt}
+			\caption{Structure logicielle en "modules"}
+		\end{figure}
+
+		Tous ces modules constitueraient l'un des livrables du projet et seraient codés en python, en suivant une approche "objet". A sa réception, le robot devra pouvoir être mis sous tension et évoluer en autonomie. Mais le réel enjeu du projet sera de faire en sorte que ces modules soient parfaitement documentés et architecturés, de manière à ce qu'un utilisateur souhaitant, par exemple, développer son propre module de reconnaissance d'image en C++ puisse faire fonctionner ce dernier avec le reste de nos modules (pour ne pas avoir à se préoccuper d'une partie suivi de ligne qui ne l 'intéresse pas).\\
+		Ceci sera rendu possible, notamment, par l'utilisation optionnelle (mais intégrée) de sockets locaux UDP pour communiquer entre les modules.\\
+
+		Un programme principal aurait pour rôle de gérer l’exécution des différents modules, et de répartir intelligemment leur utilisation processeur. Ce programme, lui même codé en python, sera conçu pour fonctionner nativement avec l'ensemble de nos modules, mais sera également capable d’exécuter des modules tiers. Ce programme devra lui-même faire preuve d'une très grande rigueur. Son fonctionnement sera régi par la lecture d'un fichier de configuration à son initialisation. Ainsi, ce fichier de configuration pourra déterminer quels modules devront-être exécutés, et avec quel paramétrage.\\
+
+		Un scenario possible serait :\\
+		\textit{Exécuter tous les modules natifs sauf le module synthétiseur spécialisé en reconnaissance de feux qui sera remplacé par le programme "monProgramme.exe" placé à la racine. Le module capteur "sonar" devra communiquer sur le port 40052. Les autres modules seront chargés en configuration par défaut.}\\
+		Ces instructions seraient définies dans le fichier de configuration, et leur exécution serait assurée par le programme principal. Évidemment, ceci ne pourra fonctionner que si l'utilisateur a très soigneusement suivi les recommandations de la documentation lui indiquant quel type de données doit fournir le module synthétiseur spécialisé en reconnaissance de feux.\\
+
+		Encore une fois, rien n'obligera l'utilisateur à se servir de cette base logicielle. Il pourra très bien décider d'ignorer totalement le système en place et concevoir le sien. Le but de ce système est vraiment de permettre à un élève de se concentrer sur une problématique ciblée en voyant les autres traitées pour lui. Mais cela ne peut se faire que si son propre module n'empêche pas le fonctionnement des autres. Ceci ne peut être le cas que si son module est parfaitement additionnel (et fait donc un travail dont le résultat n'est requis par aucun autre module) ou si il est parfaitement compatible avec les autres (et transmet donc les données dans le même format et selon le même protocole que le module natif).
