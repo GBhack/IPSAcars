@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"itemize",
+				"\\begin{itemize}\\item	latex-document"
+			],
+			[
+				"ug",
+				"\\huge	latex-document"
+			],
+			[
 				"sub",
 				"\\subparagraph*{title}	latex-document"
 			],
@@ -63,15 +71,24 @@
 			"file": "LaTeX/chapitres/3_elaborationSolution.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 32559,
 				"line_ending": "Unix"
+=======
+				"buffer_size": 3442,
+				"line_ending": "Windows"
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 			}
 		},
 		{
 			"file": "LaTeX/chapitres/4_integration.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 1421,
+=======
+				"buffer_size": 6860,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +96,11 @@
 			"file": "LaTeX/chapitres/5_coutFaisabilite.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 1,
+=======
+				"buffer_size": 28782,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +108,11 @@
 			"file": "LaTeX/chapitres/6_conclusion.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 0,
+=======
+				"buffer_size": 8686,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +120,11 @@
 			"file": "LaTeX/chapitres/0_introduction.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 2536,
+=======
+				"buffer_size": 1,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +132,11 @@
 			"file": "LaTeX/chapitres/1_definitionBesoin.tex",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 3138,
+=======
+				"buffer_size": 3548,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 				"line_ending": "Unix"
 			}
 		},
@@ -174,6 +207,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/includes"
 	],
@@ -185,6 +219,15 @@
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/5_coutFaisabilite.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/2_etudeBesoin.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/rapport.tex",
+=======
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres",
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes"
+	],
+	"file_history":
+	[
+		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/3_elaborationSolution.tex",
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/1_definitionBesoin.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes/titlepage.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/0_introduction.tex",
@@ -250,6 +293,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"eQ",
 			"IR",
 			"controll",
 			"sollution",
@@ -295,7 +339,11 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 0,
+=======
+			"selected": 3,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 			"sheets":
 			[
 				{
@@ -304,7 +352,11 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 32559,
+=======
+						"buffer_size": 3442,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
@@ -333,15 +385,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 1421,
+=======
+						"buffer_size": 6860,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								658,
 								658
+=======
+								6860,
+								6860
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 							]
 						],
 						"settings":
@@ -349,10 +410,14 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 135.0,
+=======
+						"translation.y": 2251.0,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -361,15 +426,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 1,
+=======
+						"buffer_size": 28782,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								0,
 								0
+=======
+								18232,
+								18232
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 							]
 						],
 						"settings":
@@ -377,10 +451,17 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
+=======
+						"translation.y": 4266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 					"type": "text"
 				},
 				{
@@ -389,15 +470,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 0,
+=======
+						"buffer_size": 8686,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								0,
 								0
+=======
+								7282,
+								7282
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 							]
 						],
 						"settings":
@@ -405,10 +495,14 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1066.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 6,
+=======
+					"stack_index": 0,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 					"type": "text"
 				},
 				{
@@ -417,15 +511,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 2536,
+=======
+						"buffer_size": 1,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								0,
 								0
+=======
+								1,
+								1
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 							]
 						],
 						"settings":
@@ -503,15 +606,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 3442,
+=======
+						"buffer_size": 3548,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								1960,
 								1960
+=======
+								3548,
+								3548
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 							]
 						],
 						"settings":
@@ -520,7 +632,11 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 0.0,
+=======
+						"translation.y": 1372.0,
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

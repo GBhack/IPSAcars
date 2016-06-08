@@ -1,4 +1,5 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["bibtex Outputs/rapport"] 1465407539 "Outputs/rapport.aux" "Outputs/rapport.bbl" "Outputs/rapport" 1465407540
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "Outputs/rapport.aux" 1465407540 11771 0c0772dbab8ea574b68cf46c226519a2 ""
@@ -10,6 +11,19 @@
 ["pdflatex"] 1465407539 "rapport.tex" "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.pdf" "rapport" 1465407540
   "/etc/texmf/web2c/texmf.cnf" 1463155877 1101 af7716885e081ab43982cab7b4672c1a ""
   "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux" 1465407540 11771 0c0772dbab8ea574b68cf46c226519a2 ""
+=======
+["bibtex Outputs/rapport"] 1465405091 "Outputs/rapport.aux" "Outputs/rapport.bbl" "Outputs/rapport" 1465405093
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "Outputs/rapport.aux" 1465405093 11842 73125aeac93435d498598c28e3aa3e29 ""
+  "Outputs/rapport.bcf" 0 -1 0 ""
+  "includes/bibliography.bib" 1465405082 3792 a084d9528ee16eb004543cdef7d87a4e ""
+  (generated)
+  "Outputs/rapport.bbl"
+  "Outputs/rapport.blg"
+["pdflatex"] 1465405091 "rapport.tex" "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.pdf" "rapport" 1465405093
+  "/etc/texmf/web2c/texmf.cnf" 1461678346 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.aux" 1465405093 11842 73125aeac93435d498598c28e3aa3e29 ""
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevoml.enc" 1153172756 2921 ae68ca7d9a4902b5e8c8b47846fadadb ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc" 1153172756 3020 a1ac7e8d91c840af41a220ec7126413f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -251,6 +265,7 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb" 1463155958 145929 f25e56369a345c4ff583b067cd87ce8e ""
   "/usr/share/texmf/tex/latex/lm/lmodern.sty" 1256929440 1606 c17281c7cff2bbd7ff0173e1433487ec ""
   "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
+<<<<<<< HEAD
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1463155962 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1463156010 3855339 537b093635f53aaf55d762ffee168cf2 ""
   "Graphics/ANNEXES/CARTE-REFLECTEURS.pdf" 1465216981 52600 c3302ed316113898b2d0f5b05f1b1ab6 ""
@@ -306,8 +321,70 @@
   (generated)
   "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.pdf"
   "Outputs/rapport.log"
+=======
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1461678391 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1461678468 3854077 b2a4bfcb5d5a3231a7af6ad3fe572e77 ""
+  "Graphics/ANNEXES/CARTE-REFLECTEURS.pdf" 1465065181 52600 c3302ed316113898b2d0f5b05f1b1ab6 ""
+  "Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf" 1465154943 32380 01801430fb431469ade5879352926a4e ""
+  "Graphics/BBG.jpg" 1465140042 34914 6199dbb95805eba3d48d44bfea6e1ff6 ""
+  "Graphics/LOGO-IPSA.pdf" 1463082887 17184 61cbcbcc90ed87c49b5c0441518d978e ""
+  "Graphics/ROBOT1.png" 1465327226 336636 4392b6adf3f810ecc06b180513cf9abc ""
+  "Graphics/ROBOT2.png" 1465327244 393807 7a371350abca7cb7f4241d3eb44f07e9 ""
+  "Graphics/ROBOT3.png" 1465327268 438616 1dd725bf8ce4154833fea14c3fb9cdd9 ""
+  "Graphics/capteurDoubleDroit.pdf" 1464774807 4947 fa7ba9f1ddf19dc6b5761ab8761679cc ""
+  "Graphics/capteurDoubleEcartFaible.pdf" 1464798969 5263 2d6601faa885eb408e58039018138080 ""
+  "Graphics/capteurDoubleEcartFort.pdf" 1464799146 5257 c8bdec97596822e640d2264704d5664a ""
+  "Graphics/capteurDoubleGauche.pdf" 1464774719 4961 4d22988c52577c69a522f771a7f91e15 ""
+  "Graphics/capteurOptiqueFondBlanc.pdf" 1463080896 5527 7fb32ca97856645990ec342c4766a0bb ""
+  "Graphics/capteurOptiqueFondNoir.pdf" 1463080791 5533 fe4e2acd39950142f85268cc8026529f ""
+  "Graphics/capteurSimpleDroite.pdf" 1464774152 5647 e2e79d15d00d59f82c6da212ecf40239 ""
+  "Graphics/capteurSimpleGauche.pdf" 1464774290 5004 0f04fc4a5dc074eb8bad21842aae7f87 ""
+  "Graphics/carrefour.pdf" 1464855364 3362 312c474340f24a89e9ae3581a1dcc600 ""
+  "Graphics/carrefour5capteursGauche.pdf" 1464857544 14325 cf61492b79e7f3f7d219e2ff2c05e4f4 ""
+  "Graphics/carrefour7capteursGauche.pdf" 1465133846 18353 77fd5e0c63782788332158af5f1c5545 ""
+  "Graphics/encoder.jpg" 1465207049 296497 0c5fdf01a32388b16a82a58150929c5f ""
+  "Graphics/espacementReflecteurs.pdf" 1465321399 5553 cf4c826b256e2387cdef92036e0efded ""
+  "Graphics/illustration2.png" 1465117053 326964 77c713b875610216e8b41224264861b5 ""
+  "Graphics/intersection4Capteurs.pdf" 1465230022 8468 17165540b5995b1dc18e4dee3477141a ""
+  "Graphics/intersection5CapteursDroite.pdf" 1464808745 8758 24549185b7ff6ba60c2bf4fbb3eeb480 ""
+  "Graphics/intersection5CapteursTD.pdf" 1464808130 11833 da829e900995b188186e65109fac3e39 ""
+  "Graphics/perteTrajectoireVirage.pdf" 1464801415 6812 ee20b8a53059486d44fa0568eabd9099 ""
+  "Graphics/reflecteur.pdf" 1465151350 3360 46519aa30d4eb93f84a779689e547ec2 ""
+  "Graphics/trajectoireVirage.pdf" 1464801348 8391 6649eae94eaa224a6520393b1529d4e4 ""
+  "Graphics/virageDeuxMoteurs.pdf" 1465136294 7800 c6805ad88d318bc18ff1f684160154a7 ""
+  "Outputs/rapport.aux" 1465405093 11842 73125aeac93435d498598c28e3aa3e29 ""
+  "Outputs/rapport.bbl" 1465405091 2232 d663cd0059a5fd0d5435cee91f5351d6 "bibtex Outputs/rapport"
+  "Outputs/rapport.lof" 1465405093 3888 d531cefe2f1c3f0eadebf5996409133d ""
+  "Outputs/rapport.nls" 1465405091 746 4e77fa468ad12592ed330bf7e2a98ef5 ""
+  "Outputs/rapport.out" 1465405093 3628 9107ad3e783d29a7caec6f71a439aab5 ""
+  "Outputs/rapport.toc" 1465405093 4426 d40614bfd8cccb5e5ee8b688f910a962 ""
+  "chapitres/0_introduction.tex" 1465202077 2613 1f0a0583c3af9ac225045b1a0ef64c90 ""
+  "chapitres/1_definitionBesoin.tex" 1465230214 3227 dda2634f62dd1c5227fdf1c47e5ad194 ""
+  "chapitres/2_etudeBesoin.tex" 1465235758 7004 803081ecfa5ba6c636a49b676bfa8e80 ""
+  "chapitres/3_elaborationSolution.tex" 1465318429 29528 a0e64c7d5a8fdd6dd141d3593847e887 ""
+  "chapitres/4_integration.tex" 1465405013 8904 4529c62f6d0bdcc66b576312faffdab8 ""
+  "chapitres/5_coutFaisabilite.tex" 1465235735 1 7215ee9c7d9dc229d2921a40e899ec5f ""
+  "chapitres/6_conclusion.tex" 1463238077 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chapitres/Annexes/carteReflecteurs.tex" 1465155127 340 7c75230d2a9d28e61d0bf07d43057ef9 ""
+  "includes/functions.tex" 1465125765 729 5826cee95b2b7983d09ffc260f6bc01e ""
+  "includes/packages.tex" 1464863272 1020 e40a1256e27da91647a9767ca8accc89 ""
+  "includes/tikz-uml.sty" 1459235197 302703 ed2f9b5dd419a64f254ecbf6a6653c7f ""
+  "includes/titlepage.tex" 1465117117 2029 2ce840c9e3fbf9d6a981eb62f8197383 ""
+  "rapport.tex" 1465230327 3607 00b7def841df0fb6d04a8a577376d999 ""
+  (generated)
+  "Outputs/includes/functions.aux"
+  "Outputs/rapport.aux"
+  "Outputs/rapport.log"
+  "Outputs/rapport.toc"
+  "Outputs/rapport.out"
+  "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.pdf"
+  "Outputs/rapport.lof"
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e
   "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.pdf"
+  "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.log"
+  "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.log"
   "Outputs/rapport.pdf"
+<<<<<<< HEAD
   "Outputs/rapport.toc"
   "Outputs/rapport.aux"
   "Outputs/rapport.lof"
@@ -316,3 +393,6 @@
   "Outputs/rapport.out"
   "Outputs/includes/functions.aux"
   "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Outputs/rapport.log"
+=======
+  "Outputs/rapport.nlo"
+>>>>>>> f0a8697d2372dd6ec002d0bc5a72448878d0c94e

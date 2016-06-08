@@ -7,16 +7,36 @@
 
 		\paragraph{Ensembles propulsifs}
 
-			\textit{[Motoréducteur + roue + encodeur (parler conversion tensions)]}
+			Les deux "ensembles de propulsion" seront placés à l'arrière du robot. Une simple bille multidirectionnelle sera placée l'avant pour assurer la stabilité du robot.
+
+			Comme évoqué précédemment, le motoréducteur choisi est associable avec une roue et un encodeur du même constructeur qui forment un ensemble fonctionnel et simple à implémenter. Nous y associerons un support PVC adapté pour la fixation.\\
+			Notons qu'un seul des deux moteurs sera équipé d'un encodeur, deux étant superflus et évidemment plus chers.
+
+			Le motoréducteur est équipé de deux fils d'alimentation. Nous les connecterons à la carte-mère au travers d'un bornier. Un double pont en H intégré L293D (comprenant les diodes de roue libre \cite{bib17}) permettra de faire le lien entre le signal PWM généré par le BBG (3.3V limité à une vingtaine de milliampères) et le moteur (que l'on alimentera directement sur la batterie, le signal PWM étant donc adapté sur une base 7.2V). Trois sorties seront donc utilisées sur le BBG pour chacun des deux moteurs : une PWM pour gérer la puissance transmise au moteur, et deux digitales pour le sens de rotation. Ces signaux (de 3.3V) pourront-être directement transmis au double pont en H (le L293D ayant une tension "niveau haut" de 2,3V \cite{bib17}). Nous compterons deux sources d'alimentation pour le pont en H : une alimentation de 5V pour le circuit logique et une alimentation directe sur la batterie (on pensera à intégrer deux condensateurs pour filtrer le bruit dû aux moteurs). Les signaux logiques viendront directement du BBG.\\
+
+			Pour plus de détail, voir \ref{carteMere} (page \pageref{carteMere}).\\
+
+			L'encodeur peut, d'après sa fiche technique \cite{bib9} fonctionner en 3.3V. Cependant, la diode émettrice IR perdra alors de son intensité. Nous procéderons donc à une expérience pour définir si ce fonctionnement en "sous régime" de la diode est satisfaisant. Dans le cas contraire, nous alimenterons l'encodeur en 5V et procéderons à une division de tension sur le signal de sortie avant de le transmettre au BBG, pour ne pas endommager ce dernier. Notons qu'un seul des deux "canaux" de l'encodeur nécessitera d'être connecté au BBG étant donné notre besoin de précision. Ainsi, la carte- mère devra comprendre un connecteur trois contacts dédié à l'encodeur : deux contacts serviront simplement à l'alimentation, et le troisième (le signal) sera connecté à l'une des entrées du BBG permettant l'utilisation du module eQEP (voir \ref{eQEP}).
 
 		\paragraph{Carte Réflecteurs Optiques}\label{integrationReflecteurs}
 
+			Rappelons que nous utiliserons les entrées analogiques du BBG pour effectuer l'acquisition des données du capteur, et que ces dernières sont limitées à 1.8V (voir \ref{solutionSuiviLigne}, page \pageref{solutionSuiviLigne}).
 
+			La datasheet du TCRT5000 \cite{bib7} nous apprend que la LED émettrice possède une tension directe de 1.25V et n'accepte que jusqu'à 60mA.
+			Afin de ne pas surcharger la sortie à 1.8V fournie par le BBG (qui ne fournit pas plus de 50mA), nous alimenterons les LEDs en 5V via une résistance de 120$\Omega$, faisant ainsi traverser la LED par $\frac{5-1.25}{120}=31mA$, ce qui est idéal (intensité IR\nomenclature{IR}{Infra-Rouge} suffisamment élevée sans risquer "d'éblouir" les autres capteurs ou de griller la LED).\\
 
-			\textit{[Espacement des capteurs + hauteur sur piste]}
+			On connectera le collecteur du phototransistor à la ligne 1.8V au travers d'une résistance de pull-up de 2.7k$\Omega$, la valeur la plus élevée de résistance nous permettant d'assurer un courant de collecteur de 5mA (comme recommandé dans la datasheet). Nous choisissons la valeur la plus élevée afin de limiter la consommation en courant, mais surtout d'augmenter la sensibilité du capteur (il sera ainsi plus facile au phototransistor de "tirer" la tension vers le bas).\\
 
+			Nous avons donc le schéma de principe suivant :
+			\illu{reflecteur.pdf}{Schéma de principe d'un réflecteur optique}{2}
 
+			Ce schéma sera reproduit sept fois sur une carte dédiée, qui sera placée à l'avant du robot, parfaitement centrée et placée quelques millimètres au dessus de la piste (la datasheet nous apprend que la distance de fonctionnement idéale entre le capteur et le support est de 2.5 mm, avec un domaine de fonctionnement allant de 0.2 à 12mm).\\
+			
+			Sachant que la ligne au sol aura une épaisseur de 15mm, nous placerons les trois capteurs centraux de manière à ce que, lorsque le capteur central est placé au milieu de la ligne, il ne manque que 2 à 3mm aux deux autres pour y arriver . Les autres capteurs pourront avoir un écartement légèrement plus élevé :
 
+			\illu{espacementReflecteurs.pdf}{Espacement des réflecteurs optiques}{0.8}
+
+			Notons que la distance exacte entre les capteurs ne pourra être précisément définie que par l'expérience. En effet, nous n'avons aucune indication quant à la largeur du champ de détection du capteur.\\
 
 			Nous connecterons la carte au moyen d'une nappe HE10 à 10 connecteurs.\\
 
@@ -29,13 +49,40 @@
 
 		\paragraph{Structure du robot}
 
+			L'intégration de tous les composants du robot passe forcément par un support, une structure d'ensemble.\\
+			Nous avons choisi de réaliser cette structure sur une base de profilé aluminium de type "cornière égale" extrêmement simple à se procurer (dans toute enseigne de bricolage), peu chère, mais surtout très simple à usiner avec peu de matériel (l'aluminium étant très tendre, une simple visseuse suffit pour le perçage, une scie et une vis à métaux complétant l'outillage nécessaire).
+			Un "cadre" en aluminium constituerai donc le châssis du robot. Ce cadre serait surmonté de quatre montants verticaux destinés à porter LEDs et caméra, et qui pourraient servir à fixer des "caches" pour fermer le robot (à la fois pour l'aspect esthétique et pour l'isolation lumineuse, afin de faciliter le travail de reconnaissance d'image). Un fond en médium ou en plexiglas abriterait le contrôleur et la batterie.\\
 
-			\textit{[Profilés alu standards, vis idem...]}
+			L'idée maîtresse est de standardiser les matériaux et de penser au plus simple. Ainsi, nous essaierons tant que possible de tout faire avec un profilé aluminium unique (cornière égale de 30mm par 30mm), un seul type de vis et d'écrou (M3) et penserons notre assemblage de manière à être aisément réalisable, et ne présentant pas de risque de sur-contrainte.\\
 
+			Le résultat vous est présenté à la section suivante : "Intégration globale, maquette numérique".
 
 		\paragraph{Intégration globale, maquette numérique}
 
-			\textit{[Vues Catia et breve explication]}
+			Une maquette Catia nous a permis de définir le détail de la forme de la structure évoquée à la section précédente, mais également de prévoir l'intégration de tous les éléments.\\
+
+			Tous les éléments de la maquettes ont été reproduits à partir des plans fournis par les constructeurs de composants sélectionnés. Ainsi, la maquette peut servir de plan d'usinage et de montage : aucune dimension n'est issue d'une quelconque approximation.
+
+			\illu{ROBOT1.png}{Rendu de la maquette 3D du robot}{0.4 }
+			\vspace{30pt}
+			\illu{ROBOT2.png}{Rendu de la maquette 3D du robot}{0.4}
+
+			\illu{ROBOT3.png}{Rendu de la maquette 3D du robot}{0.4}
+
+			Le robot mesure 145mm de large (hors roues, 190 avec les roues), 200mm de long, et 150mm de haut.\\
+
+			La maquette nous a permis d'évaluer le besoin en matériaux à :
+
+			\begin{itemize}
+				\item 1540mm de profilé aluminium.
+				\item 4 vis M3 de 6mm de long.
+				\item 24 vis M3 de 10mm de long (ou autant de vis auto-perçantes selon si l'on souhaite privilégier la facilité de fabrication ou la durée de vie).
+				\item 10 vis M3 de 20mm de long.
+				\item 34 écrous M3.
+				\item 2 entretoises M3 de 15mm.
+				\item 3 vis M2 de 10mm de long et autant d'écrous (pour le montage de la bille avant).
+				\item une planche de medium de 3mm d'épaisseur en 140 par 200mm.
+			\end{itemize}
 
 	\subsubsection{Intégration Logicielle}\label{integrationLogicielle}
 
