@@ -19,6 +19,10 @@
 \contentsline {figure}{\numberline {18}{\ignorespaces Virage \IeC {\`a} l'aide de deux moteurs ind\IeC {\'e}pendants\relax }}{17}{figure.caption.20}
 \contentsline {figure}{\numberline {19}{\ignorespaces Le BeagleBone Green \textit {\textbf {(source : seeedstudio.com)}}\relax }}{19}{figure.caption.21}
 \contentsline {figure}{\numberline {20}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{20}{figure.caption.22}
-\contentsline {figure}{\numberline {21}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{21}{figure.caption.24}
-\contentsline {figure}{\numberline {22}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {23}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {21}{\ignorespaces Webcam Logitech C170 \textbf {\textit {(source : Logitech)}}\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {22}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {23}{\ignorespaces Sonar ultrasons HC-SR04 \textbf {\textit {(source : Instructable)}}\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {24}{\ignorespaces Spectre (a), selon diff\IeC {\'e}rents filtres (b),(c) et (d). \textit {\textbf {(source : http://physique-eea.ujf-grenoble.fr/)}}\relax }}{26}{figure.caption.28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Sch\IeC {\'e}ma de principe de l'approche d'un feu\relax }}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {26}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {27}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{31}{figure.caption.32}

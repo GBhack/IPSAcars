@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  6 JUN 2016 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.13)  8 JUN 2016 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2105,15 +2105,18 @@ File: tikzlibrarychains.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.6)
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count295
+\c@subtable=\count296
+)
 \@input{includes/functions.aux}
 \openout2 = `includes/functions.aux'.
 
 (./includes/functions.tex
 Success
 Failure
-)
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.aux)
+) (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -2130,7 +2133,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -2193,16 +2197,16 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
+\scratchcounter=\count297
 \scratchdimen=\dimen299
 \scratchbox=\box124
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count298
+\nofMParguments=\count299
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count298
+\MPscratchCnt=\count300
 \MPscratchDim=\dimen300
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
 \everyMPtoPDFconversion=\toks46
 )
 \AtBeginShipoutBox=\box125
@@ -2213,22 +2217,20 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count303
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
 
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.out)
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.out)
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
 \@outlinefile=\write6
 \openout6 = `rapport.out'.
 
-\c@lstlisting=\count302
- ABD: EveryShipout initializing macros
-(./includes/titlepage.tex
+\c@lstlisting=\count304
+
+ABD: EveryShipout initializing macros (./includes/titlepage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2288,12 +2290,12 @@ Package pdftex.def Info: Graphics/illustration2.png used on input line 34.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Graphics/LOGO-IPSA.pdf> 
 <./Graphics/illustration2.png>])
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.toc
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+zavm on input line 4.
- (/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
 LaTeX Font Info:    Try loading font information for OML+zavm on input line 4.
@@ -2348,7 +2350,7 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...'e}flecteurs Optiques}{28}{subsection.7.1}
+l.43 ...'e}flecteurs Optiques}{30}{subsection.7.1}
                                                    [1
 
 ])
@@ -2794,66 +2796,89 @@ File: Graphics/reflecteur.pdf Graphic file (type pdf)
 <use Graphics/reflecteur.pdf>
 Package pdftex.def Info: Graphics/reflecteur.pdf used on input line 199.
 (pdftex.def)             Requested size: 135.58417pt x 151.20035pt.
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 205.
- [20 <./Graphics/reflecteur.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+<Graphics/Logitechc170.png, id=642, 456.70625pt x 501.875pt>
+File: Graphics/Logitechc170.png Graphic file (type png)
+
+<use Graphics/Logitechc170.png>
+Package pdftex.def Info: Graphics/Logitechc170.png used on input line 206.
+(pdftex.def)             Requested size: 159.84958pt x 175.65887pt.
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 206.
+
+Overfull \hbox (10.52536pt too wide) in paragraph at lines 205--206
+ \T1/fav/b/n/10.95 4.2.3.4 Ac-qui-si-tion d'images[][] \T1/fav/m/sc/10.95 L'ac-
+qui-si-tion d'images, pour des rai-sons évi-dentes
+ []
+
+[20 <./Graphics/reflecteur.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-<Graphics/encoder.jpg, id=651, 803.0pt x 748.7975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+[21 <./Graphics/Logitechc170.png>]
+<Graphics/encoder.jpg, id=661, 803.0pt x 748.7975pt>
 File: Graphics/encoder.jpg Graphic file (type jpg)
 
 <use Graphics/encoder.jpg>
-Package pdftex.def Info: Graphics/encoder.jpg used on input line 216.
+Package pdftex.def Info: Graphics/encoder.jpg used on input line 220.
 (pdftex.def)             Requested size: 281.05421pt x 262.08305pt.
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 216.
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-[21 <./Graphics/encoder.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Overfull \hbox (0.44362pt too wide) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+
+ []
+
+
+Overfull \hbox (0.44362pt too wide) in paragraph at lines 230--231
 []\T1/fav/m/sc/10.95 Par chance, notre pro-ces-seur ARM-A8 pos-sède cette fonc-
 tion-na-lité et in-tègre même
  []
 
+[22 <./Graphics/encoder.jpg>]
+<Graphics/sonar.jpg, id=670, 93.34875pt x 71.36662pt>
+File: Graphics/sonar.jpg Graphic file (type jpg)
+ <use Graphics/sonar.jpg>
+Package pdftex.def Info: Graphics/sonar.jpg used on input line 235.
+(pdftex.def)             Requested size: 93.34851pt x 71.36644pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Overfull \hbox (2.12915pt too wide) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+[23 <./Graphics/sonar.jpg>]
+Overfull \hbox (2.12915pt too wide) in paragraph at lines 254--256
 \T1/fav/m/sc/10.95 un ren-de-ment op-ti-mal au-tour de 6V. Leur consom-ma-tion 
 "axe blo-qué" (en couple
  []
 
 
-Overfull \hbox (0.68379pt too wide) in paragraph at lines 246--248
+Overfull \hbox (0.68379pt too wide) in paragraph at lines 254--256
 \T1/fav/m/sc/10.95 vons consi-dé-rer que chaque mo-teur consom-mera en moyenne 
 moins de 400mA. 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
@@ -2862,22 +2887,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
-) [24] (./chapitres/4_integration.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+<Graphics/opencvEtalon.jpg, id=690, 248.8497pt x 186.6975pt>
+File: Graphics/opencvEtalon.jpg Graphic file (type jpg)
+
+<use Graphics/opencvEtalon.jpg>
+Package pdftex.def Info: Graphics/opencvEtalon.jpg used on input line 309.
+(pdftex.def)             Requested size: 227.62206pt x 170.77525pt.
+
+<Graphics/opencvR.jpg, id=691, 1036.87375pt x 777.90625pt>
+File: Graphics/opencvR.jpg Graphic file (type jpg)
+
+<use Graphics/opencvR.jpg>
+Package pdftex.def Info: Graphics/opencvR.jpg used on input line 314.
+(pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
+
+<Graphics/opencvG.jpg, id=692, 1036.87375pt x 777.90625pt>
+File: Graphics/opencvG.jpg Graphic file (type jpg)
+
+<use Graphics/opencvG.jpg>
+Package pdftex.def Info: Graphics/opencvG.jpg used on input line 320.
+(pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
+
+<Graphics/opencvB.jpg, id=693, 1036.87375pt x 777.90625pt>
+File: Graphics/opencvB.jpg Graphic file (type jpg)
+
+<use Graphics/opencvB.jpg>
+Package pdftex.def Info: Graphics/opencvB.jpg used on input line 326.
+(pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
+
+<Graphics/distEval.pdf, id=694, 535.94044pt x 677.61818pt>
+File: Graphics/distEval.pdf Graphic file (type pdf)
+
+<use Graphics/distEval.pdf>
+Package pdftex.def Info: Graphics/distEval.pdf used on input line 332.
+(pdftex.def)             Requested size: 187.58195pt x 237.1699pt.
+ [25]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 333.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 333.
+
+Missing character: There is no ° in font zavmr7t!
+) [26 <./Graphics/opencvEtalon.jpg> <./Graphics/opencvR.jpg> <./Graphics/opencv
+G.jpg> <./Graphics/opencvB.jpg> <./Graphics/distEval.pdf>]
+(./chapitres/4_integration.tex
 Overfull \hbox (13.02109pt too wide) in paragraph at lines 10--11
  \T1/fav/b/n/10.95 5.2.1.1 En-sembles pro-pul-sifs[][] \T1/fav/m/it/10.95 [Mo-t
 o-ré-duc-teur + roue + en-co-deur (par-ler conver-
@@ -2888,9 +2962,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-) [25] (./chapitres/5_coutFaisabilite.tex) [26] (./chapitres/6_conclusion.tex)
-[27] (./chapitres/Annexes/carteReflecteurs.tex
-<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=701, 483.70256pt x 455.2298
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 27.
+) [27] (./chapitres/5_coutFaisabilite.tex) [28] (./chapitres/6_conclusion.tex)
+[29] (./chapitres/Annexes/carteReflecteurs.tex
+<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=740, 483.70256pt x 455.2298
 7pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf Graphic file (type pdf)
  <use Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>
@@ -2902,21 +2978,20 @@ Overfull \hbox (28.45726pt too wide) in paragraph at lines 4--4
  [][] 
  []
 
-[28 <./Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>]
-<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=710, 398.77292pt x 511.42879pt>
+[30 <./Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>]
+<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=748, 398.77292pt x 511.42879pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf used on input l
 ine 8.
 (pdftex.def)             Requested size: 398.77194pt x 511.42752pt.
-) [29 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.nls) [30]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.bbl
+) [31 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>]
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls)
+[32] (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 Underfull \hbox (badness 5077) in paragraph at lines 4--7
@@ -2973,25 +3048,29 @@ Underfull \hbox (badness 1231) in paragraph at lines 64--67
 h1 /
  []
 
-) [31]
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.lof
+) [33]
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/it' tried instead on input line 20.
+
+Overfull \hbox (30.04604pt too wide) in paragraph at lines 25--25
+ [][] [][]\T1/fav/m/sc/10.95 Spectre (a), se-lon dif-fé-rents filtres (b),(c) e
+t (d). \T1/fav/b/it/10.95 (source : http ://physique- 
+ []
+
 )
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
- [32] [33]
+ [34] [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
 
-(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.aux)
+(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F3D5EFD23B7686202D7270903F4D6F57;3628.
+(rerunfilecheck)             Checksum: 9107AD3E783D29A7CAEC6F71A439AAB5;3628.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2999,11 +3078,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 34813 strings out of 493029
- 678568 string characters out of 6136234
- 806715 words of memory out of 5000000
- 37556 multiletter control sequences out of 15000+600000
- 60993 words of font info for 85 fonts, out of 8000000 for 9000
+ 34910 strings out of 493029
+ 679933 string characters out of 6136234
+ 806588 words of memory out of 5000000
+ 37636 multiletter control sequences out of 15000+600000
+ 61566 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,84p,10426b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
@@ -3019,11 +3098,11 @@ share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb>
-Output written on "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/gi
-t/Rapport/LaTeX/Outputs/rapport.pdf" (36 pages, 1118803 bytes).
+Output written on "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs
+/rapport.pdf" (38 pages, 1464980 bytes).
 PDF statistics:
- 853 PDF objects out of 1000 (max. 8388607)
- 708 compressed objects within 8 object streams
- 145 named destinations out of 1000 (max. 500000)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 739 compressed objects within 8 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
