@@ -1,47 +1,50 @@
 \select@language {french}
-\contentsline {figure}{\numberline {1}{\ignorespaces Capteur au dessus d'un support sombre\relax }}{9}{figure.caption.4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Capteur au dessus d'un support clair\relax }}{9}{figure.caption.4}
-\contentsline {figure}{\numberline {3}{\ignorespaces D\IeC {\'e}passement de la ligne sur la gauche\relax }}{10}{figure.caption.5}
-\contentsline {figure}{\numberline {4}{\ignorespaces D\IeC {\'e}passement de la ligne sur la droite\relax }}{10}{figure.caption.6}
-\contentsline {figure}{\numberline {5}{\ignorespaces D\IeC {\'e}passement de la ligne sur la gauche\relax }}{10}{figure.caption.7}
-\contentsline {figure}{\numberline {6}{\ignorespaces D\IeC {\'e}passement de la ligne sur la droite\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {7}{\ignorespaces Ecart important entre les capteurs\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {8}{\ignorespaces Ecart r\IeC {\'e}duit entre les capteurs\relax }}{11}{figure.caption.10}
-\contentsline {figure}{\numberline {9}{\ignorespaces Perte de trajectoire en virage d\IeC {\^u} \IeC {\`a} de trop faibles corrections\relax }}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {10}{\ignorespaces Ma\IeC {\^\i }trise de la trajectoire en virage gr\IeC {\^a}ce \IeC {\`a} l'utilisation de 4 capteurs\relax }}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {11}{\ignorespaces Robot incapable de r\IeC {\'e}pondre \IeC {\`a} la pr\IeC {\'e}sence d'une intersection\relax }}{12}{figure.caption.13}
-\contentsline {figure}{\numberline {12}{\ignorespaces Suivi de trajectoire sur une intersection (en choisissant d'aller tout droit)\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {13}{\ignorespaces Suivi de trajectoire sur une intersection (en choisissant d'aller \IeC {\`a} droite)\relax }}{13}{figure.caption.15}
-\contentsline {figure}{\numberline {14}{\ignorespaces Carrefour en repr\IeC {\'e}sentation "lignes"\relax }}{14}{figure.caption.16}
-\contentsline {figure}{\numberline {15}{\ignorespaces Cas du virage \IeC {\`a} gauche sur un carrefour avec cinq capteurs\relax }}{14}{figure.caption.17}
-\contentsline {figure}{\numberline {16}{\ignorespaces Formalisme employ\IeC {\'e} pour les code-barres\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {17}{\ignorespaces Cas du virage \IeC {\`a} gauche sur un carrefour avec sept capteurs\relax }}{16}{figure.caption.19}
-\contentsline {figure}{\numberline {18}{\ignorespaces Virage \IeC {\`a} l'aide de deux moteurs ind\IeC {\'e}pendants\relax }}{17}{figure.caption.20}
-\contentsline {figure}{\numberline {19}{\ignorespaces Le BeagleBone Green \textit {\textbf {(source : seeedstudio.com)}}\relax }}{19}{figure.caption.21}
-\contentsline {figure}{\numberline {20}{\ignorespaces Webcam Logitech C170 \textbf {\textit {(source : Logitech)}}\relax }}{20}{figure.caption.22}
-\contentsline {figure}{\numberline {21}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{21}{figure.caption.24}
-\contentsline {figure}{\numberline {22}{\ignorespaces Sonar ultrasons HC-SR04 \textbf {\textit {(source : Instructable)}}\relax }}{22}{figure.caption.26}
-\contentsline {figure}{\numberline {23}{\ignorespaces Spectre (a), selon diff\IeC {\'e}rents filtres (b),(c) et (d).\relax }}{25}{figure.caption.27}
-\contentsline {figure}{\numberline {24}{\ignorespaces Comparaison RVB / HSV\relax }}{25}{figure.caption.28}
-\contentsline {figure}{\numberline {25}{\ignorespaces Sch\IeC {\'e}ma de principe de l'approche d'un feu\relax }}{26}{figure.caption.29}
-\contentsline {figure}{\numberline {26}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{28}{figure.caption.30}
-\contentsline {figure}{\numberline {27}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {28}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {29}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{30}{figure.caption.33}
-\contentsline {figure}{\numberline {30}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{31}{figure.caption.34}
-\contentsline {figure}{\numberline {31}{\ignorespaces Structure logicielle en "modules"\relax }}{33}{figure.caption.35}
-\contentsline {figure}{\numberline {32}{\ignorespaces Estimation du planning\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {33}{\ignorespaces Diagramme de Gantt du projet (agrandissement disponible en annexe \ref {gantt})\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagramme PERT du projet (1/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {35}{\ignorespaces Diagramme PERT du projet (2/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{38}{figure.caption.39}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{40}{figure.caption.41}
-\contentsline {figure}{\numberline {37}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{41}{figure.caption.42}
-\contentsline {figure}{\numberline {38}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{42}{figure.caption.43}
-\contentsline {figure}{\numberline {39}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{43}{figure.caption.44}
-\contentsline {figure}{\numberline {40}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{44}{figure.caption.45}
-\contentsline {figure}{\numberline {41}{\ignorespaces Devis global\relax }}{45}{figure.caption.46}
-\contentsline {figure}{\numberline {42}{\ignorespaces Devis pour un robot\relax }}{46}{figure.caption.47}
-\contentsline {figure}{\numberline {43}{\ignorespaces Devis pour une carte-m\IeC {\`e}re\relax }}{47}{figure.caption.48}
-\contentsline {figure}{\numberline {44}{\ignorespaces Devis pour la carte r\IeC {\'e}flecteurs\relax }}{47}{figure.caption.49}
-\contentsline {figure}{\numberline {45}{\ignorespaces \relax }}{48}{figure.caption.50}
-\contentsline {figure}{\numberline {46}{\ignorespaces Devis pour la carte du circuit\relax }}{48}{figure.caption.51}
+\contentsline {figure}{\numberline {1}{\ignorespaces Forme de la "piste" du circuit\relax }}{11}{figure.caption.4}
+\contentsline {figure}{\numberline {2}{\ignorespaces Maquette num\IeC {\'e}rique d'un feu bicolore\relax }}{12}{figure.caption.5}
+\contentsline {figure}{\numberline {3}{\ignorespaces Capteur au dessus d'un support sombre\relax }}{13}{figure.caption.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces Capteur au dessus d'un support clair\relax }}{13}{figure.caption.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces D\IeC {\'e}passement de la ligne sur la gauche\relax }}{14}{figure.caption.7}
+\contentsline {figure}{\numberline {6}{\ignorespaces D\IeC {\'e}passement de la ligne sur la droite\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {7}{\ignorespaces D\IeC {\'e}passement de la ligne sur la gauche\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {8}{\ignorespaces D\IeC {\'e}passement de la ligne sur la droite\relax }}{14}{figure.caption.10}
+\contentsline {figure}{\numberline {9}{\ignorespaces Ecart important entre les capteurs\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {10}{\ignorespaces Ecart r\IeC {\'e}duit entre les capteurs\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {11}{\ignorespaces Perte de trajectoire en virage d\IeC {\^u} \IeC {\`a} de trop faibles corrections\relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {12}{\ignorespaces Ma\IeC {\^\i }trise de la trajectoire en virage gr\IeC {\^a}ce \IeC {\`a} l'utilisation de 4 capteurs\relax }}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {13}{\ignorespaces Robot incapable de r\IeC {\'e}pondre \IeC {\`a} la pr\IeC {\'e}sence d'une intersection\relax }}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {14}{\ignorespaces Suivi de trajectoire sur une intersection (en choisissant d'aller tout droit)\relax }}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {15}{\ignorespaces Suivi de trajectoire sur une intersection (en choisissant d'aller \IeC {\`a} droite)\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {16}{\ignorespaces Carrefour en repr\IeC {\'e}sentation "lignes"\relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {17}{\ignorespaces Cas du virage \IeC {\`a} gauche sur un carrefour avec cinq capteurs\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {18}{\ignorespaces Formalisme employ\IeC {\'e} pour les code-barres\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {19}{\ignorespaces Cas du virage \IeC {\`a} gauche sur un carrefour avec sept capteurs\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {20}{\ignorespaces Virage \IeC {\`a} l'aide de deux moteurs ind\IeC {\'e}pendants\relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {21}{\ignorespaces Le BeagleBone Green \textit {\textbf {(source : seeedstudio.com)}}\relax }}{22}{figure.caption.23}
+\contentsline {figure}{\numberline {22}{\ignorespaces Webcam Logitech C170 \textbf {\textit {(source : Logitech)}}\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {23}{\ignorespaces Ensemble motor\IeC {\'e}ducteur, roue et encodeur \textbf {\textit {(source : Pololu)}}\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {24}{\ignorespaces Sonar ultrasons HC-SR04 \textbf {\textit {(source : Instructable)}}\relax }}{26}{figure.caption.28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Spectre (a), selon diff\IeC {\'e}rents filtres (b),(c) et (d).\relax }}{29}{figure.caption.29}
+\contentsline {figure}{\numberline {26}{\ignorespaces Comparaison RVB / HSV\relax }}{29}{figure.caption.30}
+\contentsline {figure}{\numberline {27}{\ignorespaces Sch\IeC {\'e}ma de principe de l'approche d'un feu\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Plan \IeC {\`a} l'\IeC {\'e}chelle de la piste\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {31}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{36}{figure.caption.35}
+\contentsline {figure}{\numberline {32}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{37}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Structure logicielle en "modules"\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Estimation du planning\relax }}{42}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Diagramme de Gantt du projet (agrandissement disponible en annexe \ref {gantt})\relax }}{43}{figure.caption.40}
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagramme PERT du projet (1/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{43}{figure.caption.41}
+\contentsline {figure}{\numberline {38}{\ignorespaces Diagramme PERT du projet (2/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{44}{figure.caption.42}
+\contentsline {figure}{\numberline {39}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{46}{figure.caption.44}
+\contentsline {figure}{\numberline {40}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{47}{figure.caption.45}
+\contentsline {figure}{\numberline {41}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{48}{figure.caption.46}
+\contentsline {figure}{\numberline {42}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{49}{figure.caption.47}
+\contentsline {figure}{\numberline {43}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{50}{figure.caption.48}
+\contentsline {figure}{\numberline {44}{\ignorespaces Devis global\relax }}{51}{figure.caption.49}
+\contentsline {figure}{\numberline {45}{\ignorespaces Devis pour un robot\relax }}{52}{figure.caption.50}
+\contentsline {figure}{\numberline {46}{\ignorespaces Devis pour une carte-m\IeC {\`e}re\relax }}{53}{figure.caption.51}
+\contentsline {figure}{\numberline {47}{\ignorespaces Devis pour la carte r\IeC {\'e}flecteurs\relax }}{53}{figure.caption.52}
+\contentsline {figure}{\numberline {48}{\ignorespaces \relax }}{54}{figure.caption.53}
+\contentsline {figure}{\numberline {49}{\ignorespaces Devis pour la carte du circuit\relax }}{54}{figure.caption.54}

@@ -1,6 +1,53 @@
 \subsection{Circuit}
 
+	\subsubsection{Structure}
 
+		Le circuit sera principalement composé de medium de 5mm d'épaisseur (matériau résistant, léger, peu fragile, facilement usinable et peu cher) reposant sur une structure une taseaux (de manière à surelever le plateau, afin de passer les câbles en dessous et laisser de la place pour les systèmes de fixation, par exemple ainsi que pour rigidifier la structure (le medium étant un matériau souple)).\\
+
+		Nous avons décidé de donner à la "piste" du circuit la forme suivante :
+
+		\illu{formePiste.pdf}{Forme de la "piste"  du circuit}{0.6}
+
+		Ainsi, nous avons un carrefour à feux ainsi que quatre intersections, soit un large éventail de possibilités.\\
+
+		Après avoir fait une rapide estimation des dimensions de notre robot, nous avons déduit que le circuit devrait faire environ deux mètres par deux mètres.
+		Nous avons préféré ajouter vingt centimètres de côté par sécurité.\\
+
+		Ces dimensions étant importantes, ceci nous a conforté dans l'idée que notre circuit devrait être fait en deux parties afin d'en faciliter le rangement. Nous fabriquerions donc deux cadres de deux mètres vingt par un mètre dix qui pourront être facilement assemblés.
+
+	\subsubsection{Feux}
+
+		Les feux seront comprendront chacun deux LED "haute luminosité" de 5mm : une rouge et une verte. Trois fils seront donc nécéssaires pour chaque feu : deux pour les alimentations de chacune des LEDs et une masse commune. Avec les quatre feux, le circuit comptera donc huit LEDs et douze fils différents.\\
+
+		Les feux seront dans la mesure du possible imprimés en 3D :\\
+		\begin{figure}[ht!]
+			\centering
+			\begin{minipage}{0.4\textwidth}
+				\raggedleft
+				\includegraphics[scale=0.9]{Graphics/feu2.png}
+			\end{minipage}\hfill
+			\begin{minipage}{0.4\textwidth}
+				\raggedright
+				\includegraphics[scale=0.8]{Graphics/feu1.png}
+			\end{minipage}
+			\caption{Maquette numérique d'un feu bicolore}
+		\end{figure}
+
+		\vspace{15pt}
+
+		Notons la présence de deux petits trous pour enficher les feux sur des vis et d'un plus gros pour le passage des fils. Un passe-câble est également intégré à la "goulotte" qui constitue le montant du feu afin de guider les fils.\\
+
+	\subsubsection{Capteurs}
+
+		Afin d'adapter le comportement des feux à l'état du trafic, encore faut-il que la carte FPGA dispose d'un moyen d'évaluer ce trafic.\\
+
+		Nous disposerons donc sur la piste des capteurs "ILS" (Interrupteur à Lame Souple) \nomenclature{ILS}{Interrupteur à Lame Souple} sur la piste aux abords des feux. Les ILS sont de petits composants se comportant comme un interrupteur ouvert en temps normal, et comme un interrupteur fermé lorsqu'on approche un aimant.\\
+
+		En munissant nos robots d'un aimant bien placé, ces derniers fermeront temporairement le circuit lors de leur arrivée aux abords des feux.\\
+
+		Cette solution est extremement simple et ne nécéssite aucun traitement du signal (contrairement aux capteurs à effet hall ou fourches optiques, souvent utilisés en détection de présence).
+
+\newpage
 \subsection{Robot}
 
 	\subsubsection{Suivi de trajectoire}
@@ -16,7 +63,7 @@
 
 		Sur les schémas suivants, pour des raisons d'imprimabilité et de lisibilité, les lignes seront noires et le revêtement du circuit sera blanc.\\
 
-		\begin{figure}[ht!]
+		\begin{figure}[H]
 			\centering
 			\begin{minipage}{0.48\textwidth}
 				\centering
@@ -135,6 +182,7 @@
 
 	\subsubsection{Détection d'obstacles et de de signalisation}
 
+		\textbf{\Huge{\textcolor{red}{[MAXIME]}}}
 
 	\subsubsection{Implémentation matérielle}
 

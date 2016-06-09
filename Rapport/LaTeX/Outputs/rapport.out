@@ -11,54 +11,61 @@
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Pour le robot}{subsection.3.2}% 11
 \BOOKMARK [1][-]{section.4}{\311laboration d'une solution}{}% 12
 \BOOKMARK [2][-]{subsection.4.1}{Circuit}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.2}{Robot}{section.4}% 14
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Suivi de trajectoire}{subsection.4.2}% 15
-\BOOKMARK [3][-]{subsubsection.4.2.2}{D\351tection d'obstacles et de de signalisation}{subsection.4.2}% 16
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Impl\351mentation mat\351rielle}{subsection.4.2}% 17
-\BOOKMARK [4][-]{paragraph.4.2.3.1}{Propulsion et direction}{subsubsection.4.2.3}% 18
-\BOOKMARK [4][-]{paragraph.4.2.3.2}{Controleur}{subsubsection.4.2.3}% 19
-\BOOKMARK [4][-]{paragraph.4.2.3.3}{Suivi de ligne}{subsubsection.4.2.3}% 20
-\BOOKMARK [4][-]{paragraph.4.2.3.4}{Acquisition d'images}{subsubsection.4.2.3}% 21
-\BOOKMARK [4][-]{paragraph.4.2.3.5}{\311valuation des distances}{subsubsection.4.2.3}% 22
-\BOOKMARK [4][-]{paragraph.4.2.3.6}{Signalisation de ses intentions}{subsubsection.4.2.3}% 23
-\BOOKMARK [4][-]{paragraph.4.2.3.7}{Interaction avec l'utilisateur}{subsubsection.4.2.3}% 24
-\BOOKMARK [4][-]{paragraph.4.2.3.8}{Batterie}{subsubsection.4.2.3}% 25
-\BOOKMARK [3][-]{subsubsection.4.2.4}{Impl\351mentation logicielle}{subsection.4.2}% 26
-\BOOKMARK [4][-]{paragraph.4.2.4.1}{Suivi de ligne}{subsubsection.4.2.4}% 27
-\BOOKMARK [4][-]{paragraph.4.2.4.2}{Reconnaissance d'image}{subsubsection.4.2.4}% 28
-\BOOKMARK [1][-]{section.5}{Int\351gration}{}% 29
-\BOOKMARK [2][-]{subsection.5.1}{Circuit}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Robot}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Int\351gration Mat\351rielle}{subsection.5.2}% 32
-\BOOKMARK [4][-]{paragraph.5.2.1.1}{Ensembles propulsifs}{subsubsection.5.2.1}% 33
-\BOOKMARK [4][-]{paragraph.5.2.1.2}{Carte R\351flecteurs Optiques}{subsubsection.5.2.1}% 34
-\BOOKMARK [4][-]{paragraph.5.2.1.3}{Carte-M\350re}{subsubsection.5.2.1}% 35
-\BOOKMARK [4][-]{paragraph.5.2.1.4}{Structure du robot}{subsubsection.5.2.1}% 36
-\BOOKMARK [4][-]{paragraph.5.2.1.5}{Int\351gration globale, maquette num\351rique}{subsubsection.5.2.1}% 37
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Int\351gration Logicielle}{subsection.5.2}% 38
-\BOOKMARK [1][-]{section.6}{Estimation du co\373t de mise en place et faisabilit\351}{}% 39
-\BOOKMARK [2][-]{subsection.6.1}{Fournitures}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.2}{Volume de travail}{section.6}% 41
-\BOOKMARK [1][-]{section.7}{Suivi de projet}{}% 42
-\BOOKMARK [1][-]{section.8}{Conclusion et aper\347u des \351volutions possibles}{}% 43
-\BOOKMARK [1][-]{section*.40}{Annexes}{}% 44
-\BOOKMARK [2][-]{subsection.8.1}{Carte R\351flecteurs Optiques}{section*.40}% 45
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Sch\351ma \351lectronique}{subsection.8.1}% 46
-\BOOKMARK [3][-]{subsubsection.8.1.2}{Gerbers}{subsection.8.1}% 47
-\BOOKMARK [2][-]{subsection.8.2}{Carte M\350re}{section*.40}% 48
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Sch\351ma \351lectronique}{subsection.8.2}% 49
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Gerbers}{subsection.8.2}% 50
-\BOOKMARK [2][-]{subsection.8.3}{Devis mat\351riel}{section*.40}% 51
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Devis global}{subsection.8.3}% 52
-\BOOKMARK [3][-]{subsubsection.8.3.2}{Devis pour un robot}{subsection.8.3}% 53
-\BOOKMARK [4][-]{paragraph.8.3.2.1}{Devis pour la carte-m\350re}{subsubsection.8.3.2}% 54
-\BOOKMARK [4][-]{paragraph.8.3.2.2}{Devis pour la care r\351flecteurs}{subsubsection.8.3.2}% 55
-\BOOKMARK [3][-]{subsubsection.8.3.3}{Devis pour le circuit}{subsection.8.3}% 56
-\BOOKMARK [4][-]{paragraph.8.3.3.1}{Devis pour la carte du circuit}{subsubsection.8.3.3}% 57
-\BOOKMARK [2][-]{subsection.8.4}{Diagramme de Gantt}{section*.40}% 58
-\BOOKMARK [2][-]{subsection.8.5}{Diagramme de Gantt}{section*.40}% 59
-\BOOKMARK [1][-]{section*.52}{R\351f\351rences}{}% 60
-\BOOKMARK [2][-]{section*.53}{Nomenclature}{section*.52}% 61
-\BOOKMARK [2][-]{section*.54}{Bibliographie}{section*.52}% 62
-\BOOKMARK [2][-]{section*.55}{Table des illustrations}{section*.52}% 63
-\BOOKMARK [1][-]{section*.56}{R\351sum\351}{}% 64
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Structure}{subsection.4.1}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Feux}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Capteurs}{subsection.4.1}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Robot}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Suivi de trajectoire}{subsection.4.2}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.2}{D\351tection d'obstacles et de de signalisation}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Impl\351mentation mat\351rielle}{subsection.4.2}% 20
+\BOOKMARK [4][-]{paragraph.4.2.3.1}{Propulsion et direction}{subsubsection.4.2.3}% 21
+\BOOKMARK [4][-]{paragraph.4.2.3.2}{Controleur}{subsubsection.4.2.3}% 22
+\BOOKMARK [4][-]{paragraph.4.2.3.3}{Suivi de ligne}{subsubsection.4.2.3}% 23
+\BOOKMARK [4][-]{paragraph.4.2.3.4}{Acquisition d'images}{subsubsection.4.2.3}% 24
+\BOOKMARK [4][-]{paragraph.4.2.3.5}{\311valuation des distances}{subsubsection.4.2.3}% 25
+\BOOKMARK [4][-]{paragraph.4.2.3.6}{Signalisation de ses intentions}{subsubsection.4.2.3}% 26
+\BOOKMARK [4][-]{paragraph.4.2.3.7}{Interaction avec l'utilisateur}{subsubsection.4.2.3}% 27
+\BOOKMARK [4][-]{paragraph.4.2.3.8}{Batterie}{subsubsection.4.2.3}% 28
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Impl\351mentation logicielle}{subsection.4.2}% 29
+\BOOKMARK [4][-]{paragraph.4.2.4.1}{Suivi de ligne}{subsubsection.4.2.4}% 30
+\BOOKMARK [4][-]{paragraph.4.2.4.2}{Reconnaissance d'image}{subsubsection.4.2.4}% 31
+\BOOKMARK [1][-]{section.5}{Int\351gration}{}% 32
+\BOOKMARK [2][-]{subsection.5.1}{Circuit}{section.5}% 33
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Int\351gration Mat\351rielle}{subsection.5.1}% 34
+\BOOKMARK [4][-]{paragraph.5.1.1.1}{Circuit en lui-m\352me}{subsubsection.5.1.1}% 35
+\BOOKMARK [4][-]{paragraph.5.1.1.2}{Carte \351lectronique}{subsubsection.5.1.1}% 36
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Int\351gration Logicielle}{subsection.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.2}{Robot}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Int\351gration Mat\351rielle}{subsection.5.2}% 39
+\BOOKMARK [4][-]{paragraph.5.2.1.1}{Ensembles propulsifs}{subsubsection.5.2.1}% 40
+\BOOKMARK [4][-]{paragraph.5.2.1.2}{Carte R\351flecteurs Optiques}{subsubsection.5.2.1}% 41
+\BOOKMARK [4][-]{paragraph.5.2.1.3}{Carte-M\350re}{subsubsection.5.2.1}% 42
+\BOOKMARK [4][-]{paragraph.5.2.1.4}{Structure du robot}{subsubsection.5.2.1}% 43
+\BOOKMARK [4][-]{paragraph.5.2.1.5}{Int\351gration globale, maquette num\351rique}{subsubsection.5.2.1}% 44
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Int\351gration Logicielle}{subsection.5.2}% 45
+\BOOKMARK [1][-]{section.6}{Estimation du co\373t de mise en place et faisabilit\351}{}% 46
+\BOOKMARK [2][-]{subsection.6.1}{Fournitures}{section.6}% 47
+\BOOKMARK [2][-]{subsection.6.2}{Volume de travail}{section.6}% 48
+\BOOKMARK [1][-]{section.7}{Suivi de projet}{}% 49
+\BOOKMARK [1][-]{section.8}{Conclusion et aper\347u des \351volutions possibles}{}% 50
+\BOOKMARK [1][-]{section*.43}{Annexes}{}% 51
+\BOOKMARK [2][-]{subsection.8.1}{Carte R\351flecteurs Optiques}{section*.43}% 52
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Sch\351ma \351lectronique}{subsection.8.1}% 53
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Gerbers}{subsection.8.1}% 54
+\BOOKMARK [2][-]{subsection.8.2}{Carte M\350re}{section*.43}% 55
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Sch\351ma \351lectronique}{subsection.8.2}% 56
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Gerbers}{subsection.8.2}% 57
+\BOOKMARK [2][-]{subsection.8.3}{Devis mat\351riel}{section*.43}% 58
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Devis global}{subsection.8.3}% 59
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Devis pour un robot}{subsection.8.3}% 60
+\BOOKMARK [4][-]{paragraph.8.3.2.1}{Devis pour la carte-m\350re}{subsubsection.8.3.2}% 61
+\BOOKMARK [4][-]{paragraph.8.3.2.2}{Devis pour la care r\351flecteurs}{subsubsection.8.3.2}% 62
+\BOOKMARK [3][-]{subsubsection.8.3.3}{Devis pour le circuit}{subsection.8.3}% 63
+\BOOKMARK [4][-]{paragraph.8.3.3.1}{Devis pour la carte du circuit}{subsubsection.8.3.3}% 64
+\BOOKMARK [2][-]{subsection.8.4}{Diagramme de Gantt}{section*.43}% 65
+\BOOKMARK [2][-]{subsection.8.5}{Diagramme de Gantt}{section*.43}% 66
+\BOOKMARK [1][-]{section*.55}{R\351f\351rences}{}% 67
+\BOOKMARK [2][-]{section*.56}{Nomenclature}{section*.55}% 68
+\BOOKMARK [2][-]{section*.57}{Bibliographie}{section*.55}% 69
+\BOOKMARK [2][-]{section*.58}{Table des illustrations}{section*.55}% 70
+\BOOKMARK [1][-]{section*.59}{R\351sum\351}{}% 71

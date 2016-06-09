@@ -1,8 +1,11 @@
 \nomenclatureentry{aTP@[{TP}]\begingroup Travaux Pratiques\nomeqref {0}|nompageref}{3}
-\nomenclatureentry{aPID@[{PID}]\begingroup Proportionnel, Intégrateur, Dérivateur\nomeqref {0}|nompageref}{11}
-\nomenclatureentry{aPWM@[{PWM}]\begingroup Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions\nomeqref {0}|nompageref}{17}
-\nomenclatureentry{aBBG@[{BBG}]\begingroup BeagleBone Green\nomeqref {0}|nompageref}{18}
-\nomenclatureentry{aLED@[{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}|nompageref}{19}
-\nomenclatureentry{aeQEP@[{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}|nompageref}{22}
-\nomenclatureentry{aHSV@[{HSV}]\begingroup Hue Saturation Value, ou Teinte Saturation Valeur\nomeqref {0}|nompageref}{24}
-\nomenclatureentry{aIR@[{IR}]\begingroup Infra-Rouge\nomeqref {0}|nompageref}{28}
+\nomenclatureentry{aFPGA@[{FPGA}]\begingroup PGA (Field-Programmable Gate Array, ou Réseau de Portes Programmables : un type très répandu de circuit logiques programmables.\nomeqref {0}|nompageref}{3}
+\nomenclatureentry{aILS@[{ILS}]\begingroup Interrupteur à Lame Souple\nomeqref {0}|nompageref}{12}
+\nomenclatureentry{aPID@[{PID}]\begingroup Proportionnel, Intégrateur, Dérivateur\nomeqref {0}|nompageref}{15}
+\nomenclatureentry{aPWM@[{PWM}]\begingroup Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions\nomeqref {0}|nompageref}{21}
+\nomenclatureentry{aBBG@[{BBG}]\begingroup BeagleBone Green\nomeqref {0}|nompageref}{22}
+\nomenclatureentry{aLED@[{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}|nompageref}{23}
+\nomenclatureentry{aeQEP@[{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}|nompageref}{25}
+\nomenclatureentry{aHSV@[{HSV}]\begingroup Hue Saturation Value, ou Teinte Saturation Valeur\nomeqref {0}|nompageref}{28}
+\nomenclatureentry{aVHDL@[{VHDL}]\begingroup VHSIC1 Hardware Description Language : langage destiné à la programmation de cartes FPGA.\nomeqref {0}|nompageref}{32}
+\nomenclatureentry{aIR@[{IR}]\begingroup Infra-Rouge\nomeqref {0}|nompageref}{34}
