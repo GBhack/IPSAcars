@@ -20,6 +20,8 @@ Reprenons les points évoqués ci-avant:
 			\item \textbf{Les feux de circulation devront pouvoir être commandés via une carte FPGA}.
 			\begin{itemize}
 				\item Une carte adaptant les tensions et courants et disposant de connecteurs adaptés aux caractéristiques des cartes possédées par l'IPSA devra être proposée.
+				\item La carte FPGA aura pour rôle de synchroniser les feux.
+				\item La carte FPGA pourra tirer partie de capteurs de présence par adapter le cycle des feux.
 			\end{itemize}
 		\end{itemize}
 	\subsubsection{Pour le robot}
@@ -58,8 +60,8 @@ Toujours dans un soucis de clareté et de bonne pratiques, nous avons ébauché 
 		\begin{tikzpicture} 
 			\setcounter{tikzumlUseCaseNum}{0}
 			\begin{umlsystem}[x=10, fill=blue!10]{Circuit} 
-				\umlusecase[fill=white]{Brancher la carte FPGA} 
-				\umlusecase[y=-2,fill=white]{Evoluer en autonomie} 
+				\umlusecase[fill=white]{Utilisation expérimentale} 
+				\umlusecase[y=-2,fill=white]{Utilisation "démonstration"} 
 				\umlusecase[y=-4,fill=white]{Mettre en place le circuit}
 				\umlusecase[y=-6,fill=white]{Ranger le circuit}  
 			\end{umlsystem} 
@@ -73,6 +75,64 @@ Toujours dans un soucis de clareté et de bonne pratiques, nous avons ébauché 
 			\umlassoc{Utilisateur}{usecase-3}  
 			\umlassoc{Utilisateur}{usecase-4}  
 		\end{tikzpicture}
+
+		\textbf{Utilisation expérimentale}
+		\begin{itemize}
+			\item \textbf{Précondition :} Le circuit est en place. L'utilisateur dispose d'une carte FPGA programmée et alimentée.
+			\item \textbf{Déclencheur :} Un utilisateur souhaite tester son programme VHDL
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item L'utilisateur connecte sa carte FPGA à la carte du circuit en veillant à respecter les branchements.
+				\item L'utilisateur effectue les tests et observations qu'il désire.
+				\item L'utilisateur déconnecte sa carte FPGA.
+			\end{enumerate}
+		\end{itemize}
+		\newpage
+
+		\textbf{Utilisation "démonstration"}
+		\begin{itemize}
+			\item \textbf{Précondition :} On dispose d'une carte programmée pour la demonstration.
+			\item \textbf{Déclencheur :} Un utilisateur souhaite effectuer une démonstration.
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item L'utilisateur connecte la carte FPGA de démonstration à la carte du circuit en veillant à respecter les branchements.
+				\item L'utilisateur alimente la carte FPGA de démonstration.
+				\item L'utilisateur laisser le système évoluer en autonomie.
+				\item L'utilisateur coupe l'alimentation de la carte FPGA de démonstration.
+				\item L'utilisateur déconnecte laa carte FPGA de démonstration.
+			\end{enumerate}
+		\end{itemize}
+
+		\textbf{Mettre en place le circuit}
+		\begin{itemize}
+			\item \textbf{Précondition :} On dispose es éléments du circuit et de la place nécéssaire à son installation
+			\item \textbf{Déclencheur :} Un souhaite utiliser le circuit qui n'est pas déjà en place
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item L'utilisateur s'assure que les deux parties sont en état d'être assemblées.
+				\item L'utilisateur isole les deux faisceaux de câbles.
+				\item L'utilisateur assemble les deux parties du circuit.
+				\item L'utilisateur vérouille les deux parties du circuit.
+				\item L'utilisateur installe les feux à leurs emplacements et les connecte à leurs faisceaux de câbles.
+				\item L'utilisateur installe les différents "caches".
+				\item L'utilisateur branche les deux faisceaux de câbles à leurs connecteurs sur la carte du circuit.
+			\end{enumerate}
+		\end{itemize}
+
+		\textbf{Ranger le circuit}
+		\begin{itemize}
+			\item \textbf{Précondition :} Le circuit est installé et n'est pas en cours d'utilisation.
+			\item \textbf{Déclencheur :} Un ne se sert pas du circuit et on souhaite libérer la place.
+			\item \textbf{Scenario :}
+			\begin{enumerate}
+				\item L'utilisateur déconnecte les deux faisceaux de câbles de la carte du circuit.
+				\item L'utilisateur retire les différents "caches".
+				\item L'utilisateur déconnecte les feux de leurs faisceaux de câbles et les retire de leurs emplacements.
+				\item L'utilisateur dévérouille les deux parties du circuit.
+				\item L'utilisateur s'assure que les deux parties sont en état d'être manipulées et déplacées.
+				\item L'utilisateur range les deux parties du circuit.
+			\end{enumerate}
+		\end{itemize}
 
 	\subsubsection{Pour le robot}
 

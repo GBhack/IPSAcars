@@ -7,8 +7,17 @@ Scanning style file /usr/share/texlive/texmf-dist/makeindex/nomencl/nomencl.ist.
 ** Input style error (file = /usr/share/texlive/texmf-dist/makeindex/nomencl/nomencl.ist, line = 72):
    -- Unknown specifier lethead_flag.
 ...done (10 attributes redefined, 3 ignored).
-Scanning input file Outputs/rapport.nlo....done (8 entries accepted, 0 rejected).
-Sorting entries....done (24 comparisons).
-Generating output file Outputs/rapport.nls....done (19 lines written, 0 warnings).
+Scanning input file Outputs/rapport.nlo....
+!! Input index error (file = Outputs/rapport.nlo, line = 2):
+   -- Missing arguments -- need two (premature LFD).
+
+!! Input index error (file = Outputs/rapport.nlo, line = 10):
+   -- Missing arguments -- need two (premature LFD).
+
+!! Input index error (file = Outputs/rapport.nlo, line = 21):
+   -- Missing arguments -- need two (premature LFD).
+done (18 entries accepted, 3 rejected).
+Sorting entries....done (74 comparisons).
+Generating output file Outputs/rapport.nls....done (27 lines written, 0 warnings).
 Output written in Outputs/rapport.nls.
 Transcript written in Outputs/rapport.ilg.

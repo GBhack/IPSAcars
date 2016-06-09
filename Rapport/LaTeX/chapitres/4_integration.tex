@@ -1,11 +1,56 @@
- \subsection{Circuit}
+\subsection{Circuit}
 
+	\subsubsection{Intégration Matérielle}
+
+		\paragraph{Circuit en lui-même}
+			Notre circuit sera donc bien composé de deux parties, chacune constituée d'un panneau de médium monté sur un cadre en tasseaux.
+			D'autres problématiques ont fait leur apparition en cours d'étude du projet et c'est ainsi que l'on intègrera des perçages pour la fixation des feux et le passage des fils, mais surtout pour l'intégration des fameux "caches" permettant d'isoler visuellement les "rues".\\
+
+			Les panneaux seront peints en noir et recouverts de scotch d'électricien blanc représentant les lignes. Nous obtenons ainsi un rapport de contraste idéal (noir mat du bois et blanc brillant du ruban adhésif). Le plan à l'échelle de la piste est le suivant :
+			\illu{CIRCUIT.pdf}{Plan à l'échelle de la piste}{0.065}
+
+			\vspace{15pt}
+
+			Y apparaissent les lignes, code-barres et caches (en gris plein) évoqués dans le dossier. Les rayons de courbure sont de 75mm, et l'espacement entre les voies et divers obstacles de 220mm.\\
+
+			Un plan contenant toutes les côtes sera produit et pourra être "recopié" à l'aide de simple matériel scolaire (compas, règle, équerre) sur les panneaux avant d'être recouvert par le ruban adhésif.\\
+
+			Les capteurs ILS seront fixés aux panneaux.\\
+			On prévoiera des vis "dépassant" aux emplacements appropriés afin de pouvoir y "emboiter" les feux.\\
+
+			Le câblage des capteurs et des feux sera solidaire de chaque partie, et passera par des trous prévus à cet effet dans les tasseaux pour converger en un "faisceau" terminé par un connecteur pour chacune des deux parties. Un connecteur sera présent du côté de chaque feu avec suffisemment de longueur de câble pour pouvoir facilement procéder à l'installation desdits feux.
+
+		\paragraph{Carte électronique}
+
+			\textbf{\Huge{\textcolor{red}{[MAXIME]}}}
+
+	\subsubsection{Intégration Logicielle}
+
+		Le cas du feu de circulation s'adaptant au trafic est l'exemple type de la logique dite de "l'automate fini". La littérature ne manque pas à ce sujet et nous avons même eu l'occasion de l'étudier au cours de notre cursus.\\
+
+		La logique VHDL \nomenclature{VHDL}{VHSIC1 Hardware Description Language : langage destiné à la programmation de cartes FPGA.} est particulièrement adaptée à ce type de problématique et offre la possibilité de coder un certain nombre d'états et de définir les conditions et modalités de changement d'état.\\
+
+		Dans notre cas, nous compterions trois états:
+		\begin{itemize}
+			\item \textbf{Etat 0} : Tous les feux au rouge.
+			\item \textbf{Etat 1} : Couple de feux A au rouge et couple B au vert.
+			\item \textbf{Etat 2} : Couple de feux B au rouge et couple A au vert.
+		\end{itemize}
+
+		\vspace {12pt}
+		Une succession classique d'états serait 0->1->0->2->0->...\\
+		Pour simplifier l'organisation du programme, nous pourrions créer un état intermédiaire entre 1 et 2, identique à l'état 0.\\
+
+		Un diviseur d'horloge permettrait de générer des évenements à intervales réguliers afin de cadencer le changements d'états.\\
+		Les capteurs eux-mêmes pourraient générer un évènement (sur un front montant de l'entrée logique à laquelle ils sont branchés par exemple) qui, si un certain nombre de conditions sont réunies, anticiperaient le changement d'état (si une voiture se présente à un feu rouge et qu'aucune ne "profite" des feux verts, alors il est plus logique d'inverser cet état),
 
 \subsection{Robot}
 
 	\subsubsection{Intégration Matérielle}
 
 		\paragraph{Ensembles propulsifs}
+
+			\textbf{\Huge{\textcolor{red}{[INTEGRER PARTIE MA]}}}
 
 			Les deux "ensembles de propulsion" seront placés à l'arrière du robot. Une simple bille multidirectionnelle sera placée l'avant pour assurer la stabilité du robot.
 
@@ -51,9 +96,14 @@
 				\item Facilement integrable au BBG. L'idée est vraiment de réaliser un Shield simplement enfichable.
 			\end{itemize}
 			
+
 			Ce shield intègre une prise standard de type Barrel jack, et peut être alimenté par toute source de tension supérieure à 7V. 
 			\illu{barrelJack.jpg}{Embase Barrel Jack \textbf{\textit{(source : Conrad.fr)}}}{0.1}
 			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.
+
+
+
+
 
 		\paragraph{Structure du robot}
 
