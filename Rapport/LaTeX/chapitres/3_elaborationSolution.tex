@@ -292,59 +292,109 @@
 
 			La reconnaissance d'image sera utilisée à plusieurs fins :
 			\begin{itemize}
-				\item Couleur du feu
+				\item \textbf{Couleur du feu}
 					La détection de la couleur du feu est un aspect primordial de ce projet. Grâce au package OpenCV, il est très facile de décomposer le spectre de la lumière visible, et donc de déterminer s'il y a en face de nous une lumière verte ou rouge, comme le montre la figure suivante :
-					\begin{figure}
+					\begin{figure}[H]
 					    \centering
-					    \begin{subfigure}[b]{0.5\textwidth}
+					    \begin{subfigure}[h]{0.5\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/opencvEtalon.jpg}
 					        \caption{Spectre de la lumière visible \textit{\textbf{(source : http://physique-eea.ujf-grenoble.fr/)}}}
 					    \end{subfigure}\\
 
-					    \begin{subfigure}[b]{0.3\textwidth}
+					    \begin{subfigure}[h]{0.3\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/opencvB.jpg}
 					        \caption{Filtre bleu}
 					    \end{subfigure}
 					    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 					      %(or a blank line to force the subfigure onto a new line)
-					    \begin{subfigure}[b]{0.3\textwidth}
+					    \begin{subfigure}[h]{0.3\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/opencvG.jpg}
 					        \caption{Filtre vert}
 					    \end{subfigure}
 					    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 					    %(or a blank line to force the subfigure onto a new line)
-					    \begin{subfigure}[b]{0.3\textwidth}
+					    \begin{subfigure}[h]{0.3\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/opencvR.jpg}
 					        \caption{Filtre rouge}
 					    \end{subfigure}
 
 					    \caption{Spectre (a), selon différents filtres (b),(c) et (d).}
 					\end{figure}
-	
+
 					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système \label{HSV}\nomenclature{HSV}{Hue Saturation Value, ou Teinte Saturation Valeur} :
-					\begin{figure}
+
+					\begin{figure}[H]
 						\centering
-						\begin{subfigure}[b]{0.35\textwidth}
+						\begin{subfigure}[h]{0.35\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/RVB.png}
 					        \caption{Modèle RVB}
 					    \end{subfigure}
 					    ~
-					    \begin{subfigure}[b]{0.35\textwidth}
+					    \begin{subfigure}[h]{0.35\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/HSV_cone.png}
 					        \caption{Modèle HSV}
 					    \end{subfigure}
 					    \caption{Comparaison RVB / HSV}
 					\end{figure}
-					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nous 3 axes.
-					La fonctione \textit{inRange} est prévue à cet effet : 
-					Nous déterminerons expérimentalement 
+					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nos 3 axes de couleurs afin de créer un \textit{masque}. Un masque est ici une image (une matrice, un tableau à deux dimensions); chaque case contenant "1" ou "0". Si "0", le pixel n'a pas passé le filtre : il ne nous intéresse pas. En revanche, si "1", ce pixel et ses environs sont potentiellement interessants et devront être analysés. Nous y reviendrons.
+					La fonction \textit{inRange} est prévue à cet effet, et nous permet de réaliser un masque : 
+					Nous déterminerons expérimentalement des bornes pour les variables Teinte ($H_{min}$ et $H_{max}$), Saturation ($S_{min}$ et $S_{max}$) et Valeur ($V_{min}$ et $V_{max}$). Soit un pixel $p$ positionné en $i$ avec pour composantes $H_{i,p}$,$S_{i,p}$,$V_{i,p}$, nous aurons la relation suivante :
+					\\ 
+					$D_i = H_{min} \leqslant H_{i,p} \leqslant H_{max} 	\land S_{min} \leqslant S_{i,p} \leqslant S_{max} \land V_{min} \leqslant V_{i,p} \leqslant V_{max}$ \cite{bib20}
+					\\
+					Avec $D_i$ valant VRAI ou FAUX. Si $D_i$ est FAUX, cela signifie qu'il n'y a aucune corrélation entre la couleur détectée et notre objet. En revanche, s'il est VRAI, alors notre objet existe PROBABLEMENT dans notre champs de vision. Nous définirons donc expérimentalement deux couples de triplets (correspondant aux bornes pour le feu vert et le feu rouge). De plus, en utilisant les fonctions d'érosion (\textit{erode}) et de dilatation (\textit{dilate}), nous suprimons les pixels parasites qui passeraient le premier filtre, gardant ainsi uniquement le feu.
+					\\
 
-
-
+					Une autre problématique est la distance à laquelle le robot doit s'arrêter. En effet, si le feu est rouge, il ne faut pas qu'il s'arrête juste à côté de celui-ci : il risquerait de ne pas le voir passer au vert et de rester bloqué. Compte tenu des vitesses engagées et de l'inertie des moteurs et du robot, nous négligerons la distance de freinage.
+					Le schéma suivant résume la situation :
 					\illu{distEval.pdf}{Schéma de principe de l'approche d'un feu}{0.35}
-					Connaissant l'angle de vue de la caméra (58°), et en utilisant des fonctions géométriques simples, nous pouvons déterminer rapidement la distance minimale au feu s'il faut s'arrêter : $d_{min} = 15 cm \times tan(\frac{58}{2}) = 8,3 cm$
+					Connaissant l'angle de vue de la caméra (58°)\cite{bib18}, et en utilisant des fonctions géométriques simples, nous pouvons déterminer rapidement la distance minimale au feu s'il faut s'arrêter : $d_{min} = 15 cm \times tan(\frac{58}{2}) = 8,3 cm$. En ajoutant une distance de sécurité puisque la distance de freinage est négligée, nous pouvons ainsi déterminer le moment à partir duquel le robot passera le feu quoi qu'il arrive. Cette distance est établie arbitrairement à 10 cm.\\
 
-				\item Présence et intentions des autres utilisateurs
+				\item \textbf{Présence et intentions des autres utilisateurs}
 
+					Les feux sont les plus simples à gérer. En effet, il ne peut y avoir qu'une et une seule position pour un unique feu. Il suffit "juste" de détecter si oui ou non la couleur dans l'intervalle sélectionné existe. Détecter les intentions d'un autre robot est autrement plus difficile. En effet, compte tenu de la disposition des différents clignotants, nous voyons quoi qu'il arrive 3 des 4 clignotants du robot, s'il ne va pas dans le même sens que nous. 
+					Un bon exemple d'un aperçu de la vue du robot est donné par la figure \ref{robotVueExemple}, page \pageref{robotVueExemple}.
+					Après filtrage d'après la méthode indiquée ci-dessus, il faudra récupérer sur le masque de l'image obtenu les différentes tâches en utilisant une méthode itérative appelée MeanShift ("Déplacement de moyenne"). Le principe est simple : on choisit un point de coordonnées $(x_0,y_0)$. Autour de ce point, on définit une zone correspondant à la zone d'étude. On calcule donc la moyenne de chaque "1" du masque contenu dans la zone d'étude, ce qui nous donne un autre point de coordonnées $(x_1,y_1)$. l'opération est \textit{réitérée} autant de fois que nécessaire pour déterminer une LED. Le même procédé est appliqué une seconde fois. L'algorithme veut qu'un point "cherchant une LED" ne rentre pas dans la zone d'étude d'un autre point ayant déjà localisé une LED, afin de ne pas créer de doublon pouvant fausser les résultats. Si cette deuxième recherche de led est infructeuse, cela signifie que l'on se situe dans un des deux cas suivants :
 
+					\begin{figure}[H]
+						\centering
+						\begin{subfigure}[h]{0.2\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_DG.pdf}
+					        \caption{Robot à gauche tournant à gauche}
+					    \end{subfigure}
+					    ~
+						\begin{subfigure}[h]{0.35\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_AD.pdf}
+					        \caption{Robot devant tournant à droite}
+					    \end{subfigure}
+					    ~
+					    \begin{subfigure}[h]{0.2\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_GD.pdf}
+					        \caption{Robot à droite tournant à droite}
+					    \end{subfigure}
+					    \caption{Cas d'une seule LED détectée}
+					\end{figure}
+					Si une situation comme cela apparait, on repère la position abolue de la LED. Si celle-ci se trouve sur la moitié droite du masque, cela signifie que l'on se situe dans le cas (c). Si la LED se situe sur le bord gauche, deux possibilités s'offrent à nous : soit on se trouve dans la situation (b), auquel cas on se situera au carrefour. Si notre feu est vert et que l'on décide de tourner à gauche également, il faudra combiner ces données au sonar. Si on décide d'aller tout droit ou à droite, on pourra traverser le carrefour sans soucis. En revanche, si on se trouve dans la situation (a), on a à nouveau deux possibilités : soit on se situe au carrefour central auquel cas un des deux robot sera arrété à cause du feu, donc aucun danger, soit on se trouve à une intersection : la règle de la priorité à droite d'applique, nous pouvons avancer sans être inquiétés.
+					\\
+					Voici les trois autres cas restants :
+					\begin{figure}[H]
+						\centering
+						\begin{subfigure}[h]{0.2\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_DD.pdf}
+					        \caption{Robot devant tournant à gauche}
+					    \end{subfigure}
+					    ~
+						\begin{subfigure}[h]{0.35\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_AG.pdf}
+					        \caption{Robot devant tournant à gauche}
+					    \end{subfigure}
+					    ~
+					    \begin{subfigure}[h]{0.2\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/casClignotants_GG.pdf}
+					        \caption{Robot à droite tournant à gauche}
+					    \end{subfigure}
+					    \caption{Cas de deux LEDs détectées}
+					\end{figure}
+
+					Une fois encore, on réalise un masque et on repère la position des 2 LEDs. Cette fois, on "découpe" le masque en trois verticalement : si les LEDs sont dans le tier de gauche (a), l'agent est à gauche et désire tourner à droite. Si les LEDs sont dans le tier de droite (c), le robot, situé à droite, souhaitera tourner à gauche, et donc croiser notre trajectoire. Il s'agira là de faire respecter la règle de la priorité à droite. Enfin, si celles-ci sont dans le tier du milieu (b), cela signifie que le robot est en face et désire tourner à gauche, et croiser notre trajectoire.
 			\end{itemize}

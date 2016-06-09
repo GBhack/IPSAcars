@@ -24,14 +24,17 @@
 \contentsline {figure}{\numberline {23}{\ignorespaces Spectre (a), selon diff\IeC {\'e}rents filtres (b),(c) et (d).\relax }}{25}{figure.caption.27}
 \contentsline {figure}{\numberline {24}{\ignorespaces Comparaison RVB / HSV\relax }}{25}{figure.caption.28}
 \contentsline {figure}{\numberline {25}{\ignorespaces Sch\IeC {\'e}ma de principe de l'approche d'un feu\relax }}{26}{figure.caption.29}
-\contentsline {figure}{\numberline {26}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{28}{figure.caption.30}
-\contentsline {figure}{\numberline {27}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {28}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {29}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{30}{figure.caption.33}
-\contentsline {figure}{\numberline {30}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{31}{figure.caption.34}
-\contentsline {figure}{\numberline {31}{\ignorespaces Structure logicielle en "modules"\relax }}{33}{figure.caption.35}
-\contentsline {figure}{\numberline {32}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {33}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {34}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {35}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{40}{figure.caption.40}
-\contentsline {figure}{\numberline {36}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {26}{\ignorespaces Cas d'une seule LED d\IeC {\'e}tect\IeC {\'e}e\relax }}{27}{figure.caption.30}
+\contentsline {figure}{\numberline {27}{\ignorespaces Cas de deux LEDs d\IeC {\'e}tect\IeC {\'e}es\relax }}{28}{figure.caption.31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{30}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Embase Barrel Jack \textbf {\textit {(source : Conrad.fr)}}\relax }}{31}{figure.caption.34}
+\contentsline {figure}{\numberline {31}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {32}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Structure logicielle en "modules"\relax }}{35}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{39}{figure.caption.40}
+\contentsline {figure}{\numberline {36}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{40}{figure.caption.41}
+\contentsline {figure}{\numberline {37}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{41}{figure.caption.42}
+\contentsline {figure}{\numberline {38}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{42}{figure.caption.43}
+\contentsline {figure}{\numberline {39}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{43}{figure.caption.44}

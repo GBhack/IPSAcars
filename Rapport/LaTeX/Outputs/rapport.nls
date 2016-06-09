@@ -6,8 +6,8 @@
   \item [{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}
 		\nompageref{22}
   \item [{HSV}]\begingroup Hue Saturation Value, ou Teinte Saturation Valeur\nomeqref {0}
-		\nompageref{24}
-  \item [{IR}]\begingroup Infra-Rouge\nomeqref {0}\nompageref{28}
+		\nompageref{25}
+  \item [{IR}]\begingroup Infra-Rouge\nomeqref {0}\nompageref{30}
   \item [{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}
 		\nompageref{19}
   \item [{PID}]\begingroup Proportionnel, Intégrateur, Dérivateur\nomeqref {0}

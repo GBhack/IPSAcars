@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{bib20}
+Opencv user guide.
+\newblock {\url{http://docs.opencv.org/2.4/doc/user_guide/user_guide.html}}.
+
 \bibitem{bib3}
 Line tracking sensors and algorithms.
 \newblock
@@ -29,6 +33,15 @@ T.~DICOLA.
 \newblock
   {\url{https://learn.adafruit.com/embedded-linux-board-comparison/power-usage}},
   2015.
+
+\bibitem{bib21}
+Fairchild.
+\newblock {\em LM7805}, 2014.
+
+\bibitem{bib18}
+Fergus.
+\newblock Popular logitech webcam fovs.
+\newblock {\url{http://fer.gy/2012/05/11/popular-logitech-webcam-fovs/}}, 2012.
 
 \bibitem{bib16}
 D.~MOLLOY.

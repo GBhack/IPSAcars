@@ -44,9 +44,16 @@
 
 		\paragraph{Carte-Mère}\label{carteMere}
 
+			La carte mère est le circuit imprimé permettant de relier véritablement les actions "logicielles" aux actions réelles. Les contraintes pour cette carte sont simples :
+			\begin{itemize}
+				\item De taille raisonnable, soit de la tailler bu BBG
+				\item Ne pas intégrer directement les composants ayant un impact sur l'environnement du robot (moteur, LEDs...), pour qu'en cas de défaillance, ainsi que toujours dans un esprit de modularité et d'amélioration continue, un élément soit interchangeable rapidement, par le biais de connecteurs standards.
+				\item Facilement integrable au BBG. L'idée est vraiment de réaliser un Shield simplement enfichable.
+			\end{itemize}
 			
-			\textbf{\huge{\textcolor{red}{[MAXIME]}}}
-
+			Ce shield intègre une prise standard de type Barrel jack, et peut être alimenté par toute source de tension supérieure à 7V. 
+			\illu{barrelJack.jpg}{Embase Barrel Jack \textbf{\textit{(source : Conrad.fr)}}}{0.1}
+			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.
 
 		\paragraph{Structure du robot}
 
@@ -64,7 +71,7 @@
 
 			Tous les éléments de la maquettes ont été reproduits à partir des plans fournis par les constructeurs de composants sélectionnés. Ainsi, la maquette peut servir de plan d'usinage et de montage : aucune dimension n'est issue d'une quelconque approximation.
 
-			\illu{ROBOT1.png}{Rendu de la maquette 3D du robot}{0.4 }
+			\illu{ROBOT1.png}{Rendu de la maquette 3D du robot\label{robotVueExemple}}{0.4 }
 			\vspace{30pt}
 			\illu{ROBOT2.png}{Rendu de la maquette 3D du robot}{0.4}
 
