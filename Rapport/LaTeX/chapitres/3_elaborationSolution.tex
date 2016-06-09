@@ -294,17 +294,16 @@
 			\begin{itemize}
 				\item Couleur du feu
 					La détection de la couleur du feu est un aspect primordial de ce projet. Grâce au package OpenCV, il est très facile de décomposer le spectre de la lumière visible, et donc de déterminer s'il y a en face de nous une lumière verte ou rouge, comme le montre la figure suivante :
-					http://physique-eea.ujf-grenoble.fr/
 					\begin{figure}
 					    \centering
 					    \begin{subfigure}[b]{0.5\textwidth}
 					        \includegraphics[width=\textwidth]{Graphics/opencvEtalon.jpg}
-					        \caption{Spectre de la lumière visible}
+					        \caption{Spectre de la lumière visible \textit{\textbf{(source : http://physique-eea.ujf-grenoble.fr/)}}}
 					    \end{subfigure}\\
 
 					    \begin{subfigure}[b]{0.3\textwidth}
-					        \includegraphics[width=\textwidth]{Graphics/opencvR.jpg}
-					        \caption{Filtre rouge}
+					        \includegraphics[width=\textwidth]{Graphics/opencvB.jpg}
+					        \caption{Filtre bleu}
 					    \end{subfigure}
 					    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 					      %(or a blank line to force the subfigure onto a new line)
@@ -315,12 +314,33 @@
 					    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 					    %(or a blank line to force the subfigure onto a new line)
 					    \begin{subfigure}[b]{0.3\textwidth}
-					        \includegraphics[width=\textwidth]{Graphics/opencvB.jpg}
-					        \caption{Filtre bleu}
+					        \includegraphics[width=\textwidth]{Graphics/opencvR.jpg}
+					        \caption{Filtre rouge}
 					    \end{subfigure}
 
-					    \caption{Spectre (a), selon différents filtres (b),(c) et (d).\\ \textit{\textbf{(source : http://physique-eea.ujf-grenoble.fr/)}}}
+					    \caption{Spectre (a), selon différents filtres (b),(c) et (d).}
 					\end{figure}
+	
+					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système \label{HSV}\nomenclature{HSV}{Hue Saturation Value, ou Teinte Saturation Valeur} :
+					\begin{figure}
+						\centering
+						\begin{subfigure}[b]{0.35\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/RVB.png}
+					        \caption{Modèle RVB}
+					    \end{subfigure}
+					    ~
+					    \begin{subfigure}[b]{0.35\textwidth}
+					        \includegraphics[width=\textwidth]{Graphics/HSV_cone.png}
+					        \caption{Modèle HSV}
+					    \end{subfigure}
+					    \caption{Comparaison RVB / HSV}
+					\end{figure}
+					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nous 3 axes.
+					La fonctione \textit{inRange} est prévue à cet effet : 
+					Nous déterminerons expérimentalement 
+
+
+
 					\illu{distEval.pdf}{Schéma de principe de l'approche d'un feu}{0.35}
 					Connaissant l'angle de vue de la caméra (58°), et en utilisant des fonctions géométriques simples, nous pouvons déterminer rapidement la distance minimale au feu s'il faut s'arrêter : $d_{min} = 15 cm \times tan(\frac{58}{2}) = 8,3 cm$
 
