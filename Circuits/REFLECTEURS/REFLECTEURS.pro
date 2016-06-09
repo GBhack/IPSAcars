@@ -1,4 +1,4 @@
-update=jeu. 09 juin 2016 11:23:14 CEST
+update=jeu. 09 juin 2016 14:02:06 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=COMPOSANTS/perso
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../Rapport/LaTeX/Graphics/Sources/ANNEXES/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

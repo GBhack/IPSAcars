@@ -45,9 +45,9 @@
 \contentsline {subsubsection}{\numberline {A.2}Gerbers}{37}{subsubsection.7.1.2}
 \contentsline {subsection}{\numberline {B}Carte M\IeC {\`e}re}{38}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {B.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{38}{subsubsection.7.2.1}
-\contentsline {subsubsection}{\numberline {B.2}Gerbers}{41}{subsubsection.7.2.2}
-\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{42}{section*.44}
-\contentsline {subsection}{Nomenclature}{42}{section*.45}
-\contentsline {subsection}{Bibliographie}{43}{section*.46}
-\contentsline {subsection}{Table des illustrations}{44}{section*.47}
-\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{45}{section*.48}
+\contentsline {subsubsection}{\numberline {B.2}Gerbers}{40}{subsubsection.7.2.2}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{41}{section*.41}
+\contentsline {subsection}{Nomenclature}{41}{section*.42}
+\contentsline {subsection}{Bibliographie}{42}{section*.43}
+\contentsline {subsection}{Table des illustrations}{43}{section*.44}
+\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{44}{section*.45}

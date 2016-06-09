@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.13)  9 JUN 2016 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.13)  9 JUN 2016 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2938,17 +2938,9 @@ File: Graphics/distEval.pdf Graphic file (type pdf)
 <use Graphics/distEval.pdf>
 Package pdftex.def Info: Graphics/distEval.pdf used on input line 324.
 (pdftex.def)             Requested size: 187.58195pt x 237.1699pt.
- [24]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 325.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 325.
-
-Missing character: There is no ° in font zavmr7t!
-) [25 <./Graphics/opencvEtalon.jpg> <./Graphics/opencvR.jpg> <./Graphics/opencv
-G.jpg> <./Graphics/opencvB.jpg> <./Graphics/distEval.pdf>]
-(./chapitres/4_integration.tex
+ [24]) [25 <./Graphics/opencvEtalon.jpg> <./Graphics/opencvR.jpg> <./Graphics/o
+pencvG.jpg> <./Graphics/opencvB.jpg> <./Graphics/distEval.pdf>] (./chapitres/4_
+integration.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -3001,85 +2993,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
  []
 
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 47.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 48.
 
-Overfull \hbox (4.77582pt too wide) in paragraph at lines 52--55
+Overfull \hbox (4.77582pt too wide) in paragraph at lines 53--56
  \T1/fav/b/n/10.95 5.2.1.4 Struc-ture du ro-bot[][] \T1/fav/m/sc/10.95 L'in-té-
 gra-tion de tous les com-po-sants du ro-bot passe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Overfull \hbox (1.04286pt too wide) in paragraph at lines 62--63
+Overfull \hbox (1.04286pt too wide) in paragraph at lines 63--64
  \T1/fav/b/n/10.95 5.2.1.5 In-té-gra-tion glo-bale, ma-quette nu-mé-rique[][] \
 T1/fav/m/sc/10.95 Une ma-quette Ca-tia nous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 <Graphics/ROBOT1.png, id=764, 803.0pt x 675.52374pt>
 File: Graphics/ROBOT1.png Graphic file (type png)
  <use Graphics/ROBOT1.png>
-Package pdftex.def Info: Graphics/ROBOT1.png used on input line 66.
+Package pdftex.def Info: Graphics/ROBOT1.png used on input line 67.
 (pdftex.def)             Requested size: 321.1943pt x 270.20471pt.
 
 <Graphics/ROBOT2.png, id=765, 803.0pt x 798.985pt>
 File: Graphics/ROBOT2.png Graphic file (type png)
  <use Graphics/ROBOT2.png>
-Package pdftex.def Info: Graphics/ROBOT2.png used on input line 68.
+Package pdftex.def Info: Graphics/ROBOT2.png used on input line 69.
 (pdftex.def)             Requested size: 321.1943pt x 319.58833pt.
 
 [28] <Graphics/ROBOT3.png, id=771, 803.0pt x 759.83875pt>
 File: Graphics/ROBOT3.png Graphic file (type png)
 
 <use Graphics/ROBOT3.png>
-Package pdftex.def Info: Graphics/ROBOT3.png used on input line 70.
+Package pdftex.def Info: Graphics/ROBOT3.png used on input line 71.
 (pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
  [29 <./Graphics/ROBOT1.png> <./Graphics/ROBOT2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 [30 <./Graphics/ROBOT3.png>] (./Graphics/tikz/architectureLogicielle.tex)
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -3098,13 +3090,13 @@ Overfull \hbox (28.45726pt too wide) in paragraph at lines 4--4
  []
 
 [36 <./Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>]
-<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=817, 398.77292pt x 511.42879pt>
+<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=817, 455.22987pt x 313.00024pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf used on input l
 ine 8.
-(pdftex.def)             Requested size: 398.77194pt x 511.42752pt.
+(pdftex.def)             Requested size: 455.22876pt x 312.99947pt.
 )
 (./chapitres/Annexes/carteMere.tex
 <Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=818, 497.94032pt x 512.17805pt>
@@ -3112,45 +3104,37 @@ File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf used on input
- line 4.
-(pdftex.def)             Requested size: 448.14215pt x 460.956pt.
+ line 6.
+(pdftex.def)             Requested size: 497.9391pt x 512.1768pt.
+
+Overfull \hbox (42.69499pt too wide) in paragraph at lines 6--6
+ [][] 
+ []
 
 <Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=819, 497.94032pt x 512.17805pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf used on input
- line 5.
-(pdftex.def)             Requested size: 448.14215pt x 460.956pt.
- [37 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [38 <./Graphics/ANNEXES/SCHEMA
-_CARTE_MERE_1.pdf>]
-File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf Graphic file (type pdf)
+ line 7.
+(pdftex.def)             Requested size: 497.9391pt x 512.1768pt.
 
-<use Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf>
-Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf used on input
- line 9.
-(pdftex.def)             Requested size: 448.14215pt x 460.956pt.
-File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf Graphic file (type pdf)
+Overfull \hbox (42.69499pt too wide) in paragraph at lines 7--7
+ [][] 
+ []
 
-<use Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>
-Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf used on input
- line 10.
-(pdftex.def)             Requested size: 448.14215pt x 460.956pt.
-
-
-LaTeX Warning: Float too large for page by 323.72859pt on input line 13.
-
-[39 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>] [40]
-<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=849, 398.3528pt x 512.17805pt>
+[37 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [38 <./Graphics/ANNEXES/SCHEMA_
+CARTE_MERE_1.pdf>] [39 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>]
+<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=841, 398.3528pt x 426.82549pt>
 File: Graphics/ANNEXES/CARTE_CARTE_MERE.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/CARTE_CARTE_MERE.pdf used on input li
-ne 17.
-(pdftex.def)             Requested size: 398.35182pt x 512.1768pt.
-) [41 <./Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>]
+ne 12.
+(pdftex.def)             Requested size: 398.35182pt x 426.82443pt.
+) [40 <./Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>]
 (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls)
-[42] (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
+[41] (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
@@ -3210,7 +3194,7 @@ Underfull \hbox (badness 1231) in paragraph at lines 69--72
 h1 /
  []
 
-) [43]
+) [42]
 (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/it' tried instead on input line 20.
@@ -3220,17 +3204,11 @@ Overfull \hbox (30.04604pt too wide) in paragraph at lines 24--24
 t (d). \T1/fav/b/it/10.95 (source : http ://physique- 
  []
 
-
-Overfull \hbox (30.04604pt too wide) in paragraph at lines 38--38
- [][] [][]\T1/fav/m/sc/10.95 Spectre (a), se-lon dif-fé-rents filtres (b),(c) e
-t (d). \T1/fav/b/it/10.95 (source : http ://physique- 
- []
-
 )
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
- [44] [45]
+ [43] [44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 
@@ -3238,7 +3216,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: C51F96B0F42F7B1D5CE4C2377CB3015C;3845.
+(rerunfilecheck)             Checksum: FCADCD879649A225F93317E868DC2D90;3845.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3246,8 +3224,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 35316 strings out of 493029
- 692437 string characters out of 6136234
+ 35312 strings out of 493029
+ 692379 string characters out of 6136234
  814617 words of memory out of 5000000
  37984 multiletter control sequences out of 15000+600000
  61566 words of font info for 87 fonts, out of 8000000 for 9000
@@ -3267,10 +3245,10 @@ e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb>
 Output written on "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs
-/rapport.pdf" (48 pages, 3038111 bytes).
+/rapport.pdf" (47 pages, 3035784 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 836 compressed objects within 9 object streams
- 177 named destinations out of 1000 (max. 500000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 173 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
