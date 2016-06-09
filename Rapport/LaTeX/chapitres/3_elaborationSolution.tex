@@ -369,7 +369,7 @@
 					    \caption{Spectre (a), selon différents filtres (b),(c) et (d).}
 					\end{figure}
 
-					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système \label{HSV}\nomenclature{HSV}{Hue Saturation Value, ou Teinte Saturation Valeur} :
+					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système \label{HSV}\nomenclature{HSV}{Hue Saturation Value, ou Teinte Saturation Valeur}HSV :
 
 					\begin{figure}[H]
 						\centering
@@ -384,7 +384,7 @@
 					    \end{subfigure}
 					    \caption{Comparaison RVB / HSV}
 					\end{figure}
-					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nos 3 axes de couleurs afin de créer un \textit{masque}. Un masque est ici une image (une matrice, un tableau à deux dimensions); chaque case contenant "1" ou "0". Si "0", le pixel n'a pas passé le filtre : il ne nous intéresse pas. En revanche, si "1", ce pixel et ses environs sont potentiellement interessants et devront être analysés. Nous y reviendrons.
+					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nos 3 axes de couleurs afin de créer un \textit{masque}. Un masque est ici une image (une matrice, un tableau à deux dimensions); chaque case contenant "1" ou "0". Si "0", le pixel n'a pas passé le filtre : il ne nous intéresse pas. En revanche, si "1", ce pixel et ses environs sont potentiellement interessants et devront être analysés. Nous y reviendrons.\\
 					La fonction \textit{inRange} est prévue à cet effet, et nous permet de réaliser un masque : 
 					Nous déterminerons expérimentalement des bornes pour les variables Teinte ($H_{min}$ et $H_{max}$), Saturation ($S_{min}$ et $S_{max}$) et Valeur ($V_{min}$ et $V_{max}$). Soit un pixel $p$ positionné en $i$ avec pour composantes $H_{i,p}$,$S_{i,p}$,$V_{i,p}$, nous aurons la relation suivante :
 					\\ 
@@ -400,9 +400,9 @@
 
 				\item \textbf{Présence et intentions des autres utilisateurs}
 
-					Les feux sont les plus simples à gérer. En effet, il ne peut y avoir qu'une et une seule position pour un unique feu. Il suffit "juste" de détecter si oui ou non la couleur dans l'intervalle sélectionné existe. Détecter les intentions d'un autre robot est autrement plus difficile. En effet, compte tenu de la disposition des différents clignotants, nous voyons quoi qu'il arrive 3 des 4 clignotants du robot, s'il ne va pas dans le même sens que nous. 
+					Les feux sont les plus simples à gérer. En effet, il ne peut y avoir qu'une et une seule position pour un unique feu. Il suffit "juste" de détecter si oui ou non la couleur dans l'intervalle sélectionné existe. Détecter les intentions d'un autre robot est autrement plus difficile. En effet, compte tenu de la disposition des différents clignotants, nous voyons quoi qu'il arrive 3 des 4 clignotants du robot, s'il ne va pas dans le même sens que nous. \\
 					Un bon exemple d'un aperçu de la vue du robot est donné par la figure \ref{robotVueExemple}, page \pageref{robotVueExemple}.
-					Après filtrage d'après la méthode indiquée ci-dessus, il faudra récupérer sur le masque de l'image obtenu les différentes tâches en utilisant une méthode itérative appelée MeanShift ("Déplacement de moyenne"). Le principe est simple : on choisit un point de coordonnées $(x_0,y_0)$. Autour de ce point, on définit une zone correspondant à la zone d'étude. On calcule donc la moyenne de chaque "1" du masque contenu dans la zone d'étude, ce qui nous donne un autre point de coordonnées $(x_1,y_1)$. l'opération est \textit{réitérée} autant de fois que nécessaire pour déterminer une LED. Le même procédé est appliqué une seconde fois. L'algorithme veut qu'un point "cherchant une LED" ne rentre pas dans la zone d'étude d'un autre point ayant déjà localisé une LED, afin de ne pas créer de doublon pouvant fausser les résultats. Si cette deuxième recherche de led est infructeuse, cela signifie que l'on se situe dans un des deux cas suivants :
+					Après filtrage d'après la méthode indiquée ci-dessus, il faudra récupérer sur le masque de l'image obtenu les différentes tâches en utilisant une méthode itérative appelée MeanShift ("Déplacement de moyenne"). Le principe est simple : on choisit un point de coordonnées $(x_0,y_0)$. Autour de ce point, on définit une zone correspondant à la zone d'étude. On calcule donc la moyenne de chaque "1" du masque contenu dans la zone d'étude, ce qui nous donne un autre point de coordonnées $(x_1,y_1)$. l'opération est \textit{réitérée} autant de fois que nécessaire pour déterminer la position d'une LED. Le même procédé est appliqué une seconde fois. L'algorithme veut qu'un point "cherchant une LED" ne rentre pas dans la zone d'étude d'un autre point ayant déjà localisé une LED, afin de ne pas créer de doublon pouvant fausser les résultats. Si cette deuxième recherche de led est infructeuse, cela signifie que l'on se situe dans un des deux cas suivants :
 
 					\begin{figure}[H]
 						\centering

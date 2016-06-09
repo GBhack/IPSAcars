@@ -2,26 +2,24 @@
 
  \nomgroup{A}
 
-  \item [{BBG}]\begingroup BeagleBone Green\nomeqref {0}\nompageref{18}, 
-		\nompageref{22}
+  \item [{BBG}]\begingroup BeagleBone Green\nomeqref {0}\nompageref{22}
   \item [{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}
-		\nompageref{22}, \nompageref{25}
+		\nompageref{25}
   \item [{FPGA}]\begingroup PGA (Field-Programmable Gate Array, ou Réseau de Portes Programmables : un type très répandu de circuit logiques programmables.\nomeqref {0}
 		\nompageref{3}
   \item [{HSV}]\begingroup Hue Saturation Value, ou Teinte Saturation Valeur\nomeqref {0}
-		\nompageref{25}, \nompageref{28}
+		\nompageref{29}
   \item [{ILS}]\begingroup Interrupteur à Lame Souple\nomeqref {0}
 		\nompageref{12}
-  \item [{IR}]\begingroup Infra-Rouge\nomeqref {0}\nompageref{30}, 
-		\nompageref{34}
+  \item [{IR}]\begingroup Infra-Rouge\nomeqref {0}\nompageref{36}
   \item [{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}
-		\nompageref{19}, \nompageref{23}
+		\nompageref{23}
   \item [{PID}]\begingroup Proportionnel, Intégrateur, Dérivateur\nomeqref {0}
-		\nompageref{11}, \nompageref{15}
+		\nompageref{15}
   \item [{PWM}]\begingroup Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions\nomeqref {0}
-		\nompageref{17}, \nompageref{21}
+		\nompageref{21}
   \item [{TP}]\begingroup Travaux Pratiques\nomeqref {0}\nompageref{3}
   \item [{VHDL}]\begingroup VHSIC1 Hardware Description Language : langage destiné à la programmation de cartes FPGA.\nomeqref {0}
-		\nompageref{32}
+		\nompageref{34}
 
 \end{thenomenclature}
