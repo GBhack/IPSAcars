@@ -1,4 +1,4 @@
-update=jeu. 02 juin 2016 23:00:20 CEST
+update=jeu. 09 juin 2016 12:17:51 CEST
 version=1
 last_client=kicad
 [general]
@@ -62,3 +62,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../Rapport/LaTeX/Graphics/Sources/ANNEXES/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
