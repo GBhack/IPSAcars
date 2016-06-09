@@ -30,8 +30,18 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{30}{figure.caption.33}
 \contentsline {figure}{\numberline {30}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{31}{figure.caption.34}
 \contentsline {figure}{\numberline {31}{\ignorespaces Structure logicielle en "modules"\relax }}{33}{figure.caption.35}
-\contentsline {figure}{\numberline {32}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {33}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {34}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {35}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{40}{figure.caption.40}
-\contentsline {figure}{\numberline {36}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {32}{\ignorespaces Estimation du planning\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Diagramme de Gantt du projet (agrandissement disponible en annexe \ref {gantt})\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Diagramme PERT du projet (1/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Diagramme PERT du projet (2/2) (agrandissement disponible en annexe \ref {PERT})\relax }}{38}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectronique de la carte R\IeC {\'e}flecteurs Optiques\relax }}{40}{figure.caption.41}
+\contentsline {figure}{\numberline {37}{\ignorespaces Gerbers de la carte R\IeC {\'e}flecteurs Optiques\relax }}{41}{figure.caption.42}
+\contentsline {figure}{\numberline {38}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{42}{figure.caption.43}
+\contentsline {figure}{\numberline {39}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{43}{figure.caption.44}
+\contentsline {figure}{\numberline {40}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{44}{figure.caption.45}
+\contentsline {figure}{\numberline {41}{\ignorespaces Devis global\relax }}{45}{figure.caption.46}
+\contentsline {figure}{\numberline {42}{\ignorespaces Devis pour un robot\relax }}{46}{figure.caption.47}
+\contentsline {figure}{\numberline {43}{\ignorespaces Devis pour une carte-m\IeC {\`e}re\relax }}{47}{figure.caption.48}
+\contentsline {figure}{\numberline {44}{\ignorespaces Devis pour la carte r\IeC {\'e}flecteurs\relax }}{47}{figure.caption.49}
+\contentsline {figure}{\numberline {45}{\ignorespaces \relax }}{48}{figure.caption.50}
+\contentsline {figure}{\numberline {46}{\ignorespaces Devis pour la carte du circuit\relax }}{48}{figure.caption.51}

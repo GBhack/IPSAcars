@@ -37,16 +37,28 @@
 \BOOKMARK [4][-]{paragraph.5.2.1.5}{Int\351gration globale, maquette num\351rique}{subsubsection.5.2.1}% 37
 \BOOKMARK [3][-]{subsubsection.5.2.2}{Int\351gration Logicielle}{subsection.5.2}% 38
 \BOOKMARK [1][-]{section.6}{Estimation du co\373t de mise en place et faisabilit\351}{}% 39
-\BOOKMARK [1][-]{section.7}{Conclusion et aper\347u des \351volutions possibles}{}% 40
-\BOOKMARK [1][-]{section*.36}{Annexes}{}% 41
-\BOOKMARK [2][-]{subsection.7.1}{Carte R\351flecteurs Optiques}{section*.36}% 42
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Sch\351ma \351lectronique}{subsection.7.1}% 43
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Gerbers}{subsection.7.1}% 44
-\BOOKMARK [2][-]{subsection.7.2}{Carte M\350re}{section*.36}% 45
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Sch\351ma \351lectronique}{subsection.7.2}% 46
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Gerbers}{subsection.7.2}% 47
-\BOOKMARK [1][-]{section*.42}{R\351f\351rences}{}% 48
-\BOOKMARK [2][-]{section*.43}{Nomenclature}{section*.42}% 49
-\BOOKMARK [2][-]{section*.44}{Bibliographie}{section*.42}% 50
-\BOOKMARK [2][-]{section*.45}{Table des illustrations}{section*.42}% 51
-\BOOKMARK [1][-]{section*.46}{R\351sum\351}{}% 52
+\BOOKMARK [2][-]{subsection.6.1}{Fournitures}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.2}{Volume de travail}{section.6}% 41
+\BOOKMARK [1][-]{section.7}{Suivi de projet}{}% 42
+\BOOKMARK [1][-]{section.8}{Conclusion et aper\347u des \351volutions possibles}{}% 43
+\BOOKMARK [1][-]{section*.40}{Annexes}{}% 44
+\BOOKMARK [2][-]{subsection.8.1}{Carte R\351flecteurs Optiques}{section*.40}% 45
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Sch\351ma \351lectronique}{subsection.8.1}% 46
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Gerbers}{subsection.8.1}% 47
+\BOOKMARK [2][-]{subsection.8.2}{Carte M\350re}{section*.40}% 48
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Sch\351ma \351lectronique}{subsection.8.2}% 49
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Gerbers}{subsection.8.2}% 50
+\BOOKMARK [2][-]{subsection.8.3}{Devis mat\351riel}{section*.40}% 51
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Devis global}{subsection.8.3}% 52
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Devis pour un robot}{subsection.8.3}% 53
+\BOOKMARK [4][-]{paragraph.8.3.2.1}{Devis pour la carte-m\350re}{subsubsection.8.3.2}% 54
+\BOOKMARK [4][-]{paragraph.8.3.2.2}{Devis pour la care r\351flecteurs}{subsubsection.8.3.2}% 55
+\BOOKMARK [3][-]{subsubsection.8.3.3}{Devis pour le circuit}{subsection.8.3}% 56
+\BOOKMARK [4][-]{paragraph.8.3.3.1}{Devis pour la carte du circuit}{subsubsection.8.3.3}% 57
+\BOOKMARK [2][-]{subsection.8.4}{Diagramme de Gantt}{section*.40}% 58
+\BOOKMARK [2][-]{subsection.8.5}{Diagramme de Gantt}{section*.40}% 59
+\BOOKMARK [1][-]{section*.52}{R\351f\351rences}{}% 60
+\BOOKMARK [2][-]{section*.53}{Nomenclature}{section*.52}% 61
+\BOOKMARK [2][-]{section*.54}{Bibliographie}{section*.52}% 62
+\BOOKMARK [2][-]{section*.55}{Table des illustrations}{section*.52}% 63
+\BOOKMARK [1][-]{section*.56}{R\351sum\351}{}% 64
