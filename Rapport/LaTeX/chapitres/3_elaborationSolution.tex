@@ -218,12 +218,11 @@
 		En parallèle, une instance vérifiera en boucle si un obstacle se situe devant nous. Si oui, le système d' "override" s'applique. Nous nous arretons et mettons en pause la tâche en cours jusqu'à ce que l'avancée soit possible, plus un délai de sécurité. Le robot pourra se remettre en mouvement et reprendre la tâche mise en pause.
 
 
-
 	\subsubsection{Implémentation matérielle}
 
 		\paragraph{Propulsion et direction}
 
-			La solution la plus répandue en "petite robotique" consiste en l'utilisation de deux moteurs à courant continu pilotés indépendamment assurant à la fois la propulsion et la direction : on réduira les gaz à droite pour tourner de ce côté et réciproquement. Ces moteurs sont généralement pilotés en "PWM" \nomenclature{PWM}{Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions}, mais d'autres solutions sont possibles et dépendront de notre contrôleur. Beaucoup d'applications utilisent des chenilles ou des courroies en caoutchouc pour assurer la propulsion, mais nous privilégierons l’utilisation de roues à pneus, par soucis de simplification de la conception (l'emploi de chenilles ou de courroies induit  une grande précision d'usinage et de montage pour assurer le parallélisme des poulies et la tension de la courroie) et de réduction des coûts.\\
+			D’expérience, nous avons constaté que quatre roues complexifient et sur-contraignent les manœuvres directionnelles des robots. C’est pour cela que nous d'adopter la solution la plus répandue en "petite robotique" et consistant en l'utilisation de deux moteurs à courant continu pilotés indépendamment assurant à la fois la propulsion et la direction : on réduira les gaz à droite pour tourner de ce côté et réciproquement. Ces moteurs sont généralement pilotés en "PWM" \nomenclature{PWM}{Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions}, mais d'autres solutions sont possibles et dépendront de notre contrôleur. Beaucoup d'applications utilisent des chenilles ou des courroies en caoutchouc pour assurer la propulsion, mais nous privilégierons l’utilisation de roues à pneus, par soucis de simplification de la conception (l'emploi de chenilles ou de courroies induit  une grande précision d'usinage et de montage pour assurer le parallélisme des poulies et la tension de la courroie) et de réduction des coûts.\\
 
 			L'utilisation d'un seul moteur de propulsion et d'une roue directionnelle pilotée par un servomoteur a longtemps été considérée, mais cette solution s'est révélée bien plus complexe à mettre en place et sans réel intérêt particulier.\\
 

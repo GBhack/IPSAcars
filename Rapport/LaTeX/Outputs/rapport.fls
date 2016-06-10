@@ -612,9 +612,6 @@ INPUT ./Graphics/pmod.png
 INPUT Graphics/secable.png
 INPUT ./Graphics/secable.png
 INPUT ./Graphics/secable.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/arev/favb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favb8r.tfm
 INPUT Graphics/reflecteur.pdf
 INPUT ./Graphics/reflecteur.pdf
 INPUT ./Graphics/reflecteur.pdf
