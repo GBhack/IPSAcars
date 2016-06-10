@@ -182,7 +182,13 @@
 
 	\subsubsection{Détection d'obstacles et de de signalisation}
 
-		\textbf{\Huge{\textcolor{red}{[MAXIME]}}}
+		Etant donné le fait que les robots évoluerons dans un environnement idéal, parfait, il n'existera pas en première instance d'obstacles à proprement parler, tel qu'une route barrée aléatoirement, par exemple. Le seul obstacle que nous risquerions de rencontrer est un autre robot situé juste devant nous et arrété à un feu. Ici, le sonar situé à l'avant aura une priorité plus élevée que les autres capteurs, et pourra passer outre les différentes informations reçus par les autres capteurs, influençant fortement la décision. En langage informatique, on parlera d' "override", qui peut être nécessaire dans une situation d'urgence comme celle ci. Ainsi, quelque soit les informations des autres capteurs, le robot s'arretera.
+		\\
+		Ce point est bien entendu sujet à améliorations, et tout développeur pourra, s'il le désire, implémenter la gestion de ce genre de situations : route barrée, ligne centrale partiellement effacée et peu détectable etc...
+		\\
+		Dans le cadre de ce projet, cette détection de signalisation se limite aux feux et aux intentions des vehicules comme nous allons le developper en \ref{feuEtIntentions}, page \pageref{feuEtIntentions}.
+		Cette partie sera réalisée en utilisant des techniques de reconnaissance d'image en quasi-temps réel, utilisant la caméra embarquée, et initialement développé en Python.
+
 
 	\subsubsection{Implémentation matérielle}
 
@@ -335,7 +341,7 @@
 
 			Nous veillerons cependant, toujours dans un soucis de modularité, à ce que nos "modules" python, soient compatibles avec d'éventuelles réalisations en C, java ou autre (voir \ref{integrationLogicielle} : Intégration Logicielle, page \pageref{integrationLogicielle}).
 
-		\paragraph{Reconnaissance d'image}
+		\paragraph{Reconnaissance d'image}\label{feuEtIntentions}
 			
 
 			La reconnaissance d'image sera utilisée à plusieurs fins :
@@ -369,7 +375,7 @@
 					    \caption{Spectre (a), selon différents filtres (b),(c) et (d).}
 					\end{figure}
 
-					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système \label{HSV}\nomenclature{HSV}{Hue Saturation Value, ou Teinte Saturation Valeur}HSV :
+					Pour des soucis d'optimisations et de résultats, nous n'utiliserons pas le système Rouge-Vert-Bleu classique, mais plutôt le système HSV\label{HSV}\nomenclature{HSV}{Hue-Saturation-Value, ou Teinte-Saturation-Valeur}, plus adapté à notre problématique :
 
 					\begin{figure}[H]
 						\centering
@@ -385,7 +391,7 @@
 					    \caption{Comparaison RVB / HSV}
 					\end{figure}
 					Grâce à ce système, il nous suffit de définir expérimentalement les bornes autour de nos 3 axes de couleurs afin de créer un \textit{masque}. Un masque est ici une image (une matrice, un tableau à deux dimensions); chaque case contenant "1" ou "0". Si "0", le pixel n'a pas passé le filtre : il ne nous intéresse pas. En revanche, si "1", ce pixel et ses environs sont potentiellement interessants et devront être analysés. Nous y reviendrons.\\
-					La fonction \textit{inRange} est prévue à cet effet, et nous permet de réaliser un masque : 
+					La fonction \textit{inRange} est prévue à cet effet, et nous permet de réaliser un tel masque : 
 					Nous déterminerons expérimentalement des bornes pour les variables Teinte ($H_{min}$ et $H_{max}$), Saturation ($S_{min}$ et $S_{max}$) et Valeur ($V_{min}$ et $V_{max}$). Soit un pixel $p$ positionné en $i$ avec pour composantes $H_{i,p}$,$S_{i,p}$,$V_{i,p}$, nous aurons la relation suivante :
 					\\ 
 					$D_i = H_{min} \leqslant H_{i,p} \leqslant H_{max} 	\land S_{min} \leqslant S_{i,p} \leqslant S_{max} \land V_{min} \leqslant V_{i,p} \leqslant V_{max}$ \cite{bib20}
@@ -402,7 +408,9 @@
 
 					Les feux sont les plus simples à gérer. En effet, il ne peut y avoir qu'une et une seule position pour un unique feu. Il suffit "juste" de détecter si oui ou non la couleur dans l'intervalle sélectionné existe. Détecter les intentions d'un autre robot est autrement plus difficile. En effet, compte tenu de la disposition des différents clignotants, nous voyons quoi qu'il arrive 3 des 4 clignotants du robot, s'il ne va pas dans le même sens que nous. \\
 					Un bon exemple d'un aperçu de la vue du robot est donné par la figure \ref{robotVueExemple}, page \pageref{robotVueExemple}.
-					Après filtrage d'après la méthode indiquée ci-dessus, il faudra récupérer sur le masque de l'image obtenu les différentes tâches en utilisant une méthode itérative appelée MeanShift ("Déplacement de moyenne"). Le principe est simple : on choisit un point de coordonnées $(x_0,y_0)$. Autour de ce point, on définit une zone correspondant à la zone d'étude. On calcule donc la moyenne de chaque "1" du masque contenu dans la zone d'étude, ce qui nous donne un autre point de coordonnées $(x_1,y_1)$. l'opération est \textit{réitérée} autant de fois que nécessaire pour déterminer la position d'une LED. Le même procédé est appliqué une seconde fois. L'algorithme veut qu'un point "cherchant une LED" ne rentre pas dans la zone d'étude d'un autre point ayant déjà localisé une LED, afin de ne pas créer de doublon pouvant fausser les résultats. Si cette deuxième recherche de led est infructeuse, cela signifie que l'on se situe dans un des deux cas suivants :
+					Après filtrage d'après la méthode indiquée ci-dessus, il faudra récupérer sur le masque de l'image obtenu les différentes tâches en utilisant une méthode \textit{itérative} appelée MeanShift ("Déplacement de moyenne"). Le principe est simple : on choisit un point de coordonnées $(x_0,y_0)$. Autour de ce point, on définit une zone correspondant à la zone d'étude de rayon $r$. On calcule donc la moyenne des coordonnées de chaque "1" du masque contenu dans la zone d'étude. Si aucun n'est contenu dans l'intervalle $[x_0 - r \leqslant x \leqslant x_0 + r ; y_0 - r \leqslant y \leqslant y_0 + r ]$, on décale le point en dehors de ce rayon. Sinon, calcule la moyenne des coordonnées des points compris dans cet intervalle. On obtient ainsi un nouveau point coordonnées $(x_1,y_1)$. L'opération est \textit{réitérée} autant de fois que nécessaire pour déterminer la position d'une LED. Cet algorithme permet de \textit{converger} vers la plus grande densité de points du masque : la LED. Le schéma suivant illustre le fonctionnement de cette méthode.
+					\illu{meanShiftMethode.pdf}{Principe de fonctionnement de la méthode "MeanShift" à 3 itérations}{1.2}
+					Le même procédé est appliqué une seconde fois. L'algorithme veut qu'un point "cherchant une LED" ne rentre pas dans la zone d'étude d'un autre point ayant déjà localisé une LED, afin de ne pas créer de doublon pouvant fausser les résultats. Si cette deuxième recherche de led est infructeuse, cela signifie que l'on se situe dans un des deux cas suivants :
 
 					\begin{figure}[H]
 						\centering
@@ -445,4 +453,8 @@
 					\end{figure}
 
 					Une fois encore, on réalise un masque et on repère la position des 2 LEDs. Cette fois, on "découpe" le masque en trois verticalement : si les LEDs sont dans le tier de gauche (a), l'agent est à gauche et désire tourner à droite. Si les LEDs sont dans le tier de droite (c), le robot, situé à droite, souhaitera tourner à gauche, et donc croiser notre trajectoire. Il s'agira là de faire respecter la règle de la priorité à droite. Enfin, si celles-ci sont dans le tier du milieu (b), cela signifie que le robot est en face et désire tourner à gauche, et croiser notre trajectoire.
+					\\
+					On démontre ainsi ici qu'avec une simple asymétrie, on arrive facilement à prédire le comportement des autres usagers.
+					\\
+					D'un point de vue plus généraliste, si nous considérons une voiture autonome, la détection visuelle des intentions des utilisateurs alentours est une étape à considérer pendant la phase de transition correspondant à l'apparition des voitures autonomes sur le réseau urbain.
 			\end{itemize}

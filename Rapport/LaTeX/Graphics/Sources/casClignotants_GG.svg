@@ -118,9 +118,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-169.72898"
-     inkscape:cy="396.96481"
+     inkscape:zoom="22.4"
+     inkscape:cx="130.82785"
+     inkscape:cy="257.20072"
      inkscape:document-units="px"
      inkscape:current-layer="g4577"
      showgrid="false"
@@ -141,7 +141,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -196,29 +196,29 @@
            transform="translate(271.42857,45.714286)"
            id="g4577">
           <circle
-             r="5"
-             cy="194.16191"
-             cx="195.66629"
+             r="10"
+             cy="195.16191"
+             cx="200.66629"
              id="path4204"
              style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <circle
-             r="5"
-             cy="170.62531"
-             cx="171.22087"
+             r="10"
+             cy="165.62531"
+             cx="170.22087"
              id="path4204-3"
              style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <circle
              transform="scale(1,-1)"
-             r="5"
-             cy="-30.042257"
-             cx="195.72751"
+             r="10"
+             cy="-31.042257"
+             cx="200.72751"
              id="path4204-8"
              style="opacity:1;fill:#00ff00;fill-opacity:0.23529412;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <circle
              transform="scale(1,-1)"
-             r="5"
-             cy="-53.578865"
-             cx="171.28209"
+             r="10"
+             cy="-48.578865"
+             cx="170.28209"
              id="path4204-3-4"
              style="opacity:1;fill:#00ff00;fill-opacity:0.23529412;stroke:none;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <g

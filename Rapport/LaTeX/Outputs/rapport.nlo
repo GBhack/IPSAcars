@@ -5,7 +5,7 @@
 \nomenclatureentry{aPWM@[{PWM}]\begingroup Pulse-Width Modulation, ou Modulation de Largeur d'Impulsions\nomeqref {0}|nompageref}{21}
 \nomenclatureentry{aBBG@[{BBG}]\begingroup BeagleBone Green\nomeqref {0}|nompageref}{22}
 \nomenclatureentry{aLED@[{LED}]\begingroup Light-Emitting Diode, ou Diode Electro-Luminescente\nomeqref {0}|nompageref}{23}
-\nomenclatureentry{aeQEP@[{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}|nompageref}{25}
-\nomenclatureentry{aHSV@[{HSV}]\begingroup Hue Saturation Value, ou Teinte Saturation Valeur\nomeqref {0}|nompageref}{29}
-\nomenclatureentry{aVHDL@[{VHDL}]\begingroup VHSIC1 Hardware Description Language : langage destiné à la programmation de cartes FPGA.\nomeqref {0}|nompageref}{34}
-\nomenclatureentry{aIR@[{IR}]\begingroup Infra-Rouge\nomeqref {0}|nompageref}{36}
+\nomenclatureentry{aeQEP@[{eQEP}]\begingroup Enhanced Quadrature Encoder Pulse, ou Pulsation d'Encodeur en Quadrature Améliorée\nomeqref {0}|nompageref}{26}
+\nomenclatureentry{aHSV@[{HSV}]\begingroup Hue-Saturation-Value, ou Teinte-Saturation-Valeur\nomeqref {0}|nompageref}{29}
+\nomenclatureentry{aVHDL@[{VHDL}]\begingroup VHSIC1 Hardware Description Language : langage destiné à la programmation de cartes FPGA.\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{aIR@[{IR}]\begingroup Infra-Rouge\nomeqref {0}|nompageref}{37}
