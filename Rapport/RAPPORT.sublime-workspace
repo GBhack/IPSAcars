@@ -64,58 +64,34 @@
 	"buffers":
 	[
 		{
+			"file": "LaTeX/chapitres/4_integration.tex",
+			"settings":
+			{
+				"buffer_size": 27177,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "LaTeX/chapitres/3_elaborationSolution.tex",
 			"settings":
 			{
-				"buffer_size": 43416,
+				"buffer_size": 47582,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/maxime/Bureau/opencvTests/imgReco.py",
+			"file": "LaTeX/chapitres/7_conclusion.tex",
 			"settings":
 			{
-				"buffer_size": 4654,
+				"buffer_size": 2047,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "LaTeX/includes/titlepage.tex",
+			"file": "LaTeX/chapitres/8_abstract.tex",
 			"settings":
 			{
-				"buffer_size": 1976,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "LaTeX/chapitres/Annexes/carteMere.tex",
-			"settings":
-			{
-				"buffer_size": 350,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/maxime/Projet Technique/IPSAcars/Circuits/Main/subComponents.sch",
-			"settings":
-			{
-				"buffer_size": 11797,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/maxime/Projet Technique/IPSAcars/Circuits/schema/schema.sch",
-			"settings":
-			{
-				"buffer_size": 2296,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "LaTeX/includes/bibliography.bib",
-			"settings":
-			{
-				"buffer_size": 4356,
+				"buffer_size": 982,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,16 +99,8 @@
 			"file": "LaTeX/rapport.tex",
 			"settings":
 			{
-				"buffer_size": 3646,
+				"buffer_size": 3681,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "LaTeX/chapitres/4_integration.tex",
-			"settings":
-			{
-				"buffer_size": 20049,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -205,6 +173,13 @@
 	],
 	"file_history":
 	[
+		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/includes/bibliography.bib",
+		"/home/maxime/Projet Technique/IPSAcars/Circuits/schema/schema.sch",
+		"/home/maxime/Projet Technique/IPSAcars/Circuits/Main/subComponents.sch",
+		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/Annexes/carteMere.tex",
+		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/includes/titlepage.tex",
+		"/home/maxime/Bureau/opencvTests/imgReco.py",
+		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/3_elaborationSolution.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/includes/packages.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/5_coutFaisabilite.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/rapport.tex",
@@ -216,7 +191,6 @@
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/chapitres/Annexes/carteReflecteurs.tex",
 		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux",
 		"/home/maxime/Bureau/opencvTests/test.py",
-		"/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/includes/bibliography.bib",
 		"/home/maxime/Bureau/test.py",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/chapitres/1_definitionBesoin.tex",
 		"/home/guillaume/IPSA/Projet Technique/git/Rapport/LaTeX/includes/titlepage.tex",
@@ -283,6 +257,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"MAXIME",
+			"feuEtInten",
 			"red",
 			"Red",
 			"red",
@@ -336,82 +312,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LaTeX/chapitres/3_elaborationSolution.tex",
+					"file": "LaTeX/chapitres/4_integration.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 43416,
+						"buffer_size": 27177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41043,
-								41043
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6706.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/maxime/Bureau/opencvTests/imgReco.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1691,
-								1691
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 84.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "LaTeX/includes/titlepage.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								506,
-								506
+								0,
+								0
 							]
 						],
 						"settings":
@@ -419,27 +337,56 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1932.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "LaTeX/chapitres/Annexes/carteMere.tex",
+					"buffer": 1,
+					"file": "LaTeX/chapitres/3_elaborationSolution.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 47582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255,
-								255
+								18482,
+								18482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2604.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LaTeX/chapitres/7_conclusion.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2047,
+								2047
 							]
 						],
 						"settings":
@@ -450,103 +397,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/maxime/Projet Technique/IPSAcars/Circuits/Main/subComponents.sch",
+					"buffer": 3,
+					"file": "LaTeX/chapitres/8_abstract.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11797,
+						"buffer_size": 982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1689,
-								1689
+								982,
+								982
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1185.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/maxime/Projet Technique/IPSAcars/Circuits/schema/schema.sch",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "LaTeX/includes/bibliography.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4354,
-								4354
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
-							"tab_size": 7,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1596.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "LaTeX/rapport.tex",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3646,
+						"buffer_size": 3681,
 						"regions":
 						{
 						},
@@ -563,35 +452,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "LaTeX/chapitres/4_integration.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20049,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10115,
-								10115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 840.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
