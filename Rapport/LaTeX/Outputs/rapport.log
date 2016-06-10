@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.13)  10 JUN 2016 23:34
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  10 JUN 2016 23:25
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  10 JUN 2016 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2136,15 +2132,53 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 (./includes/functions.tex
 Success
 Failure
-<<<<<<< HEAD
-) (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux
-=======
 )
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.aux
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 <
+       <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 LaTeX Warning: Label `schemasCarteMere' multiply defined.
+
+
+LaTeX Warning: Label `carteMere' multiply defined.
+
+
+LaTeX Warning: Label `robotVueExemple' multiply defined.
+
+
+LaTeX Warning: Label `integrationLogicielle' multiply defined.
+
+
+LaTeX Warning: Label `schemasCarteMere' multiply defined.
+
+
+LaTeX Warning: Label `schemasCarteReflecteurs' multiply defined.
+
+
+LaTeX Warning: Label `schemasCarteMere' multiply defined.
+
+
+LaTeX Warning: Label `devis' multiply defined.
+
+
+LaTeX Warning: Label `gantt' multiply defined.
+
+
+LaTeX Warning: Label `PERT' multiply defined.
+
+
+LaTeX Warning: Label `nomenclature' multiply defined.
 
 )
 \openout1 = `rapport.aux'.
@@ -2252,26 +2286,20 @@ LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
 
-<<<<<<< HEAD
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
-=======
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.out)
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.out)
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 \@outlinefile=\write6
 \openout6 = `rapport.out'.
 
 \c@lstlisting=\count304
-<<<<<<< HEAD
-
-ABD: EveryShipout initializing macros (./includes/titlepage.tex
-=======
  ABD: EveryShipout initializing macros
-(./includes/titlepage.tex
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+(./includes/titlepage.tex [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2304,8 +2332,7 @@ ABD: EveryShipout initializing macros (./includes/titlepage.tex
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-<Graphics/LOGO-IPSA.pdf, id=332, 192.72pt x 115.3911pt>
+ <Graphics/LOGO-IPSA.pdf, id=339, 192.72pt x 115.3911pt>
 File: Graphics/LOGO-IPSA.pdf Graphic file (type pdf)
 
 <use Graphics/LOGO-IPSA.pdf>
@@ -2318,40 +2345,26 @@ LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
 
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 26.
-<Graphics/illustration2.png, id=333, 602.25pt x 451.6875pt>
+<Graphics/illustration2.png, id=340, 602.25pt x 451.6875pt>
 File: Graphics/illustration2.png Graphic file (type png)
 
 <use Graphics/illustration2.png>
 Package pdftex.def Info: Graphics/illustration2.png used on input line 34.
 (pdftex.def)             Requested size: 240.89572pt x 180.67178pt.
- [1
-<<<<<<< HEAD
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \restoregeometry
+                      [1
 
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Graphics/LOGO-IPSA.pdf> 
-<./Graphics/illustration2.png>])
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for OT1+zavm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
-=======
-
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Graphics/LOGO-IPSA.pdf> 
-<./Graphics/illustration2.png>])
+ <./Graphics/LOGO-IPSA.pdf> <./Graphics/illustration2.png>])
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.toc
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+zavm on input line 4.
  (/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
 LaTeX Font Info:    Try loading font information for OML+zavm on input line 4.
@@ -2406,18 +2419,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
-l.45 ...num\IeC {\'e}rique}{44}{paragraph.5.2.1.5}
-=======
-l.45 ...num\IeC {\'e}rique}{43}{paragraph.5.2.1.5}
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+l.45 ...Structure du robot}{44}{paragraph.5.2.1.4}
                                                    [1
 
-])
+] [2] [3])
 \tf@toc=\write7
 \openout7 = `rapport.toc'.
 
- [2]
+ [4]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -2497,7 +2506,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-[3]) [4] (./chapitres/2_etudeBesoin.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 		\item \textbf
+                    {Les robots devront ne pas pouvoir reprÃ©senter un dange...
+[3])pdfTeX warning (ext4): destination with the same identifier (name{page.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \newpage
+              [4] (./chapitres/2_etudeBesoin.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -2512,11 +2532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<<<<<<< HEAD
-<Graphics/formePiste.pdf, id=527, 242.506pt x 241.69766pt>
-=======
-<Graphics/formePiste.pdf, id=522, 242.506pt x 241.69766pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/formePiste.pdf, id=599, 242.506pt x 241.69766pt>
 File: Graphics/formePiste.pdf Graphic file (type pdf)
 
 <use Graphics/formePiste.pdf>
@@ -2537,22 +2553,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<<<<<<< HEAD
-<Graphics/feu2.png, id=528, 90.3375pt x 215.30438pt>
-=======
 [10 <./Graphics/formePiste.pdf>]
-<Graphics/feu2.png, id=531, 90.3375pt x 215.30438pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/feu2.png, id=607, 90.3375pt x 215.30438pt>
 File: Graphics/feu2.png Graphic file (type png)
  <use Graphics/feu2.png>
 Package pdftex.def Info: Graphics/feu2.png used on input line 27.
 (pdftex.def)             Requested size: 81.30298pt x 193.77214pt.
 
-<<<<<<< HEAD
-<Graphics/feu1.png, id=529, 90.3375pt x 256.70906pt>
-=======
-<Graphics/feu1.png, id=532, 90.3375pt x 256.70906pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/feu1.png, id=608, 90.3375pt x 256.70906pt>
 File: Graphics/feu1.png Graphic file (type png)
  <use Graphics/feu1.png>
 Package pdftex.def Info: Graphics/feu1.png used on input line 31.
@@ -2597,11 +2605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<<<<<<< HEAD
-<Graphics/capteurOptiqueFondNoir.pdf, id=544, 364.34401pt x 214.67226pt>
-=======
-<Graphics/capteurOptiqueFondNoir.pdf, id=540, 364.34401pt x 214.67226pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurOptiqueFondNoir.pdf, id=616, 364.34401pt x 214.67226pt>
 File: Graphics/capteurOptiqueFondNoir.pdf Graphic file (type pdf)
 
 <use Graphics/capteurOptiqueFondNoir.pdf>
@@ -2613,11 +2617,7 @@ Underfull \hbox (badness 1314) in paragraph at lines 71--71
 []\T1/fav/m/sc/9 Figure 3 ^^U |Cap-teur au des-sus d'un sup-port
  []
 
-<<<<<<< HEAD
-<Graphics/capteurOptiqueFondBlanc.pdf, id=545, 364.34398pt x 213.86926pt>
-=======
-<Graphics/capteurOptiqueFondBlanc.pdf, id=541, 364.34398pt x 213.86926pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurOptiqueFondBlanc.pdf, id=617, 364.34398pt x 213.86926pt>
 File: Graphics/capteurOptiqueFondBlanc.pdf Graphic file (type pdf)
 
 <use Graphics/capteurOptiqueFondBlanc.pdf>
@@ -2634,11 +2634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
 pdfTeX warning: pdflatex (file ./Graphics/capteurOptiqueFondBlanc.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-<<<<<<< HEAD
->] <Graphics/capteurSimpleGauche.pdf, id=574, 119.87048pt x 63.12398pt>
-=======
->] <Graphics/capteurSimpleGauche.pdf, id=570, 119.87048pt x 63.12398pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+>] <Graphics/capteurSimpleGauche.pdf, id=646, 119.87048pt x 63.12398pt>
 File: Graphics/capteurSimpleGauche.pdf Graphic file (type pdf)
 
 <use Graphics/capteurSimpleGauche.pdf>
@@ -2646,11 +2642,7 @@ Package pdftex.def Info: Graphics/capteurSimpleGauche.pdf used on input line 84
 .
 (pdftex.def)             Requested size: 119.87018pt x 63.12381pt.
 
-<<<<<<< HEAD
-<Graphics/capteurSimpleDroite.pdf, id=575, 295.0348pt x 63.12398pt>
-=======
-<Graphics/capteurSimpleDroite.pdf, id=571, 295.0348pt x 63.12398pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurSimpleDroite.pdf, id=647, 295.0348pt x 63.12398pt>
 File: Graphics/capteurSimpleDroite.pdf Graphic file (type pdf)
 
 <use Graphics/capteurSimpleDroite.pdf>
@@ -2658,11 +2650,7 @@ Package pdftex.def Info: Graphics/capteurSimpleDroite.pdf used on input line 85
 .
 (pdftex.def)             Requested size: 295.03407pt x 63.12381pt.
 
-<<<<<<< HEAD
-<Graphics/capteurDoubleGauche.pdf, id=576, 178.16084pt x 41.01909pt>
-=======
-<Graphics/capteurDoubleGauche.pdf, id=572, 178.16084pt x 41.01909pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurDoubleGauche.pdf, id=648, 178.16084pt x 41.01909pt>
 File: Graphics/capteurDoubleGauche.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleGauche.pdf>
@@ -2670,11 +2658,7 @@ Package pdftex.def Info: Graphics/capteurDoubleGauche.pdf used on input line 89
 .
 (pdftex.def)             Requested size: 249.42346pt x 57.42632pt.
 
-<<<<<<< HEAD
-<Graphics/capteurDoubleDroit.pdf, id=577, 179.86333pt x 40.64232pt>
-=======
-<Graphics/capteurDoubleDroit.pdf, id=573, 179.86333pt x 40.64232pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurDoubleDroit.pdf, id=649, 179.86333pt x 40.64232pt>
 File: Graphics/capteurDoubleDroit.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleDroit.pdf>
@@ -2682,11 +2666,7 @@ Package pdftex.def Info: Graphics/capteurDoubleDroit.pdf used on input line 90.
 
 (pdftex.def)             Requested size: 251.80692pt x 56.89882pt.
 
-<<<<<<< HEAD
-<Graphics/capteurDoubleEcartFort.pdf, id=578, 323.28316pt x 95.28288pt>
-=======
-<Graphics/capteurDoubleEcartFort.pdf, id=574, 323.28316pt x 95.28288pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurDoubleEcartFort.pdf, id=650, 323.28316pt x 95.28288pt>
 File: Graphics/capteurDoubleEcartFort.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleEcartFort.pdf>
@@ -2694,11 +2674,7 @@ Package pdftex.def Info: Graphics/capteurDoubleEcartFort.pdf used on input line
  94.
 (pdftex.def)             Requested size: 323.28236pt x 95.28264pt.
 
-<<<<<<< HEAD
-<Graphics/capteurDoubleEcartFaible.pdf, id=579, 322.98912pt x 76.0108pt>
-=======
-<Graphics/capteurDoubleEcartFaible.pdf, id=575, 322.98912pt x 76.0108pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/capteurDoubleEcartFaible.pdf, id=651, 322.98912pt x 76.0108pt>
 File: Graphics/capteurDoubleEcartFaible.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleEcartFaible.pdf>
@@ -2731,11 +2707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<<<<<<< HEAD
-<Graphics/perteTrajectoireVirage.pdf, id=632, 133.31757pt x 210.68864pt>
-=======
-<Graphics/perteTrajectoireVirage.pdf, id=628, 133.31757pt x 210.68864pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/perteTrajectoireVirage.pdf, id=704, 133.31757pt x 210.68864pt>
 File: Graphics/perteTrajectoireVirage.pdf Graphic file (type pdf)
 
 <use Graphics/perteTrajectoireVirage.pdf>
@@ -2743,11 +2715,7 @@ Package pdftex.def Info: Graphics/perteTrajectoireVirage.pdf used on input line
  103.
 (pdftex.def)             Requested size: 199.97585pt x 316.03218pt.
 
-<<<<<<< HEAD
-<Graphics/trajectoireVirage.pdf, id=633, 142.31117pt x 214.8327pt>
-=======
-<Graphics/trajectoireVirage.pdf, id=629, 142.31117pt x 214.8327pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/trajectoireVirage.pdf, id=705, 142.31117pt x 214.8327pt>
 File: Graphics/trajectoireVirage.pdf Graphic file (type pdf)
 
 <use Graphics/trajectoireVirage.pdf>
@@ -2764,11 +2732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-<<<<<<< HEAD
-<Graphics/intersection4Capteurs.pdf, id=658, 113.52177pt x 138.29681pt>
-=======
-<Graphics/intersection4Capteurs.pdf, id=654, 113.52177pt x 138.29681pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/intersection4Capteurs.pdf, id=730, 113.52177pt x 138.29681pt>
 File: Graphics/intersection4Capteurs.pdf Graphic file (type pdf)
 
 <use Graphics/intersection4Capteurs.pdf>
@@ -2784,11 +2748,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 pdfTeX warning: pdflatex (file ./Graphics/intersection4Capteurs.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
-<<<<<<< HEAD
->] <Graphics/intersection5CapteursTD.pdf, id=687, 235.69794pt x 148.87547pt>
-=======
->] <Graphics/intersection5CapteursTD.pdf, id=682, 235.69794pt x 148.87547pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+>] <Graphics/intersection5CapteursTD.pdf, id=759, 235.69794pt x 148.87547pt>
 File: Graphics/intersection5CapteursTD.pdf Graphic file (type pdf)
 
 <use Graphics/intersection5CapteursTD.pdf>
@@ -2796,11 +2756,7 @@ Package pdftex.def Info: Graphics/intersection5CapteursTD.pdf used on input lin
 e 118.
 (pdftex.def)             Requested size: 353.54604pt x 223.31264pt.
 
-<<<<<<< HEAD
-<Graphics/intersection5CapteursDroite.pdf, id=688, 122.02802pt x 148.83574pt>
-=======
-<Graphics/intersection5CapteursDroite.pdf, id=683, 122.02802pt x 148.83574pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/intersection5CapteursDroite.pdf, id=760, 122.02802pt x 148.83574pt>
 File: Graphics/intersection5CapteursDroite.pdf Graphic file (type pdf)
 
 <use Graphics/intersection5CapteursDroite.pdf>
@@ -2817,22 +2773,14 @@ roite.pdf
 
 pdfTeX warning: pdflatex (file ./Graphics/intersection5CapteursDroite.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
-<<<<<<< HEAD
->] <Graphics/carrefour.pdf, id=707, 144.54pt x 144.54pt>
-=======
->] <Graphics/carrefour.pdf, id=703, 144.54pt x 144.54pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+>] <Graphics/carrefour.pdf, id=779, 144.54pt x 144.54pt>
 File: Graphics/carrefour.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour.pdf>
 Package pdftex.def Info: Graphics/carrefour.pdf used on input line 124.
 (pdftex.def)             Requested size: 202.35458pt x 202.35458pt.
 
-<<<<<<< HEAD
-<Graphics/carrefour5capteursGauche.pdf, id=708, 235.24673pt x 92.58649pt>
-=======
-<Graphics/carrefour5capteursGauche.pdf, id=704, 235.24673pt x 92.58649pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/carrefour5capteursGauche.pdf, id=780, 235.24673pt x 92.58649pt>
 File: Graphics/carrefour5capteursGauche.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour5capteursGauche.pdf>
@@ -2863,11 +2811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-<<<<<<< HEAD
-<Graphics/carrefour7capteursGauche.pdf, id=741, 292.82611pt x 99.36624pt>
-=======
-<Graphics/carrefour7capteursGauche.pdf, id=737, 292.82611pt x 99.36624pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/carrefour7capteursGauche.pdf, id=813, 292.82611pt x 99.36624pt>
 File: Graphics/carrefour7capteursGauche.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour7capteursGauche.pdf>
@@ -2910,11 +2854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<<<<<<< HEAD
-<Graphics/virageDeuxMoteurs.pdf, id=788, 235.63982pt x 72.1926pt>
-=======
-<Graphics/virageDeuxMoteurs.pdf, id=784, 235.63982pt x 72.1926pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/virageDeuxMoteurs.pdf, id=860, 235.63982pt x 72.1926pt>
 File: Graphics/virageDeuxMoteurs.pdf Graphic file (type pdf)
 
 <use Graphics/virageDeuxMoteurs.pdf>
@@ -2952,11 +2892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
-<<<<<<< HEAD
-<Graphics/BBG.jpg, id=814, 452.69125pt x 377.41pt>
-=======
-<Graphics/BBG.jpg, id=809, 452.69125pt x 377.41pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/BBG.jpg, id=886, 452.69125pt x 377.41pt>
 File: Graphics/BBG.jpg Graphic file (type jpg)
  <use Graphics/BBG.jpg>
 Package pdftex.def Info: Graphics/BBG.jpg used on input line 254.
@@ -2994,11 +2930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
-<<<<<<< HEAD
-<Graphics/Logitechc170.png, id=833, 456.70625pt x 501.875pt>
-=======
-<Graphics/Logitechc170.png, id=829, 456.70625pt x 501.875pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/Logitechc170.png, id=905, 456.70625pt x 501.875pt>
 File: Graphics/Logitechc170.png Graphic file (type png)
 
 <use Graphics/Logitechc170.png>
@@ -3022,11 +2954,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--291
 
  []
 
-<<<<<<< HEAD
-<Graphics/encoder.jpg, id=843, 803.0pt x 748.7975pt>
-=======
-<Graphics/encoder.jpg, id=839, 803.0pt x 748.7975pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/encoder.jpg, id=915, 803.0pt x 748.7975pt>
 File: Graphics/encoder.jpg Graphic file (type jpg)
 
 <use Graphics/encoder.jpg>
@@ -3048,11 +2976,7 @@ Overfull \hbox (0.44362pt too wide) in paragraph at lines 304--305
 tion-na-lité et in-tègre même
  []
 
-<<<<<<< HEAD
-<Graphics/sonar.jpg, id=851, 93.34875pt x 71.36662pt>
-=======
-<Graphics/sonar.jpg, id=847, 93.34875pt x 71.36662pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/sonar.jpg, id=924, 93.34875pt x 71.36662pt>
 File: Graphics/sonar.jpg Graphic file (type jpg)
  <use Graphics/sonar.jpg>
 Package pdftex.def Info: Graphics/sonar.jpg used on input line 309.
@@ -3114,11 +3038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-<<<<<<< HEAD
-<Graphics/opencvEtalon.jpg, id=873, 248.8497pt x 186.6975pt>
-=======
-<Graphics/opencvEtalon.jpg, id=868, 248.8497pt x 186.6975pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/opencvEtalon.jpg, id=945, 248.8497pt x 186.6975pt>
 File: Graphics/opencvEtalon.jpg Graphic file (type jpg)
 
 <use Graphics/opencvEtalon.jpg>
@@ -3127,55 +3047,34 @@ Package pdftex.def Info: Graphics/opencvEtalon.jpg used on input line 382.
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10> not available
 (Font)              Font shape `T1/fav/b/it' tried instead on input line 383.
 
-<<<<<<< HEAD
-<Graphics/opencvB.jpg, id=874, 1036.87375pt x 777.90625pt>
-=======
-<Graphics/opencvB.jpg, id=869, 1036.87375pt x 777.90625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/opencvB.jpg, id=946, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvB.jpg Graphic file (type jpg)
 
 <use Graphics/opencvB.jpg>
 Package pdftex.def Info: Graphics/opencvB.jpg used on input line 387.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
 
-<<<<<<< HEAD
-<Graphics/opencvG.jpg, id=875, 1036.87375pt x 777.90625pt>
-=======
-<Graphics/opencvG.jpg, id=870, 1036.87375pt x 777.90625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/opencvG.jpg, id=947, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvG.jpg Graphic file (type jpg)
 
 <use Graphics/opencvG.jpg>
 Package pdftex.def Info: Graphics/opencvG.jpg used on input line 393.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
 
-<<<<<<< HEAD
-<Graphics/opencvR.jpg, id=876, 1036.87375pt x 777.90625pt>
-=======
-<Graphics/opencvR.jpg, id=871, 1036.87375pt x 777.90625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/opencvR.jpg, id=948, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvR.jpg Graphic file (type jpg)
 
 <use Graphics/opencvR.jpg>
 Package pdftex.def Info: Graphics/opencvR.jpg used on input line 399.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
-<<<<<<< HEAD
- [29]
-<Graphics/RVB.png, id=884, 607.26875pt x 561.09625pt>
-=======
  [28]
-<Graphics/RVB.png, id=880, 607.26875pt x 561.09625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/RVB.png, id=956, 607.26875pt x 561.09625pt>
 File: Graphics/RVB.png Graphic file (type png)
  <use Graphics/RVB.png>
 Package pdftex.def Info: Graphics/RVB.png used on input line 411.
 (pdftex.def)             Requested size: 159.33821pt x 147.2172pt.
 
-<<<<<<< HEAD
-<Graphics/HSV_cone.png, id=885, 1284.8pt x 1027.84pt>
-=======
-<Graphics/HSV_cone.png, id=881, 1284.8pt x 1027.84pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/HSV_cone.png, id=957, 1284.8pt x 1027.84pt>
 File: Graphics/HSV_cone.png Graphic file (type png)
 
 <use Graphics/HSV_cone.png>
@@ -3188,11 +3087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--429
 
 [29 <./Graphics/opencvEtalon.jpg> <./Graphics/opencvB.jpg> <./Graphics/opencvG.
 jpg> <./Graphics/opencvR.jpg> <./Graphics/RVB.png> <./Graphics/HSV_cone.png>]
-<<<<<<< HEAD
-<Graphics/distEval.pdf, id=897, 535.94044pt x 677.61818pt>
-=======
-<Graphics/distEval.pdf, id=893, 535.94044pt x 677.61818pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/distEval.pdf, id=968, 535.94044pt x 677.61818pt>
 File: Graphics/distEval.pdf Graphic file (type pdf)
 
 <use Graphics/distEval.pdf>
@@ -3203,24 +3098,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
-<<<<<<< HEAD
-[31 <./Graphics/distEval.pdf>]
-<Graphics/meanShiftMethode.pdf, id=925, 177.69516pt x 167.59756pt>
-=======
 [30 <./Graphics/distEval.pdf>]
-<Graphics/meanShiftMethode.pdf, id=921, 177.69516pt x 167.59756pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/meanShiftMethode.pdf, id=996, 177.69516pt x 167.59756pt>
 File: Graphics/meanShiftMethode.pdf Graphic file (type pdf)
 
 <use Graphics/meanShiftMethode.pdf>
 Package pdftex.def Info: Graphics/meanShiftMethode.pdf used on input line 440.
 (pdftex.def)             Requested size: 213.23311pt x 201.11604pt.
 
-<<<<<<< HEAD
-<Graphics/casClignotants_DG.pdf, id=926, 226.32422pt x 435.97263pt>
-=======
-<Graphics/casClignotants_DG.pdf, id=922, 226.32422pt x 435.97263pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_DG.pdf, id=997, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_DG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_DG.pdf>
@@ -3237,11 +3123,7 @@ Underfull \hbox (badness 7814) in paragraph at lines 447--447
 \T1/fav/m/sc/10 gauche tour-nant
  []
 
-<<<<<<< HEAD
-<Graphics/casClignotants_AD.pdf, id=927, 344.29608pt x 356.12317pt>
-=======
-<Graphics/casClignotants_AD.pdf, id=923, 344.29608pt x 356.12317pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_AD.pdf, id=998, 344.29608pt x 356.12317pt>
 File: Graphics/casClignotants_AD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_AD.pdf>
@@ -3253,24 +3135,15 @@ Underfull \hbox (badness 1728) in paragraph at lines 452--452
 []\T1/fav/m/sc/10 (b) |Ro-bot de-vant tour-nant à
  []
 
-<<<<<<< HEAD
-<Graphics/casClignotants_GD.pdf, id=928, 226.32422pt x 435.97263pt>
-=======
-<Graphics/casClignotants_GD.pdf, id=924, 226.32422pt x 435.97263pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_GD.pdf, id=999, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_GD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_GD.pdf>
 Package pdftex.def Info: Graphics/casClignotants_GD.pdf used on input line 456.
 
 (pdftex.def)             Requested size: 91.04742pt x 175.38382pt.
-<<<<<<< HEAD
- [32 <./Graphics/meanShiftMethode.pdf>]
-<Graphics/casClignotants_DD.pdf, id=937, 226.32422pt x 435.97263pt>
-=======
  [31 <./Graphics/meanShiftMethode.pdf>]
-<Graphics/casClignotants_DD.pdf, id=933, 226.32422pt x 435.97263pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_DD.pdf, id=1009, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_DD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_DD.pdf>
@@ -3278,11 +3151,7 @@ Package pdftex.def Info: Graphics/casClignotants_DD.pdf used on input line 467.
 
 (pdftex.def)             Requested size: 91.04742pt x 175.38382pt.
 
-<<<<<<< HEAD
-<Graphics/casClignotants_AG.pdf, id=938, 344.29608pt x 356.12317pt>
-=======
-<Graphics/casClignotants_AG.pdf, id=934, 344.29608pt x 356.12317pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_AG.pdf, id=1010, 344.29608pt x 356.12317pt>
 File: Graphics/casClignotants_AG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_AG.pdf>
@@ -3294,11 +3163,7 @@ Underfull \hbox (badness 1728) in paragraph at lines 473--473
 []\T1/fav/m/sc/10 (b) |Ro-bot de-vant tour-nant à
  []
 
-<<<<<<< HEAD
-<Graphics/casClignotants_GG.pdf, id=939, 226.32422pt x 435.97263pt>
-=======
-<Graphics/casClignotants_GG.pdf, id=935, 226.32422pt x 435.97263pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/casClignotants_GG.pdf, id=1011, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_GG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_GG.pdf>
@@ -3330,11 +3195,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<<<<<<< HEAD
-<Graphics/CIRCUIT.pdf, id=1085, 6259.60654pt x 6259.60654pt>
-=======
-<Graphics/CIRCUIT.pdf, id=1080, 6259.60654pt x 6259.60654pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/CIRCUIT.pdf, id=1157, 6259.60654pt x 6259.60654pt>
 File: Graphics/CIRCUIT.pdf Graphic file (type pdf)
 
 <use Graphics/CIRCUIT.pdf>
@@ -3355,11 +3216,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<<<<<<< HEAD
-<Graphics/CIRCUIT2.png, id=1093, 2409.0pt x 1806.75pt>
-=======
-<Graphics/CIRCUIT2.png, id=1089, 2409.0pt x 1806.75pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/CIRCUIT2.png, id=1165, 2409.0pt x 1806.75pt>
 File: Graphics/CIRCUIT2.png Graphic file (type png)
 
 <use Graphics/CIRCUIT2.png>
@@ -3370,11 +3227,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-<<<<<<< HEAD
-<Graphics/pmod.png, id=1101, 597.23125pt x 333.245pt>
-=======
-<Graphics/pmod.png, id=1097, 597.23125pt x 333.245pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/pmod.png, id=1173, 597.23125pt x 333.245pt>
 File: Graphics/pmod.png Graphic file (type png)
  <use Graphics/pmod.png>
 Package pdftex.def Info: Graphics/pmod.png used on input line 52.
@@ -3409,11 +3262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-<<<<<<< HEAD
-<Graphics/secable.png, id=1110, 191.71625pt x 151.56625pt>
-=======
-<Graphics/secable.png, id=1106, 191.71625pt x 151.56625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/secable.png, id=1182, 191.71625pt x 151.56625pt>
 File: Graphics/secable.png Graphic file (type png)
 
 <use Graphics/secable.png>
@@ -3480,11 +3329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<<<<<<< HEAD
-<Graphics/reflecteur.pdf, id=1140, 67.79227pt x 75.60037pt>
-=======
-<Graphics/reflecteur.pdf, id=1135, 67.79227pt x 75.60037pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/reflecteur.pdf, id=1212, 67.79227pt x 75.60037pt>
 File: Graphics/reflecteur.pdf Graphic file (type pdf)
 
 <use Graphics/reflecteur.pdf>
@@ -3495,11 +3340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<<<<<<< HEAD
-<Graphics/espacementReflecteurs.pdf, id=1141, 383.83813pt x 77.12334pt>
-=======
-<Graphics/espacementReflecteurs.pdf, id=1136, 383.83813pt x 77.12334pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/espacementReflecteurs.pdf, id=1213, 383.83813pt x 77.12334pt>
 File: Graphics/espacementReflecteurs.pdf Graphic file (type pdf)
 
 <use Graphics/espacementReflecteurs.pdf>
@@ -3520,18 +3361,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-<<<<<<< HEAD
-<Graphics/barrelJack.jpg, id=1161, 1003.75pt x 1003.75pt>
-=======
-<Graphics/barrelJack.jpg, id=1157, 1003.75pt x 1003.75pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/barrelJack.jpg, id=1232, 1003.75pt x 1003.75pt>
 File: Graphics/barrelJack.jpg Graphic file (type jpg)
 
 <use Graphics/barrelJack.jpg>
 Package pdftex.def Info: Graphics/barrelJack.jpg used on input line 170.
 (pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
 
-<<<<<<< HEAD
+
+LaTeX Warning: Citation `bib25' on page 41 undefined on input line 171.
+
+
 Overfull \hbox (8.98314pt too wide) in paragraph at lines 171--174
 \T1/fav/m/sc/10.95 Nous avons éga-le-ment in-séré, avant et après l'ali-men-ta-
 tion, en pa-ral-lèle, des conden-
@@ -3542,48 +3382,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--174
 
  []
 
-[42 <./Graphics/barrelJack.jpg>]
-<Graphics/btnNoDebounce.pdf, id=1169, 379.50783pt x 182.75417pt>
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-<Graphics/btnNoDebounce.pdf, id=1159, 379.50783pt x 182.75417pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+[41 <./Graphics/barrelJack.jpg>]
+<Graphics/btnNoDebounce.pdf, id=1238, 379.50783pt x 182.75417pt>
 File: Graphics/btnNoDebounce.pdf Graphic file (type pdf)
 
 <use Graphics/btnNoDebounce.pdf>
 Package pdftex.def Info: Graphics/btnNoDebounce.pdf used on input line 180.
 (pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
 
-<<<<<<< HEAD
-<Graphics/btnDebounce.pdf, id=1170, 379.50783pt x 182.75417pt>
-=======
-<Graphics/btnDebounce.pdf, id=1160, 379.50783pt x 182.75417pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/btnDebounce.pdf, id=1239, 379.50783pt x 182.75417pt>
 File: Graphics/btnDebounce.pdf Graphic file (type pdf)
 
 <use Graphics/btnDebounce.pdf>
 Package pdftex.def Info: Graphics/btnDebounce.pdf used on input line 185.
 (pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
-<<<<<<< HEAD
 
-<Graphics/he1010.jpg, id=1171, 1003.75pt x 1003.75pt>
+<Graphics/he1010.jpg, id=1240, 1003.75pt x 1003.75pt>
 File: Graphics/he1010.jpg Graphic file (type jpg)
 
 <use Graphics/he1010.jpg>
 Package pdftex.def Info: Graphics/he1010.jpg used on input line 192.
-=======
- [41 <./Graphics/barrelJack.jpg>]
-<Graphics/he1010.jpg, id=1167, 1003.75pt x 1003.75pt>
-File: Graphics/he1010.jpg Graphic file (type jpg)
-
-<use Graphics/he1010.jpg>
-Package pdftex.def Info: Graphics/he1010.jpg used on input line 190.
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 (pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
- [43 <./Graphics/btnNoDebounce.pdf> <./Graphics/btnDebounce.pdf
+ [42 <./Graphics/btnNoDebounce.pdf> <./Graphics/btnDebounce.pdf
 
 pdfTeX warning: pdflatex (file ./Graphics/btnDebounce.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
@@ -3598,10 +3418,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--201
 
  []
 
-<<<<<<< HEAD
-=======
-[42 <./Graphics/btnNoDebounce.pdf> <./Graphics/btnDebounce.pdf
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
@@ -3618,59 +3434,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-<<<<<<< HEAD
-<Graphics/ROBOT1.png, id=1193, 803.0pt x 675.52374pt>
+<Graphics/ROBOT1.png, id=1262, 803.0pt x 675.52374pt>
 File: Graphics/ROBOT1.png Graphic file (type png)
 
 <use Graphics/ROBOT1.png>
 Package pdftex.def Info: Graphics/ROBOT1.png used on input line 212.
 (pdftex.def)             Requested size: 321.1943pt x 270.20471pt.
- <Graphics/ROBOT2.png, id=1194, 803.0pt x 798.985pt>
+ <Graphics/ROBOT2.png, id=1263, 803.0pt x 798.985pt>
 File: Graphics/ROBOT2.png Graphic file (type png)
 
 <use Graphics/ROBOT2.png>
 Package pdftex.def Info: Graphics/ROBOT2.png used on input line 214.
 (pdftex.def)             Requested size: 321.1943pt x 319.58833pt.
- [44 <./Graphics/he1010.jpg>]
-<Graphics/ROBOT3.png, id=1200, 803.0pt x 759.83875pt>
+ [43 <./Graphics/he1010.jpg>]
+<Graphics/ROBOT3.png, id=1271, 803.0pt x 759.83875pt>
 File: Graphics/ROBOT3.png Graphic file (type png)
-=======
-<Graphics/ROBOT1.png, id=1190, 803.0pt x 675.52374pt>
-File: Graphics/ROBOT1.png Graphic file (type png)
-
-<use Graphics/ROBOT1.png>
-Package pdftex.def Info: Graphics/ROBOT1.png used on input line 210.
-(pdftex.def)             Requested size: 321.1943pt x 270.20471pt.
- <Graphics/ROBOT2.png, id=1191, 803.0pt x 798.985pt>
-File: Graphics/ROBOT2.png Graphic file (type png)
-
-<use Graphics/ROBOT2.png>
-Package pdftex.def Info: Graphics/ROBOT2.png used on input line 212.
-(pdftex.def)             Requested size: 321.1943pt x 319.58833pt.
- [43 <./Graphics/ROBOT1.png>]
-<Graphics/ROBOT3.png, id=1197, 803.0pt x 759.83875pt>
-File: Graphics/ROBOT3.png Graphic file (type png)
-
-<use Graphics/ROBOT3.png>
-Package pdftex.def Info: Graphics/ROBOT3.png used on input line 214.
-(pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 
 <use Graphics/ROBOT3.png>
 Package pdftex.def Info: Graphics/ROBOT3.png used on input line 216.
 (pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
- [45 <./Graphics/ROBOT1.png> <./Graphics/ROBOT2.png>]
+ [44 <./Graphics/ROBOT1.png> <./Graphics/ROBOT2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
-=======
-[44 <./Graphics/ROBOT2.png> <./Graphics/ROBOT3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 
  []
 
@@ -3679,24 +3468,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-<<<<<<< HEAD
-[46 <./Graphics/ROBOT3.png>] (./Graphics/tikz/architectureLogicielle.tex)
-[47]
+[45 <./Graphics/ROBOT3.png>] (./Graphics/tikz/architectureLogicielle.tex)
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
-=======
-[45] (./Graphics/tikz/architectureLogicielle.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 
  []
 
@@ -3710,11 +3489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-<<<<<<< HEAD
-[48] <Graphics/miseEnSituation.png, id=1224, 803.0pt x 552.0625pt>
-=======
-<Graphics/miseEnSituation.png, id=1216, 803.0pt x 552.0625pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+[47] <Graphics/miseEnSituation.png, id=1294, 803.0pt x 552.0625pt>
 File: Graphics/miseEnSituation.png Graphic file (type png)
 
 <use Graphics/miseEnSituation.png>
@@ -3725,35 +3500,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
-<<<<<<< HEAD
-<Graphics/miseEnSituation1.png, id=1225, 803.0pt x 602.25pt>
-=======
-<Graphics/miseEnSituation1.png, id=1217, 803.0pt x 602.25pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/miseEnSituation1.png, id=1295, 803.0pt x 602.25pt>
 File: Graphics/miseEnSituation1.png Graphic file (type png)
 
 <use Graphics/miseEnSituation1.png>
 Package pdftex.def Info: Graphics/miseEnSituation1.png used on input line 281.
 (pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
-<<<<<<< HEAD
 
-<Graphics/miseEnSituation2.png, id=1226, 803.0pt x 602.25pt>
-=======
- [47]
-<Graphics/miseEnSituation2.png, id=1222, 803.0pt x 602.25pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/miseEnSituation2.png, id=1296, 803.0pt x 602.25pt>
 File: Graphics/miseEnSituation2.png Graphic file (type png)
 
 <use Graphics/miseEnSituation2.png>
 Package pdftex.def Info: Graphics/miseEnSituation2.png used on input line 282.
 (pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
-<<<<<<< HEAD
- [49 <./Graphics/miseEnSituation.png>])
-[50 <./Graphics/miseEnSituation1.png> <./Graphics/miseEnSituation2.png>]
-=======
-) [48 <./Graphics/miseEnSituation.png> <./Graphics/miseEnSituation1.png>] [49 <
-./Graphics/miseEnSituation2.png>]
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+ [48 <./Graphics/miseEnSituation.png>])
+[49 <./Graphics/miseEnSituation1.png> <./Graphics/miseEnSituation2.png>]
 (./chapitres/5_coutFaisabilite.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
@@ -3784,11 +3545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<<<<<<< HEAD
-<Graphics/planning.pdf, id=1247, 541.02126pt x 541.02126pt>
-=======
-<Graphics/planning.pdf, id=1243, 541.02126pt x 541.02126pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/planning.pdf, id=1318, 541.02126pt x 541.02126pt>
 File: Graphics/planning.pdf Graphic file (type pdf)
 
 <use Graphics/planning.pdf>
@@ -3804,41 +3561,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<<<<<<< HEAD
-<Graphics/Gantt.png, id=1248, 1492.57625pt x 554.07pt>
-=======
-<Graphics/Gantt.png, id=1244, 1492.57625pt x 554.07pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/Gantt.png, id=1319, 1492.57625pt x 554.07pt>
 File: Graphics/Gantt.png Graphic file (type png)
 
 <use Graphics/Gantt.png>
 Package pdftex.def Info: Graphics/Gantt.png used on input line 50.
 (pdftex.def)             Requested size: 447.77634pt x 166.22227pt.
-<<<<<<< HEAD
- [52 <./Graphics/planning.pdf>]
-=======
  [51 <./Graphics/planning.pdf>]
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<<<<<<< HEAD
-<Graphics/PERT1.png, id=1269, 630.10406pt x 464.4853pt>
-=======
-<Graphics/PERT1.png, id=1264, 630.10406pt x 464.4853pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/PERT1.png, id=1339, 630.10406pt x 464.4853pt>
 File: Graphics/PERT1.png Graphic file (type png)
 
 <use Graphics/PERT1.png>
 Package pdftex.def Info: Graphics/PERT1.png used on input line 55.
 (pdftex.def)             Requested size: 378.06535pt x 278.69333pt.
 
-<<<<<<< HEAD
-<Graphics/PERT2.png, id=1272, 1146.53343pt x 447.92343pt>
-=======
-<Graphics/PERT2.png, id=1267, 1146.53343pt x 447.92343pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/PERT2.png, id=1342, 1146.53343pt x 447.92343pt>
 File: Graphics/PERT2.png Graphic file (type png)
 
 <use Graphics/PERT2.png>
@@ -3884,25 +3625,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<<<<<<< HEAD
-) [55] (./chapitres/Annexes/carteCircuit.tex
-<Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf, id=1292, 427.19368pt x 740.19463pt>
-=======
 ) [54] (./chapitres/Annexes/carteCircuit.tex
-<Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf, id=1288, 427.19368pt x 740.19463pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf, id=1362, 427.19368pt x 740.19463pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf Graphic file (type pdf)
 <use Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf used on inpu
 t line 4.
 (pdftex.def)             Requested size: 341.7554pt x 592.15651pt.
-<<<<<<< HEAD
- [56 <./Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf>]
-<Graphics/ANNEXES/CARTE_CIRCUIT.pdf, id=1301, 370.35011pt x 370.35011pt>
-=======
  [55 <./Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf>]
-<Graphics/ANNEXES/CARTE_CIRCUIT.pdf, id=1297, 370.35011pt x 370.35011pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/CARTE_CIRCUIT.pdf, id=1371, 370.35011pt x 370.35011pt>
 File: Graphics/ANNEXES/CARTE_CIRCUIT.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE_CIRCUIT.pdf>
@@ -3911,11 +3642,7 @@ Package pdftex.def Info: Graphics/ANNEXES/CARTE_CIRCUIT.pdf used on input line
 (pdftex.def)             Requested size: 370.3492pt x 370.3492pt.
 )
 (./chapitres/Annexes/carteReflecteurs.tex
-<<<<<<< HEAD
-<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=1302, 483.70256pt x 455.229
-=======
-<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=1298, 483.70256pt x 455.229
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=1372, 483.70256pt x 455.229
 87pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf Graphic file (type pdf)
  <use Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>
@@ -3929,11 +3656,7 @@ Overfull \hbox (28.45726pt too wide) in paragraph at lines 4--4
 
 [56 <./Graphics/ANNEXES/CARTE_CIRCUIT.pdf>] [57 <./Graphics/ANNEXES/CARTE-REFLE
 CTEURS_circuit.pdf>]
-<<<<<<< HEAD
-<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=1318, 455.22987pt x 313.00024pt>
-=======
-<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=1313, 455.22987pt x 313.00024pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=1387, 455.22987pt x 313.00024pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>
@@ -3942,11 +3665,7 @@ ine 8.
 (pdftex.def)             Requested size: 455.22876pt x 312.99947pt.
 )
 (./chapitres/Annexes/carteMere.tex
-<<<<<<< HEAD
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=1319, 497.94032pt x 512.17805pt>
-=======
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=1314, 497.94032pt x 512.17805pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=1388, 497.94032pt x 512.17805pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf>
@@ -3959,11 +3678,7 @@ Overfull \hbox (42.69499pt too wide) in paragraph at lines 4--4
  []
 
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=1320, 497.94032pt x 512.17805pt>
-=======
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=1315, 497.94032pt x 512.17805pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=1389, 497.94032pt x 512.17805pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>
@@ -3975,15 +3690,9 @@ Overfull \hbox (42.69499pt too wide) in paragraph at lines 5--5
  [][] 
  []
 
-<<<<<<< HEAD
-[59 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [60 <./Graphics/ANNEXES/SCHEMA_
-CARTE_MERE_1.pdf>] [61 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>]
-<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=1342, 398.3528pt x 426.82549pt>
-=======
 [58 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [59 <./Graphics/ANNEXES/SCHEMA_
 CARTE_MERE_1.pdf>] [60 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>]
-<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=1338, 398.3528pt x 426.82549pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=1412, 398.3528pt x 426.82549pt>
 File: Graphics/ANNEXES/CARTE_CARTE_MERE.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>
@@ -3992,11 +3701,7 @@ ne 10.
 (pdftex.def)             Requested size: 398.35182pt x 426.82443pt.
 ) [61 <./Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>] (./chapitres/Annexes/devis.tex
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/DEVIS_global.pdf, id=1350, 470.75874pt x 130.4875pt>
-=======
-<Graphics/ANNEXES/DEVIS_global.pdf, id=1346, 470.75874pt x 130.4875pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_global.pdf, id=1421, 470.75874pt x 130.4875pt>
 File: Graphics/ANNEXES/DEVIS_global.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_global.pdf>
@@ -4008,13 +3713,8 @@ Overfull \hbox (15.51349pt too wide) in paragraph at lines 4--4
  [][] 
  []
 
-<<<<<<< HEAD
-[63 <./Graphics/ANNEXES/DEVIS_global.pdf>]
-<Graphics/ANNEXES/DEVIS_robot.pdf, id=1368, 483.8075pt x 412.54124pt>
-=======
 [62 <./Graphics/ANNEXES/DEVIS_global.pdf>]
-<Graphics/ANNEXES/DEVIS_robot.pdf, id=1364, 483.8075pt x 412.54124pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_robot.pdf, id=1439, 483.8075pt x 412.54124pt>
 File: Graphics/ANNEXES/DEVIS_robot.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_robot.pdf>
@@ -4031,11 +3731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/DEVIS_CARTE_mere.pdf, id=1392, 480.79625pt x 327.2225pt>
-=======
-<Graphics/ANNEXES/DEVIS_CARTE_mere.pdf, id=1387, 480.79625pt x 327.2225pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_CARTE_mere.pdf, id=1462, 480.79625pt x 327.2225pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_mere.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_CARTE_mere.pdf>
@@ -4048,11 +3744,7 @@ Overfull \hbox (25.55095pt too wide) in paragraph at lines 15--15
  []
 
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf, id=1393, 480.79625pt x 133.49875
-=======
-<Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf, id=1388, 480.79625pt x 133.49875
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf, id=1463, 480.79625pt x 133.49875
 pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf Graphic file (type pdf)
  <use Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf>
@@ -4069,11 +3761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/DEVIS_circuit.pdf, id=1394, 384.43625pt x 132.495pt>
-=======
-<Graphics/ANNEXES/DEVIS_circuit.pdf, id=1389, 384.43625pt x 132.495pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_circuit.pdf, id=1464, 384.43625pt x 132.495pt>
 File: Graphics/ANNEXES/DEVIS_circuit.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_circuit.pdf>
@@ -4090,11 +3778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<<<<<<< HEAD
-<Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf, id=1435, 392.46625pt x 156.585pt>
-=======
-<Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf, id=1431, 392.46625pt x 156.585pt>
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+<Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf, id=1504, 392.46625pt x 156.585pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf>
@@ -4123,35 +3807,120 @@ File: Graphics/PERT2.png Graphic file (type png)
  <use Graphics/PERT2.png>
 Package pdftex.def Info: Graphics/PERT2.png used on input line 6.
 (pdftex.def)             Requested size: 1146.53064pt x 447.92233pt.
-<<<<<<< HEAD
-) [69]
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls)
-[70] (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
-=======
 ) [68]
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
-tputs/rapport.nls) [69]
+tputs/rapport.nls
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20   \item [{PID}]
+                    \begingroup Proportionnel, IntÃ©grateur, DÃ©rivateur\nom...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 20
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22   \item [{PWM}]
+                    \begingroup Pulse-Width Modulation, ou Modulation de Lar...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24   \item [{TP}]
+                   \begingroup Travaux Pratiques\nomeqref {0}\nompageref{3}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 24
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25   \item [{VHDL}]
+                     \begingroup VHSIC1 Hardware Description Language : lang...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 25
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{thenomenclature}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \end{thenomenclature}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.28 \end{thenomenclature}
+                          
+Things are pretty mixed up, but I think the worst is over.
+
+) [69]
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.bbl
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-Underfull \hbox (badness 5077) in paragraph at lines 8--11
+Underfull \hbox (badness 5077) in paragraph at lines 13--16
 []\T1/fav/m/sc/10.95 Line tra-cking sen-sors and al-go-rithms.  []$\T1/fvm/m/n/
 10.95 https : / / www . ikalogic . com /
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 13--16
+Underfull \hbox (badness 2680) in paragraph at lines 18--21
 []\T1/fav/m/sc/10.95 Beaglebone green wi-re-less wiki.  []$\T1/fvm/m/n/10.95 ht
 tp : / / www . seeedstudio . com / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 \T1/fvm/m/n/10.95 adafruit . com / setting-[]up-[]io-[]python-[]library-[]on-[]
 beaglebone-[]black /
  []
@@ -4159,76 +3928,67 @@ beaglebone-[]black /
 
 LaTeX Font Warning: Font shape `TS1/fav/m/it' undefined
 (Font)              using `TS1/fav/m/n' instead
-(Font)              for symbol `texttrademark' on input line 44.
+(Font)              for symbol `texttrademark' on input line 49.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 \T1/fvm/m/n/10.95 digilentinc . com / Pmods / Digilent-[]Pmod _ %20Interface _ 
 Specification .
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 57--60
+Underfull \hbox (badness 1783) in paragraph at lines 62--65
 []\T1/fav/m/sc/10.95 Fergus.  Po-pu-lar lo-gi-tech web-cam fovs.  []$\T1/fvm/m/
 n/10.95 http : / / fer . gy / 2012 / 05 / 11 /
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 62--68
+Underfull \hbox (badness 4024) in paragraph at lines 67--73
 []\T1/fav/m/sc/10.95 D. MOL-LOY.  Chap-ter 6 : In-ter-fa-cing to the bea-gle-bo
 ne in-put/out-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 62--68
+Underfull \hbox (badness 1546) in paragraph at lines 67--73
 \T1/fav/m/sc/10.95 puts chap-ter 6 : In-ter-fa-cing to the bea-gle-bone in-put/
 out-puts.  []$\T1/fvm/m/n/10.95 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 \T1/fvm/m/n/10.95 / / exploringbeaglebone . com / chapter6 / #The _ BealeBone _
  GPIOs _ 8211 _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 []\T1/fav/m/sc/10.95 Eric Nu-nès.  Bien-tôt, des voi-tures "in-tel-li-gentes". 
  \T1/fav/m/it/10.95 Le Monde\T1/fav/m/sc/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 \T1/fav/m/sc/10.95 2003.  []$\T1/fvm/m/n/10.95 http : / / www . lemonde . fr / 
 societe / article / 2003 / 10 / 28 /
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 102--105
+Underfull \hbox (badness 1231) in paragraph at lines 107--110
 []\T1/fav/m/sc/10.95 Texas Ins-tru-ment.  \T1/fav/m/it/10.95 eQEP\T1/fav/m/sc/1
 0.95 , 2006.  []$\T1/fvm/m/n/10.95 http : / / www . ti . com / lit / an / spraa
 h1 /
  []
 
-<<<<<<< HEAD
-[71]) [72]
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
-LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/it' tried instead on input line 22.
-
-[73])
-=======
 [70]) [71]
 (/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
 tputs/rapport.lof
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/it' tried instead on input line 22.
- [72])
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+(Font)              Font shape `T1/fav/b/it' tried instead on input line 23.
+ [72] [73] [74])
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
- [73] (./chapitres/8_abstract.tex
+ [75] (./chapitres/8_abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -4243,11 +4003,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [74]
+) [76]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
@@ -4257,53 +4018,41 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 35677 strings out of 493029
- 699803 string characters out of 6136234
- 803915 words of memory out of 5000000
-=======
- 35676 strings out of 493029
- 700236 string characters out of 6136234
- 803919 words of memory out of 5000000
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
- 38174 multiletter control sequences out of 15000+600000
+ 35680 strings out of 493029
+ 700267 string characters out of 6136234
+ 804928 words of memory out of 5000000
+ 38175 multiletter control sequences out of 15000+600000
  63991 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,84p,10426b,1125s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-dist/fo
 nts/enc/dvips/arev/arevot1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/a
-rev/arevoml.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
-sr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-BoldOblique.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/impallari/cabin/Cabin-Bold.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/mathdesign/mdbch/md-chbma.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
-095.pfb>
-<<<<<<< HEAD
-Output written on "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs
-/rapport.pdf" (78 pages, 7472204 bytes).
-PDF statistics:
- 1720 PDF objects out of 1728 (max. 8388607)
- 1392 compressed objects within 14 object streams
- 294 named destinations out of 1000 (max. 500000)
-=======
+rev/arevoml.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/u
+sr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/tex
+mf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/arev/ArevSans-BoldOblique.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/impallari/cabin/Cabin-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/math
+design/mdbch/md-chb7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mat
+hdesign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ma
+thdesign/mdbch/md-chbma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0
+800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/gi
-t/Rapport/LaTeX/Outputs/rapport.pdf" (77 pages, 7470427 bytes).
+t/Rapport/LaTeX/Outputs/rapport.pdf" (82 pages, 7488496 bytes).
 PDF statistics:
- 1714 PDF objects out of 1728 (max. 8388607)
- 1387 compressed objects within 14 object streams
- 293 named destinations out of 1000 (max. 500000)
->>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
+ 1874 PDF objects out of 2073 (max. 8388607)
+ 1540 compressed objects within 16 object streams
+ 296 named destinations out of 1000 (max. 500000)
  1074 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,47 +6,48 @@ Database file #1: includes/bibliography.bib
 Warning--to sort, need author or key in bib3
 Warning--to sort, need author or key in bib6
 Warning--to sort, need author or key in bib20
+Warning--to sort, need author or key in bib25
 Warning--empty school in bib4
 Warning--empty year in bib4
-You've used 21 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            587 strings with 6139 characters,
-and the built_in function-call counts, 3777 in all, are:
-= -- 385
-> -- 75
+            590 strings with 6244 characters,
+and the built_in function-call counts, 3936 in all, are:
+= -- 400
+> -- 76
 < -- 0
-+ -- 39
++ -- 40
 - -- 18
-* -- 147
-:= -- 594
-add.period$ -- 59
-call.type$ -- 21
-change.case$ -- 70
+* -- 152
+:= -- 611
+add.period$ -- 61
+call.type$ -- 22
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 166
-empty$ -- 408
+cite$ -- 28
+duplicate$ -- 173
+empty$ -- 431
 format.name$ -- 18
-if$ -- 844
+if$ -- 884
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 3
-newline$ -- 104
+newline$ -- 108
 num.names$ -- 18
-pop$ -- 109
+pop$ -- 117
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 62
 quote$ -- 0
-skip$ -- 126
+skip$ -- 134
 stack$ -- 0
-substring$ -- 114
-swap$ -- 21
+substring$ -- 119
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
-warning$ -- 5
+type$ -- 86
+warning$ -- 6
 while$ -- 18
-width$ -- 23
-write$ -- 202
-(There were 5 warnings)
+width$ -- 24
+write$ -- 209
+(There were 6 warnings)
