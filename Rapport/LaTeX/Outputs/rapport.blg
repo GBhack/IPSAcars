@@ -6,48 +6,47 @@ Database file #1: includes/bibliography.bib
 Warning--to sort, need author or key in bib3
 Warning--to sort, need author or key in bib6
 Warning--to sort, need author or key in bib20
-Warning--to sort, need author or key in bib25
 Warning--empty school in bib4
 Warning--empty year in bib4
 You've used 21 entries,
             2118 wiz_defined-function locations,
-            587 strings with 6224 characters,
-and the built_in function-call counts, 3788 in all, are:
-= -- 384
+            587 strings with 6139 characters,
+and the built_in function-call counts, 3777 in all, are:
+= -- 385
 > -- 75
 < -- 0
 + -- 39
 - -- 18
-* -- 145
-:= -- 590
+* -- 147
+:= -- 594
 add.period$ -- 59
 call.type$ -- 21
 change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 165
-empty$ -- 414
+cite$ -- 26
+duplicate$ -- 166
+empty$ -- 408
 format.name$ -- 18
-if$ -- 850
+if$ -- 844
 int.to.chr$ -- 0
 int.to.str$ -- 21
 missing$ -- 3
 newline$ -- 104
 num.names$ -- 18
-pop$ -- 114
+pop$ -- 109
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 60
 quote$ -- 0
-skip$ -- 129
+skip$ -- 126
 stack$ -- 0
-substring$ -- 113
+substring$ -- 114
 swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 82
-warning$ -- 6
+warning$ -- 5
 while$ -- 18
 width$ -- 23
-write$ -- 201
-(There were 6 warnings)
+write$ -- 202
+(There were 5 warnings)

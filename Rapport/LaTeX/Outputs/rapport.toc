@@ -9,6 +9,7 @@
 \contentsline {subsubsection}{\numberline {3.1.2}Pour le robot}{5}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Diagrammes des cas d'utilisation}{6}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Pour le circuit}{6}{subsubsection.3.2.1}
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {3.2.2}Pour le robot}{9}{subsubsection.3.2.2}
 \contentsline {section}{\numberline {4}\IeC {\'E}laboration d'une solution}{11}{section.4}
 \contentsline {subsection}{\numberline {4.1}Circuit}{11}{subsection.4.1}
@@ -74,3 +75,70 @@
 \contentsline {subsection}{Bibliographie}{71}{section*.71}
 \contentsline {subsection}{Table des illustrations}{73}{section*.72}
 \contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{75}{section*.73}
+=======
+\contentsline {subsubsection}{\numberline {3.2.2}Pour le robot}{8}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}\IeC {\'E}laboration d'une solution}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Circuit}{10}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Structure}{10}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Feux}{10}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Capteurs}{11}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Robot}{12}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Suivi de trajectoire}{12}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}D\IeC {\'e}tection d'obstacles et de de signalisation}{19}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Impl\IeC {\'e}mentation mat\IeC {\'e}rielle}{21}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.1}Propulsion et direction}{21}{paragraph.4.2.3.1}
+\contentsline {paragraph}{\numberline {4.2.3.2}Controleur}{22}{paragraph.4.2.3.2}
+\contentsline {paragraph}{\numberline {4.2.3.3}Suivi de ligne}{23}{paragraph.4.2.3.3}
+\contentsline {paragraph}{\numberline {4.2.3.4}Acquisition d'images}{24}{paragraph.4.2.3.4}
+\contentsline {paragraph}{\numberline {4.2.3.5}\IeC {\'E}valuation des distances}{25}{paragraph.4.2.3.5}
+\contentsline {paragraph}{\numberline {4.2.3.6}Signalisation de ses intentions}{26}{paragraph.4.2.3.6}
+\contentsline {paragraph}{\numberline {4.2.3.7}Interaction avec l'utilisateur}{27}{paragraph.4.2.3.7}
+\contentsline {paragraph}{\numberline {4.2.3.8}Batterie}{27}{paragraph.4.2.3.8}
+\contentsline {subsubsection}{\numberline {4.2.4}Impl\IeC {\'e}mentation logicielle}{27}{subsubsection.4.2.4}
+\contentsline {paragraph}{\numberline {4.2.4.1}Suivi de ligne}{28}{paragraph.4.2.4.1}
+\contentsline {paragraph}{\numberline {4.2.4.2}Reconnaissance d'image}{28}{paragraph.4.2.4.2}
+\contentsline {section}{\numberline {5}Int\IeC {\'e}gration}{34}{section.5}
+\contentsline {subsection}{\numberline {5.1}Circuit}{34}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Int\IeC {\'e}gration Mat\IeC {\'e}rielle}{34}{subsubsection.5.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1}Circuit en lui-m\IeC {\^e}me}{34}{paragraph.5.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.2}Carte \IeC {\'e}lectronique}{35}{paragraph.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2}Int\IeC {\'e}gration Logicielle}{37}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Robot}{38}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Int\IeC {\'e}gration Mat\IeC {\'e}rielle}{38}{subsubsection.5.2.1}
+\contentsline {paragraph}{\numberline {5.2.1.1}Ensembles propulsifs}{38}{paragraph.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.2}Carte R\IeC {\'e}flecteurs Optiques}{39}{paragraph.5.2.1.2}
+\contentsline {paragraph}{\numberline {5.2.1.3}Carte-M\IeC {\`e}re}{41}{paragraph.5.2.1.3}
+\contentsline {paragraph}{\numberline {5.2.1.4}Structure du robot}{42}{paragraph.5.2.1.4}
+\contentsline {paragraph}{\numberline {5.2.1.5}Int\IeC {\'e}gration globale, maquette num\IeC {\'e}rique}{43}{paragraph.5.2.1.5}
+\contentsline {subsubsection}{\numberline {5.2.2}Int\IeC {\'e}gration Logicielle}{45}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Synth\IeC {\`e}se}{47}{subsection.5.3}
+\contentsline {section}{\numberline {6}Estimation du co\IeC {\^u}t de mise en place et faisabilit\IeC {\'e}}{50}{section.6}
+\contentsline {subsection}{\numberline {6.1}Fournitures}{50}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Volume de travail}{50}{subsection.6.2}
+\contentsline {section}{\numberline {7}Suivi de projet}{53}{section.7}
+\contentsline {section}{\numberline {8}Conclusion et aper\IeC {\c c}u des \IeC {\'e}volutions possibles}{54}{section.8}
+\contentsline {section}{Annexes}{55}{section*.55}
+\contentsline {subsection}{\numberline {A}Carte Circuit}{55}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {A.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{55}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {A.2}Gerbers}{56}{subsubsection.8.1.2}
+\contentsline {subsection}{\numberline {B}Carte R\IeC {\'e}flecteurs Optiques}{57}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {B.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{57}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {B.2}Gerbers}{58}{subsubsection.8.2.2}
+\contentsline {subsection}{\numberline {C}Carte M\IeC {\`e}re}{59}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {C.1}Sch\IeC {\'e}ma \IeC {\'e}lectronique}{59}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {C.2}Gerbers}{61}{subsubsection.8.3.2}
+\contentsline {subsection}{\numberline {D}Devis mat\IeC {\'e}riel}{62}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {D.1}Devis global}{62}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {D.2}Devis pour un robot}{63}{subsubsection.8.4.2}
+\contentsline {paragraph}{\numberline {D.2.1}Devis pour la carte-m\IeC {\`e}re}{64}{paragraph.8.4.2.1}
+\contentsline {paragraph}{\numberline {D.2.2}Devis pour la care r\IeC {\'e}flecteurs}{64}{paragraph.8.4.2.2}
+\contentsline {subsubsection}{\numberline {D.3}Devis pour le circuit}{65}{subsubsection.8.4.3}
+\contentsline {paragraph}{\numberline {D.3.1}Devis pour la carte du circuit}{65}{paragraph.8.4.3.1}
+\contentsline {subsection}{\numberline {E}Diagramme de Gantt}{66}{subsection.8.5}
+\contentsline {subsection}{\numberline {F}Diagramme de Gantt}{67}{subsection.8.6}
+\contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{69}{section*.69}
+\contentsline {subsection}{Nomenclature}{69}{section*.70}
+\contentsline {subsection}{Bibliographie}{70}{section*.71}
+\contentsline {subsection}{Table des illustrations}{72}{section*.72}
+\contentsline {section}{R\IeC {\'e}sum\IeC {\'e}}{74}{section*.73}
+>>>>>>> 8a88c7a84aebe37bf0ab69d3152ef82bdfeafead
