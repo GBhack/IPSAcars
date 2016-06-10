@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.13)  10 JUN 2016 20:05
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  10 JUN 2016 19:39
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.26)  10 JUN 2016 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2136,7 +2132,25 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 (./includes/functions.tex
 Success
 Failure
-) (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux)
+)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 <
+       <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `carteMere' multiply defined.
+
+)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -2153,8 +2167,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -2216,6 +2229,17 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+Overfull \hbox (149.57631pt too wide) in paragraph at lines 129--13
+[]\T1/cmr/m/n/10.95 <<<<<<< HEAD       =======       >>>>>>> 14aa694a76ffcc5d23
+c238851ba3ec63940b28fc                                                         
+                             [][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--13
+
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count297
 \scratchdimen=\dimen299
@@ -2242,15 +2266,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
-
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.out)
 \@outlinefile=\write6
 \openout6 = `rapport.out'.
 
 \c@lstlisting=\count304
 
-ABD: EveryShipout initializing macros (./includes/titlepage.tex
+ABD: EveryShipout initializing macros (./includes/titlepage.tex [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2284,7 +2309,7 @@ ABD: EveryShipout initializing macros (./includes/titlepage.tex
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<Graphics/LOGO-IPSA.pdf, id=316, 192.72pt x 115.3911pt>
+<Graphics/LOGO-IPSA.pdf, id=38, 192.72pt x 115.3911pt>
 File: Graphics/LOGO-IPSA.pdf Graphic file (type pdf)
 
 <use Graphics/LOGO-IPSA.pdf>
@@ -2297,87 +2322,32 @@ LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
 
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 26.
-<Graphics/illustration2.png, id=317, 602.25pt x 451.6875pt>
+<Graphics/illustration2.png, id=39, 602.25pt x 451.6875pt>
 File: Graphics/illustration2.png Graphic file (type png)
 
 <use Graphics/illustration2.png>
 Package pdftex.def Info: Graphics/illustration2.png used on input line 34.
 (pdftex.def)             Requested size: 240.89572pt x 180.67178pt.
- [1
-
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Graphics/LOGO-IPSA.pdf> 
-<./Graphics/illustration2.png>])
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.toc
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for OT1+zavm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
-File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
-)
-LaTeX Font Info:    Try loading font information for OML+zavm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/arev/omlzavm.fd
-File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
-)
-LaTeX Font Info:    Try loading font information for OMS+zavm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/arev/omszavm.fd
-File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
-)
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 4.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
-File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
-)
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 4.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 4.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 4.
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 4.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
-File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
-)
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 4.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 4.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 4.
-LaTeX Font Info:    Try loading font information for U+zavm on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
-File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 ...num\IeC {\'e}rique}{44}{paragraph.5.2.1.5}
-                                                   [1
+l.51 \restoregeometry
+                      [1
 
-])
+ <./Graphics/LOGO-IPSA.pdf> <./Graphics/illustration2.png>])
+No file rapport.toc.
 \tf@toc=\write7
 \openout7 = `rapport.toc'.
 
- [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \newpage
+              [1
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -2402,8 +2372,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
+LaTeX Font Info:    Try loading font information for OT1+zavm on input line 36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
+File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
+)
+LaTeX Font Info:    Try loading font information for OML+zavm on input line 36.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/omlzavm.fd
+File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zavm on input line 36.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/omszavm.fd
+File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
+)
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 36
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 36.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 36.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 36
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 36.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 7.68005pt on input line 36.
+LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
+(Font)              scaled to size 5.76004pt on input line 36.
+LaTeX Font Info:    Try loading font information for U+zavm on input line 36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/arev/uzavm.fd
+File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
+)
 LaTeX Font Info:    Try loading font information for TS1+fav on input line 36.
 LaTeX Font Info:    No file TS1fav.fd. on input line 36.
+
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
@@ -2439,12 +2466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 \newpage
-              [2] (./chapitres/1_definitionBesoin.tex
+) [2] (./chapitres/1_definitionBesoin.tex
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 3.
 
@@ -2452,6 +2474,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
@@ -2472,7 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Graphics/formePiste.pdf, id=507, 242.506pt x 241.69766pt>
+<Graphics/formePiste.pdf, id=165, 242.506pt x 241.69766pt>
 File: Graphics/formePiste.pdf Graphic file (type pdf)
 
 <use Graphics/formePiste.pdf>
@@ -2493,13 +2517,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<Graphics/feu2.png, id=508, 90.3375pt x 215.30438pt>
+<Graphics/feu2.png, id=166, 90.3375pt x 215.30438pt>
 File: Graphics/feu2.png Graphic file (type png)
  <use Graphics/feu2.png>
 Package pdftex.def Info: Graphics/feu2.png used on input line 27.
 (pdftex.def)             Requested size: 81.30298pt x 193.77214pt.
 
-<Graphics/feu1.png, id=509, 90.3375pt x 256.70906pt>
+<Graphics/feu1.png, id=167, 90.3375pt x 256.70906pt>
 File: Graphics/feu1.png Graphic file (type png)
  <use Graphics/feu1.png>
 Package pdftex.def Info: Graphics/feu1.png used on input line 31.
@@ -2549,7 +2573,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<Graphics/capteurOptiqueFondNoir.pdf, id=524, 364.34401pt x 214.67226pt>
+<Graphics/capteurOptiqueFondNoir.pdf, id=187, 364.34401pt x 214.67226pt>
 File: Graphics/capteurOptiqueFondNoir.pdf Graphic file (type pdf)
 
 <use Graphics/capteurOptiqueFondNoir.pdf>
@@ -2561,7 +2585,7 @@ Underfull \hbox (badness 1314) in paragraph at lines 71--71
 []\T1/fav/m/sc/9 Figure 3 ^^U |Cap-teur au des-sus d'un sup-port
  []
 
-<Graphics/capteurOptiqueFondBlanc.pdf, id=525, 364.34398pt x 213.86926pt>
+<Graphics/capteurOptiqueFondBlanc.pdf, id=188, 364.34398pt x 213.86926pt>
 File: Graphics/capteurOptiqueFondBlanc.pdf Graphic file (type pdf)
 
 <use Graphics/capteurOptiqueFondBlanc.pdf>
@@ -2578,7 +2602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
 pdfTeX warning: pdflatex (file ./Graphics/capteurOptiqueFondBlanc.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] <Graphics/capteurSimpleGauche.pdf, id=554, 119.87048pt x 63.12398pt>
+>] <Graphics/capteurSimpleGauche.pdf, id=219, 119.87048pt x 63.12398pt>
 File: Graphics/capteurSimpleGauche.pdf Graphic file (type pdf)
 
 <use Graphics/capteurSimpleGauche.pdf>
@@ -2586,7 +2610,7 @@ Package pdftex.def Info: Graphics/capteurSimpleGauche.pdf used on input line 84
 .
 (pdftex.def)             Requested size: 119.87018pt x 63.12381pt.
 
-<Graphics/capteurSimpleDroite.pdf, id=555, 295.0348pt x 63.12398pt>
+<Graphics/capteurSimpleDroite.pdf, id=220, 295.0348pt x 63.12398pt>
 File: Graphics/capteurSimpleDroite.pdf Graphic file (type pdf)
 
 <use Graphics/capteurSimpleDroite.pdf>
@@ -2594,7 +2618,7 @@ Package pdftex.def Info: Graphics/capteurSimpleDroite.pdf used on input line 85
 .
 (pdftex.def)             Requested size: 295.03407pt x 63.12381pt.
 
-<Graphics/capteurDoubleGauche.pdf, id=556, 178.16084pt x 41.01909pt>
+<Graphics/capteurDoubleGauche.pdf, id=221, 178.16084pt x 41.01909pt>
 File: Graphics/capteurDoubleGauche.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleGauche.pdf>
@@ -2602,7 +2626,7 @@ Package pdftex.def Info: Graphics/capteurDoubleGauche.pdf used on input line 89
 .
 (pdftex.def)             Requested size: 249.42346pt x 57.42632pt.
 
-<Graphics/capteurDoubleDroit.pdf, id=557, 179.86333pt x 40.64232pt>
+<Graphics/capteurDoubleDroit.pdf, id=222, 179.86333pt x 40.64232pt>
 File: Graphics/capteurDoubleDroit.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleDroit.pdf>
@@ -2610,7 +2634,7 @@ Package pdftex.def Info: Graphics/capteurDoubleDroit.pdf used on input line 90.
 
 (pdftex.def)             Requested size: 251.80692pt x 56.89882pt.
 
-<Graphics/capteurDoubleEcartFort.pdf, id=558, 323.28316pt x 95.28288pt>
+<Graphics/capteurDoubleEcartFort.pdf, id=223, 323.28316pt x 95.28288pt>
 File: Graphics/capteurDoubleEcartFort.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleEcartFort.pdf>
@@ -2618,7 +2642,7 @@ Package pdftex.def Info: Graphics/capteurDoubleEcartFort.pdf used on input line
  94.
 (pdftex.def)             Requested size: 323.28236pt x 95.28264pt.
 
-<Graphics/capteurDoubleEcartFaible.pdf, id=559, 322.98912pt x 76.0108pt>
+<Graphics/capteurDoubleEcartFaible.pdf, id=224, 322.98912pt x 76.0108pt>
 File: Graphics/capteurDoubleEcartFaible.pdf Graphic file (type pdf)
 
 <use Graphics/capteurDoubleEcartFaible.pdf>
@@ -2651,7 +2675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<Graphics/perteTrajectoireVirage.pdf, id=611, 133.31757pt x 210.68864pt>
+<Graphics/perteTrajectoireVirage.pdf, id=276, 133.31757pt x 210.68864pt>
 File: Graphics/perteTrajectoireVirage.pdf Graphic file (type pdf)
 
 <use Graphics/perteTrajectoireVirage.pdf>
@@ -2659,7 +2683,7 @@ Package pdftex.def Info: Graphics/perteTrajectoireVirage.pdf used on input line
  103.
 (pdftex.def)             Requested size: 199.97585pt x 316.03218pt.
 
-<Graphics/trajectoireVirage.pdf, id=612, 142.31117pt x 214.8327pt>
+<Graphics/trajectoireVirage.pdf, id=277, 142.31117pt x 214.8327pt>
 File: Graphics/trajectoireVirage.pdf Graphic file (type pdf)
 
 <use Graphics/trajectoireVirage.pdf>
@@ -2676,7 +2700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-<Graphics/intersection4Capteurs.pdf, id=638, 113.52177pt x 138.29681pt>
+<Graphics/intersection4Capteurs.pdf, id=303, 113.52177pt x 138.29681pt>
 File: Graphics/intersection4Capteurs.pdf Graphic file (type pdf)
 
 <use Graphics/intersection4Capteurs.pdf>
@@ -2692,7 +2716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 pdfTeX warning: pdflatex (file ./Graphics/intersection4Capteurs.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] <Graphics/intersection5CapteursTD.pdf, id=667, 235.69794pt x 148.87547pt>
+>] <Graphics/intersection5CapteursTD.pdf, id=332, 235.69794pt x 148.87547pt>
 File: Graphics/intersection5CapteursTD.pdf Graphic file (type pdf)
 
 <use Graphics/intersection5CapteursTD.pdf>
@@ -2700,7 +2724,7 @@ Package pdftex.def Info: Graphics/intersection5CapteursTD.pdf used on input lin
 e 118.
 (pdftex.def)             Requested size: 353.54604pt x 223.31264pt.
 
-<Graphics/intersection5CapteursDroite.pdf, id=668, 122.02802pt x 148.83574pt>
+<Graphics/intersection5CapteursDroite.pdf, id=333, 122.02802pt x 148.83574pt>
 File: Graphics/intersection5CapteursDroite.pdf Graphic file (type pdf)
 
 <use Graphics/intersection5CapteursDroite.pdf>
@@ -2717,14 +2741,14 @@ roite.pdf
 
 pdfTeX warning: pdflatex (file ./Graphics/intersection5CapteursDroite.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <Graphics/carrefour.pdf, id=687, 144.54pt x 144.54pt>
+>] <Graphics/carrefour.pdf, id=352, 144.54pt x 144.54pt>
 File: Graphics/carrefour.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour.pdf>
 Package pdftex.def Info: Graphics/carrefour.pdf used on input line 124.
 (pdftex.def)             Requested size: 202.35458pt x 202.35458pt.
 
-<Graphics/carrefour5capteursGauche.pdf, id=688, 235.24673pt x 92.58649pt>
+<Graphics/carrefour5capteursGauche.pdf, id=353, 235.24673pt x 92.58649pt>
 File: Graphics/carrefour5capteursGauche.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour5capteursGauche.pdf>
@@ -2755,7 +2779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-<Graphics/carrefour7capteursGauche.pdf, id=721, 292.82611pt x 99.36624pt>
+<Graphics/carrefour7capteursGauche.pdf, id=386, 292.82611pt x 99.36624pt>
 File: Graphics/carrefour7capteursGauche.pdf Graphic file (type pdf)
 
 <use Graphics/carrefour7capteursGauche.pdf>
@@ -2798,7 +2822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<Graphics/virageDeuxMoteurs.pdf, id=768, 235.63982pt x 72.1926pt>
+<Graphics/virageDeuxMoteurs.pdf, id=435, 235.63982pt x 72.1926pt>
 File: Graphics/virageDeuxMoteurs.pdf Graphic file (type pdf)
 
 <use Graphics/virageDeuxMoteurs.pdf>
@@ -2836,7 +2860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
-<Graphics/BBG.jpg, id=794, 452.69125pt x 377.41pt>
+<Graphics/BBG.jpg, id=463, 452.69125pt x 377.41pt>
 File: Graphics/BBG.jpg Graphic file (type jpg)
  <use Graphics/BBG.jpg>
 Package pdftex.def Info: Graphics/BBG.jpg used on input line 254.
@@ -2874,7 +2898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
-<Graphics/Logitechc170.png, id=813, 456.70625pt x 501.875pt>
+<Graphics/Logitechc170.png, id=484, 456.70625pt x 501.875pt>
 File: Graphics/Logitechc170.png Graphic file (type png)
 
 <use Graphics/Logitechc170.png>
@@ -2898,7 +2922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--291
 
  []
 
-<Graphics/encoder.jpg, id=823, 803.0pt x 748.7975pt>
+<Graphics/encoder.jpg, id=496, 803.0pt x 748.7975pt>
 File: Graphics/encoder.jpg Graphic file (type jpg)
 
 <use Graphics/encoder.jpg>
@@ -2920,7 +2944,7 @@ Overfull \hbox (0.44362pt too wide) in paragraph at lines 304--305
 tion-na-lité et in-tègre même
  []
 
-<Graphics/sonar.jpg, id=831, 93.34875pt x 71.36662pt>
+<Graphics/sonar.jpg, id=505, 93.34875pt x 71.36662pt>
 File: Graphics/sonar.jpg Graphic file (type jpg)
  <use Graphics/sonar.jpg>
 Package pdftex.def Info: Graphics/sonar.jpg used on input line 309.
@@ -2982,7 +3006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-<Graphics/opencvEtalon.jpg, id=853, 248.8497pt x 186.6975pt>
+<Graphics/opencvEtalon.jpg, id=531, 248.8497pt x 186.6975pt>
 File: Graphics/opencvEtalon.jpg Graphic file (type jpg)
 
 <use Graphics/opencvEtalon.jpg>
@@ -2991,34 +3015,34 @@ Package pdftex.def Info: Graphics/opencvEtalon.jpg used on input line 382.
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10> not available
 (Font)              Font shape `T1/fav/b/it' tried instead on input line 383.
 
-<Graphics/opencvB.jpg, id=854, 1036.87375pt x 777.90625pt>
+<Graphics/opencvB.jpg, id=532, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvB.jpg Graphic file (type jpg)
 
 <use Graphics/opencvB.jpg>
 Package pdftex.def Info: Graphics/opencvB.jpg used on input line 387.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
 
-<Graphics/opencvG.jpg, id=855, 1036.87375pt x 777.90625pt>
+<Graphics/opencvG.jpg, id=533, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvG.jpg Graphic file (type jpg)
 
 <use Graphics/opencvG.jpg>
 Package pdftex.def Info: Graphics/opencvG.jpg used on input line 393.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
 
-<Graphics/opencvR.jpg, id=856, 1036.87375pt x 777.90625pt>
+<Graphics/opencvR.jpg, id=534, 1036.87375pt x 777.90625pt>
 File: Graphics/opencvR.jpg Graphic file (type jpg)
 
 <use Graphics/opencvR.jpg>
 Package pdftex.def Info: Graphics/opencvR.jpg used on input line 399.
 (pdftex.def)             Requested size: 136.57462pt x 102.46078pt.
  [29]
-<Graphics/RVB.png, id=864, 607.26875pt x 561.09625pt>
+<Graphics/RVB.png, id=544, 607.26875pt x 561.09625pt>
 File: Graphics/RVB.png Graphic file (type png)
  <use Graphics/RVB.png>
 Package pdftex.def Info: Graphics/RVB.png used on input line 411.
 (pdftex.def)             Requested size: 159.33821pt x 147.2172pt.
 
-<Graphics/HSV_cone.png, id=865, 1284.8pt x 1027.84pt>
+<Graphics/HSV_cone.png, id=545, 1284.8pt x 1027.84pt>
 File: Graphics/HSV_cone.png Graphic file (type png)
 
 <use Graphics/HSV_cone.png>
@@ -3031,7 +3055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--429
 
 [30 <./Graphics/opencvEtalon.jpg> <./Graphics/opencvB.jpg> <./Graphics/opencvG.
 jpg> <./Graphics/opencvR.jpg> <./Graphics/RVB.png> <./Graphics/HSV_cone.png>]
-<Graphics/distEval.pdf, id=876, 535.94044pt x 677.61818pt>
+<Graphics/distEval.pdf, id=556, 535.94044pt x 677.61818pt>
 File: Graphics/distEval.pdf Graphic file (type pdf)
 
 <use Graphics/distEval.pdf>
@@ -3043,14 +3067,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
  []
 
 [31 <./Graphics/distEval.pdf>]
-<Graphics/meanShiftMethode.pdf, id=905, 177.69516pt x 167.59756pt>
+<Graphics/meanShiftMethode.pdf, id=584, 177.69516pt x 167.59756pt>
 File: Graphics/meanShiftMethode.pdf Graphic file (type pdf)
 
 <use Graphics/meanShiftMethode.pdf>
 Package pdftex.def Info: Graphics/meanShiftMethode.pdf used on input line 440.
 (pdftex.def)             Requested size: 213.23311pt x 201.11604pt.
 
-<Graphics/casClignotants_DG.pdf, id=906, 226.32422pt x 435.97263pt>
+<Graphics/casClignotants_DG.pdf, id=585, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_DG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_DG.pdf>
@@ -3067,7 +3091,7 @@ Underfull \hbox (badness 7814) in paragraph at lines 447--447
 \T1/fav/m/sc/10 gauche tour-nant
  []
 
-<Graphics/casClignotants_AD.pdf, id=907, 344.29608pt x 356.12317pt>
+<Graphics/casClignotants_AD.pdf, id=586, 344.29608pt x 356.12317pt>
 File: Graphics/casClignotants_AD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_AD.pdf>
@@ -3079,7 +3103,7 @@ Underfull \hbox (badness 1728) in paragraph at lines 452--452
 []\T1/fav/m/sc/10 (b) |Ro-bot de-vant tour-nant à
  []
 
-<Graphics/casClignotants_GD.pdf, id=908, 226.32422pt x 435.97263pt>
+<Graphics/casClignotants_GD.pdf, id=587, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_GD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_GD.pdf>
@@ -3087,7 +3111,7 @@ Package pdftex.def Info: Graphics/casClignotants_GD.pdf used on input line 456.
 
 (pdftex.def)             Requested size: 91.04742pt x 175.38382pt.
  [32 <./Graphics/meanShiftMethode.pdf>]
-<Graphics/casClignotants_DD.pdf, id=917, 226.32422pt x 435.97263pt>
+<Graphics/casClignotants_DD.pdf, id=597, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_DD.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_DD.pdf>
@@ -3095,7 +3119,7 @@ Package pdftex.def Info: Graphics/casClignotants_DD.pdf used on input line 467.
 
 (pdftex.def)             Requested size: 91.04742pt x 175.38382pt.
 
-<Graphics/casClignotants_AG.pdf, id=918, 344.29608pt x 356.12317pt>
+<Graphics/casClignotants_AG.pdf, id=598, 344.29608pt x 356.12317pt>
 File: Graphics/casClignotants_AG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_AG.pdf>
@@ -3107,7 +3131,7 @@ Underfull \hbox (badness 1728) in paragraph at lines 473--473
 []\T1/fav/m/sc/10 (b) |Ro-bot de-vant tour-nant à
  []
 
-<Graphics/casClignotants_GG.pdf, id=919, 226.32422pt x 435.97263pt>
+<Graphics/casClignotants_GG.pdf, id=599, 226.32422pt x 435.97263pt>
 File: Graphics/casClignotants_GG.pdf Graphic file (type pdf)
 
 <use Graphics/casClignotants_GG.pdf>
@@ -3139,7 +3163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<Graphics/CIRCUIT.pdf, id=1065, 6259.60654pt x 6259.60654pt>
+<Graphics/CIRCUIT.pdf, id=745, 6259.60654pt x 6259.60654pt>
 File: Graphics/CIRCUIT.pdf Graphic file (type pdf)
 
 <use Graphics/CIRCUIT.pdf>
@@ -3160,139 +3184,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
+<Graphics/CIRCUIT2.png, id=757, 2409.0pt x 1806.75pt>
+File: Graphics/CIRCUIT2.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+<use Graphics/CIRCUIT2.png>
+Package pdftex.def Info: Graphics/CIRCUIT2.png used on input line 24.
+(pdftex.def)             Requested size: 289.06754pt x 216.80064pt.
+ [36 <./Graphics/CIRCUIT2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-<Graphics/pmod.png, id=1074, 597.23125pt x 333.245pt>
+<Graphics/pmod.png, id=766, 597.23125pt x 333.245pt>
 File: Graphics/pmod.png Graphic file (type png)
  <use Graphics/pmod.png>
-Package pdftex.def Info: Graphics/pmod.png used on input line 49.
+Package pdftex.def Info: Graphics/pmod.png used on input line 52.
 (pdftex.def)             Requested size: 238.88826pt x 133.29562pt.
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 [37 <./Graphics/pmod.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-<Graphics/secable.png, id=1087, 191.71625pt x 151.56625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+<Graphics/secable.png, id=775, 191.71625pt x 151.56625pt>
 File: Graphics/secable.png Graphic file (type png)
 
 <use Graphics/secable.png>
-Package pdftex.def Info: Graphics/secable.png used on input line 68.
+Package pdftex.def Info: Graphics/secable.png used on input line 71.
 (pdftex.def)             Requested size: 95.85788pt x 75.78293pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 [38 <./Graphics/secable.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Overfull \hbox (18.88255pt too wide) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Overfull \hbox (18.88255pt too wide) in paragraph at lines 114--115
 []\T1/fav/m/sc/10.95 Il a en-suite fallu com-po-ser avec l'offre li-mi-tée pré-
 sente sur le mar-ché "semi-amateurs". 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-<Graphics/reflecteur.pdf, id=1110, 67.79227pt x 75.60037pt>
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<Graphics/reflecteur.pdf, id=809, 67.79227pt x 75.60037pt>
 File: Graphics/reflecteur.pdf Graphic file (type pdf)
 
 <use Graphics/reflecteur.pdf>
-Package pdftex.def Info: Graphics/reflecteur.pdf used on input line 142.
+Package pdftex.def Info: Graphics/reflecteur.pdf used on input line 145.
 (pdftex.def)             Requested size: 135.58417pt x 151.20035pt.
- [40]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<Graphics/espacementReflecteurs.pdf, id=1119, 383.83813pt x 77.12334pt>
+<Graphics/espacementReflecteurs.pdf, id=810, 383.83813pt x 77.12334pt>
 File: Graphics/espacementReflecteurs.pdf Graphic file (type pdf)
 
 <use Graphics/espacementReflecteurs.pdf>
 Package pdftex.def Info: Graphics/espacementReflecteurs.pdf used on input line 
-148.
+151.
 (pdftex.def)             Requested size: 307.0709pt x 61.69873pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
@@ -3300,106 +3324,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
 pdfTeX warning: pdflatex (file ./Graphics/espacementReflecteurs.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] <Graphics/barrelJack.jpg, id=1137, 1003.75pt x 1003.75pt>
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+<Graphics/barrelJack.jpg, id=829, 1003.75pt x 1003.75pt>
 File: Graphics/barrelJack.jpg Graphic file (type jpg)
 
 <use Graphics/barrelJack.jpg>
-Package pdftex.def Info: Graphics/barrelJack.jpg used on input line 167.
+Package pdftex.def Info: Graphics/barrelJack.jpg used on input line 170.
 (pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
 
-<<<<<<< HEAD
 
-LaTeX Warning: Command \` invalid in math mode on input line 148.
+LaTeX Warning: Citation `bib21' on page 42 undefined on input line 171.
 
-Missing character: There is no à in font zavmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-[41 <./Graphics/espacementReflecteurs.pdf> <./Graphics/barrelJack.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-<Graphics/btnNoDebounce.pdf, id=1141, 379.50783pt x 182.75417pt>
+<Graphics/btnNoDebounce.pdf, id=830, 379.50783pt x 182.75417pt>
 File: Graphics/btnNoDebounce.pdf Graphic file (type pdf)
 
 <use Graphics/btnNoDebounce.pdf>
-Package pdftex.def Info: Graphics/btnNoDebounce.pdf used on input line 161.
+Package pdftex.def Info: Graphics/btnNoDebounce.pdf used on input line 178.
 (pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
 
-<Graphics/btnDebounce.pdf, id=1142, 379.50783pt x 182.75417pt>
+<Graphics/btnDebounce.pdf, id=831, 379.50783pt x 182.75417pt>
 File: Graphics/btnDebounce.pdf Graphic file (type pdf)
 
 <use Graphics/btnDebounce.pdf>
-Package pdftex.def Info: Graphics/btnDebounce.pdf used on input line 166.
-(pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
- [42]
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-<Graphics/btnNoDebounce.pdf, id=1139, 379.50783pt x 182.75417pt>
-File: Graphics/btnNoDebounce.pdf Graphic file (type pdf)
-
-<use Graphics/btnNoDebounce.pdf>
-Package pdftex.def Info: Graphics/btnNoDebounce.pdf used on input line 175.
-(pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
-
-<Graphics/btnDebounce.pdf, id=1140, 379.50783pt x 182.75417pt>
-File: Graphics/btnDebounce.pdf Graphic file (type pdf)
-
-<use Graphics/btnDebounce.pdf>
-Package pdftex.def Info: Graphics/btnDebounce.pdf used on input line 180.
+Package pdftex.def Info: Graphics/btnDebounce.pdf used on input line 183.
 (pdftex.def)             Requested size: 204.85846pt x 98.6523pt.
  [42 <./Graphics/barrelJack.jpg>]
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
-<Graphics/he1010.jpg, id=1147, 1003.75pt x 1003.75pt>
+<Graphics/he1010.jpg, id=838, 1003.75pt x 1003.75pt>
 File: Graphics/he1010.jpg Graphic file (type jpg)
-
-<use Graphics/he1010.jpg>
-<<<<<<< HEAD
-Package pdftex.def Info: Graphics/he1010.jpg used on input line 173.
+ <use Graphics/he1010.jpg>
+Package pdftex.def Info: Graphics/he1010.jpg used on input line 190.
 (pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
 
-Overfull \hbox (4.77582pt too wide) in paragraph at lines 179--182
-=======
-Package pdftex.def Info: Graphics/he1010.jpg used on input line 187.
-(pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
-
-Overfull \hbox (4.77582pt too wide) in paragraph at lines 193--196
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Overfull \hbox (4.77582pt too wide) in paragraph at lines 196--199
  \T1/fav/b/n/10.95 5.2.1.4 Struc-ture du ro-bot[][] \T1/fav/m/sc/10.95 L'in-té-
 gra-tion de tous les com-po-sants du ro-bot passe
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 193--196
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
 
@@ -3408,118 +3379,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 pdfTeX warning: pdflatex (file ./Graphics/btnDebounce.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 > <./Graphics/he1010.jpg>]
-<<<<<<< HEAD
-Overfull \hbox (1.04286pt too wide) in paragraph at lines 189--190
-=======
-Overfull \hbox (1.04286pt too wide) in paragraph at lines 203--204
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Overfull \hbox (1.04286pt too wide) in paragraph at lines 206--207
  \T1/fav/b/n/10.95 5.2.1.5 In-té-gra-tion glo-bale, ma-quette nu-mé-rique[][] \
 T1/fav/m/sc/10.95 Une ma-quette Ca-tia nous
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<Graphics/ROBOT1.png, id=1171, 803.0pt x 675.52374pt>
+<Graphics/ROBOT1.png, id=863, 803.0pt x 675.52374pt>
 File: Graphics/ROBOT1.png Graphic file (type png)
-
-<use Graphics/ROBOT1.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Graphics/ROBOT1.png used on input line 193.
-=======
-Package pdftex.def Info: Graphics/ROBOT1.png used on input line 207.
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+ <use Graphics/ROBOT1.png>
+Package pdftex.def Info: Graphics/ROBOT1.png used on input line 210.
 (pdftex.def)             Requested size: 321.1943pt x 270.20471pt.
- <Graphics/ROBOT2.png, id=1172, 803.0pt x 798.985pt>
+
+<Graphics/ROBOT2.png, id=864, 803.0pt x 798.985pt>
 File: Graphics/ROBOT2.png Graphic file (type png)
-
-<use Graphics/ROBOT2.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Graphics/ROBOT2.png used on input line 195.
-=======
-Package pdftex.def Info: Graphics/ROBOT2.png used on input line 209.
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+ <use Graphics/ROBOT2.png>
+Package pdftex.def Info: Graphics/ROBOT2.png used on input line 212.
 (pdftex.def)             Requested size: 321.1943pt x 319.58833pt.
- [44 <./Graphics/ROBOT1.png>]
-<Graphics/ROBOT3.png, id=1178, 803.0pt x 759.83875pt>
+
+[44 <./Graphics/ROBOT1.png>]
+<Graphics/ROBOT3.png, id=872, 803.0pt x 759.83875pt>
 File: Graphics/ROBOT3.png Graphic file (type png)
-
-<use Graphics/ROBOT3.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Graphics/ROBOT3.png used on input line 197.
+ <use Graphics/ROBOT3.png>
+Package pdftex.def Info: Graphics/ROBOT3.png used on input line 214.
 (pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-=======
-Package pdftex.def Info: Graphics/ROBOT3.png used on input line 211.
-(pdftex.def)             Requested size: 321.1943pt x 303.93011pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 [45 <./Graphics/ROBOT2.png> <./Graphics/ROBOT3.png>]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 [46] (./Graphics/tikz/architectureLogicielle.tex)
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 
  []
 
 [47]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 264--267
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-) [48] (./chapitres/5_coutFaisabilite.tex
+<Graphics/miseEnSituation.png, id=891, 803.0pt x 552.0625pt>
+File: Graphics/miseEnSituation.png Graphic file (type png)
+
+<use Graphics/miseEnSituation.png>
+Package pdftex.def Info: Graphics/miseEnSituation.png used on input line 277.
+(pdftex.def)             Requested size: 401.49902pt x 276.03056pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+<Graphics/miseEnSituation1.png, id=892, 803.0pt x 602.25pt>
+File: Graphics/miseEnSituation1.png Graphic file (type png)
+
+<use Graphics/miseEnSituation1.png>
+Package pdftex.def Info: Graphics/miseEnSituation1.png used on input line 279.
+(pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
+ [48]
+<Graphics/miseEnSituation2.png, id=898, 803.0pt x 602.25pt>
+File: Graphics/miseEnSituation2.png Graphic file (type png)
+
+<use Graphics/miseEnSituation2.png>
+Package pdftex.def Info: Graphics/miseEnSituation2.png used on input line 280.
+(pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
+) [49 <./Graphics/miseEnSituation.png> <./Graphics/miseEnSituation1.png>] [50 <
+./Graphics/miseEnSituation2.png>]
+(./chapitres/5_coutFaisabilite.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -3544,12 +3498,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-[49]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<Graphics/planning.pdf, id=1207, 541.02126pt x 541.02126pt>
+<Graphics/planning.pdf, id=923, 541.02126pt x 541.02126pt>
 File: Graphics/planning.pdf Graphic file (type pdf)
 
 <use Graphics/planning.pdf>
@@ -3565,25 +3519,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<Graphics/Gantt.png, id=1208, 1492.57625pt x 554.07pt>
+<Graphics/Gantt.png, id=924, 1492.57625pt x 554.07pt>
 File: Graphics/Gantt.png Graphic file (type png)
-
-<use Graphics/Gantt.png>
+ <use Graphics/Gantt.png>
 Package pdftex.def Info: Graphics/Gantt.png used on input line 50.
 (pdftex.def)             Requested size: 447.77634pt x 166.22227pt.
- [50 <./Graphics/planning.pdf>]
+
+[52 <./Graphics/planning.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<Graphics/PERT1.png, id=1228, 630.10406pt x 464.4853pt>
+<Graphics/PERT1.png, id=945, 630.10406pt x 464.4853pt>
 File: Graphics/PERT1.png Graphic file (type png)
 
 <use Graphics/PERT1.png>
 Package pdftex.def Info: Graphics/PERT1.png used on input line 55.
 (pdftex.def)             Requested size: 378.06535pt x 278.69333pt.
 
-<Graphics/PERT2.png, id=1231, 1146.53343pt x 447.92343pt>
+<Graphics/PERT2.png, id=948, 1146.53343pt x 447.92343pt>
 File: Graphics/PERT2.png Graphic file (type png)
 
 <use Graphics/PERT2.png>
@@ -3594,7 +3548,7 @@ Overfull \hbox (3.36115pt too wide) in paragraph at lines 56--56
  [][] 
  []
 
-[51 <./Graphics/Gantt.png> <./Graphics/PERT1.png>]
+[53 <./Graphics/Gantt.png> <./Graphics/PERT1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
@@ -3614,7 +3568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [52 <./Graphics/PERT2.png>] (./chapitres/7_conclusion.tex
+) [54 <./Graphics/PERT2.png>] (./chapitres/7_conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
@@ -3629,9 +3583,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [53] (./chapitres/Annexes/carteReflecteurs.tex
-<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=1252, 483.70256pt x 455.229
-87pt>
+) [55] (./chapitres/Annexes/carteCircuit.tex
+<Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf, id=972, 427.19368pt x 740.19463pt>
+File: Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf Graphic file (type pdf)
+
+<use Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf>
+Package pdftex.def Info: Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf used on inpu
+t line 4.
+(pdftex.def)             Requested size: 341.7554pt x 592.15651pt.
+ [56 <./Graphics/ANNEXES/SCHEMA_CARTE_CIRCUIT.pdf>]
+<Graphics/ANNEXES/CARTE_CIRCUIT.pdf, id=982, 370.35011pt x 370.35011pt>
+File: Graphics/ANNEXES/CARTE_CIRCUIT.pdf Graphic file (type pdf)
+
+<use Graphics/ANNEXES/CARTE_CIRCUIT.pdf>
+Package pdftex.def Info: Graphics/ANNEXES/CARTE_CIRCUIT.pdf used on input line 
+8.
+(pdftex.def)             Requested size: 370.3492pt x 370.3492pt.
+)
+(./chapitres/Annexes/carteReflecteurs.tex
+<Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf, id=983, 483.70256pt x 455.2298
+7pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf Graphic file (type pdf)
  <use Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf used on
@@ -3642,8 +3613,9 @@ Overfull \hbox (28.45726pt too wide) in paragraph at lines 4--4
  [][] 
  []
 
-[54 <./Graphics/ANNEXES/CARTE-REFLECTEURS_circuit.pdf>]
-<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=1260, 455.22987pt x 313.00024pt>
+[57 <./Graphics/ANNEXES/CARTE_CIRCUIT.pdf>] [58 <./Graphics/ANNEXES/CARTE-REFLE
+CTEURS_circuit.pdf>]
+<Graphics/ANNEXES/CARTE-REFLECTEURS.pdf, id=1001, 455.22987pt x 313.00024pt>
 File: Graphics/ANNEXES/CARTE-REFLECTEURS.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>
@@ -3652,7 +3624,7 @@ ine 8.
 (pdftex.def)             Requested size: 455.22876pt x 312.99947pt.
 )
 (./chapitres/Annexes/carteMere.tex
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=1261, 497.94032pt x 512.17805pt>
+<Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf, id=1002, 497.94032pt x 512.17805pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_1.pdf>
@@ -3665,7 +3637,7 @@ Overfull \hbox (42.69499pt too wide) in paragraph at lines 4--4
  []
 
 
-<Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=1262, 497.94032pt x 512.17805pt>
+<Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf, id=1003, 497.94032pt x 512.17805pt>
 File: Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>
@@ -3677,18 +3649,18 @@ Overfull \hbox (42.69499pt too wide) in paragraph at lines 5--5
  [][] 
  []
 
-[55 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [56 <./Graphics/ANNEXES/SCHEMA_
-CARTE_MERE_1.pdf>] [57 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>]
-<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=1285, 398.3528pt x 426.82549pt>
+[59 <./Graphics/ANNEXES/CARTE-REFLECTEURS.pdf>] [60 <./Graphics/ANNEXES/SCHEMA_
+CARTE_MERE_1.pdf>] [61 <./Graphics/ANNEXES/SCHEMA_CARTE_MERE_2.pdf>]
+<Graphics/ANNEXES/CARTE_CARTE_MERE.pdf, id=1028, 398.3528pt x 426.82549pt>
 File: Graphics/ANNEXES/CARTE_CARTE_MERE.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/CARTE_CARTE_MERE.pdf used on input li
 ne 10.
 (pdftex.def)             Requested size: 398.35182pt x 426.82443pt.
-) [58 <./Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>] (./chapitres/Annexes/devis.tex
+) [62 <./Graphics/ANNEXES/CARTE_CARTE_MERE.pdf>] (./chapitres/Annexes/devis.tex
 
-<Graphics/ANNEXES/DEVIS_global.pdf, id=1294, 470.75874pt x 130.4875pt>
+<Graphics/ANNEXES/DEVIS_global.pdf, id=1037, 470.75874pt x 130.4875pt>
 File: Graphics/ANNEXES/DEVIS_global.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_global.pdf>
@@ -3700,8 +3672,8 @@ Overfull \hbox (15.51349pt too wide) in paragraph at lines 4--4
  [][] 
  []
 
-[59 <./Graphics/ANNEXES/DEVIS_global.pdf>]
-<Graphics/ANNEXES/DEVIS_robot.pdf, id=1312, 483.8075pt x 412.54124pt>
+[63 <./Graphics/ANNEXES/DEVIS_global.pdf>]
+<Graphics/ANNEXES/DEVIS_robot.pdf, id=1056, 483.8075pt x 412.54124pt>
 File: Graphics/ANNEXES/DEVIS_robot.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_robot.pdf>
@@ -3713,12 +3685,12 @@ Overfull \hbox (28.56221pt too wide) in paragraph at lines 9--9
  [][] 
  []
 
-[60 <./Graphics/ANNEXES/DEVIS_robot.pdf>]
+[64 <./Graphics/ANNEXES/DEVIS_robot.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<Graphics/ANNEXES/DEVIS_CARTE_mere.pdf, id=1335, 480.79625pt x 327.2225pt>
+<Graphics/ANNEXES/DEVIS_CARTE_mere.pdf, id=1081, 480.79625pt x 327.2225pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_mere.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_CARTE_mere.pdf>
@@ -3731,7 +3703,7 @@ Overfull \hbox (25.55095pt too wide) in paragraph at lines 15--15
  []
 
 
-<Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf, id=1336, 480.79625pt x 133.49875
+<Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf, id=1082, 480.79625pt x 133.49875
 pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf Graphic file (type pdf)
  <use Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf>
@@ -3748,14 +3720,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<Graphics/ANNEXES/DEVIS_circuit.pdf, id=1337, 384.43625pt x 132.495pt>
+<Graphics/ANNEXES/DEVIS_circuit.pdf, id=1083, 384.43625pt x 132.495pt>
 File: Graphics/ANNEXES/DEVIS_circuit.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_circuit.pdf>
 Package pdftex.def Info: Graphics/ANNEXES/DEVIS_circuit.pdf used on input line 
 21.
 (pdftex.def)             Requested size: 384.4353pt x 132.49466pt.
- [61 <./Graphics/ANNEXES/DEVIS_CARTE_mere.pdf> <./Graphics/ANNEXES/DEVIS_CARTE_
+ [65 <./Graphics/ANNEXES/DEVIS_CARTE_mere.pdf> <./Graphics/ANNEXES/DEVIS_CARTE_
 reflecteurs.pdf
 
 pdfTeX warning: pdflatex (file ./Graphics/ANNEXES/DEVIS_CARTE_reflecteurs.pdf):
@@ -3765,7 +3737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf, id=1377, 392.46625pt x 156.585pt>
+<Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf, id=1125, 392.46625pt x 156.585pt>
 File: Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf Graphic file (type pdf)
 
 <use Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf>
@@ -3773,7 +3745,7 @@ Package pdftex.def Info: Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf used on input
  line 25.
 (pdftex.def)             Requested size: 392.46527pt x 156.58461pt.
 ) (./chapitres/Annexes/gantt.tex
-[62 <./Graphics/ANNEXES/DEVIS_circuit.pdf> <./Graphics/ANNEXES/DEVIS_CARTE_circ
+[66 <./Graphics/ANNEXES/DEVIS_circuit.pdf> <./Graphics/ANNEXES/DEVIS_CARTE_circ
 uit.pdf
 
 pdfTeX warning: pdflatex (file ./Graphics/ANNEXES/DEVIS_CARTE_circuit.pdf): PDF
@@ -3783,23 +3755,24 @@ File: Graphics/Gantt.png Graphic file (type png)
  <use Graphics/Gantt.png>
 Package pdftex.def Info: Graphics/Gantt.png used on input line 4.
 (pdftex.def)             Requested size: 1492.57262pt x 554.06865pt.
-) (./chapitres/Annexes/PERT.tex [63]
+) (./chapitres/Annexes/PERT.tex [67]
 File: Graphics/PERT1.png Graphic file (type png)
 
 <use Graphics/PERT1.png>
 Package pdftex.def Info: Graphics/PERT1.png used on input line 4.
 (pdftex.def)             Requested size: 630.10252pt x 464.48418pt.
- [64]
+ [68]
 File: Graphics/PERT2.png Graphic file (type png)
  <use Graphics/PERT2.png>
 Package pdftex.def Info: Graphics/PERT2.png used on input line 6.
 (pdftex.def)             Requested size: 1146.53064pt x 447.92233pt.
-) [65]
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.nls)
-[66] (/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.bbl
+) [69]
+No file rapport.nls.
+[70]
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.bbl
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 Underfull \hbox (badness 5077) in paragraph at lines 13--16
@@ -3873,16 +3846,16 @@ Underfull \hbox (badness 1231) in paragraph at lines 103--106
 h1 /
  []
 
-[67]) [68]
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.lof
+[71]) [72]
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.lof
 LaTeX Font Info:    Font shape `T1/fav/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/it' tried instead on input line 22.
-
-[69])
+ [73])
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
- [70] (./chapitres/8_abstract.tex
+ [74] (./chapitres/8_abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -3897,62 +3870,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [71]
+) [75]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
-(/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs/rapport.aux)
+(/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/git/Rapport/LaTeX/Ou
+tputs/rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 418BC4AC3A74615A6A4C8A134D87E803;5287.
 
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  0FF45F9792AAB53B9D2ECB0624CC0235;5565.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 35630 strings out of 493029
- 698545 string characters out of 6136234
- 804873 words of memory out of 5000000
- 38149 multiletter control sequences out of 15000+600000
- 66350 words of font info for 92 fonts, out of 8000000 for 9000
-=======
- 35626 strings out of 493029
- 698934 string characters out of 6136234
- 804873 words of memory out of 5000000
- 38146 multiletter control sequences out of 15000+600000
+ 35597 strings out of 493029
+ 698202 string characters out of 6136234
+ 803782 words of memory out of 5000000
+ 38099 multiletter control sequences out of 15000+600000
  63991 words of font info for 90 fonts, out of 8000000 for 9000
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
  1141 hyphenation exceptions out of 8191
  57i,16n,84p,10426b,1125s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/arev/arevot1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/a
-rev/arevoml.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
-sr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-BoldOblique.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/impallari/cabin/Cabin-Bold.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/mathdesign/mdbch/md-chbma.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
-095.pfb>
-<<<<<<< HEAD
-Output written on "/home/maxime/Projet Technique/IPSAcars/Rapport/LaTeX/Outputs
-/rapport.pdf" (74 pages, 4216709 bytes).
-=======
+pdfTeX warning (dest): name{figure.caption.55} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.65} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.64} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/
+texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/arev/arevot1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/are
+v/arevoml.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr
+/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf
+-dist/fonts/type1/public/arev/ArevSans-Bold.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/arev/ArevSans-BoldOblique.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/arev/ArevSans-Oblique.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/arev/ArevSans-Roman.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/impallari/cabin/Cabin-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathde
+sign/mdbch/md-chb7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathd
+esign/mdbch/md-chb7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/math
+design/mdbch/md-chbma.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/media/Windows/Users/gbito/ownCloud/IPSA/Projet Technique/gi
-t/Rapport/LaTeX/Outputs/rapport.pdf" (74 pages, 4207004 bytes).
->>>>>>> 14aa694a76ffcc5d23c238851ba3ec63940b28fc
+t/Rapport/LaTeX/Outputs/rapport.pdf" (78 pages, 7467518 bytes).
 PDF statistics:
- 1655 PDF objects out of 1728 (max. 8388607)
- 1341 compressed objects within 14 object streams
- 280 named destinations out of 1000 (max. 500000)
- 1012 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1417 PDF objects out of 1440 (max. 8388607)
+ 1092 compressed objects within 11 object streams
+ 297 named destinations out of 1000 (max. 500000)
+ 474 words of extra memory for PDF output out of 10000 (max. 10000000)
 
