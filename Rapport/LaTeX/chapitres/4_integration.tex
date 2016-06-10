@@ -20,6 +20,9 @@
 
 			Le câblage des capteurs et des feux sera solidaire de chaque partie, et passera par des trous prévus à cet effet dans les tasseaux pour converger en un "faisceau" terminé par un connecteur pour chacune des deux parties. Un connecteur sera présent du côté de chaque feu avec suffisemment de longueur de câble pour pouvoir facilement procéder à l'installation desdits feux.
 
+			Voici à quoi ressemblerait le circuit (les petits éléments ne sont pas visibles):
+			\illu{CIRCUIT2.png}{Modélisation 3D du circuit}{0.12}
+
 		\paragraph{Carte électronique}
 
 			La carte aura pour but de servir d’interface entre la carte FPGA et les composants électroniques du circuit (LEDs des feux bicolores et capteurs ILS).\\
@@ -86,8 +89,8 @@
 		Une succession classique d'états serait 0->1->0->2->0->...\\
 		Pour simplifier l'organisation du programme, nous pourrions créer un état intermédiaire entre 1 et 2, identique à l'état 0.\\
 
-		Un diviseur d'horloge permettrait de générer des évenements à intervales réguliers afin de cadencer le changements d'états.\\
-		Les capteurs eux-mêmes pourraient générer un évènement (sur un front montant de l'entrée logique à laquelle ils sont branchés par exemple) qui, si un certain nombre de conditions sont réunies, anticiperaient le changement d'état (si une voiture se présente à un feu rouge et qu'aucune ne "profite" des feux verts, alors il est plus logique d'inverser cet état),
+		Un diviseur d'horloge permettrait de générer des événements à intervalles réguliers afin de cadencer le changements d'états.\\
+		Les capteurs eux-mêmes pourraient générer un événements (sur un front montant de l'entrée logique à laquelle ils sont branchés par exemple) qui, si un certain nombre de conditions sont réunies, anticiperaient le changement d'état (si une voiture se présente à un feu rouge et qu'aucune ne "profite" des feux verts, alors il est plus logique d'inverser cet état).
 
 \subsection{Robot}
 
@@ -102,11 +105,11 @@
 				\item Le motoréducteur doit nous permettre d’atteindre une vitesse de pointe minimum de 15 cm/s (environ 70 tours par minute pour une roue de diamètre 4cm).
 				\item Le motoréducteur devrait bénéficier d'un couple "confortable" pour les manoeuvres du robot.
 				\item Le moteur ne devra pas être surdimensionné de manière à maîtriser la consommation d’énergie.
-				\item On se muniera du moteur le moins cher répondant aux critères précédents.
+				\item On se munira du moteur le moins cher répondant aux critères précédents.
 				\item Nous désirions aussi dans la mesure du possible trouver un moteur possédant un encodeur intégré, cependant ce critère ne correspond pas à un critère d’arrêt.
 			\end{itemize}
 
-			Nous avons estimé le couple minimum nécéssaire à 0,01Nm par moteur (en effectuant le calcul pour différentes masses et inclinaisons de la piste).\\
+			Nous avons estimé le couple minimum nécessaire à 0,01Nm par moteur (en effectuant le calcul pour différentes masses et inclinaisons de la piste).\\
 
 			Il a ensuite fallu composer avec l'offre limitée présente sur le marché "semi-amateurs".\\
 
@@ -165,14 +168,7 @@
 
 			Ce shield intègre une prise standard de type Barrel jack, et peut être alimenté par toute source de tension supérieure à 7V. 
 			\illu{barrelJack.jpg}{Embase Barrel Jack \textbf{\textit{(source : Conrad.fr)}}}{0.1}
-			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour une alimentation à découpage, aussi appelé convertisseur Buck. Le principe est simple : il s'agit de créer un PWM, et de le passer dans un filtre passe-bas. En modulant la largeur d'impulsion, on obtient en sortie un signal presque linéaire. L'inconvénient de cette méthode de régulation par rapport aux régulateurs classiques réside dans le fait que des composants supplémentaires sont nécessaires. En revanche, leur rendement est beaucoup plus élevé et peut atteindre 95\% \cite{bib25} !
-			Un simple régulateur de tension va convertir "la tension en excès" en chaleur : pour une entrée à $7,2v$, et une sortie à $5v à 800mA$, il nous faudra donc dissiper $P = (V_{in} - V{out}) \times I = (7,2 - 5) \times 0,8 = 1,76W$. Sachant que le courant d'entrée est le même que le courant de sortie, on a donc un rendement de $R = \frac{V_{out}}{V_{in}} = \frac{5}{7,2} = 69\%$. Cette différence de rendement n'est pas négligeable et nous permettra d'augmenter considérablement notre autonomie.\\
-
-			Nous avons également décidé d'utiliser des portes Nand pour alimenter les LEDs : le composant 75HCT04. En effet, l'intensité maximum que le BBG peut délivrer étant faible, nous utilisons ces portes NAND à forte d'impédance d'entrée afin de pouvoir alimenter suffisament les LEDs sans risquer d'endommager le BBG. Les LEDs sont connectées en série à des résistances adaptées afin d'éviter d'endommager ces dernières.\\
-
-			Nous allons également utiliser le composant L293D, un double pont en H, qui nous permettra de controller les 2 moteurs simplement, comprenant les diodes de roue-libre et tout le brochage nécessaire dans un petit composant, qui permet, en plus de facilités de réalisation, un gain de place. Nous pouvons commander simplement avec une pin la direction du moteur, et avec une autre, la vitesse, commandée en PWM.\\
-
-			Nous utiliserons des condensateurs de 0,1 et 0,33 µF avant et après l'alimentation. Ces condensateurs sont essentiels : ils permettent de lisser fortement la sortie, afin d'éviter des composantes fréquencielles élevées, pouvant parasiter ou endommager le circuit et/ou le BBG.\\
+			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.\\
 
 			Nous avons également décidé d'intégré un interrupteur à levier de type On/Off, afin d'économiser la batterie lorsque les moteurs ne sont pas nécessaires, et ainsi gagner en autonomie. Nous avons également inclu un bouton poussoir à impulsion (de type NO \nomenclature{NO}{Normally Open, Normalement ouvert}(On)/Off, selon les notations normalisées). Ce dernier démarrera la séquence de test, permettant ainsi de positionner le robot sur le circuit avant de commencer les tests.\\
 			Les deux boutons sont accompagnés en dérivation de condensateurs. En effet, lors d'un changement d'état d'un interrupteur, le signal ne passe pas d'un état à un autre (de HAUT/HIGH à BAS/LOW ou inversement) immédiatement et parfaitement. Il y a une phase de transition qui, si elle n'est pas géré physiquement ou logiciellement, peut causer de graves problèmes, tel qu'un appui multiple, pouvant lancer plusieurs fois la séquence, entrainant des perturbations et pouvant potentiellement endommager le robot et/ou la carte. On parle de "debouncing", comme le présente la figure suivante :
@@ -275,3 +271,10 @@
 		Encore une fois, rien n'obligera l'utilisateur à se servir de cette base logicielle. Il pourra très bien décider d'ignorer totalement le système en place et concevoir le sien. Le but de ce système est vraiment de permettre à un élève de se concentrer sur une problématique ciblée en voyant les autres traitées pour lui. Mais cela ne peut se faire que si son propre module n'empêche pas le fonctionnement des autres. Ceci ne peut être le cas que si son module est parfaitement additionnel (et fait donc un travail dont le résultat n'est requis par aucun autre module) ou si il est parfaitement compatible avec les autres (et transmet donc les données dans le même format et selon le même protocole que le module natif).\\
 
 		Nous ne pouvons pas insister suffisemment sur le fait que ceci ne représente que l'approche théorique du problème. Si nous l'avons longuement pensé et réfléchi, ce travail n'est absolument pas suffisent pour donner lieu à une phase de développement : celle-ci devra être précédée d'une phase de préparation minutieuse, notemment en utilisant les outils de "Model Driven Engineering" (diagrames de classes, d'interaction...) afin de mettre en place un cadre de travail strict et rigoureux absolument nécéssaire à la réussite d'un projet de ce type.
+
+\subsection{Synthèse}
+	Pour mieux se représenter le système dans son ensemble, voici quelques mises en situation :\\
+	\illu{miseEnSituation.png}{Mise en situation du robot sur le circuit}{0.5}
+	\vspace{25pt}
+	\illu{miseEnSituation1.png}{Mise en situation du robot sur le circuit}{0.5}
+	\illu{miseEnSituation2.png}{Mise en situation du robot sur le circuit}{0.5}
