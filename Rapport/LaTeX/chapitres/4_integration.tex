@@ -95,11 +95,32 @@
 
 		\paragraph{Ensembles propulsifs}
 
-			\textbf{\Huge{\textcolor{red}{[INTEGRER PARTIE MA]}}}
+			Les deux "ensembles de propulsion" seront placés à l'arrière du robot. Une simple bille multidirectionnelle sera placée l'avant pour assurer la stabilité du robot.\\
 
-			Les deux "ensembles de propulsion" seront placés à l'arrière du robot. Une simple bille multidirectionnelle sera placée l'avant pour assurer la stabilité du robot.
+			Le choix de notre motoréducteur fut basé sur un ensemble de critères :
+			\begin{itemize}
+				\item Le motoréducteur doit nous permettre d’atteindre une vitesse de pointe minimum de 15 cm/s (environ 70 tours par minute pour une roue de diamètre 4cm).
+				\item Le motoréducteur devrait bénéficier d'un couple "confortable" pour les manoeuvres du robot.
+				\item Le moteur ne devra pas être surdimensionné de manière à maîtriser la consommation d’énergie.
+				\item On se muniera du moteur le moins cher répondant aux critères précédents.
+				\item Nous désirions aussi dans la mesure du possible trouver un moteur possédant un encodeur intégré, cependant ce critère ne correspond pas à un critère d’arrêt.
+			\end{itemize}
 
-			Comme évoqué précédemment, le motoréducteur choisi est associable avec une roue et un encodeur du même constructeur qui forment un ensemble fonctionnel et simple à implémenter. Nous y associerons un support PVC adapté pour la fixation.\\
+			Nous avons estimé le couple minimum nécéssaire à 0,01Nm par moteur (en effectuant le calcul pour différentes masses et inclinaisons de la piste).\\
+
+			Il a ensuite fallu composer avec l'offre limitée présente sur le marché "semi-amateurs".\\
+
+			Nous avons finalement sélectionné le motoréducteur "High-Power" de Pololu dans sa version proposant un taux de réduction de 298 pour 1.
+			Ce moteur propose les caractéristiques suivantes :\cite{bib8} \\
+
+			\begin{itemize}
+				\item Couple de blocage de 0,5Nm
+				\item Vitesse à vide sous 6V de 100 tours par minute
+				\item Courant à couple maximum de 1.6A (soit 400mA maximum en utilisation normale)
+			\end{itemize}
+
+
+			Ce motoréducteur est associable avec une roue et un encodeur du même constructeur qui forment un ensemble fonctionnel et simple à implémenter. Nous y associerons un support PVC adapté pour la fixation.\\
 			Notons qu'un seul des deux moteurs sera équipé d'un encodeur, deux étant superflus et évidemment plus chers.
 
 			Le motoréducteur est équipé de deux fils d'alimentation. Nous les connecterons à la carte-mère au travers d'un bornier. Un double pont en H intégré L293D (comprenant les diodes de roue libre \cite{bib17}) permettra de faire le lien entre le signal PWM généré par le BBG (3.3V limité à une vingtaine de milliampères) et le moteur (que l'on alimentera directement sur la batterie, le signal PWM étant donc adapté sur une base 7.2V). Trois sorties seront donc utilisées sur le BBG pour chacun des deux moteurs : une PWM pour gérer la puissance transmise au moteur, et deux digitales pour le sens de rotation. Ces signaux (de 3.3V) pourront-être directement transmis au double pont en H (le L293D ayant une tension "niveau haut" de 2,3V \cite{bib17}). Nous compterons deux sources d'alimentation pour le pont en H : une alimentation de 5V pour le circuit logique et une alimentation directe sur la batterie (on pensera à intégrer deux condensateurs pour filtrer le bruit dû aux moteurs). Les signaux logiques viendront directement du BBG.\\
