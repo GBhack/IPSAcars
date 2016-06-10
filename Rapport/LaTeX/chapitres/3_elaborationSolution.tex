@@ -184,10 +184,39 @@
 
 		Etant donné le fait que les robots évoluerons dans un environnement idéal, parfait, il n'existera pas en première instance d'obstacles à proprement parler, tel qu'une route barrée aléatoirement, par exemple. Le seul obstacle que nous risquerions de rencontrer est un autre robot situé juste devant nous et arrété à un feu. Ici, le sonar situé à l'avant aura une priorité plus élevée que les autres capteurs, et pourra passer outre les différentes informations reçus par les autres capteurs, influençant fortement la décision. En langage informatique, on parlera d' "override", qui peut être nécessaire dans une situation d'urgence comme celle ci. Ainsi, quelque soit les informations des autres capteurs, le robot s'arretera.
 		\\
-		Ce point est bien entendu sujet à améliorations, et tout développeur pourra, s'il le désire, implémenter la gestion de ce genre de situations : route barrée, ligne centrale partiellement effacée et peu détectable etc...
-		\\
-		Dans le cadre de ce projet, cette détection de signalisation se limite aux feux et aux intentions des vehicules comme nous allons le developper en \ref{feuEtIntentions}, page \pageref{feuEtIntentions}.
+		Ce point est bien entendu sujet à améliorations, et tout développeur pourra, s'il le désire, implémenter la gestion de ce genre de situations : route barrée, ligne centrale partiellement effacée et peu détectable, etc...
+		\\\\
+		Dans le cadre de ce projet, cette détection de signalisation se limite aux feux et aux intentions des vehicules comme nous allons le developper en \ref{feuEtIntentions}, page \pageref{feuEtIntentions}. Cependant, il pourra être envisageable à l'avenir de rajouter une signalisation par panneaux (Céder le passage, Stop...).
 		Cette partie sera réalisée en utilisant des techniques de reconnaissance d'image en quasi-temps réel, utilisant la caméra embarquée, et initialement développé en Python.
+		\\\\
+		Notons également qu'une série des tests simples et logiques seront réalisés en cascade. Une fois tous ces tests (détaillés ci-dessous) effectués, le module de décision du robot réalisera une synthèse de tous les résultats, et effectuera un choix.
+		\begin{enumerate}
+			\item Attente de lecture du premier code-barre
+			\item Lecture du premier code-barre
+			\item Démarrage du décompte de la distance
+			\item Attente de lecture du deuxième code-barre
+			\item S'il existe, lecture
+			\item Décision sur la direction à prendre
+			\item Signalisation des intentions
+			\item Recherche du feu de signalisation
+			\begin{enumerate}
+				\item S'il existe, détermination de sa couleur
+				\begin{itemize}
+					\item Arrêt à 10 cm s'il est rouge
+					\item S'il est vert, on continue
+				\end{itemize}
+				\item S'il n'existe pas, on se situe à une intersection "classique", recherche d'un robot éventuel
+				\begin{itemize}
+					\item S'il y a un robot, sommes-nous prioritaire ? Est-il déjà engagé ? On utilisera, en plus de la reconnaissance d'image, le sonar.
+					\item S'il n'y en a pas, on continue sans s'inquiéter.
+				\end{itemize}
+			\end{enumerate}
+			\item Une fois que le carrefour ou l'intersection est passé, on éteint toute indication sur nos intentions.
+		\end{enumerate}
+		Une fois cette séquence terminée, on recommence.
+		\\
+		En parallèle, une instance vérifiera en boucle si un obstacle se situe devant nous. Si oui, le système d' "override" s'applique. Nous nous arretons et mettons en pause la tâche en cours jusqu'à ce que l'avancée soit possible, plus un délai de sécurité. Le robot pourra se remettre en mouvement et reprendre la tâche mise en pause.
+
 
 
 	\subsubsection{Implémentation matérielle}

@@ -91,19 +91,36 @@
 
 			La carte mère est le circuit imprimé permettant de relier véritablement les actions "logicielles" aux actions réelles. Les contraintes pour cette carte sont simples :
 			\begin{itemize}
-				\item De taille raisonnable, soit de la tailler bu BBG
+				\item De taille raisonnable, soit de la taille bu BBG
 				\item Ne pas intégrer directement les composants ayant un impact sur l'environnement du robot (moteur, LEDs...), pour qu'en cas de défaillance, ainsi que toujours dans un esprit de modularité et d'amélioration continue, un élément soit interchangeable rapidement, par le biais de connecteurs standards.
-				\item Facilement integrable au BBG. L'idée est vraiment de réaliser un Shield simplement enfichable.
+				\item Facilement intégrable au BBG. L'idée est vraiment de réaliser un shield enfichable simplement.
 			\end{itemize}
 			
 
 			Ce shield intègre une prise standard de type Barrel jack, et peut être alimenté par toute source de tension supérieure à 7V. 
 			\illu{barrelJack.jpg}{Embase Barrel Jack \textbf{\textit{(source : Conrad.fr)}}}{0.1}
-			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.
+			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.\\
 
-
-
-
+			Nous avons également décidé d'intégré un interrupteur à levier de type On/Off, afin d'économiser la batterie lorsque les moteurs ne sont pas nécessaires, et ainsi gagner en autonomie. Nous avons également inclu un bouton poussoir à impulsion (de type NO \nomenclature{NO}{Normally Open, Normalement ouvert}(On)/Off, selon les notations normalisées). Ce dernier démarrera la séquence de test, permettant ainsi de positionner le robot sur le circuit avant de commencer les tests.\\
+			Les deux boutons sont accompagnés en dérivation de condensateurs. En effet, lors d'un changement d'état d'un interrupteur, le signal ne passe pas d'un état à un autre (de HAUT/HIGH à BAS/LOW ou inversement) immédiatement et parfaitement. Il y a une phase de transition qui, si elle n'est pas géré physiquement ou logiciellement, peut causer de graves problèmes, tel qu'un appui multiple, pouvant lancer plusieurs fois la séquence, entrainant des perturbations et pouvant potentiellement endommager le robot et/ou la carte. On parle de "debouncing", comme le présente la figure suivante :
+			\begin{figure}[H]
+				\centering
+				\begin{subfigure}[h]{0.45\textwidth}
+			        \includegraphics[width=\textwidth]{Graphics/btnNoDebounce.pdf}
+			        \caption{Sans condensateur}
+			    \end{subfigure}
+			    ~
+			    \begin{subfigure}[h]{0.45\textwidth}
+			        \includegraphics[width=\textwidth]{Graphics/btnDebounce.pdf}
+			        \caption{Avec condensateur}
+			    \end{subfigure}
+			    \caption{Schéma de l'état d'un signal après l'ouverture d'un interrupteur}
+			\end{figure}
+			Grâce à ces schémas, on se rend rapidement compte de l'importance d'un simple composant passif. Dans le cas (a), le controlleur pourrait croire à de multiples pressions de l'interrupteur, pouvant engendrer des dommages au système mécanique, aussi bien qu'au système électrique. Dans le cas (b), le signal est continu et lissé. Il s'agit finalement d'un simple filtre passe-bas, puisqu'on a effacé toutes les hautes fréquences parasites.\\
+			La carte mère est également pourvue d'un connecteur HE10-10, permettant une connexion simple et standard avec la carte réflecteurs. 
+			\illu{he1010.jpg}{Connecteur femelle HE10-10 \textbf{\textit{(source : Conrad.fr)}}}{0.1}
+			
+			Le schéma de la Carte-mère a été réalisé grâce au logiciel Kicad, et est disponible en annexe, page \pageref{schemasCarteMere}.
 
 		\paragraph{Structure du robot}
 
@@ -121,7 +138,7 @@
 
 			Tous les éléments de la maquettes ont été reproduits à partir des plans fournis par les constructeurs de composants sélectionnés. Ainsi, la maquette peut servir de plan d'usinage et de montage : aucune dimension n'est issue d'une quelconque approximation.
 
-			\illu{ROBOT1.png}{Rendu de la maquette 3D du robot\label{robotVueExemple}}{0.4 }
+			\illu{ROBOT1.png}{Rendu de la maquette 3D du robot\label{robotVueExemple}}{0.4}
 			\vspace{30pt}
 			\illu{ROBOT2.png}{Rendu de la maquette 3D du robot}{0.4}
 
