@@ -4,11 +4,6 @@
 Opencv user guide.
 \newblock {\url{http://docs.opencv.org/2.4/doc/user_guide/user_guide.html}}.
 
-\bibitem{bib25}
-Step-down voltage regulators.
-\newblock
-  {\url{https://www.pololu.com/category/131/step-down-voltage-regulators}}.
-
 \bibitem{bib3}
 Line tracking sensors and algorithms.
 \newblock
@@ -53,6 +48,10 @@ DIGILENT.
 \bibitem{bib22}
 DIGILENT.
 \newblock {\em Basys 2™ FPGA Board Reference Manual}, 2016.
+
+\bibitem{bib21}
+Fairchild.
+\newblock {\em LM7805}, 2014.
 
 \bibitem{bib18}
 Fergus.
