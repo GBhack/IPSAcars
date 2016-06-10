@@ -3,54 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Outputs/rapport.aux
 The style file: plain.bst
 Database file #1: includes/bibliography.bib
-Illegal end of database file---line 146 of file includes/bibliography.bib
- :        note={},
- :                
-I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in bib3
 Warning--to sort, need author or key in bib6
 Warning--to sort, need author or key in bib20
 Warning--empty school in bib4
 Warning--empty year in bib4
-You've used 17 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            572 strings with 5821 characters,
-and the built_in function-call counts, 3107 in all, are:
-= -- 313
-> -- 65
+            587 strings with 6139 characters,
+and the built_in function-call counts, 3777 in all, are:
+= -- 385
+> -- 75
 < -- 0
-+ -- 33
-- -- 16
-* -- 120
-:= -- 492
-add.period$ -- 48
-call.type$ -- 17
-change.case$ -- 57
++ -- 39
+- -- 18
+* -- 147
+:= -- 594
+add.period$ -- 59
+call.type$ -- 21
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 135
-empty$ -- 335
-format.name$ -- 16
-if$ -- 692
+cite$ -- 26
+duplicate$ -- 166
+empty$ -- 408
+format.name$ -- 18
+if$ -- 844
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 21
 missing$ -- 3
-newline$ -- 85
-num.names$ -- 16
-pop$ -- 94
+newline$ -- 104
+num.names$ -- 18
+pop$ -- 109
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 60
 quote$ -- 0
-skip$ -- 104
+skip$ -- 126
 stack$ -- 0
-substring$ -- 91
-swap$ -- 17
+substring$ -- 114
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 82
 warning$ -- 5
-while$ -- 16
-width$ -- 19
-write$ -- 164
-(There was 1 error message)
+while$ -- 18
+width$ -- 23
+write$ -- 202
+(There were 5 warnings)

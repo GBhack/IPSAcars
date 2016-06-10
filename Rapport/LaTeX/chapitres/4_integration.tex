@@ -22,7 +22,52 @@
 
 		\paragraph{Carte électronique}
 
-			La carte électronique du circuit sera réellement simple.
+			La carte aura pour but de servir d’interface entre la carte FPGA et les composants électroniques du circuit (LEDs des feux bicolores et capteurs ILS).\\
+			Comme évoqué précédemment, deux faisceaux de câbles terminés par des connecteurs arriveront sur cette carte (un pour chaque moitié de circuit). Ces faisceaux seront constitués de dix fils correspondant à :
+
+			\begin{itemize}
+				\item Masse feu 1
+				\item Masse feu 2
+				\item LED verte feu 1
+				\item LED rouge feu 1
+				\item LED verte feu 2
+				\item LED rouge feu 2
+				\item Retour ILS 1
+				\item Retour ILS 2
+				\item Alimentation ILS 1
+				\item Alimentation ILS 2
+			\end{itemize}
+
+			Les cartes FPGA Basys 2 utilisées à l’IPSA disposent de quatre ports d’extensions dits « pmod » \cite{bib22}. Ces ports ont un format on ne peu plus standard : connecteurs femelles espacés d’un dizième de pouce.\\
+			Chaque connecteur fournit 6 contacts :\\
+			\begin{itemize}
+				\item Une sortie 3,3V
+				\item Une Masse
+				\item 4 ports d’entrée/sorties directement mapés sur le FPGA.
+			\end{itemize}
+
+			\illu{pmod.png}{Illustration d'un port "pmod" \textbf{\textit{(source : Digilent)}}}{0.4}
+
+			Les LEDs seront commandées par des ports du FPGA configurés en sortie.\\
+			Pour ne pas tirer trop de courant sur ces ports (qui ne sont pas fait pour : il sont conçus pour produire des signaux et non des alimentations) et pouvoir fonctionner aussi bien en logique TTL que CMOS, nous passerons par un circuit intégré de la famille 74HC (\textbf{attention à bien différencier la série 74HC de la série 74HCT que nous serons également amenés à utiliser : elles n'ont pas les mêmes tensions de référence !}). 
+			Ces portes logiques reposent sur la technologie « collecteur ouvert » et peuvent donc être utilisés comme des transistors de faible puissance. Les entrées logiques correspondent aux bases, les sorties aux émetteurs et l’alimentation du composant (Vcc) aux collecteurs.\\
+
+			La datasheet \cite{bib24} nous apprend qu’ils peuvent fournir jusqu’à 50mA en sortie sur l’ensemble des sorties. En répartissant 4 LEDs par circuit logique et en utilisant ces dernières à 10mA (largement suffisant pour des LEDs  haute luminosité), nous restons en dessous de cette limite même lorsque les 4 LEDs sont allumées simultanément (ce qui en théorie ne devrait pas être le cas).
+			Nous utiliserons le 74HC04 qui est un sextuple inverseur (seul 4 éléments seront utilisés). Ainsi, en plaçant un « 1 » (3.3V ou 5V : les deux fonctionnent puisque le composant reconnaît une valeur haute à partir de 2,3V) en entrée, nous obtenons 0V en sortie. En y plaçant un « 0 » (0V), nous obtenons un 3.3V jusqu 20mA par sortie pour un total de 50mA maximum ! Le tout sans jamais prélever plus d’un milliampère en entrée (et donc en sortie du FPGA).\\
+
+			Les sorties du 74HC04 pourront être directement connecés aux anodes des LEDs via une résistance appropriée (150$\Omega$ pour une LED rouge à 1,8V de chute et 100$\Omega$ pour une LED verte à 2,3V de chute).\\
+
+
+			L’acquisition des états des capteurs ILS est encore plus simple : les ILS étant de simples interrupteurs, on placera l’une de leurs bornes à la masse et on connectera l’autre à une entrée du FPGA en intercalant une résistance de pull-up placée à 3.3V.\\
+			Ainsi, la carte FPGA verra un signal stable au niveau haut qui ne passera au niveau bas que lorsqu’un aimant excite le capteur.\\
+
+			Nous pourrions simplifier et « sécuriser » le circuit en intégrant une partie de la logique de fonctionnement de manière électronique (penser le circuit pour que deux LEDs du même feu ne puissent-être allumées simultanément, par exemple), mais ceci irait à l’encontre de la vocation pédagogique du système et limiterait sa capacité d’évolution.\\
+
+			Nous utiliserons de simple connecteurs sécables standard pour connecter le circuit à la carte Basys 2. Ainsi, on pourra directement « enficher » les deux cartes. Mais si l’IPSA venait à acheter de nouvelles cartes FPGA, l’utilisation de simples câbles « strips » permettra de se dispenser de refaire la carte.\\
+
+			\illu{secable.png}{Illustration d'un connecteur sécable 0.1'' standard \textbf{\textit{(source : Gotronic)}}}{0.5}
+
+			Nous aurions voulu mettre en place un système permettant de s’assurer que la carte ne peut être branchée que « dans le bon sens » (avec des connecteurs asymétriques par exemple) mais nous dépendons des connecteurs de la Basys 2 et ne pouvons implémenter cette sécurité. Il faudra donc être extrêmement attentifs à l’utilisation qui sera faite des cartes pour ne craindre aucun dommage (un analyse rapide des schémas nous montre cependant que peu de mal peut être infligé par un mauvais branchement). Surtout, la carte Basys2 est équipée sur ses ports pmod de diodes et résistances de protection \cite{bib23}.
 
 	\subsubsection{Intégration Logicielle}
 

@@ -14,6 +14,11 @@ Beaglebone green wireless wiki.
 \newblock {\url{http://www.seeedstudio.com/wiki/Beaglebone_green_wireless}},
   2016.
 
+\bibitem{bib1}
+F.~BONNEFOI.
+\newblock Model-based engineering.
+\newblock Polycopié IPSA, 2015.
+
 \bibitem{bib14}
 J.~COOPER.
 \newblock Setting up io python library on beaglebone black.
@@ -33,6 +38,16 @@ T.~DICOLA.
 \newblock
   {\url{https://learn.adafruit.com/embedded-linux-board-comparison/power-usage}},
   2015.
+
+\bibitem{bib23}
+DIGILENT.
+\newblock {\em Digilent Pmod™ Interface Specification}, 2011.
+\newblock
+  \url{https://www.digilentinc.com/Pmods/Digilent-Pmod_%20Interface_Specification.pdf}.
+
+\bibitem{bib22}
+DIGILENT.
+\newblock {\em Basys 2™ FPGA Board Reference Manual}, 2016.
 
 \bibitem{bib21}
 Fairchild.
@@ -62,6 +77,11 @@ Eric Nunès.
 \newblock {\em Le Monde}, 2003.
 \newblock
   {\url{http://www.lemonde.fr/societe/article/2003/10/28/bientot-des-voitures-intelligentes_339891_3224.html}}.
+
+\bibitem{bib24}
+NXP.
+\newblock {\em 74HC - 74HCT}, 2014.
+\newblock \url{https://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf}.
 
 \bibitem{bib11}
 S.~MONK P.~SCHERZ.
