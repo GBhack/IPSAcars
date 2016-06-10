@@ -41,12 +41,12 @@
 				\item Alimentation ILS 2
 			\end{itemize}
 
-			Les cartes FPGA Basys 2 utilisées à l’IPSA disposent de quatre ports d’extensions dits « pmod » \cite{bib22}. Ces ports ont un format on ne peu plus standard : connecteurs femelles espacés d’un dizième de pouce.\\
+			Les cartes FPGA Basys 2 utilisées à l’IPSA disposent de quatre ports d’extensions dits « pmod » \cite{bib22}. Ces ports ont un format on ne peut plus standard : connecteurs femelles espacés d’un dizième de pouce (2,54mm).\\
 			Chaque connecteur fournit 6 contacts :\\
 			\begin{itemize}
 				\item Une sortie 3,3V
 				\item Une Masse
-				\item 4 ports d’entrée/sorties directement mapés sur le FPGA.
+				\item 4 ports d’entrée/sorties directement mappés sur le FPGA.
 			\end{itemize}
 
 			\illu{pmod.png}{Illustration d'un port "pmod" \textbf{\textit{(source : Digilent)}}}{0.4}
@@ -168,7 +168,9 @@
 
 			Ce shield intègre une prise standard de type Barrel jack, et peut être alimenté par toute source de tension supérieure à 7V. 
 			\illu{barrelJack.jpg}{Embase Barrel Jack \textbf{\textit{(source : Conrad.fr)}}}{0.1}
-			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension 5v. L'inconvénient de ce type de composant réside dans le fait qu'ils nécessitent un différentiel minimal entre la tension d'entrée et la tension de sortie appellé "Chute de tension", ou "Dropout/Forward Voltage" en anglais. Le composant LM7805 nécessite d'être alimenté par au moins 7v \cite{bib21} pour pouvoir sortir une tension stabilisée à 5v.\\
+			En effet, les moteurs demandant plus de 5v, il fallait trouver un moyen d'abaisser cette tension. Nous avons donc opté pour un régulateur de tension à découpage, réglé à 5v. Le principe est simple : Un PWM est généré avec comme tension haute la tension d'entrée. En modulant cette impulsion et en faisant passer le signal par un filtre passe-bas, on lisse le signal à une valeur donnée (ici, 5v). L'inconvénient de ce genre de régulateur par rapport aux régulateurs est qu'ils nécessitent plusieurs composants. Mais le principale avantage réside dans leur rendement : jusqu'à 95\% \cite{bib25} ! Un régulateur de tension classique "tranforme la tension d'entrée en excès" en chaleur. Ainsi, pour une entrée à $7,2v$ et une sortie à $5v 1A$, la puissance dissipée est de $P = (V_{in} - V_{out}) \times I = (7,2 - 5) \times 1 = 2,2 W$ ! De plus, sachant que l'intensité en entrée est la même que l'intensité en sortie, on obtient un rendement $R = \frac{V_{out}}{V_{in}} = \frac{5}{7,2} = 69\%$. Une alimentation à découpage, bien qu'un peu plus onéreuse, permettra donc d'augmenter considérablement l'autonomie.\\
+			La carte BBG n'étant pas capable de fournir une intensité maximum élevée, nous avons décidé d'utilisé un sextuple inverseur (6 portes Nand) à haute impédence d'entrée afin d'agir comme un buffer : le 74HCT04. Ce composant est capable de fournir l'intensité nécessaire à nos 5 LEDs,ces dernières étant en série avec des résistances adaptées.\\  
+			Nous avons également inséré, avant et après l'alimentation, en parallèle, des condensateurs. Ceux-ci permettent de s'assurer que la tension est bien stable en supprimant les hautes fréquences. Etant donné que des intensités relativement élevées (dûes aux moteurs) seront mises en jeu, il est probable que des pics de tension apparaissent. Même si ce pic n'est pas démesuré, il pourrait tout de même endommagé la carte.\\
 
 			Nous avons également décidé d'intégré un interrupteur à levier de type On/Off, afin d'économiser la batterie lorsque les moteurs ne sont pas nécessaires, et ainsi gagner en autonomie. Nous avons également inclu un bouton poussoir à impulsion (de type NO \nomenclature{NO}{Normally Open, Normalement ouvert}(On)/Off, selon les notations normalisées). Ce dernier démarrera la séquence de test, permettant ainsi de positionner le robot sur le circuit avant de commencer les tests.\\
 			Les deux boutons sont accompagnés en dérivation de condensateurs. En effet, lors d'un changement d'état d'un interrupteur, le signal ne passe pas d'un état à un autre (de HAUT/HIGH à BAS/LOW ou inversement) immédiatement et parfaitement. Il y a une phase de transition qui, si elle n'est pas géré physiquement ou logiciellement, peut causer de graves problèmes, tel qu'un appui multiple, pouvant lancer plusieurs fois la séquence, entrainant des perturbations et pouvant potentiellement endommager le robot et/ou la carte. On parle de "debouncing", comme le présente la figure suivante :
@@ -176,7 +178,7 @@
 				\centering
 				\begin{subfigure}[h]{0.45\textwidth}
 			        \includegraphics[width=\textwidth]{Graphics/btnNoDebounce.pdf}
-			        \caption{Sans condensateur}
+			        \caption{Sans condensateur}D
 			    \end{subfigure}
 			    ~
 			    \begin{subfigure}[h]{0.45\textwidth}

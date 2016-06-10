@@ -280,7 +280,7 @@
 			\illu{Logitechc170.png}{Webcam Logitech C170 \textbf{\textit{(source : Logitech)}}}{0.35}
 			Compte tenu du fait que les caractéristiques techniques du BeagleBone ne nous permettait pas de traiter de la Haute Définition en quasi-temps réel, et que nous n'avions pas besoin d'un tel niveau de précision, nous nous sommes donc intéressés à cette caméra qui, en plus d'être d'une qualité acceptable, possède un clip de fixation universel, facilitant ainsi la mise en place sur le robot. \\
 
-			L'acquisition logicielle sera réalisée par un script réalisé en \href{https://www.python.org/}{Python}. Avec l'aide du package \href{https://www.http://opencv.org/}{OpenCV}, il est aisé d'interfacer la caméra ainsi que de paramétrer le flux vidéo (taille de l'image, nombre d'images par seconde...) afin d'alléger la charge de traitement de l'image pour ne pas déteriorer les performances du BBG. Les images ainsi récupérées (~10/s) seront ensuite analysés selon plusieurs critères (couleurs et leur position, contours...) afin de participer à une prise de décision fiable et pertinente.
+			L'acquisition logicielle sera réalisée par un script réalisé en \href{https://www.python.org/}{Python}. Avec l'aide du package \href{https://www.http://opencv.org/}{OpenCV}, il est aisé d'interfacer la caméra ainsi que de paramétrer le flux vidéo (taille de l'image, nombre d'images par seconde...) afin d'alléger la charge de traitement de l'image pour ne pas déteriorer les performances du BBG. Les images ainsi récupérées (~10/s) seront ensuite analysées selon plusieurs critères (couleurs et leur position, contours...) afin de participer à une prise de décision fiable et pertinente.
 			
 		\paragraph{Évaluation des distances}
 
@@ -293,7 +293,7 @@
 
 				\illu{encoder.jpg}{Ensemble motoréducteur, roue et encodeur \textbf{\textit{(source : Pololu)}}}{0.25}
 
-				Cette solution nous garantie une compatibilité directe, et nous évite surtout d'avoir à adapter un encodeur (souvent coûteux) sur l'axe entre la roue et le réducteur. L'utilisation des deux capteurs en double fronts nous offre une résolution de 48 impulsions par tour de roue. La roue ayant un diamètre de 42mm, cela nous donne une précision de lecture de :
+				Cette solution nous garantit une compatibilité directe, et nous évite surtout d'avoir à adapter un encodeur (souvent coûteux) sur l'axe entre la roue et le réducteur. L'utilisation des deux capteurs en double fronts nous offre une résolution de 48 impulsions par tour de roue. La roue ayant un diamètre de 42mm, cela nous donne une précision de lecture de :
 				\[\frac{\pi \times 42}{48}=2.75mm\]
 
 				Nous pourrons même nous permettre de n'utiliser qu'un capteur et bénéficier ainsi d'une résolution de 5.5mm, répondant largement à nos critères.\\
